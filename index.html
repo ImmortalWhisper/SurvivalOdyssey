@@ -22,8 +22,8 @@
   --r-rare: rgba(59,130,246,.95);
   --r-epic: rgba(168,85,247,.95);
   --r-legendary: rgba(245,158,11,.98);
-  --r-mythic: rgba(236,72,153,.98);
   --r-divine: rgba(246,196,83,.98);
+  --r-mythic: rgba(236,72,153,.98);
   --r-unique: rgba(6,182,212,.98);
   --r-unknown: rgba(148,163,184,.7);
 }
@@ -222,6 +222,8 @@ section{
   opacity: .9;
 }
 .group-ico svg{ width: 16px; height: 16px; opacity: .95; }
+
+/* per-tab tint */
 .group-ico.g-admin{ background: radial-gradient(22px 22px at 35% 30%, rgba(239,68,68,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(245,158,11,.18), transparent 75%), rgba(255,255,255,.03); }
 .group-ico.g-armor{ background: radial-gradient(22px 22px at 35% 30%, rgba(59,130,246,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(148,163,184,.16), transparent 75%), rgba(255,255,255,.03); }
 .group-ico.g-charms{ background: radial-gradient(22px 22px at 35% 30%, rgba(168,85,247,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(6,182,212,.18), transparent 75%), rgba(255,255,255,.03); }
@@ -345,8 +347,8 @@ section{
 .r-dot[data-r="rare"]{ background: var(--r-rare); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(59,130,246,.22); }
 .r-dot[data-r="epic"]{ background: var(--r-epic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(168,85,247,.22); }
 .r-dot[data-r="legendary"]{ background: var(--r-legendary); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(245,158,11,.22); }
-.r-dot[data-r="mythic"]{ background: var(--r-mythic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(236,72,153,.22); }
 .r-dot[data-r="divine"]{ background: var(--r-divine); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(246,196,83,.22); }
+.r-dot[data-r="mythic"]{ background: var(--r-mythic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(236,72,153,.22); }
 .r-dot[data-r="unique"]{ background: var(--r-unique); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(6,182,212,.22); }
 
 /* Card */
@@ -408,8 +410,8 @@ section{
 .card[data-rarity="rare"]{ --rarityA: rgba(59,130,246,.20); --rarityB: rgba(59,130,246,.10); --rarityEdge: rgba(59,130,246,.28); --rarityGlow: rgba(59,130,246,.14); }
 .card[data-rarity="epic"]{ --rarityA: rgba(168,85,247,.22); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(168,85,247,.30); --rarityGlow: rgba(168,85,247,.14); }
 .card[data-rarity="legendary"]{ --rarityA: rgba(245,158,11,.24); --rarityB: rgba(245,158,11,.12); --rarityEdge: rgba(245,158,11,.32); --rarityGlow: rgba(245,158,11,.16); }
-.card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.24); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.32); --rarityGlow: rgba(236,72,153,.16); }
 .card[data-rarity="divine"]{ --rarityA: rgba(246,196,83,.26); --rarityB: rgba(245,243,167,.12); --rarityEdge: rgba(246,196,83,.34); --rarityGlow: rgba(246,196,83,.18); }
+.card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.24); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.32); --rarityGlow: rgba(236,72,153,.16); }
 .card[data-rarity="unique"]{ --rarityA: rgba(6,182,212,.24); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(6,182,212,.32); --rarityGlow: rgba(6,182,212,.16); }
 
 .card-header{
@@ -498,9 +500,7 @@ section{
   box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 0 18px var(--rarityGlow);
   background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
 }
-.pill.tool{
-  opacity: .95;
-}
+.pill.tool{ opacity: .95; }
 
 .card-body{ padding: 18px; }
 
@@ -689,7 +689,7 @@ function humanizeKey(key){
   if (m) k = m[1];
   k = k.replace(/([a-z0-9])([A-Z])/g, '$1 $2').replace(/_/g, ' ').trim();
   if (!k) return '';
-  if (k === k.toUpperCase()) k = k.toLowerCase();
+  if (k == k.toUpperCase()) k = k.toLowerCase();
   return k.replace(/\b\w/g, ch => ch.toUpperCase());
 }
 function normalizeRarity(r){
@@ -701,8 +701,8 @@ function normalizeRarity(r){
   if (t.includes('rare')) return 'rare';
   if (t.includes('epic')) return 'epic';
   if (t.includes('legend')) return 'legendary';
-  if (t.includes('myth')) return 'mythic';
   if (t.includes('divine')) return 'divine';
+  if (t.includes('myth')) return 'mythic';
   if (t.includes('unique')) return 'unique';
   return 'unknown';
 }
@@ -849,7 +849,7 @@ function coerceDamages(val){
       if (isPlainObject(parsed)) return parsed;
     }catch(e){}
     try{
-      const fixed = t.replace(/\r?\n/g,' ').replace(/'/g,'"').replace(/,\s*}/g,'}').replace(/,\s*]/g,']');
+      const fixed = t.replace(/\r?\n/g,' ').replace(/'/g,'\"').replace(/,\s*}/g,'}').replace(/,\s*]/g,']');
       const parsed2 = JSON.parse(fixed);
       if (isPlainObject(parsed2)) return parsed2;
     }catch(e){}
@@ -867,7 +867,7 @@ function coerceRecipe(val){
     if (isPlainObject(parsed)) return parsed;
   }catch(e){}
   try{
-    const fixed = t.replace(/\r?\n/g,' ').replace(/'/g,'"').replace(/,\s*}/g,'}').replace(/,\s*]/g,']');
+    const fixed = t.replace(/\r?\n/g,' ').replace(/'/g,'\"').replace(/,\s*}/g,'}').replace(/,\s*]/g,']');
     const parsed2 = JSON.parse(fixed);
     if (isPlainObject(parsed2)) return parsed2;
   }catch(e){}
@@ -969,12 +969,19 @@ async function load(){
   const groups = {};
   let totalItems = 0;
 
-  // Ingest per item; also assign crates/skilltree to their own groups regardless of source path
+  // Ingest per item; assign crates/skilltree to their own groups regardless of source path
   for (const [path, items] of Object.entries(data)){
     const base = normalizeCategory(path);
     for (const [itemName, itemData] of Object.entries(items)){
       let group = base.group;
       let sub = base.sub;
+
+      // Manual overrides
+      const nameLower = String(itemName || '').trim().toLowerCase();
+      if (nameLower === 'gold fish' || nameLower === 'prickly pear' || nameLower === 'raw fish'){
+        group = 'food';
+        sub = 'misc';
+      }
 
       const it = itemData && (itemData.itemType || itemData.type || itemData.toolType || itemData.useType);
       const itNorm = it ? String(it).toLowerCase().replace(/\s+/g,'') : '';
@@ -993,6 +1000,9 @@ async function load(){
       totalItems++;
     }
   }
+
+  const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
+  document.getElementById('counts').textContent = `${groupOrder.length} categories • ${totalItems} items`;
 
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('content');
@@ -1041,7 +1051,7 @@ async function load(){
         return;
       }
 
-      const url = await getThumbnailUrl(assetId, "420x420");
+      const url = await getThumbnailUrl(assetId, '420x420');
       if (!url){
         loading.remove();
         thumb.appendChild(Object.assign(document.createElement('div'), {className:'noimg', textContent:'No image'}));
@@ -1155,7 +1165,7 @@ async function load(){
       grid.appendChild(sectionCard('Stats', tableFromPairs(statPairs, ['Field','Value'])));
     }
 
-    // Crafting (fields + recipe)
+    // Crafting + Recipe
     const craftKeys = ['craftLevel','craftQuantity','mojoRecipe','mojoCost','mojoCostPer','mojoCostPerCraft','mojoCostPerCrafting','mojoCostPerLevel'];
     const craftPairs = [];
     for (const k of craftKeys){
@@ -1222,7 +1232,7 @@ async function load(){
       grid.appendChild(sectionCard('Flags', tableFromPairs(flagPairs, ['Field','Value'])));
     }
 
-    // Other: everything not shown (hide bracket keys + recipe + damages)
+    // Other
     const remaining = Object.keys(itemData)
       .filter(k => {
         if (k === 'image' || k === 'damages' || k === 'recipe') return false;
@@ -1247,10 +1257,6 @@ async function load(){
     sidebar.innerHTML = '';
     groupMeta.clear();
     itemMeta.length = 0;
-
-    const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
-    const totalGroups = groupOrder.length;
-    document.getElementById('counts').textContent = `${totalGroups} categories • ${totalItems} items`;
 
     for (const groupName of groupOrder){
       const groupEl = document.createElement('div');
