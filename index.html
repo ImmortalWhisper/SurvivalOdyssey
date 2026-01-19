@@ -1,236 +1,627 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Item Database</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 :root{
-  --bg:#0b0e14;
-  --panel:#121826;
-  --panel-2:#0f1422;
-  --border:#1e2538;
-  --text:#e6e8ee;
-  --muted:#9aa4b2;
-  --accent:#5da9ff;
+  --bg0:#070A12;
+  --bg1:#0B1020;
+  --panel0:#0E1426;
+  --panel1:#101A31;
+  --panel2:#0B1020;
+  --border:rgba(255,255,255,.08);
+  --border2:rgba(255,255,255,.12);
+  --text:#E7EAF2;
+  --muted:#A8B1C2;
+  --muted2:#7F8AA1;
+  --accent:#62B0FF;
+  --accent2:#8B5CFF;
+  --shadow: 0 12px 40px rgba(0,0,0,.45);
+  --shadow2: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 18px;
+  --radius2: 14px;
 }
-*{box-sizing:border-box}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+
 body{
   margin:0;
-  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-  background:var(--bg);
-  color:var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 800px at 20% 10%, rgba(98,176,255,.16), transparent 60%),
+    radial-gradient(1000px 700px at 85% 20%, rgba(139,92,255,.12), transparent 55%),
+    linear-gradient(180deg, var(--bg0), var(--bg1));
 }
+
 header{
-  padding:16px 24px;
-  font-size:22px;
-  font-weight:600;
-  background:linear-gradient(180deg,var(--panel),var(--panel-2));
-  border-bottom:1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 16px 22px;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(16,26,49,.92), rgba(11,16,32,.82));
+  backdrop-filter: blur(10px);
 }
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 14px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  font-size: 18px;
+}
+
+.badge{
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: rgba(231,234,242,.9);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.04);
+}
+
 main{
   display:grid;
-  grid-template-columns:300px 1fr;
-  height:calc(100vh - 65px);
+  grid-template-columns: 340px 1fr;
+  min-height: calc(100vh - 60px);
 }
+
 aside{
-  background:var(--panel-2);
-  border-right:1px solid var(--border);
-  overflow:auto;
-  padding:14px;
+  border-right: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(16,26,49,.55), rgba(11,16,32,.4));
+  padding: 14px;
+  overflow: auto;
 }
-section{
-  padding:26px;
-  overflow:auto;
+
+.panel{
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(14,20,38,.75), rgba(11,16,32,.55));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow2);
+  overflow: hidden;
 }
+
+.sidebar-top{
+  padding: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.search{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.03);
+}
+
+.search svg{ opacity:.9; }
+
+.search input{
+  width:100%;
+  border:none;
+  outline:none;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.search input::placeholder{ color: var(--muted2); }
+
+.sidebar-scroll{
+  padding: 10px;
+}
+
+.group{
+  margin: 6px 0;
+}
+
 .group-title{
-  font-weight:700;
-  color:var(--accent);
-  padding:10px 12px;
-  cursor:pointer;
-  border-radius:10px;
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  user-select:none;
+  color: rgba(231,234,242,.95);
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(255,255,255,.06);
+  transition: transform .08s ease, background .15s ease, border-color .15s ease;
 }
+
 .group-title:hover{
-  background:rgba(93,169,255,.15);
+  background: rgba(98,176,255,.08);
+  border-color: rgba(98,176,255,.18);
 }
-.subgroup{
-  margin-left:10px;
-  margin-top:6px;
+
+.chev{
+  width: 28px;
+  height: 28px;
+  display:grid;
+  place-items:center;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.06);
+  background: rgba(255,255,255,.03);
+}
+
+.group.open .chev{
+  border-color: rgba(98,176,255,.25);
+  background: rgba(98,176,255,.10);
+}
+
+.group-content{
   display:none;
+  margin: 10px 0 14px 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(255,255,255,.08);
 }
+
+.group.open .group-content{ display:block; }
+
+.subgroup{
+  margin: 8px 0;
+}
+
 .subgroup-title{
-  font-weight:600;
-  padding:8px 10px;
-  cursor:pointer;
-  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select:none;
+  color: rgba(231,234,242,.9);
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(255,255,255,.06);
 }
+
 .subgroup-title:hover{
-  background:rgba(255,255,255,.06);
+  background: rgba(255,255,255,.05);
+  border-color: rgba(255,255,255,.10);
 }
-.item-list{
-  margin-left:12px;
-  margin-top:6px;
+
+.subgroup .item-list{
+  display:none;
+  padding: 8px 0 0 10px;
 }
+
+.subgroup.open .item-list{ display:block; }
+
 .item{
-  padding:6px 10px;
-  color:var(--muted);
+  padding: 7px 10px;
+  border-radius: 12px;
   cursor:pointer;
-  border-radius:8px;
+  color: var(--muted);
+  border: 1px solid transparent;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
 }
+
 .item:hover{
-  background:rgba(255,255,255,.06);
-  color:var(--text);
+  background: rgba(255,255,255,.05);
+  color: rgba(231,234,242,.95);
+  border-color: rgba(255,255,255,.06);
 }
+
 .item.active{
-  background:rgba(93,169,255,.25);
-  color:#fff;
+  background: linear-gradient(180deg, rgba(98,176,255,.16), rgba(98,176,255,.08));
+  color: #fff;
+  border-color: rgba(98,176,255,.28);
 }
+
+section{
+  padding: 24px;
+  overflow: auto;
+}
+
 .card{
-  max-width:1000px;
-  background:linear-gradient(180deg,#141a2b,#0f1422);
-  border:1px solid var(--border);
-  border-radius:18px;
-  padding:22px;
+  max-width: 1100px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  background: linear-gradient(180deg, rgba(16,26,49,.75), rgba(11,16,32,.58));
+  overflow: hidden;
 }
-.card h2{margin-top:0}
+
+.card-header{
+  display:flex;
+  gap: 18px;
+  padding: 18px 18px 14px 18px;
+  align-items:center;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(900px 220px at 20% 0%, rgba(98,176,255,.18), transparent 60%),
+    radial-gradient(700px 240px at 90% 30%, rgba(139,92,255,.12), transparent 55%),
+    linear-gradient(180deg, rgba(14,20,38,.55), rgba(11,16,32,.35));
+}
+
+.thumb{
+  width: 86px;
+  height: 86px;
+  border-radius: 18px;
+  overflow:hidden;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  display:grid;
+  place-items:center;
+  flex: 0 0 auto;
+}
+
+.thumb img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.thumb .noimg{
+  color: rgba(231,234,242,.65);
+  font-size: 12px;
+}
+
+.title-wrap{ min-width: 0; }
+
+.h1{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 750;
+  letter-spacing: .2px;
+}
+
+.subtitle{
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.card-body{
+  padding: 18px;
+}
+
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-  gap:12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
 }
+
 .field{
-  background:#0e1424;
-  border:1px solid var(--border);
-  border-radius:10px;
-  padding:10px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px;
+  padding: 12px 12px 10px 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
 }
+
 .key{
-  font-size:13px;
-  color:var(--muted);
-  margin-bottom:4px;
+  font-size: 12px;
+  letter-spacing: .2px;
+  color: var(--muted2);
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
+
 .value{
-  font-size:13px;
-  white-space:pre-wrap;
+  font-size: 13px;
+  color: rgba(231,234,242,.96);
+  white-space: pre-wrap;
+  word-break: break-word;
 }
-img{
-  max-width:220px;
-  border-radius:14px;
-  margin-bottom:16px;
-  border:1px solid var(--border);
+
+.value pre{
+  margin:0;
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.18);
+  overflow:auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(231,234,242,.92);
 }
-.placeholder{color:var(--muted)}
+
+.placeholder{
+  color: var(--muted);
+  border: 1px dashed rgba(255,255,255,.16);
+  border-radius: 18px;
+  padding: 18px;
+  max-width: 1100px;
+  background: rgba(255,255,255,.02);
+}
+
+/* Small screens */
+@media (max-width: 980px){
+  main{ grid-template-columns: 1fr; }
+  aside{ border-right: none; border-bottom: 1px solid var(--border); }
+}
 </style>
 </head>
 <body>
-<header>Item Database</header>
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      Item Database
+      <span class="badge" id="counts">Loading…</span>
+    </div>
+    <div class="badge">GitHub Pages-ready</div>
+  </div>
+</header>
+
 <main>
-<aside id="sidebar"></aside>
-<section id="content">
-  <div class="placeholder">Select an item to view its details.</div>
-</section>
+  <aside>
+    <div class="panel">
+      <div class="sidebar-top">
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2" opacity=".9"/>
+            <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+          </svg>
+          <input id="search" type="text" placeholder="Search items (name, category, subgroup)..." />
+        </div>
+      </div>
+      <div class="sidebar-scroll" id="sidebar"></div>
+    </div>
+  </aside>
+
+  <section id="content">
+    <div class="placeholder">Select an item to view its details.</div>
+  </section>
 </main>
 
 <script>
+function titleCase(s){
+  return s.replace(/_/g,' ').replace(/\b\w/g, m => m.toUpperCase());
+}
 function normalizeCategory(path){
-  const [group, sub] = path.split('/');
-  return { group: group.toLowerCase(), sub: sub?.replace('.lua','') };
+  const parts = path.split('/');
+  const group = (parts[0] || 'misc').toLowerCase();
+  const sub = (parts[1] || '').replace(/\.lua$/i,'');
+  return { group, sub: sub || 'misc' };
+}
+function formatValue(v){
+  if (v === null) return "∞";
+  if (typeof v === 'object') return JSON.stringify(v, null, 2);
+  return String(v);
 }
 
 async function load(){
   const res = await fetch('./items.json');
   const data = await res.json();
-  const sidebar = document.getElementById('sidebar');
-  const content = document.getElementById('content');
 
+  // Build group -> subgroup -> items
   const groups = {};
+  let totalGroups = 0, totalItems = 0;
 
-  for(const [path, items] of Object.entries(data)){
+  for (const [path, items] of Object.entries(data)){
     const { group, sub } = normalizeCategory(path);
     groups[group] ??= {};
-    const bucket = sub || 'misc';
-    groups[group][bucket] = items;
+    groups[group][sub] ??= {};
+    Object.assign(groups[group][sub], items);
   }
 
-  for(const [groupName, subgroups] of Object.entries(groups)){
-    const groupDiv = document.createElement('div');
-    const groupTitle = document.createElement('div');
-    groupTitle.className = 'group-title';
-    groupTitle.textContent = groupName.charAt(0).toUpperCase() + groupName.slice(1);
-    const groupContent = document.createElement('div');
-    groupContent.className = 'subgroup';
+  totalGroups = Object.keys(groups).length;
+  for (const g of Object.values(groups)){
+    for (const sub of Object.values(g)){
+      totalItems += Object.keys(sub).length;
+    }
+  }
+  document.getElementById('counts').textContent = `${totalGroups} categories • ${totalItems} items`;
 
-    groupTitle.onclick = () => {
-      groupContent.style.display = groupContent.style.display === 'block' ? 'none' : 'block';
-    };
+  const sidebar = document.getElementById('sidebar');
+  const content = document.getElementById('content');
+  const search = document.getElementById('search');
 
-    for(const [subName, items] of Object.entries(subgroups)){
-      const subDiv = document.createElement('div');
-      const subTitle = document.createElement('div');
-      subTitle.className = 'subgroup-title';
-      subTitle.textContent = subName.replace(/_/g,' ').toUpperCase();
-      const itemList = document.createElement('div');
-      itemList.className = 'item-list';
+  const itemNodes = []; // { el, nameLower, group, sub }
 
-      subTitle.onclick = () => {
-        itemList.style.display = itemList.style.display === 'none' ? 'block' : 'block';
-      };
+  function renderCard(itemName, itemData, meta){
+    content.innerHTML = '';
+    const card = document.createElement('div');
+    card.className = 'card';
 
-      for(const [itemName, itemData] of Object.entries(items)){
-        const item = document.createElement('div');
-        item.className = 'item';
-        item.textContent = itemName;
+    const header = document.createElement('div');
+    header.className = 'card-header';
 
-        item.onclick = () => {
-          document.querySelectorAll('.item').forEach(i=>i.classList.remove('active'));
-          item.classList.add('active');
-          content.innerHTML = '';
-          const card = document.createElement('div');
-          card.className = 'card';
-
-          const h = document.createElement('h2');
-          h.textContent = itemName;
-          card.appendChild(h);
-
-          if(itemData.image){
-            const im = document.createElement('img');
-            im.src = itemData.image;
-            card.appendChild(im);
-          }
-
-          const grid = document.createElement('div');
-          grid.className = 'grid';
-
-          for(const [k,v] of Object.entries(itemData)){
-            if(k === 'image') continue;
-            const f = document.createElement('div');
-            f.className = 'field';
-            const kk = document.createElement('div');
-            kk.className = 'key';
-            kk.textContent = k;
-            const vv = document.createElement('div');
-            vv.className = 'value';
-            vv.textContent = typeof v === 'object' ? JSON.stringify(v,null,2) : String(v);
-            f.appendChild(kk); f.appendChild(vv);
-            grid.appendChild(f);
-          }
-
-          card.appendChild(grid);
-          content.appendChild(card);
-        };
-
-        itemList.appendChild(item);
-      }
-
-      subDiv.appendChild(subTitle);
-      subDiv.appendChild(itemList);
-      groupContent.appendChild(subDiv);
+    const thumb = document.createElement('div');
+    thumb.className = 'thumb';
+    if (itemData.image){
+      const img = document.createElement('img');
+      img.src = itemData.image;
+      img.loading = 'lazy';
+      thumb.appendChild(img);
+    } else {
+      const no = document.createElement('div');
+      no.className = 'noimg';
+      no.textContent = 'No image';
+      thumb.appendChild(no);
     }
 
-    groupDiv.appendChild(groupTitle);
-    groupDiv.appendChild(groupContent);
-    sidebar.appendChild(groupDiv);
+    const tw = document.createElement('div');
+    tw.className = 'title-wrap';
+
+    const h = document.createElement('h2');
+    h.className = 'h1';
+    h.textContent = itemName;
+
+    const sub = document.createElement('div');
+    sub.className = 'subtitle';
+    const rarity = itemData.Rarity || itemData.rarity;
+    const type = itemData.itemType || itemData.type;
+    const pieces = [];
+    if (meta?.group) pieces.push(titleCase(meta.group));
+    if (meta?.sub) pieces.push(titleCase(meta.sub));
+    if (type) pieces.push(String(type));
+    if (rarity) pieces.push(String(rarity));
+    sub.textContent = pieces.join(' • ');
+
+    tw.appendChild(h);
+    tw.appendChild(sub);
+
+    header.appendChild(thumb);
+    header.appendChild(tw);
+
+    const body = document.createElement('div');
+    body.className = 'card-body';
+
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+
+    for (const [k,v] of Object.entries(itemData)){
+      if (k === 'image') continue;
+
+      const f = document.createElement('div');
+      f.className = 'field';
+
+      const kk = document.createElement('div');
+      kk.className = 'key';
+      kk.textContent = k;
+
+      const vv = document.createElement('div');
+      vv.className = 'value';
+
+      if (typeof v === 'object' && v !== null){
+        const pre = document.createElement('pre');
+        pre.textContent = JSON.stringify(v, null, 2);
+        vv.appendChild(pre);
+      } else {
+        vv.textContent = formatValue(v);
+      }
+
+      f.appendChild(kk);
+      f.appendChild(vv);
+      grid.appendChild(f);
+    }
+
+    body.appendChild(grid);
+    card.appendChild(header);
+    card.appendChild(body);
+    content.appendChild(card);
   }
+
+  function buildUI(){
+    sidebar.innerHTML = '';
+
+    const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
+    for (const groupName of groupOrder){
+      const groupEl = document.createElement('div');
+      groupEl.className = 'group';
+
+      const title = document.createElement('div');
+      title.className = 'group-title';
+      const left = document.createElement('div');
+      left.textContent = titleCase(groupName);
+      const chev = document.createElement('div');
+      chev.className = 'chev';
+      chev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/></svg>';
+      title.appendChild(left);
+      title.appendChild(chev);
+
+      const groupContent = document.createElement('div');
+      groupContent.className = 'group-content';
+
+      title.onclick = () => {
+        groupEl.classList.toggle('open');
+      };
+
+      // Subgroups
+      const subOrder = Object.keys(groups[groupName]).sort((a,b)=>a.localeCompare(b));
+      for (const subName of subOrder){
+        const subEl = document.createElement('div');
+        subEl.className = 'subgroup';
+
+        const subTitle = document.createElement('div');
+        subTitle.className = 'subgroup-title';
+        const subLeft = document.createElement('div');
+        subLeft.textContent = (subName === 'misc') ? 'Misc' : titleCase(subName);
+        const subChev = document.createElement('div');
+        subChev.className = 'chev';
+        subChev.style.width = '26px';
+        subChev.style.height = '26px';
+        subChev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/></svg>';
+        subTitle.appendChild(subLeft);
+        subTitle.appendChild(subChev);
+
+        const itemList = document.createElement('div');
+        itemList.className = 'item-list';
+
+        subTitle.onclick = (e) => {
+          e.stopPropagation();
+          subEl.classList.toggle('open');
+        };
+
+        const items = groups[groupName][subName];
+        const itemNames = Object.keys(items).sort((a,b)=>a.localeCompare(b));
+
+        for (const itemName of itemNames){
+          const itemData = items[itemName];
+          const item = document.createElement('div');
+          item.className = 'item';
+          item.textContent = itemName;
+
+          const node = {
+            el: item,
+            nameLower: itemName.toLowerCase(),
+            group: groupName,
+            sub: subName
+          };
+          itemNodes.push(node);
+
+          item.onclick = () => {
+            document.querySelectorAll('.item').forEach(x=>x.classList.remove('active'));
+            item.classList.add('active');
+            renderCard(itemName, itemData, { group: groupName, sub: subName });
+          };
+
+          itemList.appendChild(item);
+        }
+
+        // Default open only if not misc and not too large?
+        // Keep collapsed by default; user can expand.
+        subEl.appendChild(subTitle);
+        subEl.appendChild(itemList);
+        groupContent.appendChild(subEl);
+      }
+
+      groupEl.appendChild(title);
+      groupEl.appendChild(groupContent);
+      sidebar.appendChild(groupEl);
+    }
+  }
+
+  function applySearch(q){
+    q = (q || '').trim().toLowerCase();
+
+    for (const n of itemNodes){
+      const hay = `${n.nameLower} ${n.group} ${n.sub}`;
+      const show = !q || hay.includes(q);
+      n.el.style.display = show ? 'block' : 'none';
+    }
+  }
+
+  buildUI();
+
+  // Gentle defaults: open first group and subgroup so it doesn't feel empty
+  const firstGroup = sidebar.querySelector('.group');
+  if (firstGroup){
+    firstGroup.classList.add('open');
+    const firstSub = firstGroup.querySelector('.subgroup');
+    if (firstSub) firstSub.classList.add('open');
+  }
+
+  search.addEventListener('input', (e)=>applySearch(e.target.value));
 }
 
 load();
