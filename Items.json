@@ -5,13 +5,14 @@
       "Rarity": "Unique",
       "toolType": "Sword",
       "useType": "Slash",
-      "damages": "{",
-      "wood": null,
-      "stone": null,
-      "players": 1,
-      "mobs": 1,
-      "woodStructure": null,
-      "stoneStructure": null
+      "damages": {
+        "wood": null,
+        "stone": null,
+        "players": 1,
+        "mobs": 1,
+        "woodStructure": null,
+        "stoneStructure": null
+      }
     },
     "Magnetite Stick": {
       "Rarity": "Unique",
@@ -23,13 +24,14 @@
       "noDrop": true,
       "admin": true,
       "rebirthPersist": true,
-      "damages": "{",
-      "wood": 100,
-      "stone": 100,
-      "players": 80,
-      "mobs": 80,
-      "woodStructure": 100,
-      "stoneStructure": 100
+      "damages": {
+        "wood": 100,
+        "stone": 100,
+        "players": 80,
+        "mobs": 80,
+        "woodStructure": 100,
+        "stoneStructure": 100
+      }
     },
     "Emerald Stick": {
       "Rarity": "Unique",
@@ -41,13 +43,14 @@
       "admin": true,
       "noDrop": true,
       "rebirthPersist": true,
-      "damages": "{",
-      "wood": 250,
-      "stone": 250,
-      "players": 105,
-      "mobs": 105,
-      "woodStructure": 250,
-      "stoneStructure": 250
+      "damages": {
+        "wood": 250,
+        "stone": 250,
+        "players": 105,
+        "mobs": 105,
+        "woodStructure": 250,
+        "stoneStructure": 250
+      }
     },
     "Void Stick": {
       "Rarity": "Unique",
@@ -58,13 +61,14 @@
       "admin": true,
       "noDrop": true,
       "level": 7,
-      "damages": "{",
-      "wood": 100,
-      "stone": 100,
-      "players": 100,
-      "mobs": 100,
-      "woodStructure": 100,
-      "stoneStructure": 100
+      "damages": {
+        "wood": 100,
+        "stone": 100,
+        "players": 100,
+        "mobs": 100,
+        "woodStructure": 100,
+        "stoneStructure": 100
+      }
     },
     "Pink Diamond Stick": {
       "Rarity": "Unique",
@@ -72,17 +76,18 @@
       "toolType": "Sword",
       "coinValue": 1,
       "admin": true,
-      "oldNames": "{\"Pink Stick\"}",
       "noDrop": true,
       "useType": "Slash",
       "level": 7,
-      "damages": "{",
-      "wood": 250,
-      "stone": 250,
-      "players": 125,
-      "mobs": 125,
-      "woodStructure": 250,
-      "stoneStructure": 250
+      "damages": {
+        "oldNames": "{\"Pink Stick\"}",
+        "wood": 250,
+        "stone": 250,
+        "players": 125,
+        "mobs": 125,
+        "woodStructure": 250,
+        "stoneStructure": 250
+      }
     },
     "True Developer Artifact": {
       "Rarity": "Unique",
@@ -104,13 +109,14 @@
       "level": 10,
       "admin": true,
       "noDrop": true,
-      "damages": "{",
-      "wood": 50034634,
-      "stone": 500643,
-      "players": null,
-      "mobs": null,
-      "woodStructure": 5004363,
-      "stoneStructure": 500436
+      "damages": {
+        "wood": 50034634,
+        "stone": 500643,
+        "players": null,
+        "mobs": null,
+        "woodStructure": 5004363,
+        "stoneStructure": 500436
+      }
     },
     "The Glitchmaker": {
       "Rarity": "Unique",
@@ -121,13 +127,14 @@
       "level": 10,
       "admin": true,
       "noDrop": true,
-      "damages": "{",
-      "wood": null,
-      "stone": null,
-      "players": null,
-      "mobs": null,
-      "woodStructure": null,
-      "stoneStructure": null
+      "damages": {
+        "wood": null,
+        "stone": null,
+        "players": null,
+        "mobs": null,
+        "woodStructure": null,
+        "stoneStructure": null
+      }
     },
     "The Meatmaker": {
       "Rarity": "Unique",
@@ -138,13 +145,14 @@
       "admin": true,
       "level": 10,
       "noDrop": true,
-      "damages": "{",
-      "wood": 5004,
-      "stone": 5004,
-      "players": 1000,
-      "mobs": 1000,
-      "woodStructure": 5004,
-      "stoneStructure": 5021
+      "damages": {
+        "wood": 5004,
+        "stone": 5004,
+        "players": 1000,
+        "mobs": 1000,
+        "woodStructure": 5004,
+        "stoneStructure": 5021
+      }
     },
     "Cursed Greatsword": {
       "Rarity": "Unique",
@@ -155,13 +163,14 @@
       "level": 9,
       "noDrop": true,
       "rebirthPersist": true,
-      "damages": "{",
-      "wood": 20,
-      "stone": 20,
-      "players": 80,
-      "mobs": 80,
-      "woodStructure": 20,
-      "stoneStructure": 20
+      "damages": {
+        "wood": 20,
+        "stone": 20,
+        "players": 80,
+        "mobs": 80,
+        "woodStructure": 20,
+        "stoneStructure": 20
+      }
     },
     "Lightning Cape": {
       "Rarity": "Unique",
@@ -186,11 +195,12 @@
       "protection": 12,
       "coinValue": 1,
       "armorSet": "Adurite",
-      "pieces": "{\"Adurite Greaves Left Foot\", \"Adurite Greaves Right Foot\", \"Adurite Greaves Left Leg\", \"Adurite Greaves Right Leg\"}",
       "craftLevel": 40,
-      "recipe": "{",
-      "[\"Fire Hide\"]": 1,
-      "[\"Adurite Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Adurite Greaves Left Foot\", \"Adurite Greaves Right Foot\", \"Adurite Greaves Left Leg\", \"Adurite Greaves Right Leg\"}",
+        "[\"Fire Hide\"]": 1,
+        "[\"Adurite Bar\"]": 3
+      }
     },
     "Adurite Helmet": {
       "itemType": "armor",
@@ -199,10 +209,11 @@
       "protection": 12,
       "coinValue": 1,
       "armorSet": "Adurite",
-      "pieces": "{\"Adurite Helmet\"}",
       "craftLevel": 40,
-      "recipe": "{",
-      "[\"Adurite Bar\"]": 2
+      "recipe": {
+        "pieces": "{\"Adurite Helmet\"}",
+        "[\"Adurite Bar\"]": 2
+      }
     },
     "Adurite Chestplate": {
       "itemType": "armor",
@@ -211,11 +222,12 @@
       "pickupSound": "Cloth",
       "armorSet": "Adurite",
       "coinValue": 1,
-      "pieces": "{\"Adurite Chestplate\", \"Adurite Left Shoulder\", \"Adurite Right Shoulder\"}",
       "craftLevel": 40,
-      "recipe": "{",
-      "[\"Fire Hide\"]": 1,
-      "[\"Adurite Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Adurite Chestplate\", \"Adurite Left Shoulder\", \"Adurite Right Shoulder\"}",
+        "[\"Fire Hide\"]": 1,
+        "[\"Adurite Bar\"]": 3
+      }
     }
   },
   "armor/bags.lua": {
@@ -227,10 +239,11 @@
       "maxLoad": 150,
       "load": 0,
       "craftLevel": 1,
-      "pieces": "{\"Leaf Bag\"}",
-      "recipe": "{",
-      "Stick": 2,
-      "Leaves": 3
+      "recipe": {
+        "pieces": "{\"Leaf Bag\"}",
+        "Stick": 2,
+        "Leaves": 3
+      }
     },
     "Hide Bag": {
       "itemType": "armor",
@@ -240,10 +253,11 @@
       "load": 0,
       "coinValue": 0.25,
       "craftLevel": 5,
-      "pieces": "{\"Hide Bag\"}",
-      "recipe": "{",
-      "Stick": 4,
-      "Hide": 1
+      "recipe": {
+        "pieces": "{\"Hide Bag\"}",
+        "Stick": 4,
+        "Hide": 1
+      }
     },
     "Iron Bag": {
       "itemType": "armor",
@@ -252,10 +266,11 @@
       "maxLoad": 250,
       "craftLevel": 10,
       "pickupSound": "Cloth",
-      "pieces": "{\"Iron Bag\"}",
-      "recipe": "{",
-      "Hide": 2,
-      "[\"Iron Bar\"]": 6
+      "recipe": {
+        "pieces": "{\"Iron Bag\"}",
+        "Hide": 2,
+        "[\"Iron Bar\"]": 6
+      }
     },
     "Steel Bag": {
       "itemType": "armor",
@@ -264,10 +279,11 @@
       "coinValue": 1,
       "maxLoad": 300,
       "craftLevel": 20,
-      "pieces": "{\"Steel Bag\"}",
-      "recipe": "{",
-      "Hide": 2,
-      "[\"Steel Bar\"]": 6
+      "recipe": {
+        "pieces": "{\"Steel Bag\"}",
+        "Hide": 2,
+        "[\"Steel Bar\"]": 6
+      }
     },
     "Adurite Bag": {
       "itemType": "armor",
@@ -276,10 +292,11 @@
       "maxLoad": 350,
       "pickupSound": "Cloth",
       "craftLevel": 40,
-      "pieces": "{\"Adurite Bag\"}",
-      "recipe": "{",
-      "[\"Fire Hide\"]": 2,
-      "[\"Adurite Bar\"]": 6
+      "recipe": {
+        "pieces": "{\"Adurite Bag\"}",
+        "[\"Fire Hide\"]": 2,
+        "[\"Adurite Bar\"]": 6
+      }
     },
     "Crystal Bag": {
       "itemType": "armor",
@@ -288,10 +305,11 @@
       "coinValue": 12,
       "maxLoad": 500,
       "craftLevel": 50,
-      "pieces": "{\"Crystal Bag\"}",
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 9,
-      "[\"Gold Bar\"]": 20
+      "recipe": {
+        "pieces": "{\"Crystal Bag\"}",
+        "[\"Crystal Chunk\"]": 9,
+        "[\"Gold Bar\"]": 20
+      }
     },
     "Magnetite Bag": {
       "itemType": "armor",
@@ -300,9 +318,10 @@
       "coinValue": 30,
       "maxLoad": 750,
       "craftLevel": 70,
-      "pieces": "{\"Magnetite Bag\"}",
-      "recipe": "{",
-      "[\"Magnetite Bar\"]": 9
+      "recipe": {
+        "pieces": "{\"Magnetite Bag\"}",
+        "[\"Magnetite Bar\"]": 9
+      }
     },
     "Emerald Bag": {
       "itemType": "armor",
@@ -311,9 +330,10 @@
       "pickupSound": "Cloth",
       "maxLoad": 1000,
       "craftLevel": 80,
-      "pieces": "{\"Emerald Bag\"}",
-      "recipe": "{",
-      "Emerald": 9
+      "recipe": {
+        "pieces": "{\"Emerald Bag\"}",
+        "Emerald": 9
+      }
     },
     "Pink Diamond Bag": {
       "itemType": "armor",
@@ -322,21 +342,23 @@
       "maxLoad": 1500,
       "pickupSound": "Cloth",
       "craftLevel": 85,
-      "pieces": "{\"Pink Diamond Bag\"}",
-      "recipe": "{",
-      "[\"Pink Diamond\"]": 8
+      "recipe": {
+        "pieces": "{\"Pink Diamond Bag\"}",
+        "[\"Pink Diamond\"]": 8
+      }
     },
     "Void Bag": {
       "itemType": "armor",
       "locus": "bag",
       "maxLoad": 3000,
       "pickupSound": "Cloth",
-      "pieces": "{\"Void Bag\"}",
       "craftLevel": 90,
-      "recipe": "{",
-      "[\"Magnetite Bar\"]": 6,
-      "[\"Void Shard\"]": 6,
-      "Jelly": 24
+      "recipe": {
+        "pieces": "{\"Void Bag\"}",
+        "[\"Magnetite Bar\"]": 6,
+        "[\"Void Shard\"]": 6,
+        "Jelly": 24
+      }
     },
     "God Bag": {
       "itemType": "armor",
@@ -345,12 +367,13 @@
       "maxLoad": 19000,
       "description": "Recipe for the largest bag in existence",
       "noDrop": true,
-      "pieces": "{\"God Bag\"}",
       "craftLevel": 100,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 60,
-      "[\"Gold Bar\"]": 100,
-      "[\"Spirit Key\"]": 3
+      "recipe": {
+        "pieces": "{\"God Bag\"}",
+        "[\"Crystal Chunk\"]": 60,
+        "[\"Gold Bar\"]": 100,
+        "[\"Spirit Key\"]": 3
+      }
     },
     "Soulite Bag": {
       "itemType": "armor",
@@ -537,11 +560,12 @@
       "locus": "legs",
       "protection": 14,
       "coinValue": 1,
-      "pieces": "{\"Crystal Greaves Left Foot\", \"Crystal Greaves Right Foot\", \"Crystal Greaves Left Leg\", \"Crystal Greaves Right Leg\"}",
       "craftLevel": 50,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 3,
-      "[\"Gold Bar\"]": 9
+      "recipe": {
+        "pieces": "{\"Crystal Greaves Left Foot\", \"Crystal Greaves Right Foot\", \"Crystal Greaves Left Leg\", \"Crystal Greaves Right Leg\"}",
+        "[\"Crystal Chunk\"]": 3,
+        "[\"Gold Bar\"]": 9
+      }
     },
     "Crystal Crown": {
       "itemType": "armor",
@@ -551,11 +575,12 @@
       "Rarity": "Rare",
       "protection": 14,
       "coinValue": 1,
-      "pieces": "{\"Crystal Crown\"}",
       "craftLevel": 50,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 2,
-      "[\"Gold Bar\"]": 6
+      "recipe": {
+        "pieces": "{\"Crystal Crown\"}",
+        "[\"Crystal Chunk\"]": 2,
+        "[\"Gold Bar\"]": 6
+      }
     },
     "Crystal Chestplate": {
       "itemType": "armor",
@@ -565,11 +590,12 @@
       "protection": 14,
       "pickupSound": "Cloth",
       "coinValue": 1,
-      "pieces": "{\"Crystal Chestplate\", \"Crystal Left Shoulder\", \"Crystal Right Shoulder\"}",
       "craftLevel": 50,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 3,
-      "[\"Gold Bar\"]": 9
+      "recipe": {
+        "pieces": "{\"Crystal Chestplate\", \"Crystal Left Shoulder\", \"Crystal Right Shoulder\"}",
+        "[\"Crystal Chunk\"]": 3,
+        "[\"Gold Bar\"]": 9
+      }
     }
   },
   "armor/emerald.lua": {
@@ -581,10 +607,11 @@
       "armorSet": "Emerald",
       "pickupSound": "Cloth",
       "coinValue": 20,
-      "pieces": "{\"Emerald Greaves Left Foot\", \"Emerald Greaves Right Foot\", \"Emerald Greaves Left Leg\", \"Emerald Greaves Right Leg\"}",
       "craftLevel": 80,
-      "recipe": "{",
-      "Emerald": 3
+      "recipe": {
+        "pieces": "{\"Emerald Greaves Left Foot\", \"Emerald Greaves Right Foot\", \"Emerald Greaves Left Leg\", \"Emerald Greaves Right Leg\"}",
+        "Emerald": 3
+      }
     },
     "Emerald Helmet": {
       "itemType": "armor",
@@ -594,10 +621,11 @@
       "armorSet": "Emerald",
       "pickupSound": "Cloth",
       "coinValue": 20,
-      "pieces": "{\"Emerald Helmet\"}",
       "craftLevel": 80,
-      "recipe": "{",
-      "Emerald": 2
+      "recipe": {
+        "pieces": "{\"Emerald Helmet\"}",
+        "Emerald": 2
+      }
     },
     "Emerald Chestplate": {
       "itemType": "armor",
@@ -607,10 +635,11 @@
       "coinValue": 20,
       "pickupSound": "Cloth",
       "armorSet": "Emerald",
-      "pieces": "{\"Emerald Chestplate\", \"Emerald Left Shoulder\", \"Emerald Right Shoulder\"}",
       "craftLevel": 80,
-      "recipe": "{",
-      "Emerald": 3
+      "recipe": {
+        "pieces": "{\"Emerald Chestplate\", \"Emerald Left Shoulder\", \"Emerald Right Shoulder\"}",
+        "Emerald": 3
+      }
     }
   },
   "armor/hide.lua": {
@@ -622,10 +651,11 @@
       "armorSet": "Hide",
       "pickupSound": "Cloth",
       "coinValue": 0.25,
-      "pieces": "{\"Hide Pants Left Foot\", \"Hide Pants Right Foot\", \"Hide Pants Left Leg\", \"Hide Pants Right Leg\"}",
       "craftLevel": 5,
-      "recipe": "{",
-      "Hide": 1
+      "recipe": {
+        "pieces": "{\"Hide Pants Left Foot\", \"Hide Pants Right Foot\", \"Hide Pants Left Leg\", \"Hide Pants Right Leg\"}",
+        "Hide": 1
+      }
     },
     "Hide Shirt": {
       "itemType": "armor",
@@ -635,10 +665,11 @@
       "protection": 6,
       "pickupSound": "Cloth",
       "coinValue": 0.25,
-      "pieces": "{\"Hide Shirt\"}",
       "craftLevel": 5,
-      "recipe": "{",
-      "Hide": 1
+      "recipe": {
+        "pieces": "{\"Hide Shirt\"}",
+        "Hide": 1
+      }
     }
   },
   "armor/leaf.lua": {
@@ -650,10 +681,11 @@
       "pickupSound": "Cloth",
       "coinValue": 0.2,
       "armorSet": "Leaf",
-      "pieces": "{\"Leaf Pants Left Foot\", \"Leaf Pants Right Foot\", \"Leaf Pants Left Leg\", \"Leaf Pants Right Leg\"}",
       "craftLevel": 1,
-      "recipe": "{",
-      "Leaves": 2
+      "recipe": {
+        "pieces": "{\"Leaf Pants Left Foot\", \"Leaf Pants Right Foot\", \"Leaf Pants Left Leg\", \"Leaf Pants Right Leg\"}",
+        "Leaves": 2
+      }
     },
     "Leaf Shirt": {
       "itemType": "armor",
@@ -663,10 +695,11 @@
       "pickupSound": "Cloth",
       "armorSet": "Leaf",
       "protection": 3,
-      "pieces": "{\"Leaf Shirt\"}",
       "craftLevel": 1,
-      "recipe": "{",
-      "Leaves": 2
+      "recipe": {
+        "pieces": "{\"Leaf Shirt\"}",
+        "Leaves": 2
+      }
     }
   },
   "armor/magnetite.lua": {
@@ -678,10 +711,11 @@
       "armorSet": "Magnetite",
       "protection": 16,
       "coinValue": 1,
-      "pieces": "{\"Magnetite Greaves Left Foot\", \"Magnetite Greaves Right Foot\", \"Magnetite Greaves Left Leg\", \"Magnetite Greaves Right Leg\"}",
       "craftLevel": 70,
-      "recipe": "{",
-      "[\"Magnetite Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Magnetite Greaves Left Foot\", \"Magnetite Greaves Right Foot\", \"Magnetite Greaves Left Leg\", \"Magnetite Greaves Right Leg\"}",
+        "[\"Magnetite Bar\"]": 3
+      }
     },
     "Magnetite Mask": {
       "itemType": "armor",
@@ -691,10 +725,11 @@
       "pickupSound": "Cloth",
       "coinValue": 10,
       "armorSet": "Magnetite",
-      "pieces": "{\"Magnetite Mask\"}",
       "craftLevel": 70,
-      "recipe": "{",
-      "[\"Magnetite Bar\"]": 2
+      "recipe": {
+        "pieces": "{\"Magnetite Mask\"}",
+        "[\"Magnetite Bar\"]": 2
+      }
     },
     "Magnetite Chestplate": {
       "itemType": "armor",
@@ -704,10 +739,11 @@
       "coinValue": 10,
       "armorSet": "Magnetite",
       "pickupSound": "Cloth",
-      "pieces": "{\"Magnetite Chestplate\", \"Magnetite Left Shoulder\", \"Magnetite Right Shoulder\"}",
       "craftLevel": 70,
-      "recipe": "{",
-      "[\"Magnetite Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Magnetite Chestplate\", \"Magnetite Left Shoulder\", \"Magnetite Right Shoulder\"}",
+        "[\"Magnetite Bar\"]": 3
+      }
     }
   },
   "armor/pink_diamond.lua": {
@@ -719,10 +755,11 @@
       "armorSet": "Pink Diamond",
       "pickupSound": "Cloth",
       "coinValue": 20,
-      "pieces": "{\"Pink Diamond Greaves Left Foot\", \"Pink Diamond Greaves Right Foot\", \"Pink Diamond Greaves Left Leg\", \"Pink Diamond Greaves Right Leg\"}",
       "craftLevel": 85,
-      "recipe": "{",
-      "[\"Pink Diamond\"]": 3
+      "recipe": {
+        "pieces": "{\"Pink Diamond Greaves Left Foot\", \"Pink Diamond Greaves Right Foot\", \"Pink Diamond Greaves Left Leg\", \"Pink Diamond Greaves Right Leg\"}",
+        "[\"Pink Diamond\"]": 3
+      }
     },
     "Pink Diamond Hood": {
       "itemType": "armor",
@@ -732,10 +769,11 @@
       "protection": 20,
       "pickupSound": "Cloth",
       "coinValue": 20,
-      "pieces": "{\"Pink Diamond Hood\"}",
       "craftLevel": 85,
-      "recipe": "{",
-      "[\"Pink Diamond\"]": 2
+      "recipe": {
+        "pieces": "{\"Pink Diamond Hood\"}",
+        "[\"Pink Diamond\"]": 2
+      }
     },
     "Pink Diamond Chestplate": {
       "itemType": "armor",
@@ -745,10 +783,11 @@
       "armorSet": "Pink Diamond",
       "pickupSound": "Cloth",
       "coinValue": 20,
-      "pieces": "{\"Pink Diamond Chestplate\", \"Pink Diamond Left Shoulder\", \"Pink Diamond Right Shoulder\"}",
       "craftLevel": 85,
-      "recipe": "{",
-      "[\"Pink Diamond\"]": 3
+      "recipe": {
+        "pieces": "{\"Pink Diamond Chestplate\", \"Pink Diamond Left Shoulder\", \"Pink Diamond Right Shoulder\"}",
+        "[\"Pink Diamond\"]": 3
+      }
     }
   },
   "armor/satchels.lua": {
@@ -760,10 +799,11 @@
       "maxLoad": 0,
       "pickupSound": "Cloth",
       "craftLevel": 30,
-      "pieces": "{\"Radio Pack\"}",
-      "recipe": "{",
-      "[\"Gold Bar\"]": 3,
-      "[\"Steel Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Radio Pack\"}",
+        "[\"Gold Bar\"]": 3,
+        "[\"Steel Bar\"]": 3
+      }
     },
     "Leaf Satchel": {
       "itemType": "armor",
@@ -773,9 +813,10 @@
       "load": 0,
       "craftLevel": 1,
       "pickupSound": "Cloth",
-      "recipe": "{",
-      "Stick": 2,
-      "Leaves": 1
+      "recipe": {
+        "Stick": 2,
+        "Leaves": 1
+      }
     },
     "Tutorial Satchel": {
       "itemType": "armor",
@@ -797,9 +838,10 @@
       "maxLoad": 100,
       "load": 0,
       "craftLevel": 5,
-      "recipe": "{",
-      "Stick": 2,
-      "Hide": 1
+      "recipe": {
+        "Stick": 2,
+        "Hide": 1
+      }
     },
     "Iron Satchel": {
       "itemType": "armor",
@@ -809,10 +851,11 @@
       "maxLoad": 125,
       "load": 0,
       "craftLevel": 10,
-      "recipe": "{",
-      "Stick": 2,
-      "Hide": 1,
-      "[\"Iron Bar\"]": 3
+      "recipe": {
+        "Stick": 2,
+        "Hide": 1,
+        "[\"Iron Bar\"]": 3
+      }
     },
     "Steel Satchel": {
       "itemType": "armor",
@@ -822,10 +865,11 @@
       "maxLoad": 150,
       "load": 0,
       "craftLevel": 20,
-      "recipe": "{",
-      "Stick": 2,
-      "Hide": 1,
-      "[\"Steel Bar\"]": 3
+      "recipe": {
+        "Stick": 2,
+        "Hide": 1,
+        "[\"Steel Bar\"]": 3
+      }
     },
     "Adurite Satchel": {
       "itemType": "armor",
@@ -835,10 +879,11 @@
       "pickupSound": "Cloth",
       "load": 0,
       "craftLevel": 40,
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Fire Hide\"]": 1,
-      "[\"Adurite Bar\"]": 3
+      "recipe": {
+        "Stick": 2,
+        "[\"Fire Hide\"]": 1,
+        "[\"Adurite Bar\"]": 3
+      }
     },
     "Crystal Satchel": {
       "itemType": "armor",
@@ -848,10 +893,11 @@
       "load": 0,
       "craftLevel": 50,
       "pickupSound": "Cloth",
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Crystal Chunk\"]": 4,
-      "[\"Gold Bar\"]": 10
+      "recipe": {
+        "Stick": 2,
+        "[\"Crystal Chunk\"]": 4,
+        "[\"Gold Bar\"]": 10
+      }
     },
     "Magnetite Satchel": {
       "itemType": "armor",
@@ -861,10 +907,11 @@
       "pickupSound": "Cloth",
       "load": 0,
       "craftLevel": 70,
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Magnetite Bar\"]": 4,
-      "[\"Gold Bar\"]": 1
+      "recipe": {
+        "Stick": 2,
+        "[\"Magnetite Bar\"]": 4,
+        "[\"Gold Bar\"]": 1
+      }
     },
     "Emerald Satchel": {
       "itemType": "armor",
@@ -874,10 +921,11 @@
       "load": 0,
       "pickupSound": "Cloth",
       "craftLevel": 80,
-      "recipe": "{",
-      "Stick": 2,
-      "Emerald": 4,
-      "[\"Gold Bar\"]": 1
+      "recipe": {
+        "Stick": 2,
+        "Emerald": 4,
+        "[\"Gold Bar\"]": 1
+      }
     },
     "Pink Diamond Satchel": {
       "itemType": "armor",
@@ -887,10 +935,11 @@
       "pickupSound": "Cloth",
       "load": 0,
       "craftLevel": 85,
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Pink Diamond\"]": 4,
-      "[\"Gold Bar\"]": 1
+      "recipe": {
+        "Stick": 2,
+        "[\"Pink Diamond\"]": 4,
+        "[\"Gold Bar\"]": 1
+      }
     },
     "Void Satchel": {
       "itemType": "armor",
@@ -900,11 +949,12 @@
       "load": 0,
       "craftLevel": 90,
       "pickupSound": "Cloth",
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Magnetite Bar\"]": 3,
-      "Jelly": 12,
-      "[\"Gold Bar\"]": 1
+      "recipe": {
+        "Stick": 2,
+        "[\"Magnetite Bar\"]": 3,
+        "Jelly": 12,
+        "[\"Gold Bar\"]": 1
+      }
     },
     "God Satchel": {
       "itemType": "armor",
@@ -918,11 +968,12 @@
       "noDrop": true,
       "load": 0,
       "craftLevel": 1,
-      "recipe": "{",
-      "Stick": 2,
-      "[\"Crystal Chunk\"]": 30,
-      "[\"Gold Bar\"]": 50,
-      "[\"Spirit Key\"]": 1
+      "recipe": {
+        "Stick": 2,
+        "[\"Crystal Chunk\"]": 30,
+        "[\"Gold Bar\"]": 50,
+        "[\"Spirit Key\"]": 1
+      }
     },
     "Soulite Satchel": {
       "itemType": "armor",
@@ -1146,11 +1197,12 @@
       "armorSet": "Steel",
       "protection": 10,
       "coinValue": 1,
-      "pieces": "{\"Steel Greaves Left Foot\", \"Steel Greaves Right Foot\", \"Steel Greaves Left Leg\", \"Steel Greaves Right Leg\"}",
       "craftLevel": 20,
-      "recipe": "{",
-      "Hide": 1,
-      "[\"Steel Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Steel Greaves Left Foot\", \"Steel Greaves Right Foot\", \"Steel Greaves Left Leg\", \"Steel Greaves Right Leg\"}",
+        "Hide": 1,
+        "[\"Steel Bar\"]": 3
+      }
     },
     "Steel Helmet": {
       "itemType": "armor",
@@ -1160,10 +1212,11 @@
       "coinValue": 1,
       "armorSet": "Steel",
       "pickupSound": "Cloth",
-      "pieces": "{\"Steel Helmet\"}",
       "craftLevel": 20,
-      "recipe": "{",
-      "[\"Steel Bar\"]": 2
+      "recipe": {
+        "pieces": "{\"Steel Helmet\"}",
+        "[\"Steel Bar\"]": 2
+      }
     },
     "Steel Chestplate": {
       "itemType": "armor",
@@ -1173,11 +1226,12 @@
       "Rarity": "Common",
       "protection": 10,
       "coinValue": 1,
-      "pieces": "{\"Steel Chestplate\", \"Steel Left Shoulder\", \"Steel Right Shoulder\"}",
       "craftLevel": 20,
-      "recipe": "{",
-      "Hide": 1,
-      "[\"Steel Bar\"]": 3
+      "recipe": {
+        "pieces": "{\"Steel Chestplate\", \"Steel Left Shoulder\", \"Steel Right Shoulder\"}",
+        "Hide": 1,
+        "[\"Steel Bar\"]": 3
+      }
     }
   },
   "armor/void.lua": {
@@ -1189,12 +1243,13 @@
       "protection": 22,
       "description": "Recipe for the God armor leg piece",
       "coinValue": 1,
-      "pieces": "{\"Void Greaves Left Foot\", \"Void Greaves Right Foot\", \"Void Greaves Left Leg\", \"Void Greaves Right Leg\"}",
       "craftLevel": 90,
-      "recipe": "{",
-      "Jelly": 6,
-      "[\"Void Shard\"]": 2,
-      "[\"Magnetite Bar\"]": 1
+      "recipe": {
+        "pieces": "{\"Void Greaves Left Foot\", \"Void Greaves Right Foot\", \"Void Greaves Left Leg\", \"Void Greaves Right Leg\"}",
+        "Jelly": 6,
+        "[\"Void Shard\"]": 2,
+        "[\"Magnetite Bar\"]": 1
+      }
     },
     "Void Shroud": {
       "itemType": "armor",
@@ -1204,12 +1259,13 @@
       "protection": 22,
       "coinValue": 1,
       "description": "Recipe for the God armor head piece",
-      "pieces": "{\"Void Shroud\"}",
       "craftLevel": 90,
-      "recipe": "{",
-      "Jelly": 6,
-      "[\"Void Shard\"]": 1,
-      "[\"Magnetite Bar\"]": 1
+      "recipe": {
+        "pieces": "{\"Void Shroud\"}",
+        "Jelly": 6,
+        "[\"Void Shard\"]": 1,
+        "[\"Magnetite Bar\"]": 1
+      }
     },
     "Void Chestplate": {
       "itemType": "armor",
@@ -1218,12 +1274,13 @@
       "protection": 22,
       "armorSet": "Void",
       "coinValue": 1,
-      "pieces": "{\"Void Chestplate\", \"Void Left Shoulder\", \"Void Right Shoulder\"}",
       "craftLevel": 90,
-      "recipe": "{",
-      "Jelly": 6,
-      "[\"Void Shard\"]": 2,
-      "[\"Magnetite Bar\"]": 1
+      "recipe": {
+        "pieces": "{\"Void Chestplate\", \"Void Left Shoulder\", \"Void Right Shoulder\"}",
+        "Jelly": 6,
+        "[\"Void Shard\"]": 2,
+        "[\"Magnetite Bar\"]": 1
+      }
     }
   },
   "charms/voodoo.lua": {
@@ -3032,10 +3089,11 @@
     },
     "Peeper Popsicle": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 8,
-      "water": 3,
-      "overHeal": 1
+      "nourishment": {
+        "food": 8,
+        "water": 3,
+        "overHeal": 1
+      }
     },
     "Big Apple": {
       "pickupSound": "Pickup",
@@ -3047,123 +3105,138 @@
     },
     "Malevolent Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "health": -10,
-      "voodoo": 40
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "health": -10,
+        "voodoo": 40
+      }
     },
     "Satisfying Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 100,
-      "water": 0,
-      "overHeal": 0,
-      "voodoo": 0
+      "nourishment": {
+        "food": 100,
+        "water": 0,
+        "overHeal": 0,
+        "voodoo": 0
+      }
     },
     "Replenishing Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -33,
-      "water": 0,
-      "overHeal": 50,
-      "voodoo": 0
+      "nourishment": {
+        "food": -33,
+        "water": 0,
+        "overHeal": 50,
+        "voodoo": 0
+      }
     },
     "Mend & Chill Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -10,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": 0
+      "nourishment": {
+        "food": -10,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": 0
+      }
     },
     "Frostfire Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -15,
-      "water": 0,
-      "overHeal": 0,
-      "voodoo": 0
+      "nourishment": {
+        "food": -15,
+        "water": 0,
+        "overHeal": 0,
+        "voodoo": 0
+      }
     },
     "Hexed Fury Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -15,
-      "water": 0,
-      "health": -15,
-      "voodoo": 15
+      "nourishment": {
+        "food": -15,
+        "water": 0,
+        "health": -15,
+        "voodoo": 15
+      }
     },
     "Berserker's Trade Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -40,
-      "water": 0,
-      "health": -10,
-      "voodoo": 5
+      "nourishment": {
+        "food": -40,
+        "water": 0,
+        "health": -10,
+        "voodoo": 5
+      }
     },
     "Steady Surge Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "overHeal": 6,
-      "voodoo": 0
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "overHeal": 6,
+        "voodoo": 0
+      }
     },
     "Glacial Mend Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -10,
-      "water": 0,
-      "overHeal": 20,
-      "voodoo": 0
+      "nourishment": {
+        "food": -10,
+        "water": 0,
+        "overHeal": 20,
+        "voodoo": 0
+      }
     },
     "Bloodspark Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "health": -20,
-      "voodoo": 0
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "health": -20,
+        "voodoo": 0
+      }
     },
     "Shiverbrand Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 20,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": 20
+      "nourishment": {
+        "food": 20,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": 20
+      }
     },
     "Seething Hex Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -35,
-      "water": 0,
-      "health": 0,
-      "voodoo": 35
+      "nourishment": {
+        "food": -35,
+        "water": 0,
+        "health": 0,
+        "voodoo": 35
+      }
     },
     "Smoldering Relief Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 10,
-      "water": 0,
-      "overHeal": 15,
-      "voodoo": 0
+      "nourishment": {
+        "food": 10,
+        "water": 0,
+        "overHeal": 15,
+        "voodoo": 0
+      }
     },
     "Thunderstop Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 50,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": -25
+      "nourishment": {
+        "food": 50,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": -25
+      }
     },
     "Blight Fruit": {
-      "item_limit": null,
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 1.75,
-      "water": 3.5,
-      "overHeal": 5
+      "nourishment": {
+        "item_limit": null,
+        "food": 1.75,
+        "water": 3.5,
+        "overHeal": 5
+      }
     },
     "Big Bloodfruit": {
       "pickupSound": "Flesh",
@@ -3182,9 +3255,10 @@
       "load": 0
     },
     "Pink Tree": {
-      "health": 40,
-      "susceptions": "{",
-      "wood": true
+      "susceptions": {
+        "health": 40,
+        "wood": true
+      }
     },
     "Big Heartfruit": {
       "pickupSound": "Pickup",
@@ -3204,163 +3278,184 @@
     },
     "Grain Mush": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 8,
-      "water": 0,
-      "overHeal": 1
+      "nourishment": {
+        "food": 8,
+        "water": 0,
+        "overHeal": 1
+      }
     },
     "Corn Mush": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 10,
-      "water": 0,
-      "overHeal": 1
+      "nourishment": {
+        "food": 10,
+        "water": 0,
+        "overHeal": 1
+      }
     },
     "Banana Bread": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 36,
-      "water": 1,
-      "overHeal": 4.5
+      "nourishment": {
+        "food": 36,
+        "water": 1,
+        "overHeal": 4.5
+      }
     },
     "Raw Fish": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 5,
-      "water": 5,
-      "health": -12
+      "nourishment": {
+        "food": 5,
+        "water": 5,
+        "health": -12
+      }
     },
     "Cooked Fish": {
       "pickupSound": "Flesh",
       "Rarity": "Common",
       "coinValue": 0.125,
-      "nourishment": "{",
-      "food": 20,
-      "water": 1,
-      "overHeal": 4.5
+      "nourishment": {
+        "food": 20,
+        "water": 1,
+        "overHeal": 4.5
+      }
     },
     "Gold Fish": {
       "pickupSound": "Money Bars",
-      "unique": true,
       "Rarity": "Limited",
       "coinValue": 0.125,
-      "nourishment": "{",
-      "food": 100,
-      "water": 1,
-      "overHeal": 66
+      "nourishment": {
+        "unique": true,
+        "food": 100,
+        "water": 1,
+        "overHeal": 66
+      }
     },
     "Raw Turkey Leg": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 4,
-      "water": 5,
-      "health": -10
+      "nourishment": {
+        "food": 4,
+        "water": 5,
+        "health": -10
+      }
     },
     "Cooked Turkey Leg": {
       "pickupSound": "Flesh",
       "coinValue": 0.125,
-      "nourishment": "{",
-      "food": 16,
-      "water": 1,
-      "overHeal": 6.5
+      "nourishment": {
+        "food": 16,
+        "water": 1,
+        "overHeal": 6.5
+      }
     },
     "Raw Meat": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 6,
-      "water": 5,
-      "health": -15
+      "nourishment": {
+        "food": 6,
+        "water": 5,
+        "health": -15
+      }
     },
     "Cooked Meat": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 24,
-      "water": 1,
-      "overHeal": 7.5
+      "nourishment": {
+        "food": 24,
+        "water": 1,
+        "overHeal": 7.5
+      }
     },
     "Raw Underworld Meat": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 10,
-      "water": 5,
-      "health": -20
+      "nourishment": {
+        "food": 10,
+        "water": 5,
+        "health": -20
+      }
     },
     "Cooked Underworld Meat": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 30,
-      "water": 1,
-      "overHeal": 10
+      "nourishment": {
+        "food": 30,
+        "water": 1,
+        "overHeal": 10
+      }
     },
     "Raw Morsel": {
       "pickupSound": "Flesh",
       "Rarity": "Common",
-      "nourishment": "{",
-      "food": 3,
-      "water": 3,
-      "health": -5
+      "nourishment": {
+        "food": 3,
+        "water": 3,
+        "health": -5
+      }
     },
     "Cooked Morsel": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 12,
-      "water": 1,
-      "overHeal": 3.5
+      "nourishment": {
+        "food": 12,
+        "water": 1,
+        "overHeal": 3.5
+      }
     },
     "Cooked Egg": {
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 15,
-      "water": 2,
-      "overHeal": 2
+      "nourishment": {
+        "food": 15,
+        "water": 2,
+        "overHeal": 2
+      }
     },
     "Cactus Bit": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 3,
-      "water": 1,
-      "health": -1
+      "nourishment": {
+        "food": 3,
+        "water": 1,
+        "health": -1
+      }
     },
     "Fried Cactus": {
       "pickupSound": "Pickup",
       "coinValue": 0.058823529411764705,
-      "nourishment": "{",
-      "food": 18,
-      "water": 1,
-      "overHeal": 2
+      "nourishment": {
+        "food": 18,
+        "water": 1,
+        "overHeal": 2
+      }
     },
     "Prickly Pear": {
       "pickupSound": "Pickup",
       "coinValue": 0.05,
-      "nourishment": "{",
-      "food": 11,
-      "water": 1,
-      "overHeal": 2.5
+      "nourishment": {
+        "food": 11,
+        "water": 1,
+        "overHeal": 2.5
+      }
     },
     "Zombie Flesh": {
       "Rarity": "Rare",
       "pickupSound": "Flesh",
-      "nourishment": "{",
-      "food": 25,
-      "water": 1,
-      "health": -10
+      "nourishment": {
+        "food": 25,
+        "water": 1,
+        "health": -10
+      }
     },
     "Serpent Tail": {
       "Rarity": "Rare",
-      "nourishment": "{",
-      "food": 25,
-      "water": 1,
-      "health": -15
+      "nourishment": {
+        "food": 25,
+        "water": 1,
+        "health": -15
+      }
     },
     "Undead Meat": {
       "Rarity": "Legendary",
       "pickupSound": "Flesh",
       "itemType": "food",
       "load": 3,
-      "nourishment": "{",
-      "food": 25,
-      "water": 1,
-      "health": -45
+      "nourishment": {
+        "food": 25,
+        "water": 1,
+        "health": -45
+      }
     }
   },
   "gamepass.lua": {
@@ -3377,46 +3472,49 @@
       "itemType": "armor",
       "locus": "legs",
       "protection": 25,
-      "shouldBreak": true,
       "description": "Recipe for the God armor leg piece",
       "coinValue": 1,
-      "pieces": "{\"God Legs Left Foot\", \"God Legs Right Foot\", \"God Legs Left Leg\", \"God Legs Right Leg\"}",
       "mojoCost": 1,
       "craftLevel": 100,
-      "recipe": "{",
-      "[\"Gold Bar\"]": 14,
-      "[\"Crystal Chunk\"]": 6
+      "recipe": {
+        "shouldBreak": true,
+        "pieces": "{\"God Legs Left Foot\", \"God Legs Right Foot\", \"God Legs Left Leg\", \"God Legs Right Leg\"}",
+        "[\"Gold Bar\"]": 14,
+        "[\"Crystal Chunk\"]": 6
+      }
     },
     "God Halo": {
       "Rarity": "Legendary",
       "itemType": "armor",
       "locus": "head",
-      "oldNames": "{\"God Helmet\"}",
       "protection": 25,
-      "shouldBreak": true,
       "coinValue": 1,
       "description": "Recipe for the God armor head piece",
       "mojoCost": 1,
-      "pieces": "{\"God Halo\"}",
       "craftLevel": 100,
-      "recipe": "{",
-      "[\"Gold Bar\"]": 15,
-      "[\"Crystal Chunk\"]": 6
+      "recipe": {
+        "oldNames": "{\"God Helmet\"}",
+        "shouldBreak": true,
+        "pieces": "{\"God Halo\"}",
+        "[\"Gold Bar\"]": 15,
+        "[\"Crystal Chunk\"]": 6
+      }
     },
     "God Chestplate": {
       "Rarity": "Legendary",
       "itemType": "armor",
       "locus": "torso",
       "protection": 25,
-      "shouldBreak": true,
       "coinValue": 1,
       "mojoCost": 1,
       "description": "Recipe for the God armor chest piece",
-      "pieces": "{\"God Chestplate\", \"God Left Shoulder\", \"God Right Shoulder\"}",
       "craftLevel": 100,
-      "recipe": "{",
-      "[\"Gold Bar\"]": 15,
-      "[\"Crystal Chunk\"]": 6
+      "recipe": {
+        "shouldBreak": true,
+        "pieces": "{\"God Chestplate\", \"God Left Shoulder\", \"God Right Shoulder\"}",
+        "[\"Gold Bar\"]": 15,
+        "[\"Crystal Chunk\"]": 6
+      }
     },
     "God Axe": {
       "Rarity": "Legendary",
@@ -3426,27 +3524,29 @@
       "useType": "Slash",
       "level": 10,
       "craftLevel": 100,
-      "shouldBreak": true,
       "mojoCost": 2,
       "description": "The most powerful Axe",
-      "damages": "{",
-      "wood": 35,
-      "players": 30,
-      "mobs": 30,
-      "woodStructure": 40
+      "damages": {
+        "shouldBreak": true,
+        "wood": 35,
+        "players": 30,
+        "mobs": 30,
+        "woodStructure": 40
+      }
     },
     "God Crossbow": {
       "Rarity": "Legendary",
       "itemType": "tool",
-      "curvature": 0.5,
       "toolType": "ranged",
       "coinValue": 20,
       "useType": "Draw",
-      "shouldBreak": true,
-      "infliction": "{",
-      "key": "Shred",
-      "decayTime": 2.5,
-      "userData": "{}"
+      "infliction": {
+        "curvature": 0.5,
+        "shouldBreak": true,
+        "key": "Shred",
+        "decayTime": 2.5,
+        "userData": "{}"
+      }
     },
     "God Pick": {
       "Rarity": "Legendary",
@@ -3458,13 +3558,14 @@
       "description": "The most powerful Pick",
       "level": 10,
       "craftLevel": 100,
-      "shouldBreak": true,
-      "damages": "{",
-      "stone": 35,
-      "players": 30,
-      "mobs": 30,
-      "stoneStructure": 40,
-      "spirit": 5
+      "damages": {
+        "shouldBreak": true,
+        "stone": 35,
+        "players": 30,
+        "mobs": 30,
+        "stoneStructure": 40,
+        "spirit": 5
+      }
     },
     "OOF Horn": {
       "Rarity": "Legendary",
@@ -3472,17 +3573,18 @@
       "toolType": "Horn",
       "useType": "Horn",
       "noDrop": true,
-      "noteDelay": 0,
       "description": "Recipe for the oooooooooooooooooooooooffffffff horn",
       "mojoCost": 1,
-      "noteWaver": 0,
-      "noteName": "LongOOF",
       "speed": 24,
       "craftLevel": 1,
       "mojoRecipe": true,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 2,
-      "[\"Gold Bar\"]": 9
+      "recipe": {
+        "noteDelay": 0,
+        "noteWaver": 0,
+        "noteName": "LongOOF",
+        "[\"Crystal Chunk\"]": 2,
+        "[\"Gold Bar\"]": 9
+      }
     },
     "Rebirth Mastery": {
       "Rarity": "Legendary",
@@ -3536,21 +3638,23 @@
     "Infinity Chest": {
       "Rarity": "Legendary",
       "itemType": "building",
-      "deployable": true,
-      "placement": "land",
-      "health": 1500,
       "mojoRecipe": true,
-      "susceptions": "{",
-      "woodStructure": true
+      "susceptions": {
+        "deployable": true,
+        "placement": "land",
+        "health": 1500,
+        "woodStructure": true
+      }
     },
     "God Hut": {
       "Rarity": "Legendary",
       "itemType": "building",
-      "deployable": true,
-      "placement": "land",
-      "health": 5000,
-      "susceptions": "{",
-      "stoneStructure": true
+      "susceptions": {
+        "deployable": true,
+        "placement": "land",
+        "health": 5000,
+        "stoneStructure": true
+      }
     },
     "God Rod": {
       "Rarity": "Legendary",
@@ -3559,16 +3663,18 @@
       "coinValue": 0.3333333333333333,
       "useType": "Rod",
       "level": 1,
-      "idleAnim": "ToolHold",
       "mojoRecipe": true,
       "description": "Recipe for the luckiest fishing rod",
       "mojoCost": 4,
       "craftLevel": 1,
       "speed": 5,
-      "rodDrops": "{",
-      "Apple": "{",
-      "quantity": 1,
-      "percent": 2.5
+      "Apple": {
+        "rodDrops": {
+          "idleAnim": "ToolHold",
+          "quantity": 1,
+          "percent": 2.5
+        }
+      }
     },
     "Crystal Crate": {
       "quantity": 1,
@@ -3615,73 +3721,78 @@
       "mojoCost": 3,
       "craftLevel": 1,
       "speed": 0.25,
-      "recipe": "{",
-      "[\"Crystal Chunk\"]": 9,
-      "[\"Gold Bar\"]": 27
+      "recipe": {
+        "[\"Crystal Chunk\"]": 9,
+        "[\"Gold Bar\"]": 27
+      }
     },
     "God Sword": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "toolType": "Sword",
-      "oldNames": "{\"God Rock\"}",
       "useType": "Slash",
       "description": "Recipe for the most powerful sword",
-      "shouldBreak": true,
       "mojoCost": 3,
       "level": 9,
       "craftLevel": 100,
-      "damages": "{",
-      "wood": 20,
-      "stone": 20,
-      "players": 80,
-      "mobs": 80,
-      "woodStructure": 20,
-      "stoneStructure": 20
+      "damages": {
+        "oldNames": "{\"God Rock\"}",
+        "shouldBreak": true,
+        "wood": 20,
+        "stone": 20,
+        "players": 80,
+        "mobs": 80,
+        "woodStructure": 20,
+        "stoneStructure": 20
+      }
     },
     "God Battle Axe": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "toolType": "Sword",
-      "oldNames": "{\"God Rock\"}",
       "useType": "Slash",
       "description": "Recipe for the most powerful sword",
-      "shouldBreak": true,
-      "infliction": "{",
-      "key": "Bleed",
-      "decayTime": 1.25,
-      "userData": "{}"
+      "infliction": {
+        "oldNames": "{\"God Rock\"}",
+        "shouldBreak": true,
+        "key": "Bleed",
+        "decayTime": 1.25,
+        "userData": "{}"
+      }
     },
     "God Scythe": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "toolType": "Spear",
-      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
       "useType": "Scythe",
       "description": "Recipe for the most powerful weapon",
-      "shouldBreak": true,
-      "idleAnim": "ScytheIdle",
       "mojoRecipe": true,
-      "infliction": "{",
-      "key": "Shred",
-      "decayTime": 1.5,
-      "userData": "{}"
+      "infliction": {
+        "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+        "shouldBreak": true,
+        "idleAnim": "ScytheIdle",
+        "key": "Shred",
+        "decayTime": 1.5,
+        "userData": "{}"
+      }
     },
     "God Staff": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "toolType": "Staff",
-      "stun": false,
-      "staffColor": "Color3.fromRGB(134, 253, 255)",
-      "skinType": "Staff",
       "description": "Recipe for the most powerful magical weapon",
-      "shouldBreak": true,
-      "damages": "{",
-      "wood": 200,
-      "stone": 200,
-      "players": 40,
-      "mobs": 40,
-      "woodStructure": 200,
-      "stoneStructure": 200
+      "damages": {
+        "stun": false,
+        "staffColor": "Color3.fromRGB(134, 253, 255)",
+        "skinType": "Staff",
+        "shouldBreak": true,
+        "wood": 200,
+        "stone": 200,
+        "players": 40,
+        "mobs": 40,
+        "woodStructure": 200,
+        "stoneStructure": 200
+      }
     }
   },
   "Mojo/skillTree.lua": {
@@ -3945,12 +4056,13 @@
       "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112083800129222",
       "noDrop": true,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
       "mojoCost": 5,
-      "health": 500,
       "shopOrder": 0,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 500,
+        "mobs": true
+      }
     },
     "Zombie Wolf Mount": {
       "itemType": "armor",
@@ -3961,17 +4073,17 @@
       "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=133787427305669",
       "noDrop": true,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
       "mojoCost": 10,
-      "health": 500,
       "shopOrder": 0,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 500,
+        "mobs": true
+      }
     },
     "Void Hound Mount": {
       "itemType": "armor",
       "Rarity": "Rare",
-      "locked": false,
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
@@ -3980,10 +4092,12 @@
       "shopOrder": 100,
       "BottomText": "Daily Rewards",
       "rebirthPersist": true,
-      "codeBase": "MountControl",
-      "health": 5000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "locked": false,
+        "codeBase": "MountControl",
+        "health": 5000,
+        "mobs": true
+      }
     },
     "Skeleton Horse Mount": {
       "itemType": "armor",
@@ -3996,13 +4110,13 @@
       "shopOrder": 100,
       "mojoCost": 25,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
-      "health": 3000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 3000,
+        "mobs": true
+      }
     },
     "Buffalo Mount": {
-      "locked": false,
       "itemType": "armor",
       "Rarity": "Common",
       "locus": "mount",
@@ -4013,13 +4127,14 @@
       "shopOrder": 99,
       "rebirthPersist": true,
       "BottomText": "Daily Rewards",
-      "codeBase": "MountControl",
-      "health": 1000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "locked": false,
+        "codeBase": "MountControl",
+        "health": 1000,
+        "mobs": true
+      }
     },
     "Rhino Mount": {
-      "locked": false,
       "itemType": "armor",
       "Rarity": "Rare",
       "locus": "mount",
@@ -4029,11 +4144,13 @@
       "noDrop": true,
       "shopOrder": 0,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
       "BottomText": "Daily Rewards",
-      "health": 2500,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "locked": false,
+        "codeBase": "MountControl",
+        "health": 2500,
+        "mobs": true
+      }
     },
     "Spider Mount": {
       "itemType": "armor",
@@ -4046,10 +4163,11 @@
       "mojoCost": 50,
       "shopOrder": 99,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
-      "health": 1000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 1000,
+        "mobs": true
+      }
     },
     "Polar Bear Mount": {
       "itemType": "armor",
@@ -4061,11 +4179,12 @@
       "noDrop": true,
       "shopOrder": 0,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
       "BottomText": "Daily Rewards",
-      "health": 10000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 10000,
+        "mobs": true
+      }
     },
     "White Tiger": {
       "itemType": "armor",
@@ -4076,17 +4195,17 @@
       "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91018803422518",
       "noDrop": true,
       "rebirthPersist": true,
-      "codeBase": "MountControl",
       "mojoCost": 15,
-      "health": 1500,
       "shopOrder": 0,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "codeBase": "MountControl",
+        "health": 1500,
+        "mobs": true
+      }
     },
     "Reindeer Mount": {
       "itemType": "armor",
       "locus": "mount",
-      "locked": true,
       "Rarity": "Rare",
       "maxLoad": 0,
       "load": 0,
@@ -4095,124 +4214,140 @@
       "shopOrder": 100,
       "BottomText": "Daily Rewards",
       "rebirthPersist": true,
-      "codeBase": "MountControl",
-      "health": 5000,
-      "susceptions": "{",
-      "mobs": true
+      "susceptions": {
+        "locked": true,
+        "codeBase": "MountControl",
+        "health": 5000,
+        "mobs": true
+      }
     }
   },
   "potions.lua": {
     "Malevolent Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "health": -10,
-      "voodoo": 40
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "health": -10,
+        "voodoo": 40
+      }
     },
     "Satisfying Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 100,
-      "water": 0,
-      "overHeal": 0,
-      "voodoo": 0
+      "nourishment": {
+        "food": 100,
+        "water": 0,
+        "overHeal": 0,
+        "voodoo": 0
+      }
     },
     "Replenishing Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -33,
-      "water": 0,
-      "overHeal": 50,
-      "voodoo": 0
+      "nourishment": {
+        "food": -33,
+        "water": 0,
+        "overHeal": 50,
+        "voodoo": 0
+      }
     },
     "Mend & Chill Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -10,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": 0
+      "nourishment": {
+        "food": -10,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": 0
+      }
     },
     "Frostfire Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -15,
-      "water": 0,
-      "overHeal": 0,
-      "voodoo": 0
+      "nourishment": {
+        "food": -15,
+        "water": 0,
+        "overHeal": 0,
+        "voodoo": 0
+      }
     },
     "Hexed Fury Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -15,
-      "water": 0,
-      "health": -15,
-      "voodoo": 15
+      "nourishment": {
+        "food": -15,
+        "water": 0,
+        "health": -15,
+        "voodoo": 15
+      }
     },
     "Berserker's Trade Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -40,
-      "water": 0,
-      "health": -10,
-      "voodoo": 5
+      "nourishment": {
+        "food": -40,
+        "water": 0,
+        "health": -10,
+        "voodoo": 5
+      }
     },
     "Steady Surge Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "overHeal": 6,
-      "voodoo": 0
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "overHeal": 6,
+        "voodoo": 0
+      }
     },
     "Glacial Mend Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -10,
-      "water": 0,
-      "overHeal": 20,
-      "voodoo": 0
+      "nourishment": {
+        "food": -10,
+        "water": 0,
+        "overHeal": 20,
+        "voodoo": 0
+      }
     },
     "Bloodspark Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -20,
-      "water": 0,
-      "health": -20,
-      "voodoo": 0
+      "nourishment": {
+        "food": -20,
+        "water": 0,
+        "health": -20,
+        "voodoo": 0
+      }
     },
     "Shiverbrand Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 20,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": 20
+      "nourishment": {
+        "food": 20,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": 20
+      }
     },
     "Seething Hex Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": -35,
-      "water": 0,
-      "health": 0,
-      "voodoo": 35
+      "nourishment": {
+        "food": -35,
+        "water": 0,
+        "health": 0,
+        "voodoo": 35
+      }
     },
     "Smoldering Relief Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 10,
-      "water": 0,
-      "overHeal": 15,
-      "voodoo": 0
+      "nourishment": {
+        "food": 10,
+        "water": 0,
+        "overHeal": 15,
+        "voodoo": 0
+      }
     },
     "Thunderstop Vial": {
       "pickupSound": "Pickup",
-      "nourishment": "{",
-      "food": 50,
-      "water": 0,
-      "overHeal": 10,
-      "voodoo": -25
+      "nourishment": {
+        "food": 50,
+        "water": 0,
+        "overHeal": 10,
+        "voodoo": -25
+      }
     }
   },
   "spells.lua": {
@@ -4238,50 +4373,59 @@
       "image": "rbxassetid://77250725740004"
     },
     "Energy Bolt": {
-      "config": "{",
-      "BOLT_SPEED": 0.1
+      "config": {
+        "BOLT_SPEED": 0.1
+      }
     },
     "Void Release": {
-      "config": "{",
-      "KNOCKBACK_RADIUS": 35,
-      "KNOCKBACK_FORCE": 130,
-      "UPWARD_FORCE": 60
+      "config": {
+        "KNOCKBACK_RADIUS": 35,
+        "KNOCKBACK_FORCE": 130,
+        "UPWARD_FORCE": 60
+      }
     },
     "Void Electrify": {
-      "config": "{",
-      "DAMAGE_RADIUS": 25
+      "config": {
+        "DAMAGE_RADIUS": 25
+      }
     },
     "Void Lifesteal": {
-      "config": "{",
-      "DAMAGE_RADIUS": 20,
-      "HEAL_AMOUNT": 0.5,
-      "DAMAGE_AMOUNT": 3
+      "config": {
+        "DAMAGE_RADIUS": 20,
+        "HEAL_AMOUNT": 0.5,
+        "DAMAGE_AMOUNT": 3
+      }
     },
     "Void Punch": {
-      "config": "{",
-      "DAMAGE_RADIUS": 10
+      "config": {
+        "DAMAGE_RADIUS": 10
+      }
     },
     "Void Explosion": {
-      "config": "{",
-      "DAMAGE_RADIUS": 20,
-      "DURATION": 0.2,
-      "INITIAL_SCALE": 1,
-      "TARGET_SCALE": 10
+      "config": {
+        "DAMAGE_RADIUS": 20,
+        "DURATION": 0.2,
+        "INITIAL_SCALE": 1,
+        "TARGET_SCALE": 10
+      }
     },
     "Void Grapple": {
-      "config": "{",
-      "DURATION": 0.5,
-      "MAX_DISTANCE": 120,
-      "MOUSE_DISTANCE": 35
+      "config": {
+        "DURATION": 0.5,
+        "MAX_DISTANCE": 120,
+        "MOUSE_DISTANCE": 35
+      }
     },
     "Energy Shield": {
-      "config": "{",
-      "HEALTH": 4,
-      "TIME": 45
+      "config": {
+        "HEALTH": 4,
+        "TIME": 45
+      }
     },
     "Void Cloak": {
-      "config": "{",
-      "DELAY_TIME": 32
+      "config": {
+        "DELAY_TIME": 32
+      }
     },
     "Void Strength": {
       "voodooSpell": true,
@@ -4291,12 +4435,14 @@
       "image": "rbxassetid://18896482876"
     },
     "Healing Bubble": {
-      "config": "{",
-      "HEALING_AMOUNT": 15
+      "config": {
+        "HEALING_AMOUNT": 15
+      }
     },
     "Void Step": {
-      "config": "{",
-      "DURATION": 4.6
+      "config": {
+        "DURATION": 4.6
+      }
     }
   },
   "tools/artifacts.lua": {
@@ -4460,11 +4606,12 @@
       "coinValue": 0.16666666666666666,
       "level": 1,
       "craftLevel": 1,
-      "damages": "{",
-      "wood": 2,
-      "players": 5,
-      "mobs": 5,
-      "woodStructure": 2
+      "damages": {
+        "wood": 2,
+        "players": 5,
+        "mobs": 5,
+        "woodStructure": 2
+      }
     },
     "Stone Axe": {
       "Rarity": "Common",
@@ -4474,11 +4621,12 @@
       "useType": "Slash",
       "level": 2,
       "craftLevel": 7,
-      "damages": "{",
-      "wood": 3,
-      "players": 7,
-      "mobs": 7,
-      "woodStructure": 3
+      "damages": {
+        "wood": 3,
+        "players": 7,
+        "mobs": 7,
+        "woodStructure": 3
+      }
     },
     "Iron Axe": {
       "Rarity": "Common",
@@ -4488,11 +4636,12 @@
       "coinValue": 0.3333333333333333,
       "level": 3,
       "craftLevel": 10,
-      "damages": "{",
-      "wood": 4,
-      "players": 9,
-      "mobs": 9,
-      "woodStructure": 4
+      "damages": {
+        "wood": 4,
+        "players": 9,
+        "mobs": 9,
+        "woodStructure": 4
+      }
     },
     "Steel Axe": {
       "Rarity": "Common",
@@ -4502,11 +4651,12 @@
       "useType": "Slash",
       "level": 4,
       "craftLevel": 20,
-      "damages": "{",
-      "wood": 5,
-      "players": 11,
-      "mobs": 11,
-      "woodStructure": 5
+      "damages": {
+        "wood": 5,
+        "players": 11,
+        "mobs": 11,
+        "woodStructure": 5
+      }
     },
     "Adurite Axe": {
       "Rarity": "Rare",
@@ -4516,11 +4666,12 @@
       "useType": "Slash",
       "level": 5,
       "craftLevel": 40,
-      "damages": "{",
-      "wood": 6,
-      "players": 13,
-      "mobs": 13,
-      "woodStructure": 6
+      "damages": {
+        "wood": 6,
+        "players": 13,
+        "mobs": 13,
+        "woodStructure": 6
+      }
     },
     "Crystal Axe": {
       "Rarity": "Rare",
@@ -4530,12 +4681,13 @@
       "useType": "Slash",
       "level": 6,
       "craftLevel": 50,
-      "damages": "{",
-      "wood": 8,
-      "players": 13,
-      "mobs": 13,
-      "woodStructure": 8,
-      "spirit": 5
+      "damages": {
+        "wood": 8,
+        "players": 13,
+        "mobs": 13,
+        "woodStructure": 8,
+        "spirit": 5
+      }
     },
     "Magnetite Axe": {
       "Rarity": "Rare",
@@ -4545,11 +4697,12 @@
       "useType": "Slash",
       "level": 7,
       "craftLevel": 70,
-      "damages": "{",
-      "wood": 10,
-      "players": 15,
-      "mobs": 15,
-      "woodStructure": 10
+      "damages": {
+        "wood": 10,
+        "players": 15,
+        "mobs": 15,
+        "woodStructure": 10
+      }
     },
     "Emerald Axe": {
       "Rarity": "Rare",
@@ -4559,11 +4712,12 @@
       "useType": "Slash",
       "level": 8,
       "craftLevel": 80,
-      "damages": "{",
-      "wood": 12,
-      "players": 17,
-      "mobs": 17,
-      "woodStructure": 12
+      "damages": {
+        "wood": 12,
+        "players": 17,
+        "mobs": 17,
+        "woodStructure": 12
+      }
     },
     "Pink Diamond Axe": {
       "Rarity": "Rare",
@@ -4573,11 +4727,12 @@
       "useType": "Slash",
       "level": 8,
       "craftLevel": 85,
-      "damages": "{",
-      "wood": 13,
-      "players": 19,
-      "mobs": 19,
-      "woodStructure": 13
+      "damages": {
+        "wood": 13,
+        "players": 19,
+        "mobs": 19,
+        "woodStructure": 13
+      }
     },
     "Void Axe": {
       "Rarity": "Rare",
@@ -4586,11 +4741,12 @@
       "useType": "Slash",
       "level": 9,
       "craftLevel": 90,
-      "damages": "{",
-      "wood": 15,
-      "players": 21,
-      "mobs": 21,
-      "woodStructure": 125
+      "damages": {
+        "wood": 15,
+        "players": 21,
+        "mobs": 21,
+        "woodStructure": 125
+      }
     },
     "Soulite Axe": {
       "Rarity": "Legendary",
@@ -4599,9 +4755,10 @@
       "useType": "Slash",
       "level": 11,
       "craftLevel": 105,
-      "damages": "{",
-      "wood": 45,
-      "woodStructure": 20
+      "damages": {
+        "wood": 45,
+        "woodStructure": 20
+      }
     },
     "Phantomite Axe": {
       "Rarity": "Legendary",
@@ -4610,9 +4767,10 @@
       "useType": "Slash",
       "level": 12,
       "craftLevel": 110,
-      "damages": "{",
-      "wood": 55,
-      "woodStructure": 25
+      "damages": {
+        "wood": 55,
+        "woodStructure": 25
+      }
     },
     "Hellstone Axe": {
       "Rarity": "Legendary",
@@ -4621,9 +4779,10 @@
       "useType": "Slash",
       "level": 13,
       "craftLevel": 115,
-      "damages": "{",
-      "wood": 65,
-      "woodStructure": 30
+      "damages": {
+        "wood": 65,
+        "woodStructure": 30
+      }
     },
     "Ossidar Axe": {
       "Rarity": "Legendary",
@@ -4633,9 +4792,10 @@
       "useType": "Slash",
       "level": 14,
       "craftLevel": 120,
-      "damages": "{",
-      "wood": 115,
-      "woodStructure": 35
+      "damages": {
+        "wood": 115,
+        "woodStructure": 35
+      }
     },
     "Undead Axe": {
       "Rarity": "Legendary",
@@ -4645,9 +4805,10 @@
       "useType": "Slash",
       "level": 17,
       "craftLevel": 135,
-      "damages": "{",
-      "wood": 125,
-      "woodStructure": 125
+      "damages": {
+        "wood": 125,
+        "woodStructure": 125
+      }
     }
   },
   "tools/masteryGear.lua": {
@@ -4658,53 +4819,57 @@
       "coinValue": 0.14285714285714285,
       "useType": "Slash",
       "noDrop": true,
-      "shouldBreak": true,
-      "cost": 25000,
-      "infliction": "{",
-      "key": "Shred",
-      "decayTime": 0.1,
-      "userData": "{}"
+      "infliction": {
+        "shouldBreak": true,
+        "cost": 25000,
+        "key": "Shred",
+        "decayTime": 0.1,
+        "userData": "{}"
+      }
     },
     "Vortex Greatsword": {
       "Rarity": "Divine",
       "itemType": "tool",
-      "infliction": "{",
-      "key": "Bleed",
-      "decayTime": 0.2,
-      "userData": "{}"
+      "infliction": {
+        "key": "Bleed",
+        "decayTime": 0.2,
+        "userData": "{}"
+      }
     },
     "Vortex Bow": {
       "Rarity": "Divine",
       "itemType": "tool",
-      "curvature": 0.5,
       "toolType": "ranged",
       "coinValue": 20,
       "useType": "Draw",
       "noDrop": true,
-      "shouldBreak": true,
-      "cost": 75000,
-      "infliction": "{",
-      "key": "Hexxed",
-      "decayTime": 2,
-      "userData": "{}"
+      "infliction": {
+        "curvature": 0.5,
+        "shouldBreak": true,
+        "cost": 75000,
+        "key": "Hexxed",
+        "decayTime": 2,
+        "userData": "{}"
+      }
     },
     "Vortex Staff": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "toolType": "Staff",
-      "skinType": "Staff",
       "noDrop": true,
-      "shouldBreak": true,
-      "stun": true,
-      "cost": 500000,
-      "staffColor": "Color3.fromRGB(75, 27, 255)",
-      "damages": "{",
-      "wood": 1000,
-      "stone": 1000,
-      "players": 50,
-      "mobs": 50,
-      "woodStructure": 1000,
-      "stoneStructure": 1000
+      "damages": {
+        "skinType": "Staff",
+        "shouldBreak": true,
+        "stun": true,
+        "cost": 500000,
+        "staffColor": "Color3.fromRGB(75, 27, 255)",
+        "wood": 1000,
+        "stone": 1000,
+        "players": 50,
+        "mobs": 50,
+        "woodStructure": 1000,
+        "stoneStructure": 1000
+      }
     }
   },
   "tools/misc.lua": {
@@ -4714,14 +4879,16 @@
       "toolType": "Rod",
       "coinValue": 0.3333333333333333,
       "useType": "Rod",
-      "idleAnim": "ToolHold",
       "level": 1,
       "craftLevel": 9,
       "speed": 6,
-      "rodDrops": "{",
-      "[\"Peasant Crate\"]": "{",
-      "quantity": 1,
-      "percent": 0.52
+      "[\"Peasant Crate\"]": {
+        "rodDrops": {
+          "idleAnim": "ToolHold",
+          "quantity": 1,
+          "percent": 0.52
+        }
+      }
     },
     "Good Crate": {
       "quantity": 1,
@@ -4749,14 +4916,16 @@
       "toolType": "Rod",
       "coinValue": 0.3333333333333333,
       "useType": "Rod",
-      "idleAnim": "ToolHold",
       "level": 1,
       "craftLevel": 25,
       "speed": 6,
-      "rodDrops": "{",
-      "[\"Food Crate\"]": "{",
-      "quantity": 1,
-      "percent": 1
+      "[\"Food Crate\"]": {
+        "rodDrops": {
+          "idleAnim": "ToolHold",
+          "quantity": 1,
+          "percent": 1
+        }
+      }
     },
     "Resource Crate": {
       "quantity": 1,
@@ -4776,22 +4945,24 @@
       "toolType": "Sickle",
       "craftLevel": 80,
       "speed": 0.36363636363636365,
-      "recipe": "{",
-      "Stick": 2,
-      "Emerald": 4
+      "recipe": {
+        "Stick": 2,
+        "Emerald": 4
+      }
     },
     "Big Saddle": {
       "Rarity": "Common",
       "itemType": "tool",
       "toolType": "Target",
       "coinValue": 1,
-      "useAnim": "Saddle",
-      "saddleLevel": 2,
       "craftLevel": 10,
       "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14524719056",
-      "recipe": "{",
-      "Leaves": 6,
-      "[\"Iron Bar\"]": 3
+      "recipe": {
+        "useAnim": "Saddle",
+        "saddleLevel": 2,
+        "Leaves": 6,
+        "[\"Iron Bar\"]": 3
+      }
     }
   },
   "tools/picks.lua": {
@@ -4803,11 +4974,12 @@
       "useType": "Slash",
       "level": 1,
       "craftLevel": 1,
-      "damages": "{",
-      "stone": 2,
-      "players": 5,
-      "mobs": 5,
-      "stoneStructure": 2
+      "damages": {
+        "stone": 2,
+        "players": 5,
+        "mobs": 5,
+        "stoneStructure": 2
+      }
     },
     "Stone Pick": {
       "Rarity": "Common",
@@ -4817,11 +4989,12 @@
       "useType": "Slash",
       "level": 2,
       "craftLevel": 7,
-      "damages": "{",
-      "stone": 3,
-      "players": 7,
-      "mobs": 7,
-      "stoneStructure": 3
+      "damages": {
+        "stone": 3,
+        "players": 7,
+        "mobs": 7,
+        "stoneStructure": 3
+      }
     },
     "Iron Pick": {
       "Rarity": "Common",
@@ -4831,11 +5004,12 @@
       "coinValue": 0.3333333333333333,
       "level": 3,
       "craftLevel": 10,
-      "damages": "{",
-      "stone": 4,
-      "players": 9,
-      "mobs": 9,
-      "stoneStructure": 4
+      "damages": {
+        "stone": 4,
+        "players": 9,
+        "mobs": 9,
+        "stoneStructure": 4
+      }
     },
     "Steel Pick": {
       "Rarity": "Common",
@@ -4845,11 +5019,12 @@
       "useType": "Slash",
       "level": 4,
       "craftLevel": 20,
-      "damages": "{",
-      "stone": 5,
-      "players": 11,
-      "mobs": 11,
-      "stoneStructure": 5
+      "damages": {
+        "stone": 5,
+        "players": 11,
+        "mobs": 11,
+        "stoneStructure": 5
+      }
     },
     "Adurite Pick": {
       "Rarity": "Rare",
@@ -4859,11 +5034,12 @@
       "useType": "Slash",
       "level": 5,
       "craftLevel": 40,
-      "damages": "{",
-      "stone": 6,
-      "players": 13,
-      "mobs": 13,
-      "stoneStructure": 6
+      "damages": {
+        "stone": 6,
+        "players": 13,
+        "mobs": 13,
+        "stoneStructure": 6
+      }
     },
     "Crystal Pick": {
       "Rarity": "Rare",
@@ -4873,12 +5049,13 @@
       "useType": "Slash",
       "level": 6,
       "craftLevel": 50,
-      "damages": "{",
-      "stone": 8,
-      "players": 13,
-      "mobs": 13,
-      "stoneStructure": 8,
-      "spirit": 5
+      "damages": {
+        "stone": 8,
+        "players": 13,
+        "mobs": 13,
+        "stoneStructure": 8,
+        "spirit": 5
+      }
     },
     "Magnetite Pick": {
       "Rarity": "Rare",
@@ -4888,12 +5065,13 @@
       "useType": "Slash",
       "level": 7,
       "craftLevel": 70,
-      "damages": "{",
-      "stone": 10,
-      "players": 15,
-      "mobs": 15,
-      "stoneStructure": 10,
-      "spirit": 5
+      "damages": {
+        "stone": 10,
+        "players": 15,
+        "mobs": 15,
+        "stoneStructure": 10,
+        "spirit": 5
+      }
     },
     "Emerald Pick": {
       "Rarity": "Rare",
@@ -4903,12 +5081,13 @@
       "useType": "Slash",
       "level": 8,
       "craftLevel": 80,
-      "damages": "{",
-      "stone": 12,
-      "players": 17,
-      "mobs": 17,
-      "stoneStructure": 12,
-      "spirit": 5
+      "damages": {
+        "stone": 12,
+        "players": 17,
+        "mobs": 17,
+        "stoneStructure": 12,
+        "spirit": 5
+      }
     },
     "Pink Diamond Pick": {
       "Rarity": "Rare",
@@ -4918,12 +5097,13 @@
       "useType": "Slash",
       "level": 8,
       "craftLevel": 85,
-      "damages": "{",
-      "stone": 12,
-      "players": 17,
-      "mobs": 17,
-      "stoneStructure": 12,
-      "spirit": 5
+      "damages": {
+        "stone": 12,
+        "players": 17,
+        "mobs": 17,
+        "stoneStructure": 12,
+        "spirit": 5
+      }
     },
     "Void Pick": {
       "Rarity": "Rare",
@@ -4932,12 +5112,13 @@
       "useType": "Slash",
       "level": 9,
       "craftLevel": 90,
-      "damages": "{",
-      "stone": 125,
-      "players": 20,
-      "mobs": 20,
-      "stoneStructure": 15,
-      "spirit": 7
+      "damages": {
+        "stone": 125,
+        "players": 20,
+        "mobs": 20,
+        "stoneStructure": 15,
+        "spirit": 7
+      }
     },
     "Soulite Pick": {
       "Rarity": "Legendary",
@@ -4946,9 +5127,10 @@
       "useType": "Slash",
       "level": 11,
       "craftLevel": 105,
-      "damages": "{",
-      "stone": 45,
-      "stoneStructure": 25
+      "damages": {
+        "stone": 45,
+        "stoneStructure": 25
+      }
     },
     "Phantomite Pick": {
       "Rarity": "Legendary",
@@ -4957,9 +5139,10 @@
       "useType": "Slash",
       "level": 12,
       "craftLevel": 110,
-      "damages": "{",
-      "stone": 55,
-      "stoneStructure": 30
+      "damages": {
+        "stone": 55,
+        "stoneStructure": 30
+      }
     },
     "Hellstone Pick": {
       "Rarity": "Legendary",
@@ -4968,9 +5151,10 @@
       "useType": "Slash",
       "level": 13,
       "craftLevel": 115,
-      "damages": "{",
-      "stone": 65,
-      "stoneStructure": 35
+      "damages": {
+        "stone": 65,
+        "stoneStructure": 35
+      }
     },
     "Undead Pick": {
       "Rarity": "Legendary",
@@ -4980,9 +5164,10 @@
       "useType": "Slash",
       "level": 14,
       "craftLevel": 120,
-      "damages": "{",
-      "stone": 125,
-      "stoneStructure": 125
+      "damages": {
+        "stone": 125,
+        "stoneStructure": 125
+      }
     }
   },
   "tools/ranged.lua": {
@@ -4993,26 +5178,28 @@
       "speed": 1.6,
       "coinValue": 0.3333333333333333,
       "useType": "Draw",
-      "damages": "{",
-      "wood": 5,
-      "stone": 5,
-      "players": 18,
-      "mobs": 18,
-      "woodStructure": 5,
-      "stoneStructure": 5
+      "damages": {
+        "wood": 5,
+        "stone": 5,
+        "players": 18,
+        "mobs": 18,
+        "woodStructure": 5,
+        "stoneStructure": 5
+      }
     },
     "Void Bow": {
       "Rarity": "Rare",
       "itemType": "tool",
       "toolType": "ranged",
       "useType": "Draw",
-      "damages": "{",
-      "wood": 10,
-      "stone": 10,
-      "players": 45,
-      "mobs": 45,
-      "woodStructure": 10,
-      "stoneStructure": 10
+      "damages": {
+        "wood": 10,
+        "stone": 10,
+        "players": 45,
+        "mobs": 45,
+        "woodStructure": 10,
+        "stoneStructure": 10
+      }
     },
     "Magnetite Crossbow": {
       "Rarity": "Rare",
@@ -5020,13 +5207,14 @@
       "toolType": "ranged",
       "coinValue": 20,
       "useType": "Draw",
-      "damages": "{",
-      "wood": 75,
-      "stone": 75,
-      "players": 75,
-      "mobs": 75,
-      "woodStructure": 75,
-      "stoneStructure": 75
+      "damages": {
+        "wood": 75,
+        "stone": 75,
+        "players": 75,
+        "mobs": 75,
+        "woodStructure": 75,
+        "stoneStructure": 75
+      }
     },
     "Snowball Sling": {
       "Rarity": "Rare",
@@ -5035,30 +5223,32 @@
       "toolType": "ranged",
       "coinValue": 1,
       "useType": "Draw",
-      "damages": "{",
-      "wood": 2,
-      "stone": 2,
-      "players": 10,
-      "mobs": 10,
-      "woodStructure": 2,
-      "stoneStructure": 2
+      "damages": {
+        "wood": 2,
+        "stone": 2,
+        "players": 10,
+        "mobs": 10,
+        "woodStructure": 2,
+        "stoneStructure": 2
+      }
     },
     "Snowball Launcher": {
       "Rarity": "Mythic",
       "unobtainable": true,
-      "auto": true,
       "itemType": "tool",
       "toolType": "ranged",
-      "projectilespeed": 10,
       "speed": 0.5,
       "useType": "Draw",
-      "damages": "{",
-      "wood": 6,
-      "stone": 6,
-      "players": 6,
-      "mobs": 6,
-      "woodStructure": 6,
-      "stoneStructure": 6
+      "damages": {
+        "auto": true,
+        "projectilespeed": 10,
+        "wood": 6,
+        "stone": 6,
+        "players": 6,
+        "mobs": 6,
+        "woodStructure": 6,
+        "stoneStructure": 6
+      }
     },
     "Coconut Sling": {
       "Rarity": "Legendary",
@@ -5066,34 +5256,36 @@
       "itemType": "tool",
       "toolType": "ranged",
       "coinValue": 1,
-      "eventItem": true,
       "useType": "Draw",
-      "shouldBreak": true,
-      "damages": "{",
-      "wood": 5,
-      "stone": 5,
-      "players": 15,
-      "mobs": 15,
-      "woodStructure": 5,
-      "stoneStructure": 5
+      "damages": {
+        "eventItem": true,
+        "shouldBreak": true,
+        "wood": 5,
+        "stone": 5,
+        "players": 15,
+        "mobs": 15,
+        "woodStructure": 5,
+        "stoneStructure": 5
+      }
     },
     "Coconut Launcher": {
       "Rarity": "Divine",
       "unobtainable": true,
-      "eventItem": true,
       "itemType": "tool",
       "toolType": "ranged",
-      "projectilespeed": 5,
       "speed": 0.5,
       "useType": "Draw",
-      "shouldBreak": true,
-      "damages": "{",
-      "wood": 15,
-      "stone": 15,
-      "players": 20,
-      "mobs": 15,
-      "woodStructure": 15,
-      "stoneStructure": 15
+      "damages": {
+        "eventItem": true,
+        "projectilespeed": 5,
+        "shouldBreak": true,
+        "wood": 15,
+        "stone": 15,
+        "players": 20,
+        "mobs": 15,
+        "woodStructure": 15,
+        "stoneStructure": 15
+      }
     }
   },
   "tools/weapons.lua": {
@@ -5103,24 +5295,26 @@
       "toolType": "Sword",
       "coinValue": 1,
       "useType": "Slash",
-      "oldNames": "{\"Crystal Stick\"}",
-      "infliction": "{",
-      "key": "Chilled",
-      "decayTime": 0.3,
-      "userData": "{}"
+      "infliction": {
+        "oldNames": "{\"Crystal Stick\"}",
+        "key": "Chilled",
+        "decayTime": 0.3,
+        "userData": "{}"
+      }
     },
     "Magnetite Double Axe": {
       "Rarity": "Rare",
       "itemType": "tool",
       "toolType": "Sword",
       "coinValue": 40,
-      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
       "useType": "Scythe",
-      "idleAnim": "ScytheIdle",
-      "infliction": "{",
-      "key": "Shred",
-      "decayTime": 2,
-      "userData": "{}"
+      "infliction": {
+        "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+        "idleAnim": "ScytheIdle",
+        "key": "Shred",
+        "decayTime": 2,
+        "userData": "{}"
+      }
     },
     "Emerald Blade": {
       "Rarity": "Rare",
@@ -5128,22 +5322,24 @@
       "toolType": "Sword",
       "coinValue": 40,
       "useType": "Slash",
-      "infliction": "{",
-      "key": "Bleed",
-      "decayTime": 0.75,
-      "userData": "{}"
+      "infliction": {
+        "key": "Bleed",
+        "decayTime": 0.75,
+        "userData": "{}"
+      }
     },
     "Pink Diamond Scythe": {
       "Rarity": "Rare",
       "itemType": "tool",
       "toolType": "Spear",
-      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
       "coinValue": 40,
       "useType": "Scythe",
-      "infliction": "{",
-      "key": "Shred",
-      "decayTime": 2.5,
-      "userData": "{}"
+      "infliction": {
+        "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+        "key": "Shred",
+        "decayTime": 2.5,
+        "userData": "{}"
+      }
     },
     "Coconut Smasher": {
       "Rarity": "Rare",
@@ -5151,17 +5347,18 @@
       "toolType": "Spear",
       "coinValue": 40,
       "useType": "Scythe",
-      "idleAnim": "ScytheIdle",
       "unobtainable": true,
-      "shouldBreak": true,
-      "eventItem": true,
-      "damages": "{",
-      "wood": 100,
-      "stone": 100,
-      "players": 95,
-      "mobs": 95,
-      "woodStructure": 100,
-      "stoneStructure": 100
+      "damages": {
+        "idleAnim": "ScytheIdle",
+        "shouldBreak": true,
+        "eventItem": true,
+        "wood": 100,
+        "stone": 100,
+        "players": 95,
+        "mobs": 95,
+        "woodStructure": 100,
+        "stoneStructure": 100
+      }
     },
     "Void Spear": {
       "Rarity": "Rare",
@@ -5169,13 +5366,14 @@
       "toolType": "Spear",
       "coinValue": 40,
       "useType": "SpearAttack",
-      "damages": "{",
-      "wood": 10,
-      "stone": 10,
-      "players": 75,
-      "mobs": 75,
-      "woodStructure": 10,
-      "stoneStructure": 10
+      "damages": {
+        "wood": 10,
+        "stone": 10,
+        "players": 75,
+        "mobs": 75,
+        "woodStructure": 10,
+        "stoneStructure": 10
+      }
     },
     "War Horn": {
       "Rarity": "Rare",
@@ -5183,31 +5381,33 @@
       "toolType": "Horn",
       "coinValue": 0.25,
       "useType": "Horn",
-      "noteDelay": 1,
-      "noteWaver": 0.3,
-      "noteName": "WarHorn",
       "speed": 15,
       "craftLevel": 15,
-      "recipe": "{",
-      "Log": 4,
-      "Stick": 2
+      "recipe": {
+        "noteDelay": 1,
+        "noteWaver": 0.3,
+        "noteName": "WarHorn",
+        "Log": 4,
+        "Stick": 2
+      }
     },
     "Coconut Mace": {
       "Rarity": "Legendary",
       "itemType": "tool",
       "unobtainable": true,
-      "eventItem": true,
       "toolType": "Club",
       "coinValue": 0.3333333333333333,
       "useType": "Slash",
-      "shouldBreak": true,
-      "damages": "{",
-      "wood": 13,
-      "stone": 13,
-      "players": 65,
-      "mobs": 13,
-      "woodStructure": 13,
-      "stoneStructure": 13
+      "damages": {
+        "eventItem": true,
+        "shouldBreak": true,
+        "wood": 13,
+        "stone": 13,
+        "players": 65,
+        "mobs": 13,
+        "woodStructure": 13,
+        "stoneStructure": 13
+      }
     },
     "Battle Axe": {
       "Rarity": "Common",
@@ -5215,21 +5415,24 @@
       "toolType": "Sword",
       "coinValue": 0.5,
       "useType": "Slash",
-      "infliction": "{",
-      "key": "Bleed",
-      "decayTime": 1.25,
-      "userData": "{}"
+      "infliction": {
+        "key": "Bleed",
+        "decayTime": 1.25,
+        "userData": "{}"
+      }
     },
     "War Hammer": {
       "Rarity": "Common",
       "itemType": "tool",
       "toolType": "Sword",
-      "infliction": "{",
-      "key": "Burn",
-      "decayTime": 2,
-      "userData": "{",
-      "BurnDamage": 2,
-      "Ticks": 3
+      "userData": {
+        "infliction": {
+          "key": "Burn",
+          "decayTime": 2,
+          "BurnDamage": 2,
+          "Ticks": 3
+        }
+      }
     }
   }
 }
