@@ -3674,34 +3674,9 @@
       "percent": 2.5,
       "image": "https://tr.rbxcdn.com/180DAY-c8e2efeb169653be6e17d2d8900a3b98/150/150/Model/Png/noFilter"
     },
-    "Crystal Crate": {
-      "quantity": 1,
-      "percent": 0.15
-    },
-    "Radiant Crate": {
-      "quantity": 1,
-      "percent": 0.075
-    },
     "Gold Fish": {
       "quantity": 1,
       "percent": 0.0001
-    },
-    "Gilded Crate": {
-      "quantity": 1,
-      "percent": 0.125
-    },
-    "Magnetite Crate": {
-      "quantity": 1,
-      "percent": 0.098
-    },
-    "Emerald Crate": {
-      "quantity": 1,
-      "percent": 0.0857
-    },
-    "OMG Crate": {
-      "quantity": 1,
-      "percent": 0.25
-    },
     "Prickly Pear": {
       "quantity": 1,
       "percent": 0.35
