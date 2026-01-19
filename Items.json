@@ -1,0 +1,5235 @@
+{
+  "Admin/special.lua": {
+    "Meteor Staff": {
+      "itemType": "tool",
+      "Rarity": "Unique",
+      "toolType": "Sword",
+      "useType": "Slash",
+      "damages": "{",
+      "wood": null,
+      "stone": null,
+      "players": 1,
+      "mobs": 1,
+      "woodStructure": null,
+      "stoneStructure": null
+    },
+    "Magnetite Stick": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "level": 10,
+      "useType": "Slash",
+      "noDrop": true,
+      "admin": true,
+      "rebirthPersist": true,
+      "damages": "{",
+      "wood": 100,
+      "stone": 100,
+      "players": 80,
+      "mobs": 80,
+      "woodStructure": 100,
+      "stoneStructure": 100
+    },
+    "Emerald Stick": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 7,
+      "admin": true,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "damages": "{",
+      "wood": 250,
+      "stone": 250,
+      "players": 105,
+      "mobs": 105,
+      "woodStructure": 250,
+      "stoneStructure": 250
+    },
+    "Void Stick": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "admin": true,
+      "noDrop": true,
+      "level": 7,
+      "damages": "{",
+      "wood": 100,
+      "stone": 100,
+      "players": 100,
+      "mobs": 100,
+      "woodStructure": 100,
+      "stoneStructure": 100
+    },
+    "Pink Diamond Stick": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "admin": true,
+      "oldNames": "{\"Pink Stick\"}",
+      "noDrop": true,
+      "useType": "Slash",
+      "level": 7,
+      "damages": "{",
+      "wood": 250,
+      "stone": 250,
+      "players": 125,
+      "mobs": 125,
+      "woodStructure": 250,
+      "stoneStructure": 250
+    },
+    "True Developer Artifact": {
+      "Rarity": "Unique",
+      "admin": true,
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=140503121949068"
+    },
+    "The Moneymaker": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 10,
+      "admin": true,
+      "noDrop": true,
+      "damages": "{",
+      "wood": 50034634,
+      "stone": 500643,
+      "players": null,
+      "mobs": null,
+      "woodStructure": 5004363,
+      "stoneStructure": 500436
+    },
+    "The Glitchmaker": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 10,
+      "admin": true,
+      "noDrop": true,
+      "damages": "{",
+      "wood": null,
+      "stone": null,
+      "players": null,
+      "mobs": null,
+      "woodStructure": null,
+      "stoneStructure": null
+    },
+    "The Meatmaker": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "admin": true,
+      "level": 10,
+      "noDrop": true,
+      "damages": "{",
+      "wood": 5004,
+      "stone": 5004,
+      "players": 1000,
+      "mobs": 1000,
+      "woodStructure": 5004,
+      "stoneStructure": 5021
+    },
+    "Cursed Greatsword": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 9,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "damages": "{",
+      "wood": 20,
+      "stone": 20,
+      "players": 80,
+      "mobs": 80,
+      "woodStructure": 20,
+      "stoneStructure": 20
+    },
+    "Lightning Cape": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Rod",
+      "coinValue": 1,
+      "hideBag": true,
+      "FlySpeed": 280,
+      "useType": "Rod",
+      "noDrop": true,
+      "rebirthPersist": true,
+      "damages": "{}",
+      "speed": null,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=10771523857"
+    }
+  },
+  "armor/adurite.lua": {
+    "Adurite Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "pickupSound": "Cloth",
+      "protection": 12,
+      "coinValue": 1,
+      "armorSet": "Adurite",
+      "pieces": "{\"Adurite Greaves Left Foot\", \"Adurite Greaves Right Foot\", \"Adurite Greaves Left Leg\", \"Adurite Greaves Right Leg\"}",
+      "craftLevel": 40,
+      "recipe": "{",
+      "[\"Fire Hide\"]": 1,
+      "[\"Adurite Bar\"]": 3
+    },
+    "Adurite Helmet": {
+      "itemType": "armor",
+      "pickupSound": "Cloth",
+      "locus": "head",
+      "protection": 12,
+      "coinValue": 1,
+      "armorSet": "Adurite",
+      "pieces": "{\"Adurite Helmet\"}",
+      "craftLevel": 40,
+      "recipe": "{",
+      "[\"Adurite Bar\"]": 2
+    },
+    "Adurite Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "protection": 12,
+      "pickupSound": "Cloth",
+      "armorSet": "Adurite",
+      "coinValue": 1,
+      "pieces": "{\"Adurite Chestplate\", \"Adurite Left Shoulder\", \"Adurite Right Shoulder\"}",
+      "craftLevel": 40,
+      "recipe": "{",
+      "[\"Fire Hide\"]": 1,
+      "[\"Adurite Bar\"]": 3
+    }
+  },
+  "armor/bags.lua": {
+    "Leaf Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "coinValue": 0.2,
+      "maxLoad": 150,
+      "load": 0,
+      "craftLevel": 1,
+      "pieces": "{\"Leaf Bag\"}",
+      "recipe": "{",
+      "Stick": 2,
+      "Leaves": 3
+    },
+    "Hide Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 200,
+      "pickupSound": "Cloth",
+      "load": 0,
+      "coinValue": 0.25,
+      "craftLevel": 5,
+      "pieces": "{\"Hide Bag\"}",
+      "recipe": "{",
+      "Stick": 4,
+      "Hide": 1
+    },
+    "Iron Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "coinValue": 0.5,
+      "maxLoad": 250,
+      "craftLevel": 10,
+      "pickupSound": "Cloth",
+      "pieces": "{\"Iron Bag\"}",
+      "recipe": "{",
+      "Hide": 2,
+      "[\"Iron Bar\"]": 6
+    },
+    "Steel Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "coinValue": 1,
+      "maxLoad": 300,
+      "craftLevel": 20,
+      "pieces": "{\"Steel Bag\"}",
+      "recipe": "{",
+      "Hide": 2,
+      "[\"Steel Bar\"]": 6
+    },
+    "Adurite Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "coinValue": 6,
+      "maxLoad": 350,
+      "pickupSound": "Cloth",
+      "craftLevel": 40,
+      "pieces": "{\"Adurite Bag\"}",
+      "recipe": "{",
+      "[\"Fire Hide\"]": 2,
+      "[\"Adurite Bar\"]": 6
+    },
+    "Crystal Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "coinValue": 12,
+      "maxLoad": 500,
+      "craftLevel": 50,
+      "pieces": "{\"Crystal Bag\"}",
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 9,
+      "[\"Gold Bar\"]": 20
+    },
+    "Magnetite Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "coinValue": 30,
+      "maxLoad": 750,
+      "craftLevel": 70,
+      "pieces": "{\"Magnetite Bag\"}",
+      "recipe": "{",
+      "[\"Magnetite Bar\"]": 9
+    },
+    "Emerald Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "coinValue": 50,
+      "pickupSound": "Cloth",
+      "maxLoad": 1000,
+      "craftLevel": 80,
+      "pieces": "{\"Emerald Bag\"}",
+      "recipe": "{",
+      "Emerald": 9
+    },
+    "Pink Diamond Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "coinValue": 50,
+      "maxLoad": 1500,
+      "pickupSound": "Cloth",
+      "craftLevel": 85,
+      "pieces": "{\"Pink Diamond Bag\"}",
+      "recipe": "{",
+      "[\"Pink Diamond\"]": 8
+    },
+    "Void Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 3000,
+      "pickupSound": "Cloth",
+      "pieces": "{\"Void Bag\"}",
+      "craftLevel": 90,
+      "recipe": "{",
+      "[\"Magnetite Bar\"]": 6,
+      "[\"Void Shard\"]": 6,
+      "Jelly": 24
+    },
+    "God Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Otherworldly",
+      "maxLoad": 19000,
+      "description": "Recipe for the largest bag in existence",
+      "noDrop": true,
+      "pieces": "{\"God Bag\"}",
+      "craftLevel": 100,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 60,
+      "[\"Gold Bar\"]": 100,
+      "[\"Spirit Key\"]": 3
+    },
+    "Soulite Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 6500,
+      "pickupSound": "Otherworldly",
+      "craftLevel": 105,
+      "load": 0,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=127101511349135"
+    },
+    "Phantomite Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "Rarity": "Legendary",
+      "pickupSound": "Otherworldly",
+      "maxLoad": 7500,
+      "craftLevel": 110,
+      "load": 0,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102188752086207"
+    },
+    "Hellstone Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Otherworldly",
+      "Rarity": "Legendary",
+      "maxLoad": 8500,
+      "craftLevel": 115,
+      "load": 0,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=135580939493200"
+    },
+    "Undead Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 17000,
+      "pickupSound": "Otherworldly",
+      "unobtainable": true,
+      "craftLevel": 120,
+      "load": 0,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=116269706940544"
+    },
+    "Void Banto Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 30000,
+      "noDrop": true,
+      "pickupSound": "Cloth",
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=117872861705254"
+    },
+    "Golden Banto Bag": {
+      "itemType": "armor",
+      "pickupSound": "Cloth",
+      "locus": "bag",
+      "maxLoad": 35000,
+      "noDrop": true,
+      "pieces": "{\"Golden Banto Bag\"}",
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=87833120171814"
+    },
+    "Bookshelf Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "maxLoad": 40000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=84935653211089"
+    },
+    "Walrus Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 45000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "pickupSound": "Cloth",
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=110473756406798"
+    },
+    "Ghost Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "pickupSound": "Cloth",
+      "maxLoad": 50000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100600427086385"
+    },
+    "Skeleton Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 45000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=125587355608202"
+    },
+    "Pumpkin Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 45000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=129957870297736"
+    },
+    "Zombie Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 45000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100329066064945"
+    },
+    "Serpent Bag": {
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 45000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=88156875097735"
+    },
+    "Develop Bag": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 1000000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=78896678684726"
+    },
+    "Not The Shelly Bag": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": null,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112189540128244"
+    },
+    "Artist Bag": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "bag",
+      "maxLoad": 2000000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=75872680593831"
+    }
+  },
+  "armor/crystal.lua": {
+    "Crystal Greaves": {
+      "itemType": "armor",
+      "pickupSound": "Cloth",
+      "Rarity": "Rare",
+      "armorSet": "Crystal",
+      "locus": "legs",
+      "protection": 14,
+      "coinValue": 1,
+      "pieces": "{\"Crystal Greaves Left Foot\", \"Crystal Greaves Right Foot\", \"Crystal Greaves Left Leg\", \"Crystal Greaves Right Leg\"}",
+      "craftLevel": 50,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 3,
+      "[\"Gold Bar\"]": 9
+    },
+    "Crystal Crown": {
+      "itemType": "armor",
+      "locus": "head",
+      "pickupSound": "Cloth",
+      "armorSet": "Crystal",
+      "Rarity": "Rare",
+      "protection": 14,
+      "coinValue": 1,
+      "pieces": "{\"Crystal Crown\"}",
+      "craftLevel": 50,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 2,
+      "[\"Gold Bar\"]": 6
+    },
+    "Crystal Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "armorSet": "Crystal",
+      "protection": 14,
+      "pickupSound": "Cloth",
+      "coinValue": 1,
+      "pieces": "{\"Crystal Chestplate\", \"Crystal Left Shoulder\", \"Crystal Right Shoulder\"}",
+      "craftLevel": 50,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 3,
+      "[\"Gold Bar\"]": 9
+    }
+  },
+  "armor/emerald.lua": {
+    "Emerald Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "Rarity": "Rare",
+      "protection": 18,
+      "armorSet": "Emerald",
+      "pickupSound": "Cloth",
+      "coinValue": 20,
+      "pieces": "{\"Emerald Greaves Left Foot\", \"Emerald Greaves Right Foot\", \"Emerald Greaves Left Leg\", \"Emerald Greaves Right Leg\"}",
+      "craftLevel": 80,
+      "recipe": "{",
+      "Emerald": 3
+    },
+    "Emerald Helmet": {
+      "itemType": "armor",
+      "locus": "head",
+      "Rarity": "Rare",
+      "protection": 18,
+      "armorSet": "Emerald",
+      "pickupSound": "Cloth",
+      "coinValue": 20,
+      "pieces": "{\"Emerald Helmet\"}",
+      "craftLevel": 80,
+      "recipe": "{",
+      "Emerald": 2
+    },
+    "Emerald Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "protection": 18,
+      "coinValue": 20,
+      "pickupSound": "Cloth",
+      "armorSet": "Emerald",
+      "pieces": "{\"Emerald Chestplate\", \"Emerald Left Shoulder\", \"Emerald Right Shoulder\"}",
+      "craftLevel": 80,
+      "recipe": "{",
+      "Emerald": 3
+    }
+  },
+  "armor/hide.lua": {
+    "Hide Pants": {
+      "itemType": "armor",
+      "locus": "legs",
+      "Rarity": "Common",
+      "protection": 6,
+      "armorSet": "Hide",
+      "pickupSound": "Cloth",
+      "coinValue": 0.25,
+      "pieces": "{\"Hide Pants Left Foot\", \"Hide Pants Right Foot\", \"Hide Pants Left Leg\", \"Hide Pants Right Leg\"}",
+      "craftLevel": 5,
+      "recipe": "{",
+      "Hide": 1
+    },
+    "Hide Shirt": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Common",
+      "armorSet": "Hide",
+      "protection": 6,
+      "pickupSound": "Cloth",
+      "coinValue": 0.25,
+      "pieces": "{\"Hide Shirt\"}",
+      "craftLevel": 5,
+      "recipe": "{",
+      "Hide": 1
+    }
+  },
+  "armor/leaf.lua": {
+    "Leaf Pants": {
+      "itemType": "armor",
+      "locus": "legs",
+      "Rarity": "Common",
+      "protection": 3,
+      "pickupSound": "Cloth",
+      "coinValue": 0.2,
+      "armorSet": "Leaf",
+      "pieces": "{\"Leaf Pants Left Foot\", \"Leaf Pants Right Foot\", \"Leaf Pants Left Leg\", \"Leaf Pants Right Leg\"}",
+      "craftLevel": 1,
+      "recipe": "{",
+      "Leaves": 2
+    },
+    "Leaf Shirt": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Common",
+      "coinValue": 0.2,
+      "pickupSound": "Cloth",
+      "armorSet": "Leaf",
+      "protection": 3,
+      "pieces": "{\"Leaf Shirt\"}",
+      "craftLevel": 1,
+      "recipe": "{",
+      "Leaves": 2
+    }
+  },
+  "armor/magnetite.lua": {
+    "Magnetite Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "Rarity": "Rare",
+      "pickupSound": "Cloth",
+      "armorSet": "Magnetite",
+      "protection": 16,
+      "coinValue": 1,
+      "pieces": "{\"Magnetite Greaves Left Foot\", \"Magnetite Greaves Right Foot\", \"Magnetite Greaves Left Leg\", \"Magnetite Greaves Right Leg\"}",
+      "craftLevel": 70,
+      "recipe": "{",
+      "[\"Magnetite Bar\"]": 3
+    },
+    "Magnetite Mask": {
+      "itemType": "armor",
+      "locus": "head",
+      "Rarity": "Rare",
+      "protection": 16,
+      "pickupSound": "Cloth",
+      "coinValue": 10,
+      "armorSet": "Magnetite",
+      "pieces": "{\"Magnetite Mask\"}",
+      "craftLevel": 70,
+      "recipe": "{",
+      "[\"Magnetite Bar\"]": 2
+    },
+    "Magnetite Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "protection": 16,
+      "coinValue": 10,
+      "armorSet": "Magnetite",
+      "pickupSound": "Cloth",
+      "pieces": "{\"Magnetite Chestplate\", \"Magnetite Left Shoulder\", \"Magnetite Right Shoulder\"}",
+      "craftLevel": 70,
+      "recipe": "{",
+      "[\"Magnetite Bar\"]": 3
+    }
+  },
+  "armor/pink_diamond.lua": {
+    "Pink Diamond Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "Rarity": "Rare",
+      "protection": 20,
+      "armorSet": "Pink Diamond",
+      "pickupSound": "Cloth",
+      "coinValue": 20,
+      "pieces": "{\"Pink Diamond Greaves Left Foot\", \"Pink Diamond Greaves Right Foot\", \"Pink Diamond Greaves Left Leg\", \"Pink Diamond Greaves Right Leg\"}",
+      "craftLevel": 85,
+      "recipe": "{",
+      "[\"Pink Diamond\"]": 3
+    },
+    "Pink Diamond Hood": {
+      "itemType": "armor",
+      "locus": "head",
+      "armorSet": "Pink Diamond",
+      "Rarity": "Rare",
+      "protection": 20,
+      "pickupSound": "Cloth",
+      "coinValue": 20,
+      "pieces": "{\"Pink Diamond Hood\"}",
+      "craftLevel": 85,
+      "recipe": "{",
+      "[\"Pink Diamond\"]": 2
+    },
+    "Pink Diamond Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "protection": 20,
+      "armorSet": "Pink Diamond",
+      "pickupSound": "Cloth",
+      "coinValue": 20,
+      "pieces": "{\"Pink Diamond Chestplate\", \"Pink Diamond Left Shoulder\", \"Pink Diamond Right Shoulder\"}",
+      "craftLevel": 85,
+      "recipe": "{",
+      "[\"Pink Diamond\"]": 3
+    }
+  },
+  "armor/satchels.lua": {
+    "Radio Pack": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "coinValue": 30,
+      "maxLoad": 0,
+      "pickupSound": "Cloth",
+      "craftLevel": 30,
+      "pieces": "{\"Radio Pack\"}",
+      "recipe": "{",
+      "[\"Gold Bar\"]": 3,
+      "[\"Steel Bar\"]": 3
+    },
+    "Leaf Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Common",
+      "maxLoad": 75,
+      "load": 0,
+      "craftLevel": 1,
+      "pickupSound": "Cloth",
+      "recipe": "{",
+      "Stick": 2,
+      "Leaves": 1
+    },
+    "Tutorial Satchel": {
+      "itemType": "armor",
+      "locus": "75",
+      "Rarity": "Common",
+      "unobtainable": true,
+      "maxLoad": 9000,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=128123769095301"
+    },
+    "Hide Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "pickupSound": "Cloth",
+      "Rarity": "Common",
+      "maxLoad": 100,
+      "load": 0,
+      "craftLevel": 5,
+      "recipe": "{",
+      "Stick": 2,
+      "Hide": 1
+    },
+    "Iron Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "pickupSound": "Cloth",
+      "Rarity": "Common",
+      "maxLoad": 125,
+      "load": 0,
+      "craftLevel": 10,
+      "recipe": "{",
+      "Stick": 2,
+      "Hide": 1,
+      "[\"Iron Bar\"]": 3
+    },
+    "Steel Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Common",
+      "pickupSound": "Cloth",
+      "maxLoad": 150,
+      "load": 0,
+      "craftLevel": 20,
+      "recipe": "{",
+      "Stick": 2,
+      "Hide": 1,
+      "[\"Steel Bar\"]": 3
+    },
+    "Adurite Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 175,
+      "pickupSound": "Cloth",
+      "load": 0,
+      "craftLevel": 40,
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Fire Hide\"]": 1,
+      "[\"Adurite Bar\"]": 3
+    },
+    "Crystal Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 250,
+      "load": 0,
+      "craftLevel": 50,
+      "pickupSound": "Cloth",
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Crystal Chunk\"]": 4,
+      "[\"Gold Bar\"]": 10
+    },
+    "Magnetite Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 375,
+      "pickupSound": "Cloth",
+      "load": 0,
+      "craftLevel": 70,
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Magnetite Bar\"]": 4,
+      "[\"Gold Bar\"]": 1
+    },
+    "Emerald Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 500,
+      "load": 0,
+      "pickupSound": "Cloth",
+      "craftLevel": 80,
+      "recipe": "{",
+      "Stick": 2,
+      "Emerald": 4,
+      "[\"Gold Bar\"]": 1
+    },
+    "Pink Diamond Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 750,
+      "pickupSound": "Cloth",
+      "load": 0,
+      "craftLevel": 85,
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Pink Diamond\"]": 4,
+      "[\"Gold Bar\"]": 1
+    },
+    "Void Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "maxLoad": 1500,
+      "load": 0,
+      "craftLevel": 90,
+      "pickupSound": "Cloth",
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Magnetite Bar\"]": 3,
+      "Jelly": 12,
+      "[\"Gold Bar\"]": 1
+    },
+    "God Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "maxLoad": 3000,
+      "mojoRecipe": true,
+      "description": "Recipe for the largest satchel in existence",
+      "mojoCost": 1,
+      "pickupSound": "Cloth",
+      "noDrop": true,
+      "load": 0,
+      "craftLevel": 1,
+      "recipe": "{",
+      "Stick": 2,
+      "[\"Crystal Chunk\"]": 30,
+      "[\"Gold Bar\"]": 50,
+      "[\"Spirit Key\"]": 1
+    },
+    "Soulite Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "maxLoad": 3500,
+      "load": 0,
+      "pickupSound": "Otherworldly",
+      "craftLevel": 105,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=72910281021403"
+    },
+    "Phantomite Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "pickupSound": "Otherworldly",
+      "Rarity": "Legendary",
+      "maxLoad": 4000,
+      "load": 0,
+      "craftLevel": 110,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=104312238889918"
+    },
+    "Hellstone Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "maxLoad": 4500,
+      "pickupSound": "Otherworldly",
+      "load": 0,
+      "craftLevel": 115,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=115143957594005"
+    },
+    "Undead Satchel": {
+      "itemType": "armor",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "unobtainable": true,
+      "maxLoad": 9000,
+      "load": 0,
+      "pickupSound": "Otherworldly",
+      "craftLevel": 120,
+      "craftQuantity": 1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=132418855450341"
+    },
+    "Amethyst Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 20000,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=98709373776622"
+    },
+    "Evil Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 22500,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=90645941072161"
+    },
+    "Transcendant Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 25000,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=125662769807978"
+    },
+    "Kitty Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 27500,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=107822984445286"
+    },
+    "Bookshelf Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 30000,
+      "description": "Libary",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=105201571742810"
+    },
+    "Ghost Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 32500,
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=111803325452630"
+    },
+    "Skeleton Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 30000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=92068023392776"
+    },
+    "Pumpkin Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 30000,
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=121063441871692"
+    },
+    "Serpent Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 30000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=128212825495400"
+    },
+    "Zombie Satchel": {
+      "itemType": "armor",
+      "Rarity": "Mythic",
+      "locus": "satchel",
+      "maxLoad": 30000,
+      "noDrop": true,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=110276317352898"
+    },
+    "Develop Satchel": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "satchel",
+      "maxLoad": 900000,
+      "description": "",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97138076685247"
+    },
+    "Administor Satchel": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "satchel",
+      "maxLoad": 2000000,
+      "description": "Idk bro",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=108480503945213"
+    },
+    "Doodoo Satchel": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "satchel",
+      "maxLoad": null,
+      "description": "Idk either",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=134461743156046"
+    },
+    "Tree Morph": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "satchel",
+      "maxLoad": 500000,
+      "description": "am tree hav stick and leaf",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=90753821506476"
+    },
+    "Ancient Tree Morph": {
+      "Rarity": "Unique",
+      "itemType": "armor",
+      "locus": "satchel",
+      "maxLoad": 500000,
+      "description": "am BIG tree hav BIG stick and leaf",
+      "noDrop": true,
+      "load": 0,
+      "rebirthPersist": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=139395438424212"
+    }
+  },
+  "armor/steel.lua": {
+    "Steel Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "pickupSound": "Cloth",
+      "Rarity": "Common",
+      "armorSet": "Steel",
+      "protection": 10,
+      "coinValue": 1,
+      "pieces": "{\"Steel Greaves Left Foot\", \"Steel Greaves Right Foot\", \"Steel Greaves Left Leg\", \"Steel Greaves Right Leg\"}",
+      "craftLevel": 20,
+      "recipe": "{",
+      "Hide": 1,
+      "[\"Steel Bar\"]": 3
+    },
+    "Steel Helmet": {
+      "itemType": "armor",
+      "locus": "head",
+      "Rarity": "Common",
+      "protection": 10,
+      "coinValue": 1,
+      "armorSet": "Steel",
+      "pickupSound": "Cloth",
+      "pieces": "{\"Steel Helmet\"}",
+      "craftLevel": 20,
+      "recipe": "{",
+      "[\"Steel Bar\"]": 2
+    },
+    "Steel Chestplate": {
+      "itemType": "armor",
+      "pickupSound": "Cloth",
+      "locus": "torso",
+      "armorSet": "Steel",
+      "Rarity": "Common",
+      "protection": 10,
+      "coinValue": 1,
+      "pieces": "{\"Steel Chestplate\", \"Steel Left Shoulder\", \"Steel Right Shoulder\"}",
+      "craftLevel": 20,
+      "recipe": "{",
+      "Hide": 1,
+      "[\"Steel Bar\"]": 3
+    }
+  },
+  "armor/void.lua": {
+    "Void Greaves": {
+      "itemType": "armor",
+      "locus": "legs",
+      "armorSet": "Void",
+      "Rarity": "Rare",
+      "protection": 22,
+      "description": "Recipe for the God armor leg piece",
+      "coinValue": 1,
+      "pieces": "{\"Void Greaves Left Foot\", \"Void Greaves Right Foot\", \"Void Greaves Left Leg\", \"Void Greaves Right Leg\"}",
+      "craftLevel": 90,
+      "recipe": "{",
+      "Jelly": 6,
+      "[\"Void Shard\"]": 2,
+      "[\"Magnetite Bar\"]": 1
+    },
+    "Void Shroud": {
+      "itemType": "armor",
+      "locus": "head",
+      "armorSet": "Void",
+      "Rarity": "Rare",
+      "protection": 22,
+      "coinValue": 1,
+      "description": "Recipe for the God armor head piece",
+      "pieces": "{\"Void Shroud\"}",
+      "craftLevel": 90,
+      "recipe": "{",
+      "Jelly": 6,
+      "[\"Void Shard\"]": 1,
+      "[\"Magnetite Bar\"]": 1
+    },
+    "Void Chestplate": {
+      "itemType": "armor",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "protection": 22,
+      "armorSet": "Void",
+      "coinValue": 1,
+      "pieces": "{\"Void Chestplate\", \"Void Left Shoulder\", \"Void Right Shoulder\"}",
+      "craftLevel": 90,
+      "recipe": "{",
+      "Jelly": 6,
+      "[\"Void Shard\"]": 2,
+      "[\"Magnetite Bar\"]": 1
+    }
+  },
+  "charms/voodoo.lua": {
+    "Dark Charm": {
+      "Rarity": "Unique",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(49, 49, 49)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=113234011092518"
+    },
+    "Ancient Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(39, 255, 154)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=110062428517954"
+    },
+    "Sun Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(255, 255, 255)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=77437434782930"
+    },
+    "Pink Diamond Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(249, 84, 255)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97792941952168"
+    },
+    "Adurite Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(255, 44, 48)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112768767501027"
+    },
+    "Void Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(177, 62, 235)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=85309978598064"
+    },
+    "Vortex Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "level": 1,
+      "cost": 95000,
+      "color": "Color3.fromRGB(125, 0, 235)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=126702302443932"
+    },
+    "Essence Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(235, 173, 28)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109942014691432"
+    },
+    "Lonely Charm": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Charm",
+      "useType": "CharmUse",
+      "color": "Color3.fromRGB(65, 153, 235)",
+      "speed": 0.3333333333333333,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=119534586904364"
+    }
+  },
+  "Decoration/cosmetics.lua": {
+    "Mutated Edenx": {
+      "locked": true,
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": -1,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=81009571045224"
+    },
+    "Iron Mole": {
+      "cost": 200,
+      "description": "A sturdy helmet for those who prefer digging through trouble headfirst.",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102631339"
+    },
+    "Coconut Shell": {
+      "cost": 500,
+      "description": "A not-so reliable hat to protect you.. I guess..?",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14155006475"
+    },
+    "Straw Hat": {
+      "cost": 500,
+      "description": "A reliable hat to protect you from the sun!",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18358376553"
+    },
+    "Dark Wanderer": {
+      "cost": 200,
+      "description": "Shrouded in mystery, this hat belongs to those who walk the shadows.",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=81724957"
+    },
+    "Dark Wraps": {
+      "cost": 400,
+      "description": "Conceal your identity, reveal your strength.",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=42847571"
+    },
+    "Dark Skull": {
+      "cost": 1000,
+      "Rarity": "Common",
+      "cosmetic": true,
+      "description": "You found this in the desert",
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=74891617"
+    },
+    "Mammoth Hunter": {
+      "cost": 1000,
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "description": "Titanic strength",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=11453642"
+    },
+    "The Bull": {
+      "cost": 1000,
+      "description": "I assume you will be running at people with this..",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=93078560"
+    },
+    "Skull Mask": {
+      "cost": 10000,
+      "description": "Found in ancient tombs.. Or on very rich players!",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 15,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7744768465"
+    },
+    "Am Golden Banto": {
+      "cost": 8000,
+      "cosmetic": true,
+      "description": "Too poor for Golden Shelly",
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 15,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544726725"
+    },
+    "Am Golden Shelly": {
+      "cost": 9000,
+      "cosmetic": true,
+      "Rarity": "Common",
+      "locus": "hat",
+      "description": "Too poor for Golden Pilgrim",
+      "shopOrder": 15,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544727257"
+    },
+    "Am Odd Shelly": {
+      "cost": 20000,
+      "cosmetic": true,
+      "locus": "hat",
+      "description": "You're the oddball of the group.",
+      "Rarity": "Common",
+      "shopOrder": 17,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544732233"
+    },
+    "Am Frozen Peeper": {
+      "cost": 6000,
+      "cosmetic": true,
+      "description": "You are the peeper with DRIP",
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 14,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544725178"
+    },
+    "Am Spirit Shelly": {
+      "cost": 30000,
+      "cosmetic": true,
+      "description": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 18,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544769895"
+    },
+    "Reaper Hood": {
+      "cost": 300000,
+      "cosmetic": true,
+      "description": "All life cowers before you..",
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 50,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18134778394"
+    },
+    "Mystic Hunter": {
+      "cost": 500000,
+      "cosmetic": true,
+      "description": "You are a force to be reckoned with",
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 51,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14542306809"
+    },
+    "Am Ancient Tree": {
+      "cost": 750000,
+      "cosmetic": true,
+      "description": "You root stealer!",
+      "locus": "hat",
+      "Rarity": "Common",
+      "shopOrder": 52,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544644801"
+    },
+    "Golden Squid": {
+      "cost": 1000000,
+      "description": "Slimy, squishy, and RICH. But, too poor for Golden Guardian",
+      "cosmetic": true,
+      "Rarity": "Common",
+      "locus": "hat",
+      "shopOrder": 53,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14544733737"
+    },
+    "Am Peeper": {
+      "Rarity": "Common",
+      "cost": 1000,
+      "description": "No one would ever kill a peeper.. Right..?",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=3099197624"
+    },
+    "Am Scavenger": {
+      "Rarity": "Common",
+      "cost": 1500,
+      "cosmetic": true,
+      "description": "We are all ants",
+      "locus": "hat",
+      "shopOrder": 12,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1538445631"
+    },
+    "Golden Hood": {
+      "Rarity": "Common",
+      "cost": 2000,
+      "cosmetic": true,
+      "locus": "hat",
+      "description": "Too poor for Golden Banto",
+      "shopOrder": 13,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=153689274"
+    },
+    "Am Shelly": {
+      "Rarity": "Common",
+      "cost": 2000,
+      "description": "We shelly we slow :-)",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 14,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496778376"
+    },
+    "The Last Goodbye": {
+      "cost": 4000,
+      "Rarity": "Common",
+      "description": "thats what your father said to you before he got the milk",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 14,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=323473521"
+    },
+    "King's Crown": {
+      "cost": 10000,
+      "Rarity": "Common",
+      "cosmetic": true,
+      "description": "You are a ruler!",
+      "locus": "hat",
+      "shopOrder": 15,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1081300"
+    },
+    "Builder Cap": {
+      "cost": 12500,
+      "description": "Congratulations! You have joined the Builder's Club..",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 15,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=17408283"
+    },
+    "Am Goober": {
+      "cost": 6000,
+      "Rarity": "Common",
+      "description": "Oooba Gooba",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 16,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100530036392709"
+    },
+    "Am Banto": {
+      "cost": 6000,
+      "Rarity": "Common",
+      "description": "MOOO, I think bantos make that noise",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 16,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496796396"
+    },
+    "Am Lurky Boi": {
+      "cost": 12000,
+      "description": "You are fearless",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 16,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496794252"
+    },
+    "Am Goldy Boi": {
+      "cost": 15000,
+      "description": "You are the embodiment of fear",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 17,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=95440055919523"
+    },
+    "Am Fire Ant": {
+      "cost": 12000,
+      "Rarity": "Common",
+      "description": "You're an ant with FLAIR!",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 25,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1538416815"
+    },
+    "Am Uber Goober": {
+      "cost": 15000,
+      "description": "Oooba Uooba Gooba",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 26,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=105754516598231"
+    },
+    "Am Crystal Guardian": {
+      "cost": 20000,
+      "cosmetic": true,
+      "locus": "hat",
+      "description": "You're literally locked in",
+      "shopOrder": 17,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=11882050732"
+    },
+    "Am Golden Guardian": {
+      "cost": 5000000,
+      "cosmetic": true,
+      "locus": "hat",
+      "description": "Please stop spending money. You need to lock in!",
+      "shopOrder": 17,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=79706839537713"
+    },
+    "Squishy The Squid": {
+      "cost": 15000,
+      "description": "Does Survival Odyssey even have squids??",
+      "Rarity": "Common",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 27,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=3024806415"
+    },
+    "Ancient One": {
+      "cost": 25000,
+      "Rarity": "Common",
+      "description": "Bro who acc wears this lol",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 29,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102623484"
+    },
+    "Golden Pilgrim": {
+      "cost": 25555,
+      "Rarity": "Rare",
+      "description": "Too poor for High Class",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 30,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=11261462333"
+    },
+    "Am Mammoth": {
+      "cost": 32000,
+      "description": "i may be fat and slow, but im strong!! >:)",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 35,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496812344"
+    },
+    "Am Queen Ant": {
+      "cost": 50000,
+      "Rarity": "Rare",
+      "description": "based",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 36,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1538419187"
+    },
+    "Old Demigod": {
+      "cost": 50000,
+      "description": "\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 37,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=15967519"
+    },
+    "High Class": {
+      "cost": 100000,
+      "description": "Too poor for golden god",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 38,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1285307"
+    },
+    "Golden God": {
+      "cost": 200000,
+      "description": "Too poor for Golden Squid",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 39,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=138932314"
+    },
+    "Golden Crown of Warlords": {
+      "BottomText": "Civilization",
+      "Rarity": "Rare",
+      "description": "You lucked out!",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 500,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1743906481"
+    },
+    "Red Sparkle Time Fedora": {
+      "BottomText": "Civilization",
+      "description": "Better than high class ngl",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 500,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18999104835"
+    },
+    "Am Zombie Wolf": {
+      "locked": true,
+      "cost": 2000,
+      "Rarity": "Rare",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 750,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=121584825950379"
+    },
+    "Vampire Top Hat": {
+      "locked": true,
+      "cost": 3000,
+      "Rarity": "Rare",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 750,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1117747196"
+    },
+    "Zombie Fedora": {
+      "locked": true,
+      "cost": 10000,
+      "Rarity": "Rare",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 750,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=522094442"
+    },
+    "Pumpkin Head": {
+      "locked": true,
+      "cost": 5000,
+      "Rarity": "Rare",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 750,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=135770397492415"
+    },
+    "Horn Skull": {
+      "locked": true,
+      "cost": 6000,
+      "Rarity": "Rare",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 750,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112243615546468"
+    },
+    "Serpent Head": {
+      "locked": true,
+      "cost": 250000,
+      "Rarity": "Legendary",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 751,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=75131102901569"
+    },
+    "Zombie Head": {
+      "locked": true,
+      "cost": 250000,
+      "Rarity": "Legendary",
+      "BottomText": "Halloween",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 751,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102647733495364"
+    },
+    "Skeleton Head": {
+      "locked": true,
+      "cost": 250000,
+      "BottomText": "Halloween",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 751,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=101342267952012"
+    },
+    "Am Turkey": {
+      "locked": true,
+      "BottomText": "Thanksgiving Quest",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 800,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=87023134655025"
+    },
+    "Thanksgiving King": {
+      "locked": true,
+      "cost": 150000,
+      "Rarity": "Legendary",
+      "BottomText": "Thanksgiving",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 800,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=77809821488308"
+    },
+    "Grateful Fedora": {
+      "locked": true,
+      "cost": 250000,
+      "Rarity": "Legendary",
+      "BottomText": "Thanksgiving",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 800,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=77753663930930"
+    },
+    "Harvest Wizard": {
+      "locked": true,
+      "cost": 500000,
+      "BottomText": "Thanksgiving",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 800,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=124440068097257"
+    },
+    "Snow Cloud": {
+      "locked": true,
+      "BottomText": "Christmas Quest",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=123077529384222"
+    },
+    "Festive Fedora": {
+      "locked": true,
+      "BottomText": "Christmas Daily Rewards",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=78306961837399"
+    },
+    "ROBLOX Santa": {
+      "locked": true,
+      "cost": 2500,
+      "BottomText": "Christmas",
+      "Rarity": "Legendary",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91119733262975"
+    },
+    "Festive Top Hat": {
+      "locked": true,
+      "cost": 15000,
+      "Rarity": "Legendary",
+      "BottomText": "Christmas",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 4,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=79793063404306"
+    },
+    "Festive Dominus": {
+      "locked": true,
+      "cost": 150000,
+      "Rarity": "Legendary",
+      "BottomText": "Christmas",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 8,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=85814265657661"
+    },
+    "Holiday Squid": {
+      "locked": true,
+      "cost": 500000,
+      "Rarity": "Legendary",
+      "BottomText": "Christmas",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 9,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=70549211175433"
+    },
+    "Holiday Valk": {
+      "locked": true,
+      "cost": 500000,
+      "Rarity": "Legendary",
+      "BottomText": "Christmas",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 10,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=130028082385735"
+    },
+    "Ornamental Horns": {
+      "locked": true,
+      "cost": 10000000,
+      "Rarity": "Legendary",
+      "BottomText": "Christmas",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 11,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=123350994580565"
+    },
+    "VIP Crown": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=439945864"
+    },
+    "Blue DIY Domino Crown": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=17705136528"
+    },
+    "Lady of the Federation": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=207207782"
+    },
+    "Duke of the Fallen Federation": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1340199684"
+    },
+    "The Void Star": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1125510"
+    },
+    "Countess of the Federation": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=188003914"
+    },
+    "Bluesteel Domino Crown": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=68258723"
+    },
+    "Bluesteel Fedora": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=98346834"
+    },
+    "Royal Onyx Spiked Federation": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18248959220"
+    },
+    "Royal Azurite Spiked Federation": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18227982224"
+    },
+    "Agonizingly Green Bucket of Cheer": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102604869"
+    },
+    "Agonizingly White Bucket of Ultimate Doom": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1402433072"
+    },
+    "Orange Sparkle Time Fedora": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=215751161"
+    },
+    "Agonizingly Red Bucket of Cheer": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102605392"
+    },
+    "Midnight Blue Sparkle Time Fedora": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=119916949"
+    },
+    "Teal Sparkle Time Fedora": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=147180077"
+    },
+    "Silver King of the Night": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=439945661"
+    },
+    "Adurite King of the Night": {
+      "locked": true,
+      "BottomText": "VIP",
+      "Rarity": "Rare",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=439946101"
+    },
+    "Kitty Ears": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1374269"
+    },
+    "Green Sparkle Time Fedora": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100929604"
+    },
+    "Agonizingly Violet Bucket of Cheer": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102606919"
+    },
+    "Pink Queen of the Night": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=553971558"
+    },
+    "Duchess of the Federation": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=439984665"
+    },
+    "Emerald Valkyrie": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2830437685"
+    },
+    "Viscount of the Federation": {
+      "BottomText": "Helper",
+      "Rarity": "Rare",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 2000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4390896732"
+    },
+    "Sky Blue Sparkle Time Fedora": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=493476042"
+    },
+    "Valkyrie Helm": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1365767"
+    },
+    "Dominus Astra": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=162067148"
+    },
+    "Black Iron King of the Night": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=439946249"
+    },
+    "Ice Valkyrie": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4390891467"
+    },
+    "Dominus Frigidus": {
+      "BottomText": "Staff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 3000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=48545806"
+    },
+    "Poisoned Horns of the Toxic Wasteland": {
+      "BottomText": "HeadStaff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 4000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1744060292"
+    },
+    "Frozen Horns of the Frigid Planes": {
+      "BottomText": "HeadStaff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 4000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=74891470"
+    },
+    "Fiery Horns of the Netherworld": {
+      "BottomText": "HeadStaff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 4000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=215718515"
+    },
+    "Pink Sparkle Time Fedora": {
+      "BottomText": "HeadStaff",
+      "Rarity": "Unique",
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 4000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=334663683"
+    },
+    "Am Wise Tree": {
+      "locked": true,
+      "BottomText": "Developer",
+      "Rarity": "Unique",
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 1000,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=11106892023"
+    },
+    "Hearts of Gold": {
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 40,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=18522331923"
+    },
+    "Coco Slouch": {
+      "locked": true,
+      "cosmetic": true,
+      "locus": "hat",
+      "shopOrder": 40,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=121942493760180"
+    }
+  },
+  "Decoration/skins/armor.lua": {
+    "Crystal Guardian Helmet": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=104030567335931"
+    },
+    "Cryptic Warlock Helmet": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=80912289224518"
+    },
+    "Crystal Guardian Chestplate": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=138271561936010"
+    },
+    "Cryptic Warlock Chestplate": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97856243759577"
+    },
+    "Crystal Guardian Greaves": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=113880391923361"
+    },
+    "Cryptic Warlock Greaves": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=96424791239832"
+    },
+    "Coconut Hat": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=133324830970719"
+    },
+    "Coconut Chestplate": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=124484274518562"
+    },
+    "Coconut Greaves": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=72827668317906"
+    },
+    "KingSlayer Helmet": {
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Divine",
+      "image": "rbxassetid://119822539464806"
+    },
+    "Neko Helmet": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=89027215874520"
+    },
+    "Neko Chestplate": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109193568394325"
+    },
+    "Neko Greaves": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=125232070732941"
+    },
+    "MoonLight Helmet": {
+      "itemType": "skin",
+      "locus": "head",
+      "Rarity": "Limited",
+      "image": "rbxassetid://117842139139629"
+    },
+    "MoonLight Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Limited",
+      "image": "rbxassetid://74545246580415"
+    },
+    "MoonLight Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Limited",
+      "image": "rbxassetid://109928549333090"
+    },
+    "Blazing Aegis Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=95592356625961"
+    },
+    "Blazing Aegis Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=103465772148480"
+    },
+    "Dragonlord Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=88526115898951"
+    },
+    "Dragonlord Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109458510756081"
+    },
+    "Ironbark Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=78143548477485"
+    },
+    "Ironbark Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91375682374954"
+    },
+    "Phoenix Guard Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=134716748531745"
+    },
+    "Phoenix Guard Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=81692524364621"
+    },
+    "Runic Knight Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=128064499334909"
+    },
+    "Runic Knight Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=129553726762147"
+    },
+    "Shadowforge Chestplate": {
+      "itemType": "skin",
+      "locus": "torso",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=136447658668631"
+    },
+    "Shadowforge Greaves": {
+      "itemType": "skin",
+      "locus": "legs",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=137416341442686"
+    }
+  },
+  "Decoration/skins/axe.lua": {
+    "Crystal Guardian Axe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=116897902139459"
+    },
+    "Cryptic Warlock Axe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=73742816248358"
+    },
+    "Neko Axe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=134269097976005"
+    },
+    "Moon Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Limited",
+      "image": "rbxassetid://125533920826404"
+    },
+    "Shadow Chop": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91539686005927"
+    },
+    "Electro Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91175169971021"
+    },
+    "Forge Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109790813310563"
+    },
+    "Void Axe Skin": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109909564414437"
+    },
+    "Lava Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=119966543081695"
+    },
+    "Crystal Edge": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=115690043922281"
+    },
+    "Death Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=101203250395858"
+    },
+    "Dragonlord Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=108138600292689"
+    },
+    "Shadow Axe": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=103392487627530"
+    },
+    "Woodland Chopper": {
+      "itemType": "skin",
+      "locus": "Axe",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112892297485982"
+    }
+  },
+  "Decoration/skins/bags.lua": {
+    "The Odyssey": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "unobtainable": true,
+      "unTradeable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=110208318647616"
+    },
+    "Shelly Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "unobtainable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=15968995958"
+    },
+    "Neko Tail": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=117833943414732"
+    },
+    "MoonLight Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "image": "rbxassetid://105446982385847"
+    },
+    "Cryptic Warlock Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109487189796799"
+    },
+    "Crystal Guardian Wings": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=101590685087430"
+    },
+    "Slanted Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=131837164285929"
+    },
+    "The BlackHole": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Divine",
+      "image": "rbxassetid://133908544957627"
+    },
+    "Boulder Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://wfww.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=126528736457869"
+    },
+    "Dragonlord Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100996628934649"
+    },
+    "Lurky Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=116716801963669"
+    },
+    "Peeper Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=92631405274129"
+    },
+    "Dragon Scale Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=99577248163717"
+    },
+    "Molten Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=124103969028811"
+    },
+    "Frostbound Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=114048920451223"
+    },
+    "Spikey Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=92664775255003"
+    },
+    "Shadow Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=81876908878285"
+    },
+    "Spectral Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=119320397171688"
+    },
+    "Moai Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=123674604578640"
+    },
+    "Ant Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97068568611999"
+    },
+    "Yulegoob Bag": {
+      "itemType": "skin",
+      "locus": "bag",
+      "Rarity": "Common",
+      "unTradeable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=105616707093991"
+    }
+  },
+  "Decoration/skins/clubs.lua": {
+    "Spectral Shot": {
+      "itemType": "skin",
+      "locus": "Club",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=96578576830635"
+    },
+    "Death Club": {
+      "itemType": "skin",
+      "locus": "Club",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=121775245231761"
+    },
+    "Aqua Club": {
+      "itemType": "skin",
+      "locus": "Club",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=80519023918597"
+    },
+    "Spike Club": {
+      "itemType": "skin",
+      "locus": "Club",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=86146693494943"
+    },
+    "Eternal Crusher": {
+      "itemType": "skin",
+      "locus": "Club",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=83752597395680"
+    }
+  },
+  "Decoration/skins/pickaxe.lua": {
+    "Crystal Guardian Pickaxe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=108866359202176"
+    },
+    "Cryptic Warlock Pickaxe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=115548202746622"
+    },
+    "Neko Pickaxe": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=99144502243993"
+    },
+    "SunFire Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Limited",
+      "image": "rbxassetid://87865119285445"
+    },
+    "Shadow Strike Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=120753336514672"
+    },
+    "Death Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=82965050533650"
+    },
+    "Void Pickaxe Skin": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100996519979544"
+    },
+    "Dragonlord Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=81287766987450"
+    },
+    "Shadow Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=113687153777615"
+    },
+    "Runic Excavator": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=135139816140152"
+    },
+    "Gem Cutter": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=101381845601603"
+    },
+    "Magma Cracker": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=71944267303617"
+    },
+    "Glacier Pickaxe": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=80651170420132"
+    },
+    "Miners Delight": {
+      "itemType": "skin",
+      "locus": "Pick",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=134933088643562"
+    }
+  },
+  "Decoration/skins/satchels.lua": {
+    "Crystal Guardian Satchel": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=99513635517037"
+    },
+    "Cryptic Warlock Satchel": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=85830940976866"
+    },
+    "Neko Satchel": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100828704407077"
+    },
+    "MoonLight Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Limited",
+      "image": "rbxassetid://122934023780434"
+    },
+    "Frostbound Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=73777728282687"
+    },
+    "Dragonlord Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=121251169251246"
+    },
+    "Void Satchel Skin": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=87914578657805"
+    },
+    "Runic Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=125508842651815"
+    },
+    "Cosmic Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91736398797779"
+    },
+    "Spikey Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=140513820591151"
+    },
+    "Molten Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=135429354991678"
+    },
+    "Ant Satchel": {
+      "itemType": "skin",
+      "locus": "satchel",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97068568611999"
+    }
+  },
+  "Decoration/skins/staff.lua": {
+    "Cryptic Warlock Staff": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Staff",
+      "staffColor": "Color3.fromRGB(16, 212, 22)",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=96107084013236"
+    }
+  },
+  "Decoration/skins/swords.lua": {
+    "Crystal Guardian Sword": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=74528403539659"
+    },
+    "Neko Claws": {
+      "itemType": "skin",
+      "unobtainable": true,
+      "locus": "Sword",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=94236484023670"
+    },
+    "Ancient Blade": {
+      "unobtainable": true,
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Limited",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=110709799184925"
+    },
+    "BlackHole Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Limited",
+      "image": "rbxassetid://119151323564526"
+    },
+    "Rock Skin": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102508799609983"
+    },
+    "Bat Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97080816852441"
+    },
+    "Cobble Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=130091792139381"
+    },
+    "Extractor Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=92939813978771"
+    },
+    "Claymore Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=115642018892543"
+    },
+    "Lightpiercer Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=93361938941156"
+    },
+    "Blade Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=138510746415566"
+    },
+    "Nihon Senshi": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=85390311370661"
+    },
+    "Shadow Edge": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Mythic",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=87971591267370"
+    },
+    "Shadow Reaper": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=122022662776797"
+    },
+    "Aqua Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=127560328182262"
+    },
+    "Rusty Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102147767722345"
+    },
+    "Electro Cut": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=73977539867561"
+    },
+    "Etherium Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=95260507234683"
+    },
+    "Deathrow Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=111409936867430"
+    },
+    "Avender Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Common",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=93028173320998"
+    },
+    "Void Sword Skin": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Divine",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=108430947226844"
+    },
+    "Starlight Saber": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Rare",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=122139855712039"
+    },
+    "Dragonlord Sword": {
+      "itemType": "skin",
+      "locus": "Sword",
+      "Rarity": "Legendary",
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=136116242317713"
+    }
+  },
+  "food.lua": {
+    "Big Barley": {
+      "pickupSound": "Pickup",
+      "itemType": "object",
+      "Rarity": "Common",
+      "combine_ammount": 5,
+      "pre_comb": "Barley",
+      "load": 2.5
+    },
+    "Big Berry": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Berry",
+      "load": 0.25
+    },
+    "Big Strawberry": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Strawberry",
+      "load": 0.25
+    },
+    "Big Lemon": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Lemon",
+      "load": 0.25
+    },
+    "Peeper Popsicle": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 8,
+      "water": 3,
+      "overHeal": 1
+    },
+    "Big Apple": {
+      "pickupSound": "Pickup",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Apple",
+      "load": 0.25
+    },
+    "Malevolent Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "health": -10,
+      "voodoo": 40
+    },
+    "Satisfying Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 100,
+      "water": 0,
+      "overHeal": 0,
+      "voodoo": 0
+    },
+    "Replenishing Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -33,
+      "water": 0,
+      "overHeal": 50,
+      "voodoo": 0
+    },
+    "Mend & Chill Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -10,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": 0
+    },
+    "Frostfire Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -15,
+      "water": 0,
+      "overHeal": 0,
+      "voodoo": 0
+    },
+    "Hexed Fury Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -15,
+      "water": 0,
+      "health": -15,
+      "voodoo": 15
+    },
+    "Berserker's Trade Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -40,
+      "water": 0,
+      "health": -10,
+      "voodoo": 5
+    },
+    "Steady Surge Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "overHeal": 6,
+      "voodoo": 0
+    },
+    "Glacial Mend Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -10,
+      "water": 0,
+      "overHeal": 20,
+      "voodoo": 0
+    },
+    "Bloodspark Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "health": -20,
+      "voodoo": 0
+    },
+    "Shiverbrand Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 20,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": 20
+    },
+    "Seething Hex Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -35,
+      "water": 0,
+      "health": 0,
+      "voodoo": 35
+    },
+    "Smoldering Relief Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 10,
+      "water": 0,
+      "overHeal": 15,
+      "voodoo": 0
+    },
+    "Thunderstop Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 50,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": -25
+    },
+    "Blight Fruit": {
+      "item_limit": null,
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 1.75,
+      "water": 3.5,
+      "overHeal": 5
+    },
+    "Big Bloodfruit": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Bloodfruit",
+      "load": 0
+    },
+    "Big Blight Fruit": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Blight Fruit",
+      "load": 0
+    },
+    "Pink Tree": {
+      "health": 40,
+      "susceptions": "{",
+      "wood": true
+    },
+    "Big Heartfruit": {
+      "pickupSound": "Pickup",
+      "Rarity": "Common",
+      "itemType": "object",
+      "combine_ammount": 5,
+      "pre_comb": "Heartfruit",
+      "load": 0.25
+    },
+    "Big Coconut": {
+      "pickupSound": "Pickup",
+      "itemType": "object",
+      "Rarity": "Common",
+      "combine_ammount": 5,
+      "pre_comb": "Coconut",
+      "load": 5
+    },
+    "Grain Mush": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 8,
+      "water": 0,
+      "overHeal": 1
+    },
+    "Corn Mush": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 10,
+      "water": 0,
+      "overHeal": 1
+    },
+    "Banana Bread": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 36,
+      "water": 1,
+      "overHeal": 4.5
+    },
+    "Raw Fish": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 5,
+      "water": 5,
+      "health": -12
+    },
+    "Cooked Fish": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "coinValue": 0.125,
+      "nourishment": "{",
+      "food": 20,
+      "water": 1,
+      "overHeal": 4.5
+    },
+    "Gold Fish": {
+      "pickupSound": "Money Bars",
+      "unique": true,
+      "Rarity": "Limited",
+      "coinValue": 0.125,
+      "nourishment": "{",
+      "food": 100,
+      "water": 1,
+      "overHeal": 66
+    },
+    "Raw Turkey Leg": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 4,
+      "water": 5,
+      "health": -10
+    },
+    "Cooked Turkey Leg": {
+      "pickupSound": "Flesh",
+      "coinValue": 0.125,
+      "nourishment": "{",
+      "food": 16,
+      "water": 1,
+      "overHeal": 6.5
+    },
+    "Raw Meat": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 6,
+      "water": 5,
+      "health": -15
+    },
+    "Cooked Meat": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 24,
+      "water": 1,
+      "overHeal": 7.5
+    },
+    "Raw Underworld Meat": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 10,
+      "water": 5,
+      "health": -20
+    },
+    "Cooked Underworld Meat": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 30,
+      "water": 1,
+      "overHeal": 10
+    },
+    "Raw Morsel": {
+      "pickupSound": "Flesh",
+      "Rarity": "Common",
+      "nourishment": "{",
+      "food": 3,
+      "water": 3,
+      "health": -5
+    },
+    "Cooked Morsel": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 12,
+      "water": 1,
+      "overHeal": 3.5
+    },
+    "Cooked Egg": {
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 15,
+      "water": 2,
+      "overHeal": 2
+    },
+    "Cactus Bit": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 3,
+      "water": 1,
+      "health": -1
+    },
+    "Fried Cactus": {
+      "pickupSound": "Pickup",
+      "coinValue": 0.058823529411764705,
+      "nourishment": "{",
+      "food": 18,
+      "water": 1,
+      "overHeal": 2
+    },
+    "Prickly Pear": {
+      "pickupSound": "Pickup",
+      "coinValue": 0.05,
+      "nourishment": "{",
+      "food": 11,
+      "water": 1,
+      "overHeal": 2.5
+    },
+    "Zombie Flesh": {
+      "Rarity": "Rare",
+      "pickupSound": "Flesh",
+      "nourishment": "{",
+      "food": 25,
+      "water": 1,
+      "health": -10
+    },
+    "Serpent Tail": {
+      "Rarity": "Rare",
+      "nourishment": "{",
+      "food": 25,
+      "water": 1,
+      "health": -15
+    },
+    "Undead Meat": {
+      "Rarity": "Legendary",
+      "pickupSound": "Flesh",
+      "itemType": "food",
+      "load": 3,
+      "nourishment": "{",
+      "food": 25,
+      "water": 1,
+      "health": -45
+    }
+  },
+  "gamepass.lua": {
+    "Boulder Voucher": {
+      "Rarity": "Rare",
+      "perkName": "Boulder",
+      "itemType": "gamepass",
+      "image": "rbxassetid://78442301318574"
+    }
+  },
+  "Mojo/mojo.lua": {
+    "God Legs": {
+      "Rarity": "Legendary",
+      "itemType": "armor",
+      "locus": "legs",
+      "protection": 25,
+      "shouldBreak": true,
+      "description": "Recipe for the God armor leg piece",
+      "coinValue": 1,
+      "pieces": "{\"God Legs Left Foot\", \"God Legs Right Foot\", \"God Legs Left Leg\", \"God Legs Right Leg\"}",
+      "mojoCost": 1,
+      "craftLevel": 100,
+      "recipe": "{",
+      "[\"Gold Bar\"]": 14,
+      "[\"Crystal Chunk\"]": 6
+    },
+    "God Halo": {
+      "Rarity": "Legendary",
+      "itemType": "armor",
+      "locus": "head",
+      "oldNames": "{\"God Helmet\"}",
+      "protection": 25,
+      "shouldBreak": true,
+      "coinValue": 1,
+      "description": "Recipe for the God armor head piece",
+      "mojoCost": 1,
+      "pieces": "{\"God Halo\"}",
+      "craftLevel": 100,
+      "recipe": "{",
+      "[\"Gold Bar\"]": 15,
+      "[\"Crystal Chunk\"]": 6
+    },
+    "God Chestplate": {
+      "Rarity": "Legendary",
+      "itemType": "armor",
+      "locus": "torso",
+      "protection": 25,
+      "shouldBreak": true,
+      "coinValue": 1,
+      "mojoCost": 1,
+      "description": "Recipe for the God armor chest piece",
+      "pieces": "{\"God Chestplate\", \"God Left Shoulder\", \"God Right Shoulder\"}",
+      "craftLevel": 100,
+      "recipe": "{",
+      "[\"Gold Bar\"]": 15,
+      "[\"Crystal Chunk\"]": 6
+    },
+    "God Axe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 10,
+      "craftLevel": 100,
+      "shouldBreak": true,
+      "mojoCost": 2,
+      "description": "The most powerful Axe",
+      "damages": "{",
+      "wood": 35,
+      "players": 30,
+      "mobs": 30,
+      "woodStructure": 40
+    },
+    "God Crossbow": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "curvature": 0.5,
+      "toolType": "ranged",
+      "coinValue": 20,
+      "useType": "Draw",
+      "shouldBreak": true,
+      "infliction": "{",
+      "key": "Shred",
+      "decayTime": 2.5,
+      "userData": "{}"
+    },
+    "God Pick": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 0,
+      "useType": "Slash",
+      "mojoCost": 2,
+      "description": "The most powerful Pick",
+      "level": 10,
+      "craftLevel": 100,
+      "shouldBreak": true,
+      "damages": "{",
+      "stone": 35,
+      "players": 30,
+      "mobs": 30,
+      "stoneStructure": 40,
+      "spirit": 5
+    },
+    "OOF Horn": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Horn",
+      "useType": "Horn",
+      "noDrop": true,
+      "noteDelay": 0,
+      "description": "Recipe for the oooooooooooooooooooooooffffffff horn",
+      "mojoCost": 1,
+      "noteWaver": 0,
+      "noteName": "LongOOF",
+      "speed": 24,
+      "craftLevel": 1,
+      "mojoRecipe": true,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 2,
+      "[\"Gold Bar\"]": 9
+    },
+    "Rebirth Mastery": {
+      "Rarity": "Legendary",
+      "description": "Save your inventory upon rebirthing",
+      "mojoCost": 5,
+      "image": "rbxassetid://18336324055"
+    },
+    "Voodoo Mastery": {
+      "Rarity": "Legendary",
+      "description": "Change your voodoo spell anytime! Upon rebirthing you keep your voodoo!",
+      "mojoCost": 9,
+      "inPanelAlready": true,
+      "image": "rbxassetid://18336314010"
+    },
+    "Blazing Touch": {
+      "Rarity": "Legendary",
+      "description": "50% chance to cook raw items instantly from mining resources or killing mobs",
+      "mojoCost": 7,
+      "inPanelAlready": true,
+      "toggleable": true,
+      "image": "rbxassetid://140313360284714"
+    },
+    "Water Walker": {
+      "Rarity": "Rare",
+      "description": "Water no longer slows movement speed.",
+      "mojoCost": 1,
+      "toggleable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1839247605"
+    },
+    "Shelly Friend": {
+      "Rarity": "Rare",
+      "description": "This shelly companion will occassionally dig up a random ore!",
+      "mojoCost": 1,
+      "toggleable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14524896585"
+    },
+    "Peeper Pet": {
+      "Rarity": "Rare",
+      "description": "This peeper friend will occassionally dig up food!",
+      "mojoCost": 1,
+      "toggleable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14524938201"
+    },
+    "Lurky Bro": {
+      "Rarity": "Rare",
+      "description": "This lurky companion will bite nearby attackers.",
+      "mojoCost": 1,
+      "toggleable": true,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14524894700"
+    },
+    "Infinity Chest": {
+      "Rarity": "Legendary",
+      "itemType": "building",
+      "deployable": true,
+      "placement": "land",
+      "health": 1500,
+      "mojoRecipe": true,
+      "susceptions": "{",
+      "woodStructure": true
+    },
+    "God Hut": {
+      "Rarity": "Legendary",
+      "itemType": "building",
+      "deployable": true,
+      "placement": "land",
+      "health": 5000,
+      "susceptions": "{",
+      "stoneStructure": true
+    },
+    "God Rod": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Rod",
+      "coinValue": 0.3333333333333333,
+      "useType": "Rod",
+      "level": 1,
+      "idleAnim": "ToolHold",
+      "mojoRecipe": true,
+      "description": "Recipe for the luckiest fishing rod",
+      "mojoCost": 4,
+      "craftLevel": 1,
+      "speed": 5,
+      "rodDrops": "{",
+      "Apple": "{",
+      "quantity": 1,
+      "percent": 2.5
+    },
+    "Crystal Crate": {
+      "quantity": 1,
+      "percent": 0.15
+    },
+    "Radiant Crate": {
+      "quantity": 1,
+      "percent": 0.075
+    },
+    "Gold Fish": {
+      "quantity": 1,
+      "percent": 0.0001
+    },
+    "Gilded Crate": {
+      "quantity": 1,
+      "percent": 0.125
+    },
+    "Magnetite Crate": {
+      "quantity": 1,
+      "percent": 0.098
+    },
+    "Emerald Crate": {
+      "quantity": 1,
+      "percent": 0.0857
+    },
+    "OMG Crate": {
+      "quantity": 1,
+      "percent": 0.25
+    },
+    "Prickly Pear": {
+      "quantity": 1,
+      "percent": 0.35
+    },
+    "Raw Fish": {
+      "quantity": 1,
+      "percent": 5
+    },
+    "God Sickle": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Sickle",
+      "description": "Recipe for the fastest weapon and farming tool",
+      "mojoRecipe": true,
+      "mojoCost": 3,
+      "craftLevel": 1,
+      "speed": 0.25,
+      "recipe": "{",
+      "[\"Crystal Chunk\"]": 9,
+      "[\"Gold Bar\"]": 27
+    },
+    "God Sword": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "oldNames": "{\"God Rock\"}",
+      "useType": "Slash",
+      "description": "Recipe for the most powerful sword",
+      "shouldBreak": true,
+      "mojoCost": 3,
+      "level": 9,
+      "craftLevel": 100,
+      "damages": "{",
+      "wood": 20,
+      "stone": 20,
+      "players": 80,
+      "mobs": 80,
+      "woodStructure": 20,
+      "stoneStructure": 20
+    },
+    "God Battle Axe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "oldNames": "{\"God Rock\"}",
+      "useType": "Slash",
+      "description": "Recipe for the most powerful sword",
+      "shouldBreak": true,
+      "infliction": "{",
+      "key": "Bleed",
+      "decayTime": 1.25,
+      "userData": "{}"
+    },
+    "God Scythe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Spear",
+      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+      "useType": "Scythe",
+      "description": "Recipe for the most powerful weapon",
+      "shouldBreak": true,
+      "idleAnim": "ScytheIdle",
+      "mojoRecipe": true,
+      "infliction": "{",
+      "key": "Shred",
+      "decayTime": 1.5,
+      "userData": "{}"
+    },
+    "God Staff": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Staff",
+      "stun": false,
+      "staffColor": "Color3.fromRGB(134, 253, 255)",
+      "skinType": "Staff",
+      "description": "Recipe for the most powerful magical weapon",
+      "shouldBreak": true,
+      "damages": "{",
+      "wood": 200,
+      "stone": 200,
+      "players": 40,
+      "mobs": 40,
+      "woodStructure": 200,
+      "stoneStructure": 200
+    }
+  },
+  "Mojo/skillTree.lua": {
+    "Axe Damage": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://139146672577801",
+      "row": 1,
+      "increments": 0.01,
+      "description": "Damage multiplier that your axe deals when equipped",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Pickaxe Damage": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://116599335427162",
+      "row": 1,
+      "increments": 0.01,
+      "description": "Damage multiplier that your pickaxe deals when equipped",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Sword Damage": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://138978462644652",
+      "row": 1,
+      "increments": 0.01,
+      "description": "Damage multiplier that your sword deals when equipped",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Mob Damage": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://83336361333464",
+      "row": 2,
+      "increments": 0.01,
+      "description": "Damage multiplier when any damage item is equipped",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Mob Defense": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://105515459269674",
+      "row": 2,
+      "increments": 0.02,
+      "description": "Defense multiplier against mobs damaging you",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Total Hunger": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://2532105507",
+      "row": 3,
+      "increments": 0.01,
+      "description": "Additional Hunger",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Total Damage": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://123878595643125",
+      "row": 3,
+      "increments": 0.01,
+      "description": "Total Damage Multiplier",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Bag Space": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://1267432187",
+      "row": 4,
+      "increments": 0.6,
+      "description": "Bag space multiplier",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Satchel Space": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://116475003649558",
+      "row": 4,
+      "increments": 0.6,
+      "description": "Satchel space multiplier",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Total Space": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://116475003649558",
+      "row": 5,
+      "increments": 0.1,
+      "description": "After Bag and Satchel your total space multiplier",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Coin Multiplier": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://139858009569266",
+      "row": 6,
+      "increments": 0.005,
+      "description": "Multiply the amount of coins you get",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://126423331943718",
+      "row": 6,
+      "increments": 0.01,
+      "description": "Add to the amount of total luck you get, all Luck is stacked. Also Luck is applied to all aspects of the game from drops to skin crates to civilization.",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Essence Multiplier": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://97954593645356",
+      "row": 6,
+      "increments": 0.002,
+      "description": "Multiply the amount of essence you get",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Mythic Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://117084218048656",
+      "row": 7,
+      "increments": 0.02,
+      "description": "Add to the amount of total mythic luck you get, all Luck is stacked",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Fishing Luck Multiplier": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://128843316335776",
+      "row": 7,
+      "increments": 0.01,
+      "description": "Add to the amount of luck you have when fishing, luck is stacked. Opportunity to get more rewards!",
+      "cost": 1500,
+      "costIncrement": 200,
+      "costType": "coins"
+    },
+    "Skin Crate Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://95893293518125",
+      "row": 7,
+      "increments": 0.01,
+      "description": "Add to the amount of Skin Crate luck you get, Only Luck for Skin Crates",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Void Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://113485610868673",
+      "row": 8,
+      "increments": 0.02,
+      "description": "Add to the amount of total luck you get when in Void",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Overworld Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://113485610868673",
+      "row": 8,
+      "increments": 0.02,
+      "description": "Add to the amount of total luck you get when in Overworld",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Underworld Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://113485610868673",
+      "row": 8,
+      "increments": 0.02,
+      "description": "Add to the amount of total luck you get when in Underworld",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Gamemodes Luck Multiplier": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://113485610868673",
+      "row": 9,
+      "increments": 0.02,
+      "description": "Add to the amount of total luck you get when in Gamemodes",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Gamemodes Pity": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://86034025064174",
+      "row": 9,
+      "increments": 0.01,
+      "description": "Add additional pity after winning a gamemode",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Stronger Structures": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://88729154237617",
+      "row": 10,
+      "increments": 0.01,
+      "description": "Multiply the amount of health your structures spawn in with",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Weaker Resources": {
+      "itemType": "skilltree",
+      "image": "rbxassetid://116173647982476",
+      "row": 10,
+      "increments": 0.01,
+      "description": "Divide the health the resource starts with on the first ever hit of that resource",
+      "cost": 500,
+      "costIncrement": 140,
+      "costType": "coins"
+    },
+    "Skill Tree Boost": {
+      "add": true,
+      "itemType": "skilltree",
+      "image": "rbxassetid://134291081343772",
+      "row": 11,
+      "increments": 1,
+      "maxAmount": 5,
+      "description": "Boost how much you can upgrade your skill tree",
+      "cost": 1,
+      "costIncrement": 11,
+      "costType": "mojo"
+    }
+  },
+  "mounts.lua": {
+    "Saber Tooth Tiger Mount": {
+      "itemType": "armor",
+      "Rarity": "Common",
+      "locus": "mount",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112083800129222",
+      "noDrop": true,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "mojoCost": 5,
+      "health": 500,
+      "shopOrder": 0,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Zombie Wolf Mount": {
+      "itemType": "armor",
+      "Rarity": "Common",
+      "locus": "mount",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=133787427305669",
+      "noDrop": true,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "mojoCost": 10,
+      "health": 500,
+      "shopOrder": 0,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Void Hound Mount": {
+      "itemType": "armor",
+      "Rarity": "Rare",
+      "locked": false,
+      "locus": "mount",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=102110076940448",
+      "noDrop": true,
+      "shopOrder": 100,
+      "BottomText": "Daily Rewards",
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "health": 5000,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Skeleton Horse Mount": {
+      "itemType": "armor",
+      "locus": "mount",
+      "Rarity": "Rare",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91022208638025",
+      "noDrop": true,
+      "shopOrder": 100,
+      "mojoCost": 25,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "health": 3000,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Buffalo Mount": {
+      "locked": false,
+      "itemType": "armor",
+      "Rarity": "Common",
+      "locus": "mount",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=100589735946477",
+      "noDrop": true,
+      "shopOrder": 99,
+      "rebirthPersist": true,
+      "BottomText": "Daily Rewards",
+      "codeBase": "MountControl",
+      "health": 1000,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Rhino Mount": {
+      "locked": false,
+      "itemType": "armor",
+      "Rarity": "Rare",
+      "locus": "mount",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=127147776428306",
+      "noDrop": true,
+      "shopOrder": 0,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "BottomText": "Daily Rewards",
+      "health": 2500,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Spider Mount": {
+      "itemType": "armor",
+      "locus": "mount",
+      "Rarity": "Rare",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=84570866666322",
+      "noDrop": true,
+      "mojoCost": 50,
+      "shopOrder": 99,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "health": 1000,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Polar Bear Mount": {
+      "itemType": "armor",
+      "locus": "mount",
+      "Rarity": "Rare",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=117952163653308",
+      "noDrop": true,
+      "shopOrder": 0,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "BottomText": "Daily Rewards",
+      "health": 10000,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "White Tiger": {
+      "itemType": "armor",
+      "locus": "mount",
+      "Rarity": "Common",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=91018803422518",
+      "noDrop": true,
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "mojoCost": 15,
+      "health": 1500,
+      "shopOrder": 0,
+      "susceptions": "{",
+      "mobs": true
+    },
+    "Reindeer Mount": {
+      "itemType": "armor",
+      "locus": "mount",
+      "locked": true,
+      "Rarity": "Rare",
+      "maxLoad": 0,
+      "load": 0,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=133248407646095",
+      "noDrop": true,
+      "shopOrder": 100,
+      "BottomText": "Daily Rewards",
+      "rebirthPersist": true,
+      "codeBase": "MountControl",
+      "health": 5000,
+      "susceptions": "{",
+      "mobs": true
+    }
+  },
+  "potions.lua": {
+    "Malevolent Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "health": -10,
+      "voodoo": 40
+    },
+    "Satisfying Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 100,
+      "water": 0,
+      "overHeal": 0,
+      "voodoo": 0
+    },
+    "Replenishing Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -33,
+      "water": 0,
+      "overHeal": 50,
+      "voodoo": 0
+    },
+    "Mend & Chill Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -10,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": 0
+    },
+    "Frostfire Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -15,
+      "water": 0,
+      "overHeal": 0,
+      "voodoo": 0
+    },
+    "Hexed Fury Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -15,
+      "water": 0,
+      "health": -15,
+      "voodoo": 15
+    },
+    "Berserker's Trade Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -40,
+      "water": 0,
+      "health": -10,
+      "voodoo": 5
+    },
+    "Steady Surge Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "overHeal": 6,
+      "voodoo": 0
+    },
+    "Glacial Mend Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -10,
+      "water": 0,
+      "overHeal": 20,
+      "voodoo": 0
+    },
+    "Bloodspark Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -20,
+      "water": 0,
+      "health": -20,
+      "voodoo": 0
+    },
+    "Shiverbrand Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 20,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": 20
+    },
+    "Seething Hex Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": -35,
+      "water": 0,
+      "health": 0,
+      "voodoo": 35
+    },
+    "Smoldering Relief Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 10,
+      "water": 0,
+      "overHeal": 15,
+      "voodoo": 0
+    },
+    "Thunderstop Vial": {
+      "pickupSound": "Pickup",
+      "nourishment": "{",
+      "food": 50,
+      "water": 0,
+      "overHeal": 10,
+      "voodoo": -25
+    }
+  },
+  "spells.lua": {
+    "Multiple Flame Beams": {
+      "aetherSpell": true,
+      "damage": 14,
+      "cooldown": 5,
+      "description": "Multiple Flame Beams - Cast 8 beams of pure fire around the user.",
+      "image": "rbxassetid://106362805972252"
+    },
+    "Flame Aura": {
+      "aetherSpell": true,
+      "damage": 14,
+      "cooldown": 5,
+      "description": "Flame Aura - Cast a powerful aura that makes you a God",
+      "image": "rbxassetid://83021247729674"
+    },
+    "Meteor Flame": {
+      "aetherSpell": true,
+      "damage": 14,
+      "cooldown": 0.1,
+      "description": "Meteor Flame - Cast a powerful meteor to slam into your enemies",
+      "image": "rbxassetid://77250725740004"
+    },
+    "Energy Bolt": {
+      "config": "{",
+      "BOLT_SPEED": 0.1
+    },
+    "Void Release": {
+      "config": "{",
+      "KNOCKBACK_RADIUS": 35,
+      "KNOCKBACK_FORCE": 130,
+      "UPWARD_FORCE": 60
+    },
+    "Void Electrify": {
+      "config": "{",
+      "DAMAGE_RADIUS": 25
+    },
+    "Void Lifesteal": {
+      "config": "{",
+      "DAMAGE_RADIUS": 20,
+      "HEAL_AMOUNT": 0.5,
+      "DAMAGE_AMOUNT": 3
+    },
+    "Void Punch": {
+      "config": "{",
+      "DAMAGE_RADIUS": 10
+    },
+    "Void Explosion": {
+      "config": "{",
+      "DAMAGE_RADIUS": 20,
+      "DURATION": 0.2,
+      "INITIAL_SCALE": 1,
+      "TARGET_SCALE": 10
+    },
+    "Void Grapple": {
+      "config": "{",
+      "DURATION": 0.5,
+      "MAX_DISTANCE": 120,
+      "MOUSE_DISTANCE": 35
+    },
+    "Energy Shield": {
+      "config": "{",
+      "HEALTH": 4,
+      "TIME": 45
+    },
+    "Void Cloak": {
+      "config": "{",
+      "DELAY_TIME": 32
+    },
+    "Void Strength": {
+      "voodooSpell": true,
+      "duration": 30,
+      "voodooCost": 100,
+      "description": "VOID STRENGTH - Deal 1.5x more damage against players and 2x more damage against structures. Lasts 30 seconds and costs 100 Voodoo.",
+      "image": "rbxassetid://18896482876"
+    },
+    "Healing Bubble": {
+      "config": "{",
+      "HEALING_AMOUNT": 15
+    },
+    "Void Step": {
+      "config": "{",
+      "DURATION": 4.6
+    }
+  },
+  "tools/artifacts.lua": {
+    "Luck Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=105196713363780"
+    },
+    "Voodoo Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=96352600168565"
+    },
+    "Overheal Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=106473114239137"
+    },
+    "Hunger Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=130421936368240"
+    },
+    "Health Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=129413051910830"
+    },
+    "Essence Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=97557818466245"
+    },
+    "Coin Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109354360219565"
+    },
+    "Rebirth Artifact": {
+      "Rarity": "Divine",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=139327186554771"
+    },
+    "Zombie Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=134465114390746"
+    },
+    "Serpent Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=138412603736175"
+    },
+    "Skeleton Artifact": {
+      "Rarity": "Mythic",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=109734133538099"
+    },
+    "Undead Artifact": {
+      "Rarity": "Divine",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=89017728586346"
+    },
+    "Bloodlust Artifact": {
+      "Rarity": "Divine",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=80030868639950"
+    },
+    "Developer Artifact": {
+      "Rarity": "Unique",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=140503121949068"
+    },
+    "Shrink Artifact": {
+      "Rarity": "Unique",
+      "noDrop": true,
+      "itemType": "armor",
+      "locus": "leftarm",
+      "load": 0,
+      "rebirthPersist": true,
+      "DisableDoubleResources": true,
+      "image": "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=112129219932396"
+    }
+  },
+  "tools/axes.lua": {
+    "Wood Axe": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "coinValue": 0.16666666666666666,
+      "level": 1,
+      "craftLevel": 1,
+      "damages": "{",
+      "wood": 2,
+      "players": 5,
+      "mobs": 5,
+      "woodStructure": 2
+    },
+    "Stone Axe": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 0.2,
+      "useType": "Slash",
+      "level": 2,
+      "craftLevel": 7,
+      "damages": "{",
+      "wood": 3,
+      "players": 7,
+      "mobs": 7,
+      "woodStructure": 3
+    },
+    "Iron Axe": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "coinValue": 0.3333333333333333,
+      "level": 3,
+      "craftLevel": 10,
+      "damages": "{",
+      "wood": 4,
+      "players": 9,
+      "mobs": 9,
+      "woodStructure": 4
+    },
+    "Steel Axe": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 0.5,
+      "useType": "Slash",
+      "level": 4,
+      "craftLevel": 20,
+      "damages": "{",
+      "wood": 5,
+      "players": 11,
+      "mobs": 11,
+      "woodStructure": 5
+    },
+    "Adurite Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 2,
+      "useType": "Slash",
+      "level": 5,
+      "craftLevel": 40,
+      "damages": "{",
+      "wood": 6,
+      "players": 13,
+      "mobs": 13,
+      "woodStructure": 6
+    },
+    "Crystal Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 3,
+      "useType": "Slash",
+      "level": 6,
+      "craftLevel": 50,
+      "damages": "{",
+      "wood": 8,
+      "players": 13,
+      "mobs": 13,
+      "woodStructure": 8,
+      "spirit": 5
+    },
+    "Magnetite Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 10,
+      "useType": "Slash",
+      "level": 7,
+      "craftLevel": 70,
+      "damages": "{",
+      "wood": 10,
+      "players": 15,
+      "mobs": 15,
+      "woodStructure": 10
+    },
+    "Emerald Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 10,
+      "useType": "Slash",
+      "level": 8,
+      "craftLevel": 80,
+      "damages": "{",
+      "wood": 12,
+      "players": 17,
+      "mobs": 17,
+      "woodStructure": 12
+    },
+    "Pink Diamond Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "coinValue": 10,
+      "useType": "Slash",
+      "level": 8,
+      "craftLevel": 85,
+      "damages": "{",
+      "wood": 13,
+      "players": 19,
+      "mobs": 19,
+      "woodStructure": 13
+    },
+    "Void Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 9,
+      "craftLevel": 90,
+      "damages": "{",
+      "wood": 15,
+      "players": 21,
+      "mobs": 21,
+      "woodStructure": 125
+    },
+    "Soulite Axe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 11,
+      "craftLevel": 105,
+      "damages": "{",
+      "wood": 45,
+      "woodStructure": 20
+    },
+    "Phantomite Axe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 12,
+      "craftLevel": 110,
+      "damages": "{",
+      "wood": 55,
+      "woodStructure": 25
+    },
+    "Hellstone Axe": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 13,
+      "craftLevel": 115,
+      "damages": "{",
+      "wood": 65,
+      "woodStructure": 30
+    },
+    "Ossidar Axe": {
+      "Rarity": "Legendary",
+      "unobtainable": true,
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 14,
+      "craftLevel": 120,
+      "damages": "{",
+      "wood": 115,
+      "woodStructure": 35
+    },
+    "Undead Axe": {
+      "Rarity": "Legendary",
+      "unobtainable": true,
+      "itemType": "tool",
+      "toolType": "Axe",
+      "useType": "Slash",
+      "level": 17,
+      "craftLevel": 135,
+      "damages": "{",
+      "wood": 125,
+      "woodStructure": 125
+    }
+  },
+  "tools/masteryGear.lua": {
+    "Vortex Cleaver": {
+      "Rarity": "Divine",
+      "itemType": "tool",
+      "toolType": "Club",
+      "coinValue": 0.14285714285714285,
+      "useType": "Slash",
+      "noDrop": true,
+      "shouldBreak": true,
+      "cost": 25000,
+      "infliction": "{",
+      "key": "Shred",
+      "decayTime": 0.1,
+      "userData": "{}"
+    },
+    "Vortex Greatsword": {
+      "Rarity": "Divine",
+      "itemType": "tool",
+      "infliction": "{",
+      "key": "Bleed",
+      "decayTime": 0.2,
+      "userData": "{}"
+    },
+    "Vortex Bow": {
+      "Rarity": "Divine",
+      "itemType": "tool",
+      "curvature": 0.5,
+      "toolType": "ranged",
+      "coinValue": 20,
+      "useType": "Draw",
+      "noDrop": true,
+      "shouldBreak": true,
+      "cost": 75000,
+      "infliction": "{",
+      "key": "Hexxed",
+      "decayTime": 2,
+      "userData": "{}"
+    },
+    "Vortex Staff": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Staff",
+      "skinType": "Staff",
+      "noDrop": true,
+      "shouldBreak": true,
+      "stun": true,
+      "cost": 500000,
+      "staffColor": "Color3.fromRGB(75, 27, 255)",
+      "damages": "{",
+      "wood": 1000,
+      "stone": 1000,
+      "players": 50,
+      "mobs": 50,
+      "woodStructure": 1000,
+      "stoneStructure": 1000
+    }
+  },
+  "tools/misc.lua": {
+    "Fishing Rod": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Rod",
+      "coinValue": 0.3333333333333333,
+      "useType": "Rod",
+      "idleAnim": "ToolHold",
+      "level": 1,
+      "craftLevel": 9,
+      "speed": 6,
+      "rodDrops": "{",
+      "[\"Peasant Crate\"]": "{",
+      "quantity": 1,
+      "percent": 0.52
+    },
+    "Good Crate": {
+      "quantity": 1,
+      "percent": 0.31
+    },
+    "Great Crate": {
+      "quantity": 1,
+      "percent": 0.5
+    },
+    "Wood Pick": {
+      "quantity": 1,
+      "percent": 1
+    },
+    "Wood Axe": {
+      "quantity": 1,
+      "percent": 1
+    },
+    "Raw Fish": {
+      "quantity": 1,
+      "percent": 10
+    },
+    "Steel Fishing Rod": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Rod",
+      "coinValue": 0.3333333333333333,
+      "useType": "Rod",
+      "idleAnim": "ToolHold",
+      "level": 1,
+      "craftLevel": 25,
+      "speed": 6,
+      "rodDrops": "{",
+      "[\"Food Crate\"]": "{",
+      "quantity": 1,
+      "percent": 1
+    },
+    "Resource Crate": {
+      "quantity": 1,
+      "percent": 1
+    },
+    "OMG Crate": {
+      "quantity": 1,
+      "percent": 0.4
+    },
+    "Gilded Crate": {
+      "quantity": 1,
+      "percent": 0.2
+    },
+    "Emerald Sickle": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Sickle",
+      "craftLevel": 80,
+      "speed": 0.36363636363636365,
+      "recipe": "{",
+      "Stick": 2,
+      "Emerald": 4
+    },
+    "Big Saddle": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Target",
+      "coinValue": 1,
+      "useAnim": "Saddle",
+      "saddleLevel": 2,
+      "craftLevel": 10,
+      "image": "http://www.roblox.com/game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=14524719056",
+      "recipe": "{",
+      "Leaves": 6,
+      "[\"Iron Bar\"]": 3
+    }
+  },
+  "tools/picks.lua": {
+    "Wood Pick": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 0.2,
+      "useType": "Slash",
+      "level": 1,
+      "craftLevel": 1,
+      "damages": "{",
+      "stone": 2,
+      "players": 5,
+      "mobs": 5,
+      "stoneStructure": 2
+    },
+    "Stone Pick": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 0.25,
+      "useType": "Slash",
+      "level": 2,
+      "craftLevel": 7,
+      "damages": "{",
+      "stone": 3,
+      "players": 7,
+      "mobs": 7,
+      "stoneStructure": 3
+    },
+    "Iron Pick": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "coinValue": 0.3333333333333333,
+      "level": 3,
+      "craftLevel": 10,
+      "damages": "{",
+      "stone": 4,
+      "players": 9,
+      "mobs": 9,
+      "stoneStructure": 4
+    },
+    "Steel Pick": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 0.5,
+      "useType": "Slash",
+      "level": 4,
+      "craftLevel": 20,
+      "damages": "{",
+      "stone": 5,
+      "players": 11,
+      "mobs": 11,
+      "stoneStructure": 5
+    },
+    "Adurite Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 1,
+      "useType": "Slash",
+      "level": 5,
+      "craftLevel": 40,
+      "damages": "{",
+      "stone": 6,
+      "players": 13,
+      "mobs": 13,
+      "stoneStructure": 6
+    },
+    "Crystal Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 3,
+      "useType": "Slash",
+      "level": 6,
+      "craftLevel": 50,
+      "damages": "{",
+      "stone": 8,
+      "players": 13,
+      "mobs": 13,
+      "stoneStructure": 8,
+      "spirit": 5
+    },
+    "Magnetite Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 10,
+      "useType": "Slash",
+      "level": 7,
+      "craftLevel": 70,
+      "damages": "{",
+      "stone": 10,
+      "players": 15,
+      "mobs": 15,
+      "stoneStructure": 10,
+      "spirit": 5
+    },
+    "Emerald Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 30,
+      "useType": "Slash",
+      "level": 8,
+      "craftLevel": 80,
+      "damages": "{",
+      "stone": 12,
+      "players": 17,
+      "mobs": 17,
+      "stoneStructure": 12,
+      "spirit": 5
+    },
+    "Pink Diamond Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "coinValue": 30,
+      "useType": "Slash",
+      "level": 8,
+      "craftLevel": 85,
+      "damages": "{",
+      "stone": 12,
+      "players": 17,
+      "mobs": 17,
+      "stoneStructure": 12,
+      "spirit": 5
+    },
+    "Void Pick": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "level": 9,
+      "craftLevel": 90,
+      "damages": "{",
+      "stone": 125,
+      "players": 20,
+      "mobs": 20,
+      "stoneStructure": 15,
+      "spirit": 7
+    },
+    "Soulite Pick": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "level": 11,
+      "craftLevel": 105,
+      "damages": "{",
+      "stone": 45,
+      "stoneStructure": 25
+    },
+    "Phantomite Pick": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "level": 12,
+      "craftLevel": 110,
+      "damages": "{",
+      "stone": 55,
+      "stoneStructure": 30
+    },
+    "Hellstone Pick": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "level": 13,
+      "craftLevel": 115,
+      "damages": "{",
+      "stone": 65,
+      "stoneStructure": 35
+    },
+    "Undead Pick": {
+      "Rarity": "Legendary",
+      "unobtainable": true,
+      "itemType": "tool",
+      "toolType": "Pick",
+      "useType": "Slash",
+      "level": 14,
+      "craftLevel": 120,
+      "damages": "{",
+      "stone": 125,
+      "stoneStructure": 125
+    }
+  },
+  "tools/ranged.lua": {
+    "Iron Bow": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "ranged",
+      "speed": 1.6,
+      "coinValue": 0.3333333333333333,
+      "useType": "Draw",
+      "damages": "{",
+      "wood": 5,
+      "stone": 5,
+      "players": 18,
+      "mobs": 18,
+      "woodStructure": 5,
+      "stoneStructure": 5
+    },
+    "Void Bow": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "ranged",
+      "useType": "Draw",
+      "damages": "{",
+      "wood": 10,
+      "stone": 10,
+      "players": 45,
+      "mobs": 45,
+      "woodStructure": 10,
+      "stoneStructure": 10
+    },
+    "Magnetite Crossbow": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "ranged",
+      "coinValue": 20,
+      "useType": "Draw",
+      "damages": "{",
+      "wood": 75,
+      "stone": 75,
+      "players": 75,
+      "mobs": 75,
+      "woodStructure": 75,
+      "stoneStructure": 75
+    },
+    "Snowball Sling": {
+      "Rarity": "Rare",
+      "unobtainable": true,
+      "itemType": "tool",
+      "toolType": "ranged",
+      "coinValue": 1,
+      "useType": "Draw",
+      "damages": "{",
+      "wood": 2,
+      "stone": 2,
+      "players": 10,
+      "mobs": 10,
+      "woodStructure": 2,
+      "stoneStructure": 2
+    },
+    "Snowball Launcher": {
+      "Rarity": "Mythic",
+      "unobtainable": true,
+      "auto": true,
+      "itemType": "tool",
+      "toolType": "ranged",
+      "projectilespeed": 10,
+      "speed": 0.5,
+      "useType": "Draw",
+      "damages": "{",
+      "wood": 6,
+      "stone": 6,
+      "players": 6,
+      "mobs": 6,
+      "woodStructure": 6,
+      "stoneStructure": 6
+    },
+    "Coconut Sling": {
+      "Rarity": "Legendary",
+      "unobtainable": true,
+      "itemType": "tool",
+      "toolType": "ranged",
+      "coinValue": 1,
+      "eventItem": true,
+      "useType": "Draw",
+      "shouldBreak": true,
+      "damages": "{",
+      "wood": 5,
+      "stone": 5,
+      "players": 15,
+      "mobs": 15,
+      "woodStructure": 5,
+      "stoneStructure": 5
+    },
+    "Coconut Launcher": {
+      "Rarity": "Divine",
+      "unobtainable": true,
+      "eventItem": true,
+      "itemType": "tool",
+      "toolType": "ranged",
+      "projectilespeed": 5,
+      "speed": 0.5,
+      "useType": "Draw",
+      "shouldBreak": true,
+      "damages": "{",
+      "wood": 15,
+      "stone": 15,
+      "players": 20,
+      "mobs": 15,
+      "woodStructure": 15,
+      "stoneStructure": 15
+    }
+  },
+  "tools/weapons.lua": {
+    "Crystal Blade": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 1,
+      "useType": "Slash",
+      "oldNames": "{\"Crystal Stick\"}",
+      "infliction": "{",
+      "key": "Chilled",
+      "decayTime": 0.3,
+      "userData": "{}"
+    },
+    "Magnetite Double Axe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 40,
+      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+      "useType": "Scythe",
+      "idleAnim": "ScytheIdle",
+      "infliction": "{",
+      "key": "Shred",
+      "decayTime": 2,
+      "userData": "{}"
+    },
+    "Emerald Blade": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 40,
+      "useType": "Slash",
+      "infliction": "{",
+      "key": "Bleed",
+      "decayTime": 0.75,
+      "userData": "{}"
+    },
+    "Pink Diamond Scythe": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Spear",
+      "hitboxSize": "Vector3.new(8.60000, 4.30000, 3.90000)",
+      "coinValue": 40,
+      "useType": "Scythe",
+      "infliction": "{",
+      "key": "Shred",
+      "decayTime": 2.5,
+      "userData": "{}"
+    },
+    "Coconut Smasher": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Spear",
+      "coinValue": 40,
+      "useType": "Scythe",
+      "idleAnim": "ScytheIdle",
+      "unobtainable": true,
+      "shouldBreak": true,
+      "eventItem": true,
+      "damages": "{",
+      "wood": 100,
+      "stone": 100,
+      "players": 95,
+      "mobs": 95,
+      "woodStructure": 100,
+      "stoneStructure": 100
+    },
+    "Void Spear": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Spear",
+      "coinValue": 40,
+      "useType": "SpearAttack",
+      "damages": "{",
+      "wood": 10,
+      "stone": 10,
+      "players": 75,
+      "mobs": 75,
+      "woodStructure": 10,
+      "stoneStructure": 10
+    },
+    "War Horn": {
+      "Rarity": "Rare",
+      "itemType": "tool",
+      "toolType": "Horn",
+      "coinValue": 0.25,
+      "useType": "Horn",
+      "noteDelay": 1,
+      "noteWaver": 0.3,
+      "noteName": "WarHorn",
+      "speed": 15,
+      "craftLevel": 15,
+      "recipe": "{",
+      "Log": 4,
+      "Stick": 2
+    },
+    "Coconut Mace": {
+      "Rarity": "Legendary",
+      "itemType": "tool",
+      "unobtainable": true,
+      "eventItem": true,
+      "toolType": "Club",
+      "coinValue": 0.3333333333333333,
+      "useType": "Slash",
+      "shouldBreak": true,
+      "damages": "{",
+      "wood": 13,
+      "stone": 13,
+      "players": 65,
+      "mobs": 13,
+      "woodStructure": 13,
+      "stoneStructure": 13
+    },
+    "Battle Axe": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "coinValue": 0.5,
+      "useType": "Slash",
+      "infliction": "{",
+      "key": "Bleed",
+      "decayTime": 1.25,
+      "userData": "{}"
+    },
+    "War Hammer": {
+      "Rarity": "Common",
+      "itemType": "tool",
+      "toolType": "Sword",
+      "infliction": "{",
+      "key": "Burn",
+      "decayTime": 2,
+      "userData": "{",
+      "BurnDamage": 2,
+      "Ticks": 3
+    }
+  }
+}
