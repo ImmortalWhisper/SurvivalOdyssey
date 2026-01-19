@@ -4847,18 +4847,7 @@
       "craftLevel": 9,
       "speed": 6,
       "rodDrops": "{",
-      "[\"Peasant Crate\"]": "{",
-      "quantity": 1,
-      "percent": 0.52,
       "image": "https://tr.rbxcdn.com/180DAY-6f6141a0d0969f35c31ce78af392d375/150/150/Model/Png/noFilter"
-    },
-    "Good Crate": {
-      "quantity": 1,
-      "percent": 0.31
-    },
-    "Great Crate": {
-      "quantity": 1,
-      "percent": 0.5
     },
     "Wood Pick": {
       "quantity": 1,
@@ -4883,22 +4872,52 @@
       "craftLevel": 25,
       "speed": 6,
       "rodDrops": "{",
-      "[\"Food Crate\"]": "{",
-      "quantity": 1,
-      "percent": 1,
       "image": "https://tr.rbxcdn.com/180DAY-949272b0b305ad05765ac2eb6daceff9/150/150/Model/Png/noFilter"
+    },
+    "Peasant Crate": {
+      "quantity": 1,
+    },
+    "Good Crate": {
+      "quantity": 1,
+    },
+    "Food Crate": {
+      "quantity": 1,
     },
     "Resource Crate": {
       "quantity": 1,
-      "percent": 1
+    },
+    "Great Crate": {
+      "quantity": 1,
     },
     "OMG Crate": {
       "quantity": 1,
-      "percent": 0.4
+    },
+    "Adurite Crate": {
+      "quantity": 1,
     },
     "Gilded Crate": {
       "quantity": 1,
-      "percent": 0.2
+    },
+    "Crystal Crate": {
+      "quantity": 1,
+    },
+    "Magnetite Crate": {
+      "quantity": 1,
+    },
+    "Emerald Crate": {
+      "quantity": 1,
+    },
+    "Lavish Food Crate": {
+      "quantity": 1,
+    },
+    "Pink Diamond Crate": {
+      "quantity": 1,
+    },
+    "Radiant Crate": {
+      "quantity": 1,
+    },
+    "Shaman Crate": {
+      "quantity": 1,
     },
     "Emerald Sickle": {
       "Rarity": "Rare",
