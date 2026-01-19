@@ -12,7 +12,7 @@
       "mobs": 1,
       "woodStructure": null,
       "stoneStructure": null,
-      "image": 132309199898978
+      "image": "https://tr.rbxcdn.com/180DAY-a30d7f5378f201255f42d69fa5b41945/150/150/Model/Png/noFilter"
     },
     "Magnetite Stick": {
       "Rarity": "Unique",
@@ -31,7 +31,7 @@
       "mobs": 80,
       "woodStructure": 100,
       "stoneStructure": 100,
-      "image": 124007922295307
+      "image": "https://tr.rbxcdn.com/180DAY-2a1463ec7c1ef23629b96a4c5e578a22/150/150/Model/Png/noFilter"
     },
     "Emerald Stick": {
       "Rarity": "Unique",
@@ -50,7 +50,7 @@
       "mobs": 105,
       "woodStructure": 250,
       "stoneStructure": 250,
-      "image": 122234184049816
+      "image": "https://tr.rbxcdn.com/180DAY-15077e6f2c8186872669be59c7faefa6/150/150/Model/Png/noFilter"
     },
     "Void Stick": {
       "Rarity": "Unique",
@@ -68,7 +68,7 @@
       "mobs": 100,
       "woodStructure": 100,
       "stoneStructure": 100,
-      "image": 130821431505177
+      "image": "https://tr.rbxcdn.com/180DAY-0a6f0aa88d0de4423243f5e0549de056/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Stick": {
       "Rarity": "Unique",
@@ -87,7 +87,7 @@
       "mobs": 125,
       "woodStructure": 250,
       "stoneStructure": 250,
-      "image": 98561253527248
+      "image": "https://tr.rbxcdn.com/180DAY-05165fcb115d5d657bfb8ea83b1bedcb/150/150/Model/Png/noFilter"
     },
     "True Developer Artifact": {
       "Rarity": "Unique",
@@ -98,7 +98,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 140503121949068
+      "image": "https://tr.rbxcdn.com/180DAY-53e142dc63cd4d6a9140e273aafc928a/150/150/Model/Png/noFilter"
     },
     "The Moneymaker": {
       "Rarity": "Unique",
@@ -116,7 +116,7 @@
       "mobs": null,
       "woodStructure": 5004363,
       "stoneStructure": 500436,
-      "image": 96408494995018
+      "image": "https://tr.rbxcdn.com/180DAY-df0ef1eaea41714998a2ee7742c7779c/150/150/Model/Png/noFilter"
     },
     "The Glitchmaker": {
       "Rarity": "Unique",
@@ -134,7 +134,7 @@
       "mobs": null,
       "woodStructure": null,
       "stoneStructure": null,
-      "image": 112724753316201
+      "image": "https://tr.rbxcdn.com/180DAY-60f4c5b754e7795cbd9bcef547698214/150/150/Model/Png/noFilter"
     },
     "The Meatmaker": {
       "Rarity": "Unique",
@@ -152,7 +152,7 @@
       "mobs": 1000,
       "woodStructure": 5004,
       "stoneStructure": 5021,
-      "image": 100761094733442
+      "image": "https://tr.rbxcdn.com/180DAY-c10c3728dd55e94a09a1252790dfaad0/150/150/Model/Png/noFilter"
     },
     "Cursed Greatsword": {
       "Rarity": "Unique",
@@ -170,7 +170,7 @@
       "mobs": 80,
       "woodStructure": 20,
       "stoneStructure": 20,
-      "image": 118599582553008
+      "image": "https://tr.rbxcdn.com/180DAY-3d75e25e0a700b6f5623c8bfc2bbc662/150/150/Model/Png/noFilter"
     },
     "Lightning Cape": {
       "Rarity": "Unique",
@@ -184,7 +184,7 @@
       "rebirthPersist": true,
       "damages": "{}",
       "speed": null,
-      "image": 10771523857
+      "image": "https://tr.rbxcdn.com/180DAY-27cd41c2d006b614394241fb80947605/150/150/Model/Png/noFilter"
     }
   },
   "armor/adurite.lua": {
@@ -200,7 +200,7 @@
       "recipe": "{",
       "[\"Fire Hide\"]": 1,
       "[\"Adurite Bar\"]": 3,
-      "image": 14525306197
+      "image": "https://tr.rbxcdn.com/180DAY-2245c7e7ebfe4c680d099813c38981ee/150/150/Model/Png/noFilter"
     },
     "Adurite Helmet": {
       "itemType": "armor",
@@ -213,7 +213,7 @@
       "craftLevel": 40,
       "recipe": "{",
       "[\"Adurite Bar\"]": 2,
-      "image": 14525379753
+      "image": "https://tr.rbxcdn.com/180DAY-c2c6ed2294c33591ac1156c9f4bc3a34/150/150/Model/Png/noFilter"
     },
     "Adurite Chestplate": {
       "itemType": "armor",
@@ -227,7 +227,7 @@
       "recipe": "{",
       "[\"Fire Hide\"]": 1,
       "[\"Adurite Bar\"]": 3,
-      "image": 14525362803
+      "image": "https://tr.rbxcdn.com/180DAY-fbf6bd14891347ca57966becde757d12/150/150/Model/Png/noFilter"
     }
   },
   "armor/bags.lua": {
@@ -243,7 +243,7 @@
       "recipe": "{",
       "Stick": 2,
       "Leaves": 3,
-      "image": 14525342219
+      "image": "https://tr.rbxcdn.com/180DAY-e740bf0d10de5b9a77dd3b92b7107e9c/150/150/Model/Png/noFilter"
     },
     "Hide Bag": {
       "itemType": "armor",
@@ -257,7 +257,7 @@
       "recipe": "{",
       "Stick": 4,
       "Hide": 1,
-      "image": 14525340131
+      "image": "https://tr.rbxcdn.com/180DAY-60bc08394f0b59243f84287768dd193c/150/150/Model/Png/noFilter"
     },
     "Iron Bag": {
       "itemType": "armor",
@@ -270,7 +270,7 @@
       "recipe": "{",
       "Hide": 2,
       "[\"Iron Bar\"]": 6,
-      "image": 14525338018
+      "image": "https://tr.rbxcdn.com/180DAY-a88dee253cd2e0794553a37ca3ca680b/150/150/Model/Png/noFilter"
     },
     "Steel Bag": {
       "itemType": "armor",
@@ -283,7 +283,7 @@
       "recipe": "{",
       "Hide": 2,
       "[\"Steel Bar\"]": 6,
-      "image": 14525335383
+      "image": "https://tr.rbxcdn.com/180DAY-4cd54d5f8f2f123297b62b9a9b324585/150/150/Model/Png/noFilter"
     },
     "Adurite Bag": {
       "itemType": "armor",
@@ -296,7 +296,7 @@
       "recipe": "{",
       "[\"Fire Hide\"]": 2,
       "[\"Adurite Bar\"]": 6,
-      "image": 14525321404
+      "image": "https://tr.rbxcdn.com/180DAY-821b4c6a57238615cca4f6b519615687/150/150/Model/Png/noFilter"
     },
     "Crystal Bag": {
       "itemType": "armor",
@@ -309,7 +309,7 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 9,
       "[\"Gold Bar\"]": 20,
-      "image": 14525323987
+      "image": "https://tr.rbxcdn.com/180DAY-54a89ccf40c537ce7dc935f650431a4f/150/150/Model/Png/noFilter"
     },
     "Magnetite Bag": {
       "itemType": "armor",
@@ -321,7 +321,7 @@
       "pieces": "{\"Magnetite Bag\"}",
       "recipe": "{",
       "[\"Magnetite Bar\"]": 9,
-      "image": 14525318684
+      "image": "https://tr.rbxcdn.com/180DAY-577b339a6399dbb9195d3e5e084c80a0/150/150/Model/Png/noFilter"
     },
     "Emerald Bag": {
       "itemType": "armor",
@@ -333,7 +333,7 @@
       "pieces": "{\"Emerald Bag\"}",
       "recipe": "{",
       "Emerald": 9,
-      "image": 14525317075
+      "image": "https://tr.rbxcdn.com/180DAY-3ca7019b0d16ea5ae21249e6b4348180/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Bag": {
       "itemType": "armor",
@@ -345,7 +345,7 @@
       "pieces": "{\"Pink Diamond Bag\"}",
       "recipe": "{",
       "[\"Pink Diamond\"]": 8,
-      "image": 14525314317
+      "image": "https://tr.rbxcdn.com/180DAY-29599df93da980a912db71449da20c37/150/150/Model/Png/noFilter"
     },
     "Void Bag": {
       "itemType": "armor",
@@ -358,7 +358,7 @@
       "[\"Magnetite Bar\"]": 6,
       "[\"Void Shard\"]": 6,
       "Jelly": 24,
-      "image": 14525272009
+      "image": "https://tr.rbxcdn.com/180DAY-6ce0403e4d2e6fc6e4cd7886c651a85e/150/150/Model/Png/noFilter"
     },
     "God Bag": {
       "itemType": "armor",
@@ -373,7 +373,7 @@
       "[\"Crystal Chunk\"]": 60,
       "[\"Gold Bar\"]": 100,
       "[\"Spirit Key\"]": 3,
-      "image": 14525268565
+      "image": "https://tr.rbxcdn.com/180DAY-f0a12c733733a598f6435b7cfd9d2dd2/150/150/Model/Png/noFilter"
     },
     "Soulite Bag": {
       "itemType": "armor",
@@ -383,7 +383,7 @@
       "craftLevel": 105,
       "load": 0,
       "craftQuantity": 1,
-      "image": 127101511349135
+      "image": "https://tr.rbxcdn.com/180DAY-8b79b5f5cf084e4277eed2c3eb19e4ce/150/150/Model/Png/noFilter"
     },
     "Phantomite Bag": {
       "itemType": "armor",
@@ -394,7 +394,7 @@
       "craftLevel": 110,
       "load": 0,
       "craftQuantity": 1,
-      "image": 102188752086207
+      "image": "https://tr.rbxcdn.com/180DAY-6e1751e4b422dfc5ff23fba080838fea/150/150/Model/Png/noFilter"
     },
     "Hellstone Bag": {
       "itemType": "armor",
@@ -405,7 +405,7 @@
       "craftLevel": 115,
       "load": 0,
       "craftQuantity": 1,
-      "image": 135580939493200
+      "image": "https://tr.rbxcdn.com/180DAY-1edd90b755df3fa2f0b0f55866a2fa40/150/150/Model/Png/noFilter"
     },
     "Undead Bag": {
       "itemType": "armor",
@@ -416,7 +416,7 @@
       "craftLevel": 120,
       "load": 0,
       "craftQuantity": 1,
-      "image": 116269706940544
+      "image": "https://tr.rbxcdn.com/180DAY-2e66b000c98e00008b8ab1a8caeb5ff4/150/150/Model/Png/noFilter"
     },
     "Void Banto Bag": {
       "itemType": "armor",
@@ -428,7 +428,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 117872861705254
+      "image": "https://tr.rbxcdn.com/180DAY-71abc5be3730259437698c6f8934d3bd/150/150/Model/Png/noFilter"
     },
     "Golden Banto Bag": {
       "itemType": "armor",
@@ -441,7 +441,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 87833120171814
+      "image": "https://tr.rbxcdn.com/180DAY-72270b604d952d4c49bac500e4a0fbaa/150/150/Model/Png/noFilter"
     },
     "Bookshelf Bag": {
       "itemType": "armor",
@@ -453,7 +453,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 84935653211089
+      "image": "https://tr.rbxcdn.com/180DAY-9e97ecbbe0b567f43eb2e15792f2e33f/150/150/Model/Png/noFilter"
     },
     "Walrus Bag": {
       "itemType": "armor",
@@ -465,7 +465,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 110473756406798
+      "image": "https://tr.rbxcdn.com/180DAY-a9a7be508219f442475ee63d4c4f202d/150/150/Model/Png/noFilter"
     },
     "Ghost Bag": {
       "itemType": "armor",
@@ -477,7 +477,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 100600427086385
+      "image": "https://tr.rbxcdn.com/180DAY-4d085f720ff390fa65572e1193100f3a/150/150/Model/Png/noFilter"
     },
     "Skeleton Bag": {
       "itemType": "armor",
@@ -487,7 +487,7 @@
       "rebirthPersist": true,
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
-      "image": 125587355608202
+      "image": "https://tr.rbxcdn.com/180DAY-4b3abf66e1f14cffd87b223e257886e8/150/150/Model/Png/noFilter"
     },
     "Pumpkin Bag": {
       "itemType": "armor",
@@ -498,7 +498,7 @@
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
       "load": 0,
-      "image": 129957870297736
+      "image": "https://tr.rbxcdn.com/180DAY-470295c931dfbe44f3ca6c53e5c2e733/150/150/Model/Png/noFilter"
     },
     "Zombie Bag": {
       "itemType": "armor",
@@ -508,7 +508,7 @@
       "rebirthPersist": true,
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
-      "image": 100329066064945
+      "image": "https://tr.rbxcdn.com/180DAY-bb694aace28b7e7f48dc84d53584c97e/150/150/Model/Png/noFilter"
     },
     "Serpent Bag": {
       "itemType": "armor",
@@ -518,7 +518,7 @@
       "rebirthPersist": true,
       "DisableDoubleResources": true,
       "Rarity": "Mythic",
-      "image": 88156875097735
+      "image": "https://tr.rbxcdn.com/180DAY-9732bb6bd372ec16a45dd7074b91f9ab/150/150/Model/Png/noFilter"
     },
     "Develop Bag": {
       "Rarity": "Unique",
@@ -528,7 +528,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "load": 0,
-      "image": 78896678684726
+      "image": "https://tr.rbxcdn.com/180DAY-0b9baf4d206d489bbcb5d9ab0e6ce9f8/150/150/Model/Png/noFilter"
     },
     "Not The Shelly Bag": {
       "Rarity": "Unique",
@@ -538,7 +538,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "load": 0,
-      "image": 112189540128244
+      "image": "https://tr.rbxcdn.com/180DAY-c0eea38e4016e7319a3a9138579c9613/150/150/Model/Png/noFilter"
     },
     "Artist Bag": {
       "Rarity": "Unique",
@@ -548,7 +548,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "load": 0,
-      "image": 75872680593831
+      "image": "https://tr.rbxcdn.com/180DAY-301fbd0b20f90a00363239d4389579b7/150/150/Model/Png/noFilter"
     }
   },
   "armor/crystal.lua": {
@@ -565,7 +565,7 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 3,
       "[\"Gold Bar\"]": 9,
-      "image": 14525298242
+      "image": "https://tr.rbxcdn.com/180DAY-bba5e13de6e4db88332727adf74a5a83/150/150/Model/Png/noFilter"
     },
     "Crystal Crown": {
       "itemType": "armor",
@@ -580,7 +580,7 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 2,
       "[\"Gold Bar\"]": 6,
-      "image": 14525381056
+      "image": "https://tr.rbxcdn.com/180DAY-e8be79afbac69a80b2f9b6326d44f875/150/150/Model/Png/noFilter"
     },
     "Crystal Chestplate": {
       "itemType": "armor",
@@ -595,7 +595,7 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 3,
       "[\"Gold Bar\"]": 9,
-      "image": 14525364588
+      "image": "https://tr.rbxcdn.com/180DAY-32703183e05dcbf7a23e89c85725a35e/150/150/Model/Png/noFilter"
     }
   },
   "armor/emerald.lua": {
@@ -611,7 +611,7 @@
       "craftLevel": 80,
       "recipe": "{",
       "Emerald": 3,
-      "image": 14525286858
+      "image": "https://tr.rbxcdn.com/180DAY-0c7463a2a6f7cb67f6dde6c2636d9d3c/150/150/Model/Png/noFilter"
     },
     "Emerald Helmet": {
       "itemType": "armor",
@@ -625,7 +625,7 @@
       "craftLevel": 80,
       "recipe": "{",
       "Emerald": 2,
-      "image": 14525390020
+      "image": "https://tr.rbxcdn.com/180DAY-f8c6599ae64bf7266fc79061b7710fd4/150/150/Model/Png/noFilter"
     },
     "Emerald Chestplate": {
       "itemType": "armor",
@@ -639,7 +639,7 @@
       "craftLevel": 80,
       "recipe": "{",
       "Emerald": 3,
-      "image": 14525370364
+      "image": "https://tr.rbxcdn.com/180DAY-01c04199b643e6b334c5d5d962acc7a7/150/150/Model/Png/noFilter"
     }
   },
   "armor/hide.lua": {
@@ -655,7 +655,7 @@
       "craftLevel": 5,
       "recipe": "{",
       "Hide": 1,
-      "image": 14525351121
+      "image": "https://tr.rbxcdn.com/180DAY-a987120ff2c0cc064541bbf58c917541/150/150/Model/Png/noFilter"
     },
     "Hide Shirt": {
       "itemType": "armor",
@@ -669,7 +669,7 @@
       "craftLevel": 5,
       "recipe": "{",
       "Hide": 1,
-      "image": 14525353153
+      "image": "https://tr.rbxcdn.com/180DAY-b2b2d41b964e0ef56be0c3bb38e042c9/150/150/Model/Png/noFilter"
     }
   },
   "armor/leaf.lua": {
@@ -685,7 +685,7 @@
       "craftLevel": 1,
       "recipe": "{",
       "Leaves": 2,
-      "image": 14525357473
+      "image": "https://tr.rbxcdn.com/180DAY-7813d5e26da3fccee80e5640e085dea1/150/150/Model/Png/noFilter"
     },
     "Leaf Shirt": {
       "itemType": "armor",
@@ -699,7 +699,7 @@
       "craftLevel": 1,
       "recipe": "{",
       "Leaves": 2,
-      "image": 14942778388
+      "image": "https://tr.rbxcdn.com/180DAY-4c20517df05cc90ab06ff73890552e02/150/150/Model/Png/noFilter"
     }
   },
   "armor/magnetite.lua": {
@@ -715,7 +715,7 @@
       "craftLevel": 70,
       "recipe": "{",
       "[\"Magnetite Bar\"]": 3,
-      "image": 14525289260
+      "image": "https://tr.rbxcdn.com/180DAY-faa23737d4eb33269f6708f3d781cea0/150/150/Model/Png/noFilter"
     },
     "Magnetite Mask": {
       "itemType": "armor",
@@ -729,7 +729,7 @@
       "craftLevel": 70,
       "recipe": "{",
       "[\"Magnetite Bar\"]": 2,
-      "image": 14525383852
+      "image": "https://tr.rbxcdn.com/180DAY-e1f3f5137d954d7510c6d7ceb7a6476c/150/150/Model/Png/noFilter"
     },
     "Magnetite Chestplate": {
       "itemType": "armor",
@@ -743,7 +743,7 @@
       "craftLevel": 70,
       "recipe": "{",
       "[\"Magnetite Bar\"]": 3,
-      "image": 14525368772
+      "image": "https://tr.rbxcdn.com/180DAY-362638174fcfcbaae96ddae1607d2cbe/150/150/Model/Png/noFilter"
     }
   },
   "armor/pink_diamond.lua": {
@@ -759,7 +759,7 @@
       "craftLevel": 85,
       "recipe": "{",
       "[\"Pink Diamond\"]": 3,
-      "image": 14525284287
+      "image": "https://tr.rbxcdn.com/180DAY-e9d810a7841b962143f33ac1e777f798/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Hood": {
       "itemType": "armor",
@@ -773,7 +773,7 @@
       "craftLevel": 85,
       "recipe": "{",
       "[\"Pink Diamond\"]": 2,
-      "image": 14541660332
+      "image": "https://tr.rbxcdn.com/180DAY-980eaac5102a5840ddbe6fb2193e7e0e/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Chestplate": {
       "itemType": "armor",
@@ -787,7 +787,7 @@
       "craftLevel": 85,
       "recipe": "{",
       "[\"Pink Diamond\"]": 3,
-      "image": 14525372414
+      "image": "https://tr.rbxcdn.com/180DAY-3c70bd0e24902f9b612210de183f80e3/150/150/Model/Png/noFilter"
     }
   },
   "armor/satchels.lua": {
@@ -803,7 +803,7 @@
       "recipe": "{",
       "[\"Gold Bar\"]": 3,
       "[\"Steel Bar\"]": 3,
-      "image": 14525235133
+      "image": "https://tr.rbxcdn.com/180DAY-77be417a45fb07d3e339f36a0e2eda80/150/150/Model/Png/noFilter"
     },
     "Leaf Satchel": {
       "itemType": "armor",
@@ -816,7 +816,7 @@
       "recipe": "{",
       "Stick": 2,
       "Leaves": 1,
-      "image": 139986311879481
+      "image": "https://tr.rbxcdn.com/180DAY-0c6c72941131de5f9a7674eb61bd2910/150/150/Model/Png/noFilter"
     },
     "Tutorial Satchel": {
       "itemType": "armor",
@@ -828,7 +828,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 128123769095301
+      "image": "https://tr.rbxcdn.com/180DAY-10899853582d1d2aa0db59a7157189c6/150/150/Model/Png/noFilter"
     },
     "Hide Satchel": {
       "itemType": "armor",
@@ -841,7 +841,7 @@
       "recipe": "{",
       "Stick": 2,
       "Hide": 1,
-      "image": 125033280157775
+      "image": "https://tr.rbxcdn.com/180DAY-eb76e62565efa4fd85918dfa478d6b78/150/150/Model/Png/noFilter"
     },
     "Iron Satchel": {
       "itemType": "armor",
@@ -855,7 +855,7 @@
       "Stick": 2,
       "Hide": 1,
       "[\"Iron Bar\"]": 3,
-      "image": 73933236812142
+      "image": "https://tr.rbxcdn.com/180DAY-c8849d1d982a43c85cf8e2356c2bd8a6/150/150/Model/Png/noFilter"
     },
     "Steel Satchel": {
       "itemType": "armor",
@@ -869,7 +869,7 @@
       "Stick": 2,
       "Hide": 1,
       "[\"Steel Bar\"]": 3,
-      "image": 135785163573008
+      "image": "https://tr.rbxcdn.com/180DAY-135f76eda6dac79204b99800d5a88060/150/150/Model/Png/noFilter"
     },
     "Adurite Satchel": {
       "itemType": "armor",
@@ -883,7 +883,7 @@
       "Stick": 2,
       "[\"Fire Hide\"]": 1,
       "[\"Adurite Bar\"]": 3,
-      "image": 106055386416647
+      "image": "https://tr.rbxcdn.com/180DAY-6ba4f99fdabbfecfbc2980c759a95923/150/150/Model/Png/noFilter"
     },
     "Crystal Satchel": {
       "itemType": "armor",
@@ -897,7 +897,7 @@
       "Stick": 2,
       "[\"Crystal Chunk\"]": 4,
       "[\"Gold Bar\"]": 10,
-      "image": 93212249368599
+      "image": "https://tr.rbxcdn.com/180DAY-524e3ecb50b3fefbd133484ac31c86c1/150/150/Model/Png/noFilter"
     },
     "Magnetite Satchel": {
       "itemType": "armor",
@@ -911,7 +911,7 @@
       "Stick": 2,
       "[\"Magnetite Bar\"]": 4,
       "[\"Gold Bar\"]": 1,
-      "image": 107491197027072
+      "image": "https://tr.rbxcdn.com/180DAY-124ee3791ce5b5b17f7b1624119ec02b/150/150/Model/Png/noFilter"
     },
     "Emerald Satchel": {
       "itemType": "armor",
@@ -925,7 +925,7 @@
       "Stick": 2,
       "Emerald": 4,
       "[\"Gold Bar\"]": 1,
-      "image": 129593567179904
+      "image": "https://tr.rbxcdn.com/180DAY-7edd203e17b4ee6bcfb23e174a818d81/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Satchel": {
       "itemType": "armor",
@@ -939,7 +939,7 @@
       "Stick": 2,
       "[\"Pink Diamond\"]": 4,
       "[\"Gold Bar\"]": 1,
-      "image": 100509797132910
+      "image": "https://tr.rbxcdn.com/180DAY-b2f94c3b2bfda096d45db6991b68daf2/150/150/Model/Png/noFilter"
     },
     "Void Satchel": {
       "itemType": "armor",
@@ -954,7 +954,7 @@
       "[\"Magnetite Bar\"]": 3,
       "Jelly": 12,
       "[\"Gold Bar\"]": 1,
-      "image": 115780694306531
+      "image": "https://tr.rbxcdn.com/180DAY-2c1be2187bf71ec2450ff339c04861ee/150/150/Model/Png/noFilter"
     },
     "God Satchel": {
       "itemType": "armor",
@@ -973,7 +973,7 @@
       "[\"Crystal Chunk\"]": 30,
       "[\"Gold Bar\"]": 50,
       "[\"Spirit Key\"]": 1,
-      "image": 72412169596251
+      "image": "https://tr.rbxcdn.com/180DAY-ad6ca534bc946de5690d4bd61f5b2fac/150/150/Model/Png/noFilter"
     },
     "Soulite Satchel": {
       "itemType": "armor",
@@ -984,7 +984,7 @@
       "pickupSound": "Otherworldly",
       "craftLevel": 105,
       "craftQuantity": 1,
-      "image": 72910281021403
+      "image": "https://tr.rbxcdn.com/180DAY-d583207f6fbd53c17e6c6422b26ba398/150/150/Model/Png/noFilter"
     },
     "Phantomite Satchel": {
       "itemType": "armor",
@@ -995,7 +995,7 @@
       "load": 0,
       "craftLevel": 110,
       "craftQuantity": 1,
-      "image": 104312238889918
+      "image": "https://tr.rbxcdn.com/180DAY-7cc15cbaaebb296af6ee87ae39954095/150/150/Model/Png/noFilter"
     },
     "Hellstone Satchel": {
       "itemType": "armor",
@@ -1006,7 +1006,7 @@
       "load": 0,
       "craftLevel": 115,
       "craftQuantity": 1,
-      "image": 115143957594005
+      "image": "https://tr.rbxcdn.com/180DAY-3bc43435ade6082091fdd8f89fc8025c/150/150/Model/Png/noFilter"
     },
     "Undead Satchel": {
       "itemType": "armor",
@@ -1018,7 +1018,7 @@
       "pickupSound": "Otherworldly",
       "craftLevel": 120,
       "craftQuantity": 1,
-      "image": 132418855450341
+      "image": "https://tr.rbxcdn.com/180DAY-e16e2f03c92d071488d087bc337cb8c3/150/150/Model/Png/noFilter"
     },
     "Amethyst Satchel": {
       "itemType": "armor",
@@ -1030,7 +1030,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 98709373776622
+      "image": "https://tr.rbxcdn.com/180DAY-ca427a193958d3586ace2c18063eb10f/150/150/Model/Png/noFilter"
     },
     "Evil Satchel": {
       "itemType": "armor",
@@ -1042,7 +1042,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 90645941072161
+      "image": "https://tr.rbxcdn.com/180DAY-f0c92e0eacf1e6e0f33b162f367ac3f5/150/150/Model/Png/noFilter"
     },
     "Transcendant Satchel": {
       "itemType": "armor",
@@ -1054,7 +1054,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 125662769807978
+      "image": "https://tr.rbxcdn.com/180DAY-3e8d4743db59eed5725bd7f2e3bf2611/150/150/Model/Png/noFilter"
     },
     "Kitty Satchel": {
       "itemType": "armor",
@@ -1066,7 +1066,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 107822984445286
+      "image": "https://tr.rbxcdn.com/180DAY-62dce2286cc3aa8f192ab31e40d96a20/150/150/Model/Png/noFilter"
     },
     "Bookshelf Satchel": {
       "itemType": "armor",
@@ -1078,7 +1078,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 105201571742810
+      "image": "https://tr.rbxcdn.com/180DAY-13f9bb5c31a01b2cb0a04c83ba9a1ffa/150/150/Model/Png/noFilter"
     },
     "Ghost Satchel": {
       "itemType": "armor",
@@ -1089,7 +1089,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 111803325452630
+      "image": "https://tr.rbxcdn.com/180DAY-b1daaab952ab000432712156b592a6f8/150/150/Model/Png/noFilter"
     },
     "Skeleton Satchel": {
       "itemType": "armor",
@@ -1099,7 +1099,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 92068023392776
+      "image": "https://tr.rbxcdn.com/180DAY-49468978406d7cab559540b1d817e9fd/150/150/Model/Png/noFilter"
     },
     "Pumpkin Satchel": {
       "itemType": "armor",
@@ -1110,7 +1110,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 121063441871692
+      "image": "https://tr.rbxcdn.com/180DAY-d5315339420acd553619f235bc157881/150/150/Model/Png/noFilter"
     },
     "Serpent Satchel": {
       "itemType": "armor",
@@ -1120,7 +1120,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 128212825495400
+      "image": "https://tr.rbxcdn.com/180DAY-b6a12fdaec9be16be888eb458405d7ba/150/150/Model/Png/noFilter"
     },
     "Zombie Satchel": {
       "itemType": "armor",
@@ -1130,7 +1130,7 @@
       "noDrop": true,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 110276317352898
+      "image": "https://tr.rbxcdn.com/180DAY-4cf1d5231be70488895b5b097eafec93/150/150/Model/Png/noFilter"
     },
     "Develop Satchel": {
       "Rarity": "Unique",
@@ -1141,7 +1141,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 97138076685247
+      "image": "https://tr.rbxcdn.com/180DAY-bc72dfab73ead0b067962c9f432198a9/150/150/Model/Png/noFilter"
     },
     "Administor Satchel": {
       "Rarity": "Unique",
@@ -1152,7 +1152,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 108480503945213
+      "image": "https://tr.rbxcdn.com/180DAY-b3f7db8c6f62feb76c487946a9b37e86/150/150/Model/Png/noFilter"
     },
     "Doodoo Satchel": {
       "Rarity": "Unique",
@@ -1163,7 +1163,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 134461743156046
+      "image": "https://tr.rbxcdn.com/180DAY-d5b86f324adf294552d87a0a8ec62813/150/150/Model/Png/noFilter"
     },
     "Tree Morph": {
       "Rarity": "Unique",
@@ -1174,7 +1174,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 90753821506476
+      "image": "https://tr.rbxcdn.com/180DAY-8363bb9aa00b4ed13ba95ace3e128e1f/150/150/Model/Png/noFilter"
     },
     "Ancient Tree Morph": {
       "Rarity": "Unique",
@@ -1185,7 +1185,7 @@
       "noDrop": true,
       "load": 0,
       "rebirthPersist": true,
-      "image": 139395438424212
+      "image": "https://tr.rbxcdn.com/180DAY-19464816c3ab60ea64148b650cdc7f96/150/150/Model/Png/noFilter"
     }
   },
   "armor/steel.lua": {
@@ -1202,7 +1202,7 @@
       "recipe": "{",
       "Hide": 1,
       "[\"Steel Bar\"]": 3,
-      "image": 14525308423
+      "image": "https://tr.rbxcdn.com/180DAY-96401a44d88a0166cb1b83a9da24d1cd/150/150/Model/Png/noFilter"
     },
     "Steel Helmet": {
       "itemType": "armor",
@@ -1216,7 +1216,7 @@
       "craftLevel": 20,
       "recipe": "{",
       "[\"Steel Bar\"]": 2,
-      "image": 14525378044
+      "image": "https://tr.rbxcdn.com/180DAY-981f26528ee6e0f7788100e5b532c08a/150/150/Model/Png/noFilter"
     },
     "Steel Chestplate": {
       "itemType": "armor",
@@ -1231,7 +1231,7 @@
       "recipe": "{",
       "Hide": 1,
       "[\"Steel Bar\"]": 3,
-      "image": 14525361233
+      "image": "https://tr.rbxcdn.com/180DAY-e4516957dbb9aa0609b73635b29f142b/150/150/Model/Png/noFilter"
     }
   },
   "armor/void.lua": {
@@ -1249,7 +1249,7 @@
       "Jelly": 6,
       "[\"Void Shard\"]": 2,
       "[\"Magnetite Bar\"]": 1,
-      "image": 14525281677
+      "image": "https://tr.rbxcdn.com/180DAY-5f973f5d6d2bcd674098dfae8dc21ad8/150/150/Model/Png/noFilter"
     },
     "Void Shroud": {
       "itemType": "armor",
@@ -1265,7 +1265,7 @@
       "Jelly": 6,
       "[\"Void Shard\"]": 1,
       "[\"Magnetite Bar\"]": 1,
-      "image": 14525240263
+      "image": "https://tr.rbxcdn.com/180DAY-7139fe9ec1883bb8916adb2ad1dcc10c/150/150/Model/Png/noFilter"
     },
     "Void Chestplate": {
       "itemType": "armor",
@@ -1280,7 +1280,7 @@
       "Jelly": 6,
       "[\"Void Shard\"]": 2,
       "[\"Magnetite Bar\"]": 1,
-      "image": 14525241526
+      "image": "https://tr.rbxcdn.com/180DAY-683244bd3d32946059fcc57f4c195f6f/150/150/Model/Png/noFilter"
     }
   },
   "charms/voodoo.lua": {
@@ -1291,7 +1291,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(49, 49, 49)",
       "speed": 0.3333333333333333,
-      "image": 113234011092518
+      "image": "https://tr.rbxcdn.com/180DAY-e5f3966cef20e420cadd9a6112e95e1d/150/150/Model/Png/noFilter"
     },
     "Ancient Charm": {
       "Rarity": "Rare",
@@ -1300,7 +1300,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(39, 255, 154)",
       "speed": 0.3333333333333333,
-      "image": 110062428517954
+      "image": "https://tr.rbxcdn.com/180DAY-8e2e44589b96a9d7f95da5e3f5ddc6c1/150/150/Model/Png/noFilter"
     },
     "Sun Charm": {
       "Rarity": "Rare",
@@ -1309,7 +1309,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(255, 255, 255)",
       "speed": 0.3333333333333333,
-      "image": 77437434782930
+      "image": "https://tr.rbxcdn.com/180DAY-67cba26ad4e1184fb77ffd621d1d45e1/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Charm": {
       "Rarity": "Rare",
@@ -1318,7 +1318,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(249, 84, 255)",
       "speed": 0.3333333333333333,
-      "image": 97792941952168
+      "image": "https://tr.rbxcdn.com/180DAY-e6785b2b3d0b28dd832ee1685e878757/150/150/Model/Png/noFilter"
     },
     "Adurite Charm": {
       "Rarity": "Rare",
@@ -1327,7 +1327,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(255, 44, 48)",
       "speed": 0.3333333333333333,
-      "image": 112768767501027
+      "image": "https://tr.rbxcdn.com/180DAY-c28443b4127b18c0ad21446fc58886d1/150/150/Model/Png/noFilter"
     },
     "Void Charm": {
       "Rarity": "Rare",
@@ -1336,7 +1336,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(177, 62, 235)",
       "speed": 0.3333333333333333,
-      "image": 85309978598064
+      "image": "https://tr.rbxcdn.com/180DAY-31d9edad9f510aa4d947021723f6fc3a/150/150/Model/Png/noFilter"
     },
     "Vortex Charm": {
       "Rarity": "Rare",
@@ -1347,7 +1347,7 @@
       "cost": 95000,
       "color": "Color3.fromRGB(125, 0, 235)",
       "speed": 0.3333333333333333,
-      "image": 126702302443932
+      "image": "https://tr.rbxcdn.com/180DAY-32ec46e7504b7c10d604f41bf6ad6079/150/150/Model/Png/noFilter"
     },
     "Essence Charm": {
       "Rarity": "Rare",
@@ -1356,7 +1356,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(235, 173, 28)",
       "speed": 0.3333333333333333,
-      "image": 109942014691432
+      "image": "https://tr.rbxcdn.com/180DAY-df50cd36770fe62e1b676ced20b7f85e/150/150/Model/Png/noFilter"
     },
     "Lonely Charm": {
       "Rarity": "Rare",
@@ -1365,7 +1365,7 @@
       "useType": "CharmUse",
       "color": "Color3.fromRGB(65, 153, 235)",
       "speed": 0.3333333333333333,
-      "image": 119534586904364
+      "image": "https://tr.rbxcdn.com/180DAY-e198d7ec84f494c2098e95c392b0b7f8/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/cosmetics.lua": {
@@ -1375,7 +1375,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": -1,
-      "image": 81009571045224
+      "image": "https://tr.rbxcdn.com/180DAY-88a6853a64bb6a3fffa1ccc802b1bb22/150/150/Model/Png/noFilter"
     },
     "Iron Mole": {
       "cost": 200,
@@ -1384,7 +1384,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 102631339
+      "image": "https://tr.rbxcdn.com/180DAY-17179b9090a5b2a0cdab0bab792cc1fa/150/150/Hat/Png/noFilter"
     },
     "Coconut Shell": {
       "cost": 500,
@@ -1393,7 +1393,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 14155006475
+      "image": "https://tr.rbxcdn.com/180DAY-09d1947e9d8c1513f9703577cf186819/150/150/Hat/Png/noFilter"
     },
     "Straw Hat": {
       "cost": 500,
@@ -1402,7 +1402,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 18358376553
+      "image": "https://tr.rbxcdn.com/180DAY-c8b0d391bcb74fa178e1f791e2a26cd6/150/150/Hat/Png/noFilter"
     },
     "Dark Wanderer": {
       "cost": 200,
@@ -1411,7 +1411,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 81724957
+      "image": "https://tr.rbxcdn.com/180DAY-1136717a3bcd595c5d4ec82e4f391043/150/150/Hat/Png/noFilter"
     },
     "Dark Wraps": {
       "cost": 400,
@@ -1420,7 +1420,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 42847571
+      "image": "https://tr.rbxcdn.com/180DAY-08674bddc394cbac4313cd1469edbd54/150/150/Hat/Png/noFilter"
     },
     "Dark Skull": {
       "cost": 1000,
@@ -1429,7 +1429,7 @@
       "description": "You found this in the desert",
       "locus": "hat",
       "shopOrder": 12,
-      "image": 74891617
+      "image": "https://tr.rbxcdn.com/180DAY-7ecf8af3e74a94788aaea9e743b8ef7e/150/150/Hat/Png/noFilter"
     },
     "Mammoth Hunter": {
       "cost": 1000,
@@ -1438,7 +1438,7 @@
       "locus": "hat",
       "description": "Titanic strength",
       "shopOrder": 12,
-      "image": 11453642
+      "image": "https://tr.rbxcdn.com/180DAY-d6afab202fcb28c5ec0169c864e7ebf2/150/150/Hat/Png/noFilter"
     },
     "The Bull": {
       "cost": 1000,
@@ -1447,7 +1447,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 93078560
+      "image": "https://tr.rbxcdn.com/180DAY-756ad52bd7f78f30fc0b0f56d0cd5086/150/150/Hat/Png/noFilter"
     },
     "Skull Mask": {
       "cost": 10000,
@@ -1456,7 +1456,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 15,
-      "image": 7744768465
+      "image": "https://tr.rbxcdn.com/180DAY-cf301c1b7237d9799f119e6cd2ddd983/150/150/FaceAccessory/Png/noFilter"
     },
     "Am Golden Banto": {
       "cost": 8000,
@@ -1465,7 +1465,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 15,
-      "image": 14544726725
+      "image": "https://tr.rbxcdn.com/180DAY-665bdaea5587a0212355db374dc705e6/150/150/Model/Png/noFilter"
     },
     "Am Golden Shelly": {
       "cost": 9000,
@@ -1474,7 +1474,7 @@
       "locus": "hat",
       "description": "Too poor for Golden Pilgrim",
       "shopOrder": 15,
-      "image": 14544727257
+      "image": "https://tr.rbxcdn.com/180DAY-b735ac4d37d5c3e11b62f4b205f93323/150/150/Model/Png/noFilter"
     },
     "Am Odd Shelly": {
       "cost": 20000,
@@ -1483,7 +1483,7 @@
       "description": "You're the oddball of the group.",
       "Rarity": "Common",
       "shopOrder": 17,
-      "image": 14544732233
+      "image": "https://tr.rbxcdn.com/180DAY-7307315f8725b314a8efd00b5bf21dcd/150/150/Model/Png/noFilter"
     },
     "Am Frozen Peeper": {
       "cost": 6000,
@@ -1492,7 +1492,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 14,
-      "image": 14544725178
+      "image": "https://tr.rbxcdn.com/180DAY-974e730f35edfc0935dd5c867bfd2814/150/150/Model/Png/noFilter"
     },
     "Am Spirit Shelly": {
       "cost": 30000,
@@ -1501,7 +1501,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 18,
-      "image": 14544769895
+      "image": "https://tr.rbxcdn.com/180DAY-2a7ce2c53f51b1b95e00d8f672182d14/150/150/Model/Png/noFilter"
     },
     "Reaper Hood": {
       "cost": 300000,
@@ -1510,7 +1510,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 50,
-      "image": 18134778394
+      "image": "https://tr.rbxcdn.com/180DAY-36bf95948b9d565b26e32f5765526e32/150/150/Hat/Png/noFilter"
     },
     "Mystic Hunter": {
       "cost": 500000,
@@ -1519,7 +1519,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 51,
-      "image": 14542306809
+      "image": "https://tr.rbxcdn.com/180DAY-02a90116e544453bda18390eab2b17f3/150/150/Model/Png/noFilter"
     },
     "Am Ancient Tree": {
       "cost": 750000,
@@ -1528,7 +1528,7 @@
       "locus": "hat",
       "Rarity": "Common",
       "shopOrder": 52,
-      "image": 14544644801
+      "image": "https://tr.rbxcdn.com/180DAY-a5284ea5c02d09d11706150d76c6f728/150/150/Model/Png/noFilter"
     },
     "Golden Squid": {
       "cost": 1000000,
@@ -1537,7 +1537,7 @@
       "Rarity": "Common",
       "locus": "hat",
       "shopOrder": 53,
-      "image": 14544733737
+      "image": "https://tr.rbxcdn.com/180DAY-52aca3ca6757c2035ba076167cf311e1/150/150/Model/Png/noFilter"
     },
     "Am Peeper": {
       "Rarity": "Common",
@@ -1546,7 +1546,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 12,
-      "image": 3099197624
+      "image": "https://tr.rbxcdn.com/180DAY-ffc0759be674862a13061a838f28f1df/150/150/Model/Png/noFilter"
     },
     "Am Scavenger": {
       "Rarity": "Common",
@@ -1555,7 +1555,7 @@
       "description": "We are all ants",
       "locus": "hat",
       "shopOrder": 12,
-      "image": 1538445631
+      "image": "https://tr.rbxcdn.com/180DAY-3b0cfe4859652df067c6052e81e99480/150/150/Model/Png/noFilter"
     },
     "Golden Hood": {
       "Rarity": "Common",
@@ -1564,7 +1564,7 @@
       "locus": "hat",
       "description": "Too poor for Golden Banto",
       "shopOrder": 13,
-      "image": 153689274
+      "image": "https://tr.rbxcdn.com/180DAY-a2627a255f474683b95620238a58ff40/150/150/Hat/Png/noFilter"
     },
     "Am Shelly": {
       "Rarity": "Common",
@@ -1573,7 +1573,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 14,
-      "image": 1496778376
+      "image": "https://tr.rbxcdn.com/180DAY-46be0eebca14b667e2ca831eac86c7e8/150/150/Model/Png/noFilter"
     },
     "The Last Goodbye": {
       "cost": 4000,
@@ -1582,7 +1582,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 14,
-      "image": 323473521
+      "image": "https://tr.rbxcdn.com/180DAY-68629d8485c44ea930213ece4d58c256/150/150/ShoulderAccessory/Png/noFilter"
     },
     "King's Crown": {
       "cost": 10000,
@@ -1591,7 +1591,7 @@
       "description": "You are a ruler!",
       "locus": "hat",
       "shopOrder": 15,
-      "image": 1081300
+      "image": "https://tr.rbxcdn.com/180DAY-e561f8f2570faa2473c81b6605d365c8/150/150/Hat/Png/noFilter"
     },
     "Builder Cap": {
       "cost": 12500,
@@ -1600,7 +1600,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 15,
-      "image": 17408283
+      "image": "https://tr.rbxcdn.com/180DAY-d441f327f7399fbe42a2f86b723cb7a6/150/150/Hat/Png/noFilter"
     },
     "Am Goober": {
       "cost": 6000,
@@ -1609,7 +1609,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 16,
-      "image": 100530036392709
+      "image": "https://tr.rbxcdn.com/180DAY-1a136abc465f7968d2f40af2784857ae/150/150/Model/Png/noFilter"
     },
     "Am Banto": {
       "cost": 6000,
@@ -1618,7 +1618,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 16,
-      "image": 1496796396
+      "image": "https://tr.rbxcdn.com/180DAY-936a20de6839c0dc88794d6bfac08797/150/150/Model/Png/noFilter"
     },
     "Am Lurky Boi": {
       "cost": 12000,
@@ -1627,7 +1627,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 16,
-      "image": 1496794252
+      "image": "https://tr.rbxcdn.com/180DAY-916ed84bf3331835943bc708c13a6d87/150/150/Model/Png/noFilter"
     },
     "Am Goldy Boi": {
       "cost": 15000,
@@ -1636,7 +1636,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 17,
-      "image": 95440055919523
+      "image": "https://tr.rbxcdn.com/180DAY-2c94a066edf570c95f66f7336fe5ec41/150/150/Model/Png/noFilter"
     },
     "Am Fire Ant": {
       "cost": 12000,
@@ -1645,7 +1645,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 25,
-      "image": 1538416815
+      "image": "https://tr.rbxcdn.com/180DAY-0f0507f0809b96cad55a010d6a193572/150/150/Model/Png/noFilter"
     },
     "Am Uber Goober": {
       "cost": 15000,
@@ -1654,7 +1654,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 26,
-      "image": 105754516598231
+      "image": "https://tr.rbxcdn.com/180DAY-e828fb26768179c4332edf3626e9a8a7/150/150/Model/Png/noFilter"
     },
     "Am Crystal Guardian": {
       "cost": 20000,
@@ -1662,7 +1662,7 @@
       "locus": "hat",
       "description": "You're literally locked in",
       "shopOrder": 17,
-      "image": 11882050732
+      "image": "https://tr.rbxcdn.com/180DAY-6e494e43d5728aaf55fe90f4b6895742/150/150/Model/Png/noFilter"
     },
     "Am Golden Guardian": {
       "cost": 5000000,
@@ -1670,7 +1670,7 @@
       "locus": "hat",
       "description": "Please stop spending money. You need to lock in!",
       "shopOrder": 17,
-      "image": 79706839537713
+      "image": "https://tr.rbxcdn.com/180DAY-715cc7773f7ec48f594766c0abaf20f0/150/150/Model/Png/noFilter"
     },
     "Squishy The Squid": {
       "cost": 15000,
@@ -1679,7 +1679,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 27,
-      "image": 3024806415
+      "image": "https://tr.rbxcdn.com/180DAY-765265413372473f00dc6b70f1fb0288/150/150/Model/Png/noFilter"
     },
     "Ancient One": {
       "cost": 25000,
@@ -1688,7 +1688,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 29,
-      "image": 102623484
+      "image": "https://tr.rbxcdn.com/180DAY-a46ed1384ba04e7d2b15e843f0c85adf/150/150/Hat/Png/noFilter"
     },
     "Golden Pilgrim": {
       "cost": 25555,
@@ -1697,7 +1697,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 30,
-      "image": 11261462333
+      "image": "https://tr.rbxcdn.com/180DAY-f6a1add3f9d806b599f8b2a0040f163c/150/150/Model/Png/noFilter"
     },
     "Am Mammoth": {
       "cost": 32000,
@@ -1706,7 +1706,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 35,
-      "image": 1496812344
+      "image": "https://tr.rbxcdn.com/180DAY-dc0b6eceabc6eba64f7bc35a6c964ecb/150/150/Model/Png/noFilter"
     },
     "Am Queen Ant": {
       "cost": 50000,
@@ -1715,16 +1715,16 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 36,
-      "image": 1538419187
+      "image": "https://tr.rbxcdn.com/180DAY-f973aeff2ce9bc4d986b3767f666ebe0/150/150/Model/Png/noFilter"
     },
     "Old Demigod": {
       "cost": 50000,
-      "description": "ðŸ—¿ðŸ—¿ðŸ—¿ðŸ—¿",
+      "description": "\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf\u00f0\u0178\u2014\u00bf",
       "Rarity": "Rare",
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 37,
-      "image": 15967519
+      "image": "https://tr.rbxcdn.com/180DAY-8b92a98d41e6528925f7d87150fde65f/150/150/Hat/Png/noFilter"
     },
     "High Class": {
       "cost": 100000,
@@ -1733,7 +1733,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 38,
-      "image": 1285307
+      "image": "https://tr.rbxcdn.com/180DAY-b5547ffc2ffc1f9bef7b3b8e915fcbdf/150/150/Hat/Png/noFilter"
     },
     "Golden God": {
       "cost": 200000,
@@ -1742,7 +1742,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 39,
-      "image": 138932314
+      "image": "https://tr.rbxcdn.com/180DAY-091fbb20ba75dff0e958ad9f9ad8d4f0/150/150/Hat/Png/noFilter"
     },
     "Golden Crown of Warlords": {
       "BottomText": "Civilization",
@@ -1751,7 +1751,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 500,
-      "image": 1743906481
+      "image": "https://tr.rbxcdn.com/180DAY-33394fcc84e83a057169e9cc206b8040/150/150/Hat/Png/noFilter"
     },
     "Red Sparkle Time Fedora": {
       "BottomText": "Civilization",
@@ -1760,7 +1760,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 500,
-      "image": 18999104835
+      "image": "https://tr.rbxcdn.com/180DAY-a89326f2fa7283f5b6d2ca37f52acbca/150/150/Model/Png/noFilter"
     },
     "Am Zombie Wolf": {
       "locked": true,
@@ -1770,7 +1770,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 750,
-      "image": 121584825950379
+      "image": "https://tr.rbxcdn.com/180DAY-16ba132ee1b87ead30ece18a220d889d/150/150/Model/Png/noFilter"
     },
     "Vampire Top Hat": {
       "locked": true,
@@ -1780,7 +1780,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 750,
-      "image": 1117747196
+      "image": "https://tr.rbxcdn.com/180DAY-27a77126c9d544396b37bdaccccbbd40/150/150/Hat/Png/noFilter"
     },
     "Zombie Fedora": {
       "locked": true,
@@ -1790,7 +1790,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 750,
-      "image": 522094442
+      "image": "https://tr.rbxcdn.com/180DAY-7e2396b5bddc6a3a1ef914c1ce9fa21f/150/150/Hat/Png/noFilter"
     },
     "Pumpkin Head": {
       "locked": true,
@@ -1800,7 +1800,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 750,
-      "image": 135770397492415
+      "image": "https://tr.rbxcdn.com/180DAY-5e059a981d9e3391a862adfe35279987/150/150/Model/Png/noFilter"
     },
     "Horn Skull": {
       "locked": true,
@@ -1810,7 +1810,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 750,
-      "image": 112243615546468
+      "image": "https://tr.rbxcdn.com/180DAY-650f91989fba2dacf2d3ed1698b60c4a/150/150/Hat/Png/noFilter"
     },
     "Serpent Head": {
       "locked": true,
@@ -1820,7 +1820,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 751,
-      "image": 75131102901569
+      "image": "https://tr.rbxcdn.com/180DAY-1f1ba71609c5e178e9b492ed9f83849a/150/150/Model/Png/noFilter"
     },
     "Zombie Head": {
       "locked": true,
@@ -1830,7 +1830,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 751,
-      "image": 102647733495364
+      "image": "https://tr.rbxcdn.com/180DAY-72e9d0b0e184511e059800c416e08a4f/150/150/Model/Png/noFilter"
     },
     "Skeleton Head": {
       "locked": true,
@@ -1840,7 +1840,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 751,
-      "image": 101342267952012
+      "image": "https://tr.rbxcdn.com/180DAY-6b9131b7f17a95a6efa7a8723421d176/150/150/Model/Png/noFilter"
     },
     "Am Turkey": {
       "locked": true,
@@ -1849,7 +1849,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 800,
-      "image": 87023134655025
+      "image": "https://tr.rbxcdn.com/180DAY-5797e2185682390cb648f158837ad74a/150/150/Model/Png/noFilter"
     },
     "Thanksgiving King": {
       "locked": true,
@@ -1859,7 +1859,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 800,
-      "image": 77809821488308
+      "image": "https://tr.rbxcdn.com/180DAY-42de6c92b58f0169047b570a272670b6/150/150/Model/Png/noFilter"
     },
     "Grateful Fedora": {
       "locked": true,
@@ -1869,7 +1869,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 800,
-      "image": 77753663930930
+      "image": "https://tr.rbxcdn.com/180DAY-bbb20ceb578e4235791916dbc458d34b/150/150/Model/Png/noFilter"
     },
     "Harvest Wizard": {
       "locked": true,
@@ -1879,7 +1879,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 800,
-      "image": 124440068097257
+      "image": "https://tr.rbxcdn.com/180DAY-bc72670f4f4c1f788862e7fa18de6ae8/150/150/Model/Png/noFilter"
     },
     "Snow Cloud": {
       "locked": true,
@@ -1888,7 +1888,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 0,
-      "image": 123077529384222
+      "image": "https://tr.rbxcdn.com/180DAY-c0421aa6a994399b885dc7ee60c2aa90/150/150/Model/Png/noFilter"
     },
     "Festive Fedora": {
       "locked": true,
@@ -1897,7 +1897,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 0,
-      "image": 78306961837399
+      "image": "https://tr.rbxcdn.com/180DAY-44c4fa9801c86e61b4c2fe304d1b2b45/150/150/Model/Png/noFilter"
     },
     "ROBLOX Santa": {
       "locked": true,
@@ -1907,7 +1907,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2,
-      "image": 91119733262975
+      "image": "https://tr.rbxcdn.com/180DAY-18fdc9826299668bbea10ec5baec1376/150/150/Model/Png/noFilter"
     },
     "Festive Top Hat": {
       "locked": true,
@@ -1917,7 +1917,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 4,
-      "image": 79793063404306
+      "image": "https://tr.rbxcdn.com/180DAY-ccef247e8c867a1c993af69f3ae946f7/150/150/Model/Png/noFilter"
     },
     "Festive Dominus": {
       "locked": true,
@@ -1927,7 +1927,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 8,
-      "image": 85814265657661
+      "image": "https://tr.rbxcdn.com/180DAY-105e1d45b572f95a4125b308e28720a2/150/150/Model/Png/noFilter"
     },
     "Holiday Squid": {
       "locked": true,
@@ -1937,7 +1937,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 9,
-      "image": 70549211175433
+      "image": "https://tr.rbxcdn.com/180DAY-45003614e8e77a537e41e2537a79d31b/150/150/Model/Png/noFilter"
     },
     "Holiday Valk": {
       "locked": true,
@@ -1947,7 +1947,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 10,
-      "image": 130028082385735
+      "image": "https://tr.rbxcdn.com/180DAY-59722242a2f0a4a74dd8fe312559d48b/150/150/Model/Png/noFilter"
     },
     "Ornamental Horns": {
       "locked": true,
@@ -1957,7 +1957,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 11,
-      "image": 123350994580565
+      "image": "https://tr.rbxcdn.com/180DAY-324ab0258de927df5c07cd2e88b740b1/150/150/Model/Png/noFilter"
     },
     "VIP Crown": {
       "locked": true,
@@ -1966,7 +1966,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 439945864
+      "image": "https://tr.rbxcdn.com/180DAY-97eac4e50b6e50c3d5b3cc669f340aca/150/150/Hat/Png/noFilter"
     },
     "Blue DIY Domino Crown": {
       "locked": true,
@@ -1975,7 +1975,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 17705136528
+      "image": "https://t7.rbxcdn.com/180DAY-a17918617b20ac9c39b305241f23e58a"
     },
     "Lady of the Federation": {
       "locked": true,
@@ -1984,7 +1984,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 207207782
+      "image": "https://tr.rbxcdn.com/180DAY-bb55107cc8d7cf60004684f1d82d0e18/150/150/Hat/Png/noFilter"
     },
     "Duke of the Fallen Federation": {
       "locked": true,
@@ -1993,7 +1993,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 1340199684
+      "image": "https://tr.rbxcdn.com/180DAY-07f0fbdaad6018848eb2570637e5b261/150/150/Hat/Png/noFilter"
     },
     "The Void Star": {
       "locked": true,
@@ -2002,7 +2002,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 1125510
+      "image": "https://tr.rbxcdn.com/180DAY-e5f86002b47bdd685503d14f1b662a0c/150/150/Hat/Png/noFilter"
     },
     "Countess of the Federation": {
       "locked": true,
@@ -2011,7 +2011,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 188003914
+      "image": "https://tr.rbxcdn.com/180DAY-3034500253e85b3f70f4504374aa6e49/150/150/Hat/Png/noFilter"
     },
     "Bluesteel Domino Crown": {
       "locked": true,
@@ -2020,7 +2020,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 68258723
+      "image": "https://tr.rbxcdn.com/180DAY-493381767e32a6173c3fe6026d61622d/150/150/Hat/Png/noFilter"
     },
     "Bluesteel Fedora": {
       "locked": true,
@@ -2029,7 +2029,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 98346834
+      "image": "https://tr.rbxcdn.com/180DAY-0e04eabe2b4ab6aaff924299ede4920b/150/150/Hat/Png/noFilter"
     },
     "Royal Onyx Spiked Federation": {
       "locked": true,
@@ -2038,7 +2038,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 18248959220
+      "image": "https://tr.rbxcdn.com/180DAY-8c3eb5414951484dc5bcc16c1e167161/150/150/Hat/Png/noFilter"
     },
     "Royal Azurite Spiked Federation": {
       "locked": true,
@@ -2047,7 +2047,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 18227982224
+      "image": "https://tr.rbxcdn.com/180DAY-061f2e3fe6afbe1339e6bcdca2ad138b/150/150/Hat/Png/noFilter"
     },
     "Agonizingly Green Bucket of Cheer": {
       "locked": true,
@@ -2056,7 +2056,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 102604869
+      "image": "https://tr.rbxcdn.com/180DAY-f16ab4642e58e242097d7b42545564ca/150/150/Hat/Png/noFilter"
     },
     "Agonizingly White Bucket of Ultimate Doom": {
       "locked": true,
@@ -2065,7 +2065,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 1402433072
+      "image": "https://tr.rbxcdn.com/180DAY-72ed82dc37eb8d1892994dd81bd489f6/150/150/Hat/Png/noFilter"
     },
     "Orange Sparkle Time Fedora": {
       "locked": true,
@@ -2074,7 +2074,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 215751161
+      "image": "https://tr.rbxcdn.com/180DAY-b612d03ab8c57702f53758c49f3ac668/150/150/Hat/Png/noFilter"
     },
     "Agonizingly Red Bucket of Cheer": {
       "locked": true,
@@ -2083,7 +2083,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 102605392
+      "image": "https://tr.rbxcdn.com/180DAY-51ee375f340688c0b345320fb15678f8/150/150/Hat/Png/noFilter"
     },
     "Midnight Blue Sparkle Time Fedora": {
       "locked": true,
@@ -2092,7 +2092,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 119916949
+      "image": "https://tr.rbxcdn.com/180DAY-a2179e13d690c0df8f1d05cde0a414e4/150/150/Hat/Png/noFilter"
     },
     "Teal Sparkle Time Fedora": {
       "locked": true,
@@ -2101,7 +2101,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 147180077
+      "image": "https://tr.rbxcdn.com/180DAY-797e82e44c0853ae609dfe517949c5e0/150/150/Hat/Png/noFilter"
     },
     "Silver King of the Night": {
       "locked": true,
@@ -2110,7 +2110,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 439945661
+      "image": "https://tr.rbxcdn.com/180DAY-338ef0e6d838fe8d50ae3b4d5418b1cb/150/150/Hat/Png/noFilter"
     },
     "Adurite King of the Night": {
       "locked": true,
@@ -2119,7 +2119,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 439946101
+      "image": "https://tr.rbxcdn.com/180DAY-a61846841d64e95782281a3bd5661052/150/150/Hat/Png/noFilter"
     },
     "Kitty Ears": {
       "BottomText": "Helper",
@@ -2128,7 +2128,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 1374269
+      "image": "https://tr.rbxcdn.com/180DAY-045ee30895da498b2f5ac19942ec4435/150/150/Hat/Png/noFilter"
     },
     "Green Sparkle Time Fedora": {
       "BottomText": "Helper",
@@ -2137,7 +2137,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 100929604
+      "image": "https://tr.rbxcdn.com/180DAY-740c19e3f9d6d9d7097bff124cdae9d6/150/150/Hat/Png/noFilter"
     },
     "Agonizingly Violet Bucket of Cheer": {
       "BottomText": "Helper",
@@ -2146,7 +2146,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 102606919
+      "image": "https://tr.rbxcdn.com/180DAY-72fe8ce9663066531767e62f11ad1b6e/150/150/Hat/Png/noFilter"
     },
     "Pink Queen of the Night": {
       "BottomText": "Helper",
@@ -2155,7 +2155,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 553971558
+      "image": "https://tr.rbxcdn.com/180DAY-a2dee1d3116208ccdc3ecd5f39c2aa4c/150/150/Hat/Png/noFilter"
     },
     "Duchess of the Federation": {
       "BottomText": "Helper",
@@ -2164,7 +2164,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 439984665
+      "image": "https://tr.rbxcdn.com/180DAY-096b95b19822a8ee4a57ca615339654c/150/150/Hat/Png/noFilter"
     },
     "Emerald Valkyrie": {
       "BottomText": "Helper",
@@ -2173,7 +2173,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 2830437685
+      "image": "https://tr.rbxcdn.com/180DAY-42964df73ee45e80c031c7573b9d8db3/150/150/Hat/Png/noFilter"
     },
     "Viscount of the Federation": {
       "BottomText": "Helper",
@@ -2182,7 +2182,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 2000,
-      "image": 4390896732
+      "image": "https://tr.rbxcdn.com/180DAY-18b925a4d7e978a02da47c6b80e63778/150/150/Hat/Png/noFilter"
     },
     "Sky Blue Sparkle Time Fedora": {
       "BottomText": "Staff",
@@ -2191,7 +2191,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 493476042
+      "image": "https://tr.rbxcdn.com/180DAY-56c4170eb85145841e83fc35c0399562/150/150/Hat/Png/noFilter"
     },
     "Valkyrie Helm": {
       "BottomText": "Staff",
@@ -2200,7 +2200,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 1365767
+      "image": "https://tr.rbxcdn.com/180DAY-6de95256d0233d3726293aaaba8b8e61/150/150/Hat/Png/noFilter"
     },
     "Dominus Astra": {
       "BottomText": "Staff",
@@ -2209,7 +2209,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 162067148
+      "image": "https://tr.rbxcdn.com/180DAY-987f7f3d5ee716287dceb9d271d00be2/150/150/Hat/Png/noFilter"
     },
     "Black Iron King of the Night": {
       "BottomText": "Staff",
@@ -2218,7 +2218,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 439946249
+      "image": "https://tr.rbxcdn.com/180DAY-e6243f2287166964c98571d64631afee/150/150/Hat/Png/noFilter"
     },
     "Ice Valkyrie": {
       "BottomText": "Staff",
@@ -2227,7 +2227,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 4390891467
+      "image": "https://tr.rbxcdn.com/180DAY-da67077e79d9031436ba92f6ddd9f413/150/150/Hat/Png/noFilter"
     },
     "Dominus Frigidus": {
       "BottomText": "Staff",
@@ -2236,7 +2236,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 3000,
-      "image": 48545806
+      "image": "https://tr.rbxcdn.com/180DAY-6b21c9d46f27e900484fef2bf5c92982/150/150/Hat/Png/noFilter"
     },
     "Poisoned Horns of the Toxic Wasteland": {
       "BottomText": "HeadStaff",
@@ -2245,7 +2245,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 4000,
-      "image": 1744060292
+      "image": "https://tr.rbxcdn.com/180DAY-a18ea6bb4879fafd5d2fe188e49ac2b6/150/150/Hat/Png/noFilter"
     },
     "Frozen Horns of the Frigid Planes": {
       "BottomText": "HeadStaff",
@@ -2254,7 +2254,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 4000,
-      "image": 74891470
+      "image": "https://tr.rbxcdn.com/180DAY-0460c9c98b6144836191fd5f0d5af21d/150/150/Hat/Png/noFilter"
     },
     "Fiery Horns of the Netherworld": {
       "BottomText": "HeadStaff",
@@ -2263,7 +2263,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 4000,
-      "image": 215718515
+      "image": "https://tr.rbxcdn.com/180DAY-428d00cdcbfb2325f25f9b02938286af/150/150/Hat/Png/noFilter"
     },
     "Pink Sparkle Time Fedora": {
       "BottomText": "HeadStaff",
@@ -2272,7 +2272,7 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 4000,
-      "image": 334663683
+      "image": "https://tr.rbxcdn.com/180DAY-30092361095bf403a644c10188342a3e/150/150/Hat/Png/noFilter"
     },
     "Am Wise Tree": {
       "locked": true,
@@ -2281,21 +2281,21 @@
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 1000,
-      "image": 11106892023
+      "image": "https://tr.rbxcdn.com/180DAY-363f0af434b401f780fe7c3522223c4a/150/150/Hat/Png/noFilter"
     },
     "Hearts of Gold": {
       "locked": true,
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 40,
-      "image": 18522331923
+      "image": "https://tr.rbxcdn.com/180DAY-f9e3949d55f8b20a1228cac43f962c42/150/150/Model/Png/noFilter"
     },
     "Coco Slouch": {
       "locked": true,
       "cosmetic": true,
       "locus": "hat",
       "shopOrder": 40,
-      "image": 121942493760180
+      "image": "https://tr.rbxcdn.com/180DAY-7c970aea91f621f34ff57292c203538a/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/armor.lua": {
@@ -2304,180 +2304,180 @@
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Limited",
-      "image": 104030567335931
+      "image": "https://tr.rbxcdn.com/180DAY-65cac1acaea15ffe5d41e084bd65e017/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Helmet": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Limited",
-      "image": 80912289224518
+      "image": "https://tr.rbxcdn.com/180DAY-5778a83fe95ff7755d9bd378d5633406/150/150/Model/Png/noFilter"
     },
     "Crystal Guardian Chestplate": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Limited",
-      "image": 138271561936010
+      "image": "https://tr.rbxcdn.com/180DAY-9776c140cec66d088729772b4bb35b88/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Chestplate": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Limited",
-      "image": 97856243759577
+      "image": "https://tr.rbxcdn.com/180DAY-14acf37e29be6b106fb1b8b00280df2d/150/150/Model/Png/noFilter"
     },
     "Crystal Guardian Greaves": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Limited",
-      "image": 113880391923361
+      "image": "https://tr.rbxcdn.com/180DAY-fb43532301f2ef3381c0ab98f6bdccd9/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Greaves": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Limited",
-      "image": 96424791239832
+      "image": "https://tr.rbxcdn.com/180DAY-88f004dd576b47f03c43e2724b059e79/150/150/Model/Png/noFilter"
     },
     "Coconut Hat": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Limited",
-      "image": 133324830970719
+      "image": "https://tr.rbxcdn.com/180DAY-2482158cb81d4bb48750a7f1ccc6de4d/150/150/Model/Png/noFilter"
     },
     "Coconut Chestplate": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Limited",
-      "image": 124484274518562
+      "image": "https://tr.rbxcdn.com/180DAY-a5b0e7618126ae76219ee7eae63d7620/150/150/Model/Png/noFilter"
     },
     "Coconut Greaves": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Limited",
-      "image": 72827668317906
+      "image": "https://tr.rbxcdn.com/180DAY-6afe3771053dd415729d44d031ee575a/150/150/Model/Png/noFilter"
     },
     "KingSlayer Helmet": {
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Divine",
-      "image": 119822539464806
+      "image": "https://tr.rbxcdn.com/180DAY-4a815b00d0dcc797200bf38d33c310ae/150/150/Image/Png/noFilter"
     },
     "Neko Helmet": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Limited",
-      "image": 89027215874520
+      "image": "https://tr.rbxcdn.com/180DAY-0a3d35cbc5964caf953239e0f88f1f92/150/150/Model/Png/noFilter"
     },
     "Neko Chestplate": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Limited",
-      "image": 109193568394325
+      "image": "https://tr.rbxcdn.com/180DAY-c2a0c2690611d1d106e8d9431fe785eb/150/150/Model/Png/noFilter"
     },
     "Neko Greaves": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Limited",
-      "image": 125232070732941
+      "image": "https://tr.rbxcdn.com/180DAY-5a062a6048049574390d7443738db66e/150/150/Model/Png/noFilter"
     },
     "MoonLight Helmet": {
       "itemType": "skin",
       "locus": "head",
       "Rarity": "Limited",
-      "image": 117842139139629
+      "image": "https://tr.rbxcdn.com/180DAY-4963cb35df4defd182ced242e504ff66/150/150/Image/Png/noFilter"
     },
     "MoonLight Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Limited",
-      "image": 74545246580415
+      "image": "https://tr.rbxcdn.com/180DAY-caf4b21204d76626828f8b9e7e204ca8/150/150/Image/Png/noFilter"
     },
     "MoonLight Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Limited",
-      "image": 109928549333090
+      "image": "https://tr.rbxcdn.com/180DAY-80ad9e73221d02d9415576ba9a9361c7/150/150/Image/Png/noFilter"
     },
     "Blazing Aegis Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Common",
-      "image": 95592356625961
+      "image": "https://tr.rbxcdn.com/180DAY-98cd933bcf43924597f6c7c4bd98e864/150/150/Model/Png/noFilter"
     },
     "Blazing Aegis Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Common",
-      "image": 103465772148480
+      "image": "https://tr.rbxcdn.com/180DAY-e273859f0f6f730a567d4095256dca69/150/150/Model/Png/noFilter"
     },
     "Dragonlord Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Legendary",
-      "image": 88526115898951
+      "image": "https://tr.rbxcdn.com/180DAY-324fe1301a318eb9b4d73a4dac6184b4/150/150/Model/Png/noFilter"
     },
     "Dragonlord Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Legendary",
-      "image": 109458510756081
+      "image": "https://tr.rbxcdn.com/180DAY-2453006b8ced6dbc857514dd5bc2befd/150/150/Model/Png/noFilter"
     },
     "Ironbark Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Common",
-      "image": 78143548477485
+      "image": "https://tr.rbxcdn.com/180DAY-1faaf61d6d60cb9d399a1b4dafb9a094/150/150/Model/Png/noFilter"
     },
     "Ironbark Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Common",
-      "image": 91375682374954
+      "image": "https://tr.rbxcdn.com/180DAY-f507de662c06474740bc819d0898c158/150/150/Model/Png/noFilter"
     },
     "Phoenix Guard Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Rare",
-      "image": 134716748531745
+      "image": "https://tr.rbxcdn.com/180DAY-d36cfd24fe4cba1195b04fa805d0cbf8/150/150/Model/Png/noFilter"
     },
     "Phoenix Guard Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Rare",
-      "image": 81692524364621
+      "image": "https://tr.rbxcdn.com/180DAY-6fdf77e04ba52c1f607afbbebd81601c/150/150/Model/Png/noFilter"
     },
     "Runic Knight Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Common",
-      "image": 128064499334909
+      "image": "https://tr.rbxcdn.com/180DAY-49b24d2cd4b1f24cd73e6a84e4bc693b/150/150/Model/Png/noFilter"
     },
     "Runic Knight Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Common",
-      "image": 129553726762147
+      "image": "https://tr.rbxcdn.com/180DAY-d84e0ec6b828d0955831f90c59a8c800/150/150/Model/Png/noFilter"
     },
     "Shadowforge Chestplate": {
       "itemType": "skin",
       "locus": "torso",
       "Rarity": "Legendary",
-      "image": 136447658668631
+      "image": "https://tr.rbxcdn.com/180DAY-633df76600a17c4f920faac3578d944e/150/150/Model/Png/noFilter"
     },
     "Shadowforge Greaves": {
       "itemType": "skin",
       "locus": "legs",
       "Rarity": "Legendary",
-      "image": 137416341442686
+      "image": "https://tr.rbxcdn.com/180DAY-94828a6a0625bb6e8b205e9de01144c5/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/axe.lua": {
@@ -2486,87 +2486,87 @@
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Limited",
-      "image": 116897902139459
+      "image": "https://tr.rbxcdn.com/180DAY-996e68ead85f226dee62d4e938080418/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Axe": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Limited",
-      "image": 73742816248358
+      "image": "https://tr.rbxcdn.com/180DAY-48b9f5ad6852ad9623155fc54144349c/150/150/Model/Png/noFilter"
     },
     "Neko Axe": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Limited",
-      "image": 134269097976005
+      "image": "https://tr.rbxcdn.com/180DAY-ac140e4ea07ecb7123c3422c50d5c7d0/150/150/Model/Png/noFilter"
     },
     "Moon Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Limited",
-      "image": 125533920826404
+      "image": "https://tr.rbxcdn.com/180DAY-de14284c66f531a1da97e37787bc4bf3/150/150/Image/Png/noFilter"
     },
     "Shadow Chop": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Divine",
-      "image": 91539686005927
+      "image": "https://tr.rbxcdn.com/180DAY-b754d85eb45845b04cc3572c14cf5da4/150/150/Model/Png/noFilter"
     },
     "Electro Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Rare",
-      "image": 91175169971021
+      "image": "https://tr.rbxcdn.com/180DAY-073d24b44ca8c0b970e9156952c07ba4/150/150/Model/Png/noFilter"
     },
     "Forge Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Rare",
-      "image": 109790813310563
+      "image": "https://tr.rbxcdn.com/180DAY-6c7e33c177bfeb92c60d9103f0591ea0/150/150/Model/Png/noFilter"
     },
     "Void Axe Skin": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Divine",
-      "image": 109909564414437
+      "image": "https://tr.rbxcdn.com/180DAY-5de2151e404766f4c89dbab46bfba7ef/150/150/Model/Png/noFilter"
     },
     "Lava Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Common",
-      "image": 119966543081695
+      "image": "https://tr.rbxcdn.com/180DAY-da729e5a271eec327e2b877f924abff9/150/150/Model/Png/noFilter"
     },
     "Crystal Edge": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Mythic",
-      "image": 115690043922281
+      "image": "https://tr.rbxcdn.com/180DAY-6c510ad0a98b56fdf3a50a75bc5c9cb0/150/150/Model/Png/noFilter"
     },
     "Death Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Legendary",
-      "image": 101203250395858
+      "image": "https://tr.rbxcdn.com/180DAY-17cf47d52582364162c07513e37806c2/150/150/Model/Png/noFilter"
     },
     "Dragonlord Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Legendary",
-      "image": 108138600292689
+      "image": "https://tr.rbxcdn.com/180DAY-3205d7b020c4e32a28829986a497e81d/150/150/Model/Png/noFilter"
     },
     "Shadow Axe": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Common",
-      "image": 103392487627530
+      "image": "https://tr.rbxcdn.com/180DAY-3feff014505c10323fbc0ac0768517dd/150/150/Model/Png/noFilter"
     },
     "Woodland Chopper": {
       "itemType": "skin",
       "locus": "Axe",
       "Rarity": "Common",
-      "image": 112892297485982
+      "image": "https://tr.rbxcdn.com/180DAY-68c598ff92df416a6f868916a93eb6bc/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/bags.lua": {
@@ -2576,131 +2576,131 @@
       "Rarity": "Limited",
       "unobtainable": true,
       "unTradeable": true,
-      "image": 110208318647616
+      "image": "https://tr.rbxcdn.com/180DAY-85bbbab811d01792c549d14e5ca134be/150/150/Model/Png/noFilter"
     },
     "Shelly Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Limited",
       "unobtainable": true,
-      "image": 15968995958
+      "image": "https://tr.rbxcdn.com/180DAY-35007c82973976fb851f48584b820f6d/150/150/Image/Png/noFilter"
     },
     "Neko Tail": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Limited",
-      "image": 117833943414732
+      "image": "https://tr.rbxcdn.com/180DAY-a1cff2271e1c0f556a32eed42604496f/150/150/Model/Png/noFilter"
     },
     "MoonLight Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Limited",
-      "image": 105446982385847
+      "image": "https://tr.rbxcdn.com/180DAY-6caf0a99ddd8dbd13e43186047680c10/150/150/Image/Png/noFilter"
     },
     "Cryptic Warlock Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Limited",
-      "image": 109487189796799
+      "image": "https://tr.rbxcdn.com/180DAY-f15e39d94238649f07d27a75e1932199/150/150/Model/Png/noFilter"
     },
     "Crystal Guardian Wings": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Limited",
-      "image": 101590685087430
+      "image": "https://tr.rbxcdn.com/180DAY-b90d11e06ef47a55a8db71153b9db57f/150/150/Model/Png/noFilter"
     },
     "Slanted Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 131837164285929
+      "image": "https://tr.rbxcdn.com/180DAY-81b8f418357e881c5bcd0d228dbfc004/150/150/Model/Png/noFilter"
     },
     "The BlackHole": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Divine",
-      "image": 133908544957627
+      "image": "https://tr.rbxcdn.com/180DAY-0476b7ce63ca913f6e3a7496a62be531/150/150/Image/Png/noFilter"
     },
     "Boulder Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 126528736457869
+      "image": "https://tr.rbxcdn.com/180DAY-e1e1674ceaa0aff74c9a7cd9bbabef6a/150/150/Model/Png/noFilter"
     },
     "Dragonlord Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Legendary",
-      "image": 100996628934649
+      "image": "https://tr.rbxcdn.com/180DAY-81c785e1d17e2c64dea4d68bccee7be8/150/150/Model/Png/noFilter"
     },
     "Lurky Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Rare",
-      "image": 116716801963669
+      "image": "https://tr.rbxcdn.com/180DAY-e440abf4728edf32043735a979de3a11/150/150/Model/Png/noFilter"
     },
     "Peeper Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Mythic",
-      "image": 92631405274129
+      "image": "https://tr.rbxcdn.com/180DAY-21a1286ac9d0614e7f827ea0d927d2ca/150/150/Model/Png/noFilter"
     },
     "Dragon Scale Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Rare",
-      "image": 99577248163717
+      "image": "https://tr.rbxcdn.com/180DAY-bcec2098df22656326a066ab2807fd66/150/150/Model/Png/noFilter"
     },
     "Molten Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 124103969028811
+      "image": "https://tr.rbxcdn.com/180DAY-2220817942a6e826dab90d2cbbd1c6e8/150/150/Model/Png/noFilter"
     },
     "Frostbound Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Rare",
-      "image": 114048920451223
+      "image": "https://tr.rbxcdn.com/180DAY-ccbbca00c4f25ddcabe9a95309f26eb8/150/150/Model/Png/noFilter"
     },
     "Spikey Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 92664775255003
+      "image": "https://tr.rbxcdn.com/180DAY-8d1f8a5f995992171ab36086197feb2f/150/150/Model/Png/noFilter"
     },
     "Shadow Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Legendary",
-      "image": 81876908878285
+      "image": "https://tr.rbxcdn.com/180DAY-6598b1f91321d0950a03b2f30a20d17e/150/150/Model/Png/noFilter"
     },
     "Spectral Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Rare",
-      "image": 119320397171688
+      "image": "https://tr.rbxcdn.com/180DAY-34d73f60f629deeca5c55e25fb314dd7/150/150/Model/Png/noFilter"
     },
     "Moai Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 123674604578640
+      "image": "https://tr.rbxcdn.com/180DAY-da1c4125c6a247b8493705adc5525b25/150/150/Model/Png/noFilter"
     },
     "Ant Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
-      "image": 97068568611999
+      "image": "https://tr.rbxcdn.com/180DAY-5f8a81c54a9eaca63262fdeb4073484a/150/150/Model/Png/noFilter"
     },
     "Yulegoob Bag": {
       "itemType": "skin",
       "locus": "bag",
       "Rarity": "Common",
       "unTradeable": true,
-      "image": 105616707093991
+      "image": "https://tr.rbxcdn.com/180DAY-e93fedd82a0de4569dd365b219d52963/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/clubs.lua": {
@@ -2708,31 +2708,31 @@
       "itemType": "skin",
       "locus": "Club",
       "Rarity": "Legendary",
-      "image": 96578576830635
+      "image": "https://tr.rbxcdn.com/180DAY-237df56b1f3ad3353bb736e2502d4fda/150/150/Model/Png/noFilter"
     },
     "Death Club": {
       "itemType": "skin",
       "locus": "Club",
       "Rarity": "Rare",
-      "image": 121775245231761
+      "image": "https://tr.rbxcdn.com/180DAY-57ce524f36f1889e6aaf14544c22df9a/150/150/Model/Png/noFilter"
     },
     "Aqua Club": {
       "itemType": "skin",
       "locus": "Club",
       "Rarity": "Legendary",
-      "image": 80519023918597
+      "image": "https://tr.rbxcdn.com/180DAY-c8bce1b9f9d8e967a919f09e715b4379/150/150/Model/Png/noFilter"
     },
     "Spike Club": {
       "itemType": "skin",
       "locus": "Club",
       "Rarity": "Common",
-      "image": 86146693494943
+      "image": "https://tr.rbxcdn.com/180DAY-b2d962a4516839390ee306e7a17bdf16/150/150/Model/Png/noFilter"
     },
     "Eternal Crusher": {
       "itemType": "skin",
       "locus": "Club",
       "Rarity": "Common",
-      "image": 83752597395680
+      "image": "https://tr.rbxcdn.com/180DAY-60ee49538ff2ac078a916ca8507e61b7/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/pickaxe.lua": {
@@ -2741,87 +2741,87 @@
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Limited",
-      "image": 108866359202176
+      "image": "https://tr.rbxcdn.com/180DAY-78bc1b7ae2a7df258303d8db0537732b/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Pickaxe": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Limited",
-      "image": 115548202746622
+      "image": "https://tr.rbxcdn.com/180DAY-4826d43e895ff8007b8fe8783b43f108/150/150/Model/Png/noFilter"
     },
     "Neko Pickaxe": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Limited",
-      "image": 99144502243993
+      "image": "https://tr.rbxcdn.com/180DAY-3a6cf9c057e553c9ef63d0e3d82d79db/150/150/Model/Png/noFilter"
     },
     "SunFire Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Limited",
-      "image": 87865119285445
+      "image": "https://tr.rbxcdn.com/180DAY-c73a69e9dfb1fa260731126a04db6dad/150/150/Image/Png/noFilter"
     },
     "Shadow Strike Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Divine",
-      "image": 120753336514672
+      "image": "https://tr.rbxcdn.com/180DAY-27b4dab614660f69301d7b09491ddc61/150/150/Model/Png/noFilter"
     },
     "Death Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Rare",
-      "image": 82965050533650
+      "image": "https://tr.rbxcdn.com/180DAY-92b1e89fa0cd860118302c7495bffa81/150/150/Model/Png/noFilter"
     },
     "Void Pickaxe Skin": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Divine",
-      "image": 100996519979544
+      "image": "https://tr.rbxcdn.com/180DAY-de6d60eb72b6ff43f145c6b1e2f87e93/150/150/Model/Png/noFilter"
     },
     "Dragonlord Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Legendary",
-      "image": 81287766987450
+      "image": "https://tr.rbxcdn.com/180DAY-c75032aff426a6c6d72a4bd8cac5cf20/150/150/Model/Png/noFilter"
     },
     "Shadow Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Mythic",
-      "image": 113687153777615
+      "image": "https://tr.rbxcdn.com/180DAY-f740715910c67c57d41c09c335f50ec5/150/150/Model/Png/noFilter"
     },
     "Runic Excavator": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Common",
-      "image": 135139816140152
+      "image": "https://tr.rbxcdn.com/180DAY-e99ce945b21c4a55a3eb7554b4d9c912/150/150/Model/Png/noFilter"
     },
     "Gem Cutter": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Common",
-      "image": 101381845601603
+      "image": "https://tr.rbxcdn.com/180DAY-8410b0b0fe2f5ea3b58aa6e9d8fdc0fb/150/150/Model/Png/noFilter"
     },
     "Magma Cracker": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Rare",
-      "image": 71944267303617
+      "image": "https://tr.rbxcdn.com/180DAY-db4c4305834982160c687edbd6ae5c84/150/150/Model/Png/noFilter"
     },
     "Glacier Pickaxe": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Rare",
-      "image": 80651170420132
+      "image": "https://tr.rbxcdn.com/180DAY-da20bf6b7d86105505d757ec28664df8/150/150/Model/Png/noFilter"
     },
     "Miners Delight": {
       "itemType": "skin",
       "locus": "Pick",
       "Rarity": "Common",
-      "image": 134933088643562
+      "image": "https://tr.rbxcdn.com/180DAY-428cbbe500bcf8405736e72f0c51590e/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/satchels.lua": {
@@ -2830,75 +2830,75 @@
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Limited",
-      "image": 99513635517037
+      "image": "https://tr.rbxcdn.com/180DAY-31448a7d2023723cacf766816caff3e7/150/150/Model/Png/noFilter"
     },
     "Cryptic Warlock Satchel": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Limited",
-      "image": 85830940976866
+      "image": "https://tr.rbxcdn.com/180DAY-b773f3432db5fb9b7bc10ea8faf19494/150/150/Model/Png/noFilter"
     },
     "Neko Satchel": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Limited",
-      "image": 100828704407077
+      "image": "https://tr.rbxcdn.com/180DAY-297dad65720967770b1827a0a7a75d1d/150/150/Model/Png/noFilter"
     },
     "MoonLight Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Limited",
-      "image": 122934023780434
+      "image": "https://tr.rbxcdn.com/180DAY-3f381fedbe449c4bede0ee210f17748f/150/150/Image/Png/noFilter"
     },
     "Frostbound Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Rare",
-      "image": 73777728282687
+      "image": "https://tr.rbxcdn.com/180DAY-8ae29044254be272b9e46ad125e8ae1b/150/150/Model/Png/noFilter"
     },
     "Dragonlord Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Legendary",
-      "image": 121251169251246
+      "image": "https://tr.rbxcdn.com/180DAY-51c342926b3029bca37d5a3252856001/150/150/Model/Png/noFilter"
     },
     "Void Satchel Skin": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Mythic",
-      "image": 87914578657805
+      "image": "https://tr.rbxcdn.com/180DAY-8fb2618522f9b09ba52be5693b646d8e/150/150/Model/Png/noFilter"
     },
     "Runic Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Common",
-      "image": 125508842651815
+      "image": "https://tr.rbxcdn.com/180DAY-be6181d9be4f6bc57507ee781faa650b/150/150/Model/Png/noFilter"
     },
     "Cosmic Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Legendary",
-      "image": 91736398797779
+      "image": "https://tr.rbxcdn.com/180DAY-c068311faba34b6beabff922a5f7cb0d/150/150/Model/Png/noFilter"
     },
     "Spikey Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Common",
-      "image": 140513820591151
+      "image": "https://tr.rbxcdn.com/180DAY-8f799274e5618a13bf17abd50ccc47a7/150/150/Model/Png/noFilter"
     },
     "Molten Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Rare",
-      "image": 135429354991678
+      "image": "https://tr.rbxcdn.com/180DAY-97d9428149f311244a63897909b3d296/150/150/Model/Png/noFilter"
     },
     "Ant Satchel": {
       "itemType": "skin",
       "locus": "satchel",
       "Rarity": "Limited",
-      "image": 97068568611999
+      "image": "https://tr.rbxcdn.com/180DAY-5f8a81c54a9eaca63262fdeb4073484a/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/staff.lua": {
@@ -2908,7 +2908,7 @@
       "locus": "Staff",
       "staffColor": "Color3.fromRGB(16, 212, 22)",
       "Rarity": "Limited",
-      "image": 96107084013236
+      "image": "https://tr.rbxcdn.com/180DAY-f27429668d35f91e288949ab3a909d42/150/150/Model/Png/noFilter"
     }
   },
   "Decoration/skins/swords.lua": {
@@ -2917,141 +2917,141 @@
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Limited",
-      "image": 74528403539659
+      "image": "https://tr.rbxcdn.com/180DAY-ed611c60f35c996415ef02debc0c11c2/150/150/Model/Png/noFilter"
     },
     "Neko Claws": {
       "itemType": "skin",
       "unobtainable": true,
       "locus": "Sword",
       "Rarity": "Limited",
-      "image": 94236484023670
+      "image": "https://tr.rbxcdn.com/180DAY-ffe554270a01c64bddb5489c5a7de37a/150/150/Model/Png/noFilter"
     },
     "Ancient Blade": {
       "unobtainable": true,
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Limited",
-      "image": 110709799184925
+      "image": "https://tr.rbxcdn.com/180DAY-80deb546cc1ddea2cbba95522638c123/150/150/Model/Png/noFilter"
     },
     "BlackHole Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Limited",
-      "image": 119151323564526
+      "image": "https://tr.rbxcdn.com/180DAY-8274c28b0b74b85eac810bbf6573dca6/150/150/Image/Png/noFilter"
     },
     "Rock Skin": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 102508799609983
+      "image": "https://tr.rbxcdn.com/180DAY-0501662ebbbc0d58a9c638a56b4fa148/150/150/Model/Png/noFilter"
     },
     "Bat Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Legendary",
-      "image": 97080816852441
+      "image": "https://tr.rbxcdn.com/180DAY-697d41f7b2c4b16a4522255baca2e068/150/150/Model/Png/noFilter"
     },
     "Cobble Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 130091792139381
+      "image": "https://tr.rbxcdn.com/180DAY-5ba59aefa055a55c73c9e7e48ea5c609/150/150/Model/Png/noFilter"
     },
     "Extractor Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 92939813978771
+      "image": "https://tr.rbxcdn.com/180DAY-dd28c16990509467e64c52cce71c4ad0/150/150/Model/Png/noFilter"
     },
     "Claymore Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 115642018892543
+      "image": "https://tr.rbxcdn.com/180DAY-2f6e2acffe2e200b915dbd7bf189315c/150/150/Model/Png/noFilter"
     },
     "Lightpiercer Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Rare",
-      "image": 93361938941156
+      "image": "https://tr.rbxcdn.com/180DAY-7d2c34ec623691d6b62181194922b035/150/150/Model/Png/noFilter"
     },
     "Blade Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 138510746415566
+      "image": "https://tr.rbxcdn.com/180DAY-b0733efd0e2d0189234b9ba26199ebfd/150/150/Model/Png/noFilter"
     },
     "Nihon Senshi": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Legendary",
-      "image": 85390311370661
+      "image": "https://tr.rbxcdn.com/180DAY-64252fd25a0db98c2347a9b3cf2097fd/150/150/Model/Png/noFilter"
     },
     "Shadow Edge": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Mythic",
-      "image": 87971591267370
+      "image": "https://tr.rbxcdn.com/180DAY-e002898cf26768eca291bd0a6b4efb9c/150/150/Model/Png/noFilter"
     },
     "Shadow Reaper": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Divine",
-      "image": 122022662776797
+      "image": "https://tr.rbxcdn.com/180DAY-1e36fa5be76abb6256bee3a8963f3fef/150/150/Model/Png/noFilter"
     },
     "Aqua Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Legendary",
-      "image": 127560328182262
+      "image": "https://tr.rbxcdn.com/180DAY-6944d0a76c64a060b4f5f546fa072523/150/150/Model/Png/noFilter"
     },
     "Rusty Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 102147767722345
+      "image": "https://tr.rbxcdn.com/180DAY-fb71f78b781315e91aebc8f0b7d9274a/150/150/Model/Png/noFilter"
     },
     "Electro Cut": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Rare",
-      "image": 73977539867561
+      "image": "https://tr.rbxcdn.com/180DAY-375d5d0e06c2ff247ed944fde135cab8/150/150/Model/Png/noFilter"
     },
     "Etherium Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Rare",
-      "image": 95260507234683
+      "image": "https://tr.rbxcdn.com/180DAY-f3f2b6a35db6f66c16b2104690f433c9/150/150/Model/Png/noFilter"
     },
     "Deathrow Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Rare",
-      "image": 111409936867430
+      "image": "https://tr.rbxcdn.com/180DAY-a6243168bb1b11183db4629368c1e567/150/150/Model/Png/noFilter"
     },
     "Avender Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Common",
-      "image": 93028173320998
+      "image": "https://tr.rbxcdn.com/180DAY-438182655c1dc9952dc9b83ebe118e46/150/150/Model/Png/noFilter"
     },
     "Void Sword Skin": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Divine",
-      "image": 108430947226844
+      "image": "https://tr.rbxcdn.com/180DAY-f642753b921beec438ba3d2d88a2e45c/150/150/Model/Png/noFilter"
     },
     "Starlight Saber": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Rare",
-      "image": 122139855712039
+      "image": "https://tr.rbxcdn.com/180DAY-4d58d83bbc38361a60ef719d4dd09a51/150/150/Model/Png/noFilter"
     },
     "Dragonlord Sword": {
       "itemType": "skin",
       "locus": "Sword",
       "Rarity": "Legendary",
-      "image": 136116242317713
+      "image": "https://tr.rbxcdn.com/180DAY-e1583485d6e2241f85b69d434f498ba7/150/150/Model/Png/noFilter"
     }
   },
   "food.lua": {
@@ -3093,7 +3093,7 @@
       "food": 8,
       "water": 3,
       "overHeal": 1,
-      "image": 13602854210
+      "image": "https://tr.rbxcdn.com/180DAY-d61489b1cf1f235b27ba8a492ee52897/150/150/Model/Png/noFilter"
     },
     "Big Apple": {
       "pickupSound": "Pickup",
@@ -3110,7 +3110,7 @@
       "water": 0,
       "health": -10,
       "voodoo": 40,
-      "image": 18852691739
+      "image": "https://tr.rbxcdn.com/180DAY-b15a35e78f89b5ad4ed03af3252c5891/150/150/Model/Png/noFilter"
     },
     "Satisfying Vial": {
       "pickupSound": "Pickup",
@@ -3119,7 +3119,7 @@
       "water": 0,
       "overHeal": 0,
       "voodoo": 0,
-      "image": 18852693417
+      "image": "https://tr.rbxcdn.com/180DAY-eb3cb9bb92282c6e8146653a1a3ae0a9/150/150/Model/Png/noFilter"
     },
     "Replenishing Vial": {
       "pickupSound": "Pickup",
@@ -3128,7 +3128,7 @@
       "water": 0,
       "overHeal": 50,
       "voodoo": 0,
-      "image": 18852692791
+      "image": "https://tr.rbxcdn.com/180DAY-da4b9a9f5a4cafdd71d5d19e60eccea8/150/150/Model/Png/noFilter"
     },
     "Mend & Chill Vial": {
       "pickupSound": "Pickup",
@@ -3137,7 +3137,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": 0,
-      "image": 103688147471938
+      "image": "https://tr.rbxcdn.com/180DAY-cc294992c7ec052464758f966ff34b7b/150/150/Model/Png/noFilter"
     },
     "Frostfire Vial": {
       "pickupSound": "Pickup",
@@ -3146,7 +3146,7 @@
       "water": 0,
       "overHeal": 0,
       "voodoo": 0,
-      "image": 111579047573905
+      "image": "https://tr.rbxcdn.com/180DAY-e0f925edceca7a2911f9dd990efca162/150/150/Model/Png/noFilter"
     },
     "Hexed Fury Vial": {
       "pickupSound": "Pickup",
@@ -3155,7 +3155,7 @@
       "water": 0,
       "health": -15,
       "voodoo": 15,
-      "image": 114551279488935
+      "image": "https://tr.rbxcdn.com/180DAY-438a2198162d349f3fcf6cfed366b4fe/150/150/Model/Png/noFilter"
     },
     "Berserker's Trade Vial": {
       "pickupSound": "Pickup",
@@ -3164,7 +3164,7 @@
       "water": 0,
       "health": -10,
       "voodoo": 5,
-      "image": 101431327463643
+      "image": "https://tr.rbxcdn.com/180DAY-819b4f0fa617f17a1fbf78b5e2133e9d/150/150/Model/Png/noFilter"
     },
     "Steady Surge Vial": {
       "pickupSound": "Pickup",
@@ -3173,7 +3173,7 @@
       "water": 0,
       "overHeal": 6,
       "voodoo": 0,
-      "image": 86280483026324
+      "image": "https://tr.rbxcdn.com/180DAY-95dbe154f8d81f44c5ee83add9e442c6/150/150/Model/Png/noFilter"
     },
     "Glacial Mend Vial": {
       "pickupSound": "Pickup",
@@ -3182,7 +3182,7 @@
       "water": 0,
       "overHeal": 20,
       "voodoo": 0,
-      "image": 120625730525072
+      "image": "https://tr.rbxcdn.com/180DAY-cf89d6d653a1a00770bbbe31347454c1/150/150/Model/Png/noFilter"
     },
     "Bloodspark Vial": {
       "pickupSound": "Pickup",
@@ -3191,7 +3191,7 @@
       "water": 0,
       "health": -20,
       "voodoo": 0,
-      "image": 88368167472150
+      "image": "https://tr.rbxcdn.com/180DAY-096d621b3951159fc4add72c5b7d8fc4/150/150/Model/Png/noFilter"
     },
     "Shiverbrand Vial": {
       "pickupSound": "Pickup",
@@ -3200,7 +3200,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": 20,
-      "image": 83500734821696
+      "image": "https://tr.rbxcdn.com/180DAY-1db574c4beac139f80a29d54fa560431/150/150/Model/Png/noFilter"
     },
     "Seething Hex Vial": {
       "pickupSound": "Pickup",
@@ -3209,7 +3209,7 @@
       "water": 0,
       "health": 0,
       "voodoo": 35,
-      "image": 83195974518163
+      "image": "https://tr.rbxcdn.com/180DAY-f5b1e3df3b3584e8191575912c916528/150/150/Model/Png/noFilter"
     },
     "Smoldering Relief Vial": {
       "pickupSound": "Pickup",
@@ -3218,7 +3218,7 @@
       "water": 0,
       "overHeal": 15,
       "voodoo": 0,
-      "image": 98829513372580
+      "image": "https://tr.rbxcdn.com/180DAY-c939c77db66631a3a7204529a9bd021b/150/150/Model/Png/noFilter"
     },
     "Thunderstop Vial": {
       "pickupSound": "Pickup",
@@ -3227,7 +3227,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": -25,
-      "image": 111797191285630
+      "image": "https://tr.rbxcdn.com/180DAY-86054f40ac8de90e66189c78abfc27fa/150/150/Model/Png/noFilter"
     },
     "Blight Fruit": {
       "item_limit": null,
@@ -3236,7 +3236,7 @@
       "food": 1.75,
       "water": 3.5,
       "overHeal": 5,
-      "image": 87037425885686
+      "image": "https://tr.rbxcdn.com/180DAY-0512785193d56c4a1411e3843e1ac887/150/150/Model/Png/noFilter"
     },
     "Big Bloodfruit": {
       "pickupSound": "Flesh",
@@ -3281,7 +3281,7 @@
       "food": 8,
       "water": 0,
       "overHeal": 1,
-      "image": 13602931156
+      "image": "https://tr.rbxcdn.com/180DAY-03b4a309c3362ca400830eab49332683/150/150/Model/Png/noFilter"
     },
     "Corn Mush": {
       "pickupSound": "Flesh",
@@ -3289,7 +3289,7 @@
       "food": 10,
       "water": 0,
       "overHeal": 1,
-      "image": 1963472799
+      "image": "https://tr.rbxcdn.com/180DAY-0f6ffc35b49f66f89b290de75c881a18/150/150/Model/Png/noFilter"
     },
     "Banana Bread": {
       "pickupSound": "Pickup",
@@ -3297,7 +3297,7 @@
       "food": 36,
       "water": 1,
       "overHeal": 4.5,
-      "image": 85680749341638
+      "image": "https://tr.rbxcdn.com/180DAY-001737e9443c20b4e76c136cfe9b1c84/150/150/Model/Png/noFilter"
     },
     "Raw Fish": {
       "pickupSound": "Flesh",
@@ -3305,7 +3305,7 @@
       "food": 5,
       "water": 5,
       "health": -12,
-      "image": 13602945474
+      "image": "https://tr.rbxcdn.com/180DAY-b834a7be9c5c2424b112b6c1662a56fc/150/150/Model/Png/noFilter"
     },
     "Cooked Fish": {
       "pickupSound": "Flesh",
@@ -3315,7 +3315,7 @@
       "food": 20,
       "water": 1,
       "overHeal": 4.5,
-      "image": 13602946754
+      "image": "https://tr.rbxcdn.com/180DAY-f275c5bfcf5a701db242292f9c4fabf4/150/150/Model/Png/noFilter"
     },
     "Gold Fish": {
       "pickupSound": "Money Bars",
@@ -3326,7 +3326,7 @@
       "food": 100,
       "water": 1,
       "overHeal": 66,
-      "image": 76167942697853
+      "image": "https://tr.rbxcdn.com/180DAY-26be03d775b3d4b5d0bb297e78bc945a/150/150/Model/Png/noFilter"
     },
     "Raw Turkey Leg": {
       "pickupSound": "Flesh",
@@ -3334,7 +3334,7 @@
       "food": 4,
       "water": 5,
       "health": -10,
-      "image": 80482371112476
+      "image": "https://tr.rbxcdn.com/180DAY-ace749e3e741c42dd06ad1d74934002b/150/150/Model/Png/noFilter"
     },
     "Cooked Turkey Leg": {
       "pickupSound": "Flesh",
@@ -3343,7 +3343,7 @@
       "food": 16,
       "water": 1,
       "overHeal": 6.5,
-      "image": 100994339947452
+      "image": "https://tr.rbxcdn.com/180DAY-039cb9aac97e25070147dd67f8d06dc1/150/150/Model/Png/noFilter"
     },
     "Raw Meat": {
       "pickupSound": "Flesh",
@@ -3351,7 +3351,7 @@
       "food": 6,
       "water": 5,
       "health": -15,
-      "image": 13602951083
+      "image": "https://tr.rbxcdn.com/180DAY-86d5aeb1aa95ab302e0ecb1817b2f795/150/150/Model/Png/noFilter"
     },
     "Cooked Meat": {
       "pickupSound": "Flesh",
@@ -3359,7 +3359,7 @@
       "food": 24,
       "water": 1,
       "overHeal": 7.5,
-      "image": 13602952925
+      "image": "https://tr.rbxcdn.com/180DAY-3d90270d8eaee08ac7ee15419289a02a/150/150/Model/Png/noFilter"
     },
     "Raw Underworld Meat": {
       "pickupSound": "Flesh",
@@ -3367,7 +3367,7 @@
       "food": 10,
       "water": 5,
       "health": -20,
-      "image": 129031043623484
+      "image": "https://tr.rbxcdn.com/180DAY-414f0640d79b8b571ddae90a95dc801a/150/150/Model/Png/noFilter"
     },
     "Cooked Underworld Meat": {
       "pickupSound": "Flesh",
@@ -3375,7 +3375,7 @@
       "food": 30,
       "water": 1,
       "overHeal": 10,
-      "image": 120225609998066
+      "image": "https://tr.rbxcdn.com/180DAY-6abf7f508ca9c426d9066d8193079d61/150/150/Model/Png/noFilter"
     },
     "Raw Morsel": {
       "pickupSound": "Flesh",
@@ -3384,7 +3384,7 @@
       "food": 3,
       "water": 3,
       "health": -5,
-      "image": 13602956362
+      "image": "https://tr.rbxcdn.com/180DAY-b21da4ea1d10d85d6e52395964df46d7/150/150/Model/Png/noFilter"
     },
     "Cooked Morsel": {
       "pickupSound": "Flesh",
@@ -3392,7 +3392,7 @@
       "food": 12,
       "water": 1,
       "overHeal": 3.5,
-      "image": 13602959622
+      "image": "https://tr.rbxcdn.com/180DAY-79f71768a9baa8c8d4d0e635f21e5f77/150/150/Model/Png/noFilter"
     },
     "Cooked Egg": {
       "pickupSound": "Flesh",
@@ -3400,7 +3400,7 @@
       "food": 15,
       "water": 2,
       "overHeal": 2,
-      "image": 13602965138
+      "image": "https://tr.rbxcdn.com/180DAY-9db8af056a09325102428a1c2d32497c/150/150/Model/Png/noFilter"
     },
     "Cactus Bit": {
       "pickupSound": "Pickup",
@@ -3408,7 +3408,7 @@
       "food": 3,
       "water": 1,
       "health": -1,
-      "image": 13602968683
+      "image": "https://tr.rbxcdn.com/180DAY-2cf62a9b4044f2c4dfc27de1572a411e/150/150/Model/Png/noFilter"
     },
     "Fried Cactus": {
       "pickupSound": "Pickup",
@@ -3417,7 +3417,7 @@
       "food": 18,
       "water": 1,
       "overHeal": 2,
-      "image": 13602970216
+      "image": "https://tr.rbxcdn.com/180DAY-6d6b8c41ef586e4b0ce14a2819501596/150/150/Model/Png/noFilter"
     },
     "Prickly Pear": {
       "pickupSound": "Pickup",
@@ -3426,7 +3426,7 @@
       "food": 11,
       "water": 1,
       "overHeal": 2.5,
-      "image": 108386461898209
+      "image": "https://tr.rbxcdn.com/180DAY-4f73bcf405e0639e6a6d4a3d79bcee51/150/150/Model/Png/noFilter"
     },
     "Zombie Flesh": {
       "Rarity": "Rare",
@@ -3435,7 +3435,7 @@
       "food": 25,
       "water": 1,
       "health": -10,
-      "image": 81339833106585
+      "image": "https://tr.rbxcdn.com/180DAY-a7e18345cb5ed75da58715d21b0597e0/150/150/Model/Png/noFilter"
     },
     "Serpent Tail": {
       "Rarity": "Rare",
@@ -3443,7 +3443,7 @@
       "food": 25,
       "water": 1,
       "health": -15,
-      "image": 132092288159944
+      "image": "https://tr.rbxcdn.com/180DAY-1327c5320d266babf80188d016901daf/150/150/Model/Png/noFilter"
     },
     "Undead Meat": {
       "Rarity": "Legendary",
@@ -3454,7 +3454,7 @@
       "food": 25,
       "water": 1,
       "health": -45,
-      "image": 138781999541336
+      "image": "https://tr.rbxcdn.com/180DAY-8814126fbe437a1fc4da9ae9290b5bc1/150/150/Model/Png/noFilter"
     }
   },
   "gamepass.lua": {
@@ -3462,7 +3462,7 @@
       "Rarity": "Rare",
       "perkName": "Boulder",
       "itemType": "gamepass",
-      "image": 78442301318574
+      "image": "https://tr.rbxcdn.com/180DAY-b827203c1b11644192b0ad56e8109df8/150/150/Image/Png/noFilter"
     }
   },
   "Mojo/mojo.lua": {
@@ -3480,7 +3480,7 @@
       "recipe": "{",
       "[\"Gold Bar\"]": 14,
       "[\"Crystal Chunk\"]": 6,
-      "image": 14525278875
+      "image": "https://tr.rbxcdn.com/180DAY-099eced3851addebd908f12e6c4cb7a7/150/150/Model/Png/noFilter"
     },
     "God Halo": {
       "Rarity": "Legendary",
@@ -3497,7 +3497,7 @@
       "recipe": "{",
       "[\"Gold Bar\"]": 15,
       "[\"Crystal Chunk\"]": 6,
-      "image": 14525243585
+      "image": "https://tr.rbxcdn.com/180DAY-25ce09dcf58e65e8c4f6fb8500901bd1/150/150/Model/Png/noFilter"
     },
     "God Chestplate": {
       "Rarity": "Legendary",
@@ -3513,7 +3513,7 @@
       "recipe": "{",
       "[\"Gold Bar\"]": 15,
       "[\"Crystal Chunk\"]": 6,
-      "image": 14525244717
+      "image": "https://tr.rbxcdn.com/180DAY-0eba8717d49678f2aff95c0d00bf6607/150/150/Model/Png/noFilter"
     },
     "God Axe": {
       "Rarity": "Legendary",
@@ -3531,7 +3531,7 @@
       "players": 30,
       "mobs": 30,
       "woodStructure": 40,
-      "image": 99478188938351
+      "image": "https://tr.rbxcdn.com/180DAY-d93b1859d6bd8ebdcb83d0a26f6c241e/150/150/Model/Png/noFilter"
     },
     "God Crossbow": {
       "Rarity": "Legendary",
@@ -3545,7 +3545,7 @@
       "key": "Shred",
       "decayTime": 2.5,
       "userData": "{}",
-      "image": 78910532824706
+      "image": "https://tr.rbxcdn.com/180DAY-793d92c359694fc8c365244b179112d9/150/150/Model/Png/noFilter"
     },
     "God Pick": {
       "Rarity": "Legendary",
@@ -3564,7 +3564,7 @@
       "mobs": 30,
       "stoneStructure": 40,
       "spirit": 5,
-      "image": 76331989780495
+      "image": "https://tr.rbxcdn.com/180DAY-b54db2110d8d49bbeb82efda18aea35c/150/150/Model/Png/noFilter"
     },
     "OOF Horn": {
       "Rarity": "Legendary",
@@ -3583,20 +3583,20 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 2,
       "[\"Gold Bar\"]": 9,
-      "image": 14524744656
+      "image": "https://tr.rbxcdn.com/180DAY-91de439dd2b101aa1aed74a512d386a7/150/150/Model/Png/noFilter"
     },
     "Rebirth Mastery": {
       "Rarity": "Legendary",
       "description": "Save your inventory upon rebirthing",
       "mojoCost": 5,
-      "image": 18336324055
+      "image": "https://tr.rbxcdn.com/180DAY-d074e10bc932fc4505cebc8900ed3dc2/150/150/Image/Png/noFilter"
     },
     "Voodoo Mastery": {
       "Rarity": "Legendary",
       "description": "Change your voodoo spell anytime! Upon rebirthing you keep your voodoo!",
       "mojoCost": 9,
       "inPanelAlready": true,
-      "image": 18336314010
+      "image": "https://tr.rbxcdn.com/180DAY-c4a836458504d840b1f8e6e6a9b3786c/150/150/Image/Png/noFilter"
     },
     "Blazing Touch": {
       "Rarity": "Legendary",
@@ -3604,35 +3604,35 @@
       "mojoCost": 7,
       "inPanelAlready": true,
       "toggleable": true,
-      "image": 140313360284714
+      "image": "https://tr.rbxcdn.com/180DAY-8743f5aa79afc3d581875954acdf352d/150/150/Image/Png/noFilter"
     },
     "Water Walker": {
       "Rarity": "Rare",
       "description": "Water no longer slows movement speed.",
       "mojoCost": 1,
       "toggleable": true,
-      "image": 1839247605
+      "image": "https://tr.rbxcdn.com/180DAY-c8d49982218906decbfddd93f4efa9eb/150/150/Model/Png/noFilter"
     },
     "Shelly Friend": {
       "Rarity": "Rare",
       "description": "This shelly companion will occassionally dig up a random ore!",
       "mojoCost": 1,
       "toggleable": true,
-      "image": 14524896585
+      "image": "https://tr.rbxcdn.com/180DAY-b3c8e6520d8ddf8db86fefdec2a144d0/150/150/Model/Png/noFilter"
     },
     "Peeper Pet": {
       "Rarity": "Rare",
       "description": "This peeper friend will occassionally dig up food!",
       "mojoCost": 1,
       "toggleable": true,
-      "image": 14524938201
+      "image": "https://tr.rbxcdn.com/180DAY-21905ab9abc839b855ae343d7cb927f7/150/150/Model/Png/noFilter"
     },
     "Lurky Bro": {
       "Rarity": "Rare",
       "description": "This lurky companion will bite nearby attackers.",
       "mojoCost": 1,
       "toggleable": true,
-      "image": 14524894700
+      "image": "https://tr.rbxcdn.com/180DAY-96127de5c43d370b43bee94e99088524/150/150/Model/Png/noFilter"
     },
     "Infinity Chest": {
       "Rarity": "Legendary",
@@ -3643,7 +3643,7 @@
       "mojoRecipe": true,
       "susceptions": "{",
       "woodStructure": true,
-      "image": 14522555199
+      "image": "https://tr.rbxcdn.com/180DAY-71dcbe7400bd5d0da1a71d8aba421a60/150/150/Model/Png/noFilter"
     },
     "God Hut": {
       "Rarity": "Legendary",
@@ -3653,7 +3653,7 @@
       "health": 5000,
       "susceptions": "{",
       "stoneStructure": true,
-      "image": 14522544247
+      "image": "https://tr.rbxcdn.com/180DAY-b3f5825a4d48fea0c7c500e6c1268404/150/150/Model/Png/noFilter"
     },
     "God Rod": {
       "Rarity": "Legendary",
@@ -3672,7 +3672,7 @@
       "Apple": "{",
       "quantity": 1,
       "percent": 2.5,
-      "image": 120042562032637
+      "image": "https://tr.rbxcdn.com/180DAY-c8e2efeb169653be6e17d2d8900a3b98/150/150/Model/Png/noFilter"
     },
     "Crystal Crate": {
       "quantity": 1,
@@ -3722,7 +3722,7 @@
       "recipe": "{",
       "[\"Crystal Chunk\"]": 9,
       "[\"Gold Bar\"]": 27,
-      "image": 138387141522481
+      "image": "https://tr.rbxcdn.com/180DAY-dffc1a561170221275ff2cf62bbc9bea/150/150/Model/Png/noFilter"
     },
     "God Sword": {
       "Rarity": "Legendary",
@@ -3742,7 +3742,7 @@
       "mobs": 80,
       "woodStructure": 20,
       "stoneStructure": 20,
-      "image": 97821761313920
+      "image": "https://tr.rbxcdn.com/180DAY-47d98b1b0bedab84f1e61180ab3525a9/150/150/Model/Png/noFilter"
     },
     "God Battle Axe": {
       "Rarity": "Legendary",
@@ -3756,7 +3756,7 @@
       "key": "Bleed",
       "decayTime": 1.25,
       "userData": "{}",
-      "image": 139239679908221
+      "image": "https://tr.rbxcdn.com/180DAY-4d280a9da9034c03a9d363ec17bca262/150/150/Model/Png/noFilter"
     },
     "God Scythe": {
       "Rarity": "Legendary",
@@ -3772,7 +3772,7 @@
       "key": "Shred",
       "decayTime": 1.5,
       "userData": "{}",
-      "image": 102372341549272
+      "image": "https://tr.rbxcdn.com/180DAY-eb4388a79fe75953857a3f2dd265e537/150/150/Model/Png/noFilter"
     },
     "God Staff": {
       "Rarity": "Legendary",
@@ -3790,13 +3790,13 @@
       "mobs": 40,
       "woodStructure": 200,
       "stoneStructure": 200,
-      "image": 98595025608893
+      "image": "https://tr.rbxcdn.com/180DAY-83d56ad67f584e1bb74610e0a975d74d/150/150/Model/Png/noFilter"
     }
   },
   "Mojo/skillTree.lua": {
     "Axe Damage": {
       "itemType": "skilltree",
-      "image": 139146672577801,
+      "image": "https://tr.rbxcdn.com/180DAY-c007ca9b1e69f88d19ba029cb38d2e48/150/150/Image/Png/noFilter",
       "row": 1,
       "increments": 0.01,
       "description": "Damage multiplier that your axe deals when equipped",
@@ -3806,7 +3806,7 @@
     },
     "Pickaxe Damage": {
       "itemType": "skilltree",
-      "image": 116599335427162,
+      "image": "https://tr.rbxcdn.com/180DAY-5cd5de0b902ee40ae9bb4856e23b3473/150/150/Image/Png/noFilter",
       "row": 1,
       "increments": 0.01,
       "description": "Damage multiplier that your pickaxe deals when equipped",
@@ -3816,7 +3816,7 @@
     },
     "Sword Damage": {
       "itemType": "skilltree",
-      "image": 138978462644652,
+      "image": "https://tr.rbxcdn.com/180DAY-386d0189e1e90a857495a0114c71b48f/150/150/Image/Png/noFilter",
       "row": 1,
       "increments": 0.01,
       "description": "Damage multiplier that your sword deals when equipped",
@@ -3826,7 +3826,7 @@
     },
     "Mob Damage": {
       "itemType": "skilltree",
-      "image": 83336361333464,
+      "image": "https://tr.rbxcdn.com/180DAY-71372757d59fa4a9fde37c817e3fd4a9/150/150/Image/Png/noFilter",
       "row": 2,
       "increments": 0.01,
       "description": "Damage multiplier when any damage item is equipped",
@@ -3836,7 +3836,7 @@
     },
     "Mob Defense": {
       "itemType": "skilltree",
-      "image": 105515459269674,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 2,
       "increments": 0.02,
       "description": "Defense multiplier against mobs damaging you",
@@ -3846,7 +3846,7 @@
     },
     "Total Hunger": {
       "itemType": "skilltree",
-      "image": 2532105507,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 3,
       "increments": 0.01,
       "description": "Additional Hunger",
@@ -3856,7 +3856,7 @@
     },
     "Total Damage": {
       "itemType": "skilltree",
-      "image": 123878595643125,
+      "image": "https://tr.rbxcdn.com/180DAY-34f33122d188ecd7e936f6e147d22674/150/150/Image/Png/noFilter",
       "row": 3,
       "increments": 0.01,
       "description": "Total Damage Multiplier",
@@ -3866,7 +3866,7 @@
     },
     "Bag Space": {
       "itemType": "skilltree",
-      "image": 1267432187,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 4,
       "increments": 0.6,
       "description": "Bag space multiplier",
@@ -3876,7 +3876,7 @@
     },
     "Satchel Space": {
       "itemType": "skilltree",
-      "image": 116475003649558,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 4,
       "increments": 0.6,
       "description": "Satchel space multiplier",
@@ -3886,7 +3886,7 @@
     },
     "Total Space": {
       "itemType": "skilltree",
-      "image": 116475003649558,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 5,
       "increments": 0.1,
       "description": "After Bag and Satchel your total space multiplier",
@@ -3896,7 +3896,7 @@
     },
     "Coin Multiplier": {
       "itemType": "skilltree",
-      "image": 139858009569266,
+      "image": "https://tr.rbxcdn.com/180DAY-a1c583ccd08ccc3ca03e19cf0af4881c/150/150/Image/Png/noFilter",
       "row": 6,
       "increments": 0.005,
       "description": "Multiply the amount of coins you get",
@@ -3907,7 +3907,7 @@
     "Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 126423331943718,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 6,
       "increments": 0.01,
       "description": "Add to the amount of total luck you get, all Luck is stacked. Also Luck is applied to all aspects of the game from drops to skin crates to civilization.",
@@ -3917,7 +3917,7 @@
     },
     "Essence Multiplier": {
       "itemType": "skilltree",
-      "image": 97954593645356,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 6,
       "increments": 0.002,
       "description": "Multiply the amount of essence you get",
@@ -3928,7 +3928,7 @@
     "Mythic Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 117084218048656,
+      "image": "https://tr.rbxcdn.com/180DAY-c60cf1809f2a64b706a7fb773ea9e84a/150/150/Image/Png/noFilter",
       "row": 7,
       "increments": 0.02,
       "description": "Add to the amount of total mythic luck you get, all Luck is stacked",
@@ -3938,7 +3938,7 @@
     },
     "Fishing Luck Multiplier": {
       "itemType": "skilltree",
-      "image": 128843316335776,
+      "image": "https://tr.rbxcdn.com/180DAY-d6d9b94d86676affb8eeb0eb2dcb7274/150/150/Image/Png/noFilter",
       "row": 7,
       "increments": 0.01,
       "description": "Add to the amount of luck you have when fishing, luck is stacked. Opportunity to get more rewards!",
@@ -3949,7 +3949,7 @@
     "Skin Crate Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 95893293518125,
+      "image": "https://tr.rbxcdn.com/180DAY-ce1991dc9f6aab6531bebfda2624f7fb/150/150/Image/Png/noFilter",
       "row": 7,
       "increments": 0.01,
       "description": "Add to the amount of Skin Crate luck you get, Only Luck for Skin Crates",
@@ -3960,7 +3960,7 @@
     "Void Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 113485610868673,
+      "image": "https://tr.rbxcdn.com/180DAY-faa171c66285358a9c567a92910f8ee4/150/150/Image/Png/noFilter",
       "row": 8,
       "increments": 0.02,
       "description": "Add to the amount of total luck you get when in Void",
@@ -3971,7 +3971,7 @@
     "Overworld Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 113485610868673,
+      "image": "https://tr.rbxcdn.com/180DAY-faa171c66285358a9c567a92910f8ee4/150/150/Image/Png/noFilter",
       "row": 8,
       "increments": 0.02,
       "description": "Add to the amount of total luck you get when in Overworld",
@@ -3982,7 +3982,7 @@
     "Underworld Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 113485610868673,
+      "image": "https://tr.rbxcdn.com/180DAY-faa171c66285358a9c567a92910f8ee4/150/150/Image/Png/noFilter",
       "row": 8,
       "increments": 0.02,
       "description": "Add to the amount of total luck you get when in Underworld",
@@ -3993,7 +3993,7 @@
     "Gamemodes Luck Multiplier": {
       "add": true,
       "itemType": "skilltree",
-      "image": 113485610868673,
+      "image": "https://tr.rbxcdn.com/180DAY-faa171c66285358a9c567a92910f8ee4/150/150/Image/Png/noFilter",
       "row": 9,
       "increments": 0.02,
       "description": "Add to the amount of total luck you get when in Gamemodes",
@@ -4003,7 +4003,7 @@
     },
     "Gamemodes Pity": {
       "itemType": "skilltree",
-      "image": 86034025064174,
+      "image": "https://tr.rbxcdn.com/180DAY-dd32bf88bef2b0aceebc554906b14dd0/150/150/Image/Png/noFilter",
       "row": 9,
       "increments": 0.01,
       "description": "Add additional pity after winning a gamemode",
@@ -4013,7 +4013,7 @@
     },
     "Stronger Structures": {
       "itemType": "skilltree",
-      "image": 88729154237617,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 10,
       "increments": 0.01,
       "description": "Multiply the amount of health your structures spawn in with",
@@ -4023,7 +4023,7 @@
     },
     "Weaker Resources": {
       "itemType": "skilltree",
-      "image": 116173647982476,
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6",
       "row": 10,
       "increments": 0.01,
       "description": "Divide the health the resource starts with on the first ever hit of that resource",
@@ -4034,7 +4034,7 @@
     "Skill Tree Boost": {
       "add": true,
       "itemType": "skilltree",
-      "image": 134291081343772,
+      "image": "https://tr.rbxcdn.com/180DAY-c50c783f0fb448106d062ae401fd1b8e/150/150/Image/Png/noFilter",
       "row": 11,
       "increments": 1,
       "maxAmount": 5,
@@ -4051,7 +4051,7 @@
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
-      "image": 112083800129222,
+      "image": "https://tr.rbxcdn.com/180DAY-8c8587369f463bd1e084d4e601b2e4ff/150/150/Model/Png/noFilter",
       "noDrop": true,
       "rebirthPersist": true,
       "codeBase": "MountControl",
@@ -4067,7 +4067,7 @@
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
-      "image": 133787427305669,
+      "image": "https://tr.rbxcdn.com/180DAY-bf607afa9c7685d8d17328ce20672867/150/150/Model/Png/noFilter",
       "noDrop": true,
       "rebirthPersist": true,
       "codeBase": "MountControl",
@@ -4084,7 +4084,7 @@
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
-      "image": 102110076940448,
+      "image": "https://tr.rbxcdn.com/180DAY-e5c8bcd56de2c6c09f709df9e7c88721/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 100,
       "BottomText": "Daily Rewards",
@@ -4100,7 +4100,7 @@
       "Rarity": "Rare",
       "maxLoad": 0,
       "load": 0,
-      "image": 91022208638025,
+      "image": "https://tr.rbxcdn.com/180DAY-998706e28880484d3dbb0afc68a17dfc/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 100,
       "mojoCost": 25,
@@ -4117,7 +4117,7 @@
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
-      "image": 100589735946477,
+      "image": "https://tr.rbxcdn.com/180DAY-d21a13523118c3f9ccfc601d8944a7a8/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 99,
       "rebirthPersist": true,
@@ -4134,7 +4134,7 @@
       "locus": "mount",
       "maxLoad": 0,
       "load": 0,
-      "image": 127147776428306,
+      "image": "https://tr.rbxcdn.com/180DAY-1692423efec67ec6491bc7eecee96e73/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 0,
       "rebirthPersist": true,
@@ -4150,7 +4150,7 @@
       "Rarity": "Rare",
       "maxLoad": 0,
       "load": 0,
-      "image": 84570866666322,
+      "image": "https://tr.rbxcdn.com/180DAY-666ca5ccf00d50c12ae86885d1c559c3/150/150/Model/Png/noFilter",
       "noDrop": true,
       "mojoCost": 50,
       "shopOrder": 99,
@@ -4166,7 +4166,7 @@
       "Rarity": "Rare",
       "maxLoad": 0,
       "load": 0,
-      "image": 117952163653308,
+      "image": "https://tr.rbxcdn.com/180DAY-295d9724b3df8adf28e81fe65e34ba1a/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 0,
       "rebirthPersist": true,
@@ -4182,7 +4182,7 @@
       "Rarity": "Common",
       "maxLoad": 0,
       "load": 0,
-      "image": 91018803422518,
+      "image": "https://tr.rbxcdn.com/180DAY-1f6b97def4cd70e5aed00d15df9f9238/150/150/Model/Png/noFilter",
       "noDrop": true,
       "rebirthPersist": true,
       "codeBase": "MountControl",
@@ -4199,7 +4199,7 @@
       "Rarity": "Rare",
       "maxLoad": 0,
       "load": 0,
-      "image": 133248407646095,
+      "image": "https://tr.rbxcdn.com/180DAY-c9a52b7a19553e3fe9b91c7ba3f15fb2/150/150/Model/Png/noFilter",
       "noDrop": true,
       "shopOrder": 100,
       "BottomText": "Daily Rewards",
@@ -4218,7 +4218,7 @@
       "water": 0,
       "health": -10,
       "voodoo": 40,
-      "image": 18852691739
+      "image": "https://tr.rbxcdn.com/180DAY-b15a35e78f89b5ad4ed03af3252c5891/150/150/Model/Png/noFilter"
     },
     "Satisfying Vial": {
       "pickupSound": "Pickup",
@@ -4227,7 +4227,7 @@
       "water": 0,
       "overHeal": 0,
       "voodoo": 0,
-      "image": 18852693417
+      "image": "https://tr.rbxcdn.com/180DAY-eb3cb9bb92282c6e8146653a1a3ae0a9/150/150/Model/Png/noFilter"
     },
     "Replenishing Vial": {
       "pickupSound": "Pickup",
@@ -4236,7 +4236,7 @@
       "water": 0,
       "overHeal": 50,
       "voodoo": 0,
-      "image": 18852692791
+      "image": "https://tr.rbxcdn.com/180DAY-da4b9a9f5a4cafdd71d5d19e60eccea8/150/150/Model/Png/noFilter"
     },
     "Mend & Chill Vial": {
       "pickupSound": "Pickup",
@@ -4245,7 +4245,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": 0,
-      "image": 103688147471938
+      "image": "https://tr.rbxcdn.com/180DAY-cc294992c7ec052464758f966ff34b7b/150/150/Model/Png/noFilter"
     },
     "Frostfire Vial": {
       "pickupSound": "Pickup",
@@ -4254,7 +4254,7 @@
       "water": 0,
       "overHeal": 0,
       "voodoo": 0,
-      "image": 111579047573905
+      "image": "https://tr.rbxcdn.com/180DAY-e0f925edceca7a2911f9dd990efca162/150/150/Model/Png/noFilter"
     },
     "Hexed Fury Vial": {
       "pickupSound": "Pickup",
@@ -4263,7 +4263,7 @@
       "water": 0,
       "health": -15,
       "voodoo": 15,
-      "image": 114551279488935
+      "image": "https://tr.rbxcdn.com/180DAY-438a2198162d349f3fcf6cfed366b4fe/150/150/Model/Png/noFilter"
     },
     "Berserker's Trade Vial": {
       "pickupSound": "Pickup",
@@ -4272,7 +4272,7 @@
       "water": 0,
       "health": -10,
       "voodoo": 5,
-      "image": 101431327463643
+      "image": "https://tr.rbxcdn.com/180DAY-819b4f0fa617f17a1fbf78b5e2133e9d/150/150/Model/Png/noFilter"
     },
     "Steady Surge Vial": {
       "pickupSound": "Pickup",
@@ -4281,7 +4281,7 @@
       "water": 0,
       "overHeal": 6,
       "voodoo": 0,
-      "image": 86280483026324
+      "image": "https://tr.rbxcdn.com/180DAY-95dbe154f8d81f44c5ee83add9e442c6/150/150/Model/Png/noFilter"
     },
     "Glacial Mend Vial": {
       "pickupSound": "Pickup",
@@ -4290,7 +4290,7 @@
       "water": 0,
       "overHeal": 20,
       "voodoo": 0,
-      "image": 120625730525072
+      "image": "https://tr.rbxcdn.com/180DAY-cf89d6d653a1a00770bbbe31347454c1/150/150/Model/Png/noFilter"
     },
     "Bloodspark Vial": {
       "pickupSound": "Pickup",
@@ -4299,7 +4299,7 @@
       "water": 0,
       "health": -20,
       "voodoo": 0,
-      "image": 88368167472150
+      "image": "https://tr.rbxcdn.com/180DAY-096d621b3951159fc4add72c5b7d8fc4/150/150/Model/Png/noFilter"
     },
     "Shiverbrand Vial": {
       "pickupSound": "Pickup",
@@ -4308,7 +4308,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": 20,
-      "image": 83500734821696
+      "image": "https://tr.rbxcdn.com/180DAY-1db574c4beac139f80a29d54fa560431/150/150/Model/Png/noFilter"
     },
     "Seething Hex Vial": {
       "pickupSound": "Pickup",
@@ -4317,7 +4317,7 @@
       "water": 0,
       "health": 0,
       "voodoo": 35,
-      "image": 83195974518163
+      "image": "https://tr.rbxcdn.com/180DAY-f5b1e3df3b3584e8191575912c916528/150/150/Model/Png/noFilter"
     },
     "Smoldering Relief Vial": {
       "pickupSound": "Pickup",
@@ -4326,7 +4326,7 @@
       "water": 0,
       "overHeal": 15,
       "voodoo": 0,
-      "image": 98829513372580
+      "image": "https://tr.rbxcdn.com/180DAY-c939c77db66631a3a7204529a9bd021b/150/150/Model/Png/noFilter"
     },
     "Thunderstop Vial": {
       "pickupSound": "Pickup",
@@ -4335,7 +4335,7 @@
       "water": 0,
       "overHeal": 10,
       "voodoo": -25,
-      "image": 111797191285630
+      "image": "https://tr.rbxcdn.com/180DAY-86054f40ac8de90e66189c78abfc27fa/150/150/Model/Png/noFilter"
     }
   },
   "spells.lua": {
@@ -4344,50 +4344,50 @@
       "damage": 14,
       "cooldown": 5,
       "description": "Multiple Flame Beams - Cast 8 beams of pure fire around the user.",
-      "image": 106362805972252
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Flame Aura": {
       "aetherSpell": true,
       "damage": 14,
       "cooldown": 5,
       "description": "Flame Aura - Cast a powerful aura that makes you a God",
-      "image": 83021247729674
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Meteor Flame": {
       "aetherSpell": true,
       "damage": 14,
       "cooldown": 0.1,
       "description": "Meteor Flame - Cast a powerful meteor to slam into your enemies",
-      "image": 77250725740004
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Energy Bolt": {
       "config": "{",
       "BOLT_SPEED": 0.1,
-      "image": 18896479830
+      "image": "https://tr.rbxcdn.com/180DAY-66afdb10e4e31754ea9ccb6e4b45fe4f/150/150/Image/Png/noFilter"
     },
     "Void Release": {
       "config": "{",
       "KNOCKBACK_RADIUS": 35,
       "KNOCKBACK_FORCE": 130,
       "UPWARD_FORCE": 60,
-      "image": 75775379051550
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Void Electrify": {
       "config": "{",
       "DAMAGE_RADIUS": 25,
-      "image": 136572877685048
+      "image": "https://tr.rbxcdn.com/180DAY-621d1c32d13fa0490a9185fe89ca8635/150/150/Image/Png/noFilter"
     },
     "Void Lifesteal": {
       "config": "{",
       "DAMAGE_RADIUS": 20,
       "HEAL_AMOUNT": 0.5,
       "DAMAGE_AMOUNT": 3,
-      "image": 112302225645632
+      "image": "https://tr.rbxcdn.com/180DAY-19b90282959f0bd7d31c25ad1c71f2cf/150/150/Image/Png/noFilter"
     },
     "Void Punch": {
       "config": "{",
       "DAMAGE_RADIUS": 10,
-      "image": 124127894549195
+      "image": "https://tr.rbxcdn.com/180DAY-f0f771dfcfb3d7576a33019cb4d68645/150/150/Image/Png/noFilter"
     },
     "Void Explosion": {
       "config": "{",
@@ -4395,42 +4395,42 @@
       "DURATION": 0.2,
       "INITIAL_SCALE": 1,
       "TARGET_SCALE": 10,
-      "image": 87558006085842
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Void Grapple": {
       "config": "{",
       "DURATION": 0.5,
       "MAX_DISTANCE": 120,
       "MOUSE_DISTANCE": 35,
-      "image": 85706259085523
+      "image": "https://t3.rbxcdn.com/180DAY-a3dd54a897e452a2c6ea835194882df6"
     },
     "Energy Shield": {
       "config": "{",
       "HEALTH": 4,
       "TIME": 45,
-      "image": 18896500047
+      "image": "https://tr.rbxcdn.com/180DAY-4c461affbae3561618ff3b5fbd4d6c57/150/150/Image/Png/noFilter"
     },
     "Void Cloak": {
       "config": "{",
       "DELAY_TIME": 32,
-      "image": 18896477743
+      "image": "https://tr.rbxcdn.com/180DAY-e9115eba2c463fbd89d3ea0ca508d16d/150/150/Image/Png/noFilter"
     },
     "Void Strength": {
       "voodooSpell": true,
       "duration": 30,
       "voodooCost": 100,
       "description": "VOID STRENGTH - Deal 1.5x more damage against players and 2x more damage against structures. Lasts 30 seconds and costs 100 Voodoo.",
-      "image": 18896482876
+      "image": "https://tr.rbxcdn.com/180DAY-1fd1615e32546352b51b15777c7e8fc2/150/150/Image/Png/noFilter"
     },
     "Healing Bubble": {
       "config": "{",
       "HEALING_AMOUNT": 15,
-      "image": 18896354444
+      "image": "https://tr.rbxcdn.com/180DAY-efbf557ab0b5d32ba87e6f1a7bc3c6b5/150/150/Image/Png/noFilter"
     },
     "Void Step": {
       "config": "{",
       "DURATION": 4.6,
-      "image": 18895990995
+      "image": "https://tr.rbxcdn.com/180DAY-d8dd3777f7f41c2f2373923d01777e33/150/150/Image/Png/noFilter"
     }
   },
   "tools/artifacts.lua": {
@@ -4442,7 +4442,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 105196713363780
+      "image": "https://tr.rbxcdn.com/180DAY-e22ef9a5adb7f85c588e9aa5e224aac0/150/150/Model/Png/noFilter"
     },
     "Voodoo Artifact": {
       "Rarity": "Mythic",
@@ -4452,7 +4452,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 96352600168565
+      "image": "https://tr.rbxcdn.com/180DAY-ecb10e32ca9397e76a6b8bd0f2dd4ac1/150/150/Model/Png/noFilter"
     },
     "Overheal Artifact": {
       "Rarity": "Mythic",
@@ -4462,7 +4462,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 106473114239137
+      "image": "https://tr.rbxcdn.com/180DAY-bed3468091c7c5cbfbd03527afc73662/150/150/Model/Png/noFilter"
     },
     "Hunger Artifact": {
       "Rarity": "Mythic",
@@ -4472,7 +4472,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 130421936368240
+      "image": "https://tr.rbxcdn.com/180DAY-d27b09675739192cac0fb70923078ef1/150/150/Model/Png/noFilter"
     },
     "Health Artifact": {
       "Rarity": "Mythic",
@@ -4482,7 +4482,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 129413051910830
+      "image": "https://tr.rbxcdn.com/180DAY-578246e41868e6c97a1082f8a687c317/150/150/Model/Png/noFilter"
     },
     "Essence Artifact": {
       "Rarity": "Mythic",
@@ -4492,7 +4492,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 97557818466245
+      "image": "https://tr.rbxcdn.com/180DAY-7801213d23157191de02f0bc8105485c/150/150/Model/Png/noFilter"
     },
     "Coin Artifact": {
       "Rarity": "Mythic",
@@ -4502,7 +4502,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 109354360219565
+      "image": "https://tr.rbxcdn.com/180DAY-1aa9c3217cab009ebb7294e96a8360a6/150/150/Model/Png/noFilter"
     },
     "Rebirth Artifact": {
       "Rarity": "Divine",
@@ -4512,7 +4512,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 139327186554771
+      "image": "https://tr.rbxcdn.com/180DAY-5654be208459ce75dde1004abae83b9b/150/150/Model/Png/noFilter"
     },
     "Zombie Artifact": {
       "Rarity": "Mythic",
@@ -4522,7 +4522,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 134465114390746
+      "image": "https://tr.rbxcdn.com/180DAY-336f47461bdb4bfbccc9fea40f731b17/150/150/Model/Png/noFilter"
     },
     "Serpent Artifact": {
       "Rarity": "Mythic",
@@ -4532,7 +4532,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 138412603736175
+      "image": "https://tr.rbxcdn.com/180DAY-24f4067898939a25a79f96a9eb85325a/150/150/Model/Png/noFilter"
     },
     "Skeleton Artifact": {
       "Rarity": "Mythic",
@@ -4542,7 +4542,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 109734133538099
+      "image": "https://tr.rbxcdn.com/180DAY-288ee495faff2df91b45d4660f00765d/150/150/Model/Png/noFilter"
     },
     "Undead Artifact": {
       "Rarity": "Divine",
@@ -4552,7 +4552,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 89017728586346
+      "image": "https://tr.rbxcdn.com/180DAY-1fe88d53948cddc9816a2752adc3ea6f/150/150/Model/Png/noFilter"
     },
     "Bloodlust Artifact": {
       "Rarity": "Divine",
@@ -4562,7 +4562,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 80030868639950
+      "image": "https://tr.rbxcdn.com/180DAY-e76a62ee14b0ae57eec391a3aafdf0b9/150/150/Model/Png/noFilter"
     },
     "Developer Artifact": {
       "Rarity": "Unique",
@@ -4572,7 +4572,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 140503121949068
+      "image": "https://tr.rbxcdn.com/180DAY-53e142dc63cd4d6a9140e273aafc928a/150/150/Model/Png/noFilter"
     },
     "Shrink Artifact": {
       "Rarity": "Unique",
@@ -4582,7 +4582,7 @@
       "load": 0,
       "rebirthPersist": true,
       "DisableDoubleResources": true,
-      "image": 112129219932396
+      "image": "https://tr.rbxcdn.com/180DAY-75f34e07adb0ae08b7c3a23cce50bdf6/150/150/Model/Png/noFilter"
     }
   },
   "tools/axes.lua": {
@@ -4599,7 +4599,7 @@
       "players": 5,
       "mobs": 5,
       "woodStructure": 2,
-      "image": 120104488565605
+      "image": "https://tr.rbxcdn.com/180DAY-4e98e9b118741d5f794ba0632924e368/150/150/Model/Png/noFilter"
     },
     "Stone Axe": {
       "Rarity": "Common",
@@ -4614,7 +4614,7 @@
       "players": 7,
       "mobs": 7,
       "woodStructure": 3,
-      "image": 85133601127075
+      "image": "https://tr.rbxcdn.com/180DAY-a47e055334e0a61af21a79c9995af9d6/150/150/Model/Png/noFilter"
     },
     "Iron Axe": {
       "Rarity": "Common",
@@ -4629,7 +4629,7 @@
       "players": 9,
       "mobs": 9,
       "woodStructure": 4,
-      "image": 135126165828499
+      "image": "https://tr.rbxcdn.com/180DAY-77822332d896e2186d4eb49e266b6afd/150/150/Model/Png/noFilter"
     },
     "Steel Axe": {
       "Rarity": "Common",
@@ -4644,7 +4644,7 @@
       "players": 11,
       "mobs": 11,
       "woodStructure": 5,
-      "image": 122499903338456
+      "image": "https://tr.rbxcdn.com/180DAY-6d4a138f57f12752de868d4254bde2a0/150/150/Model/Png/noFilter"
     },
     "Adurite Axe": {
       "Rarity": "Rare",
@@ -4659,7 +4659,7 @@
       "players": 13,
       "mobs": 13,
       "woodStructure": 6,
-      "image": 121792012389222
+      "image": "https://tr.rbxcdn.com/180DAY-c59f059bfa6ab7894fb21f8703f6250c/150/150/Model/Png/noFilter"
     },
     "Crystal Axe": {
       "Rarity": "Rare",
@@ -4675,7 +4675,7 @@
       "mobs": 13,
       "woodStructure": 8,
       "spirit": 5,
-      "image": 115600184349712
+      "image": "https://tr.rbxcdn.com/180DAY-20159fef762819574d1ddc5f5bb24534/150/150/Model/Png/noFilter"
     },
     "Magnetite Axe": {
       "Rarity": "Rare",
@@ -4690,7 +4690,7 @@
       "players": 15,
       "mobs": 15,
       "woodStructure": 10,
-      "image": 109206277496763
+      "image": "https://tr.rbxcdn.com/180DAY-5b7fc1e590d91364356a2e7f2a6ba191/150/150/Model/Png/noFilter"
     },
     "Emerald Axe": {
       "Rarity": "Rare",
@@ -4705,7 +4705,7 @@
       "players": 17,
       "mobs": 17,
       "woodStructure": 12,
-      "image": 103699754342362
+      "image": "https://tr.rbxcdn.com/180DAY-b8bbb770ee326b8ea4cea211c6f73dd8/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Axe": {
       "Rarity": "Rare",
@@ -4720,7 +4720,7 @@
       "players": 19,
       "mobs": 19,
       "woodStructure": 13,
-      "image": 90554703874563
+      "image": "https://tr.rbxcdn.com/180DAY-5936b6917216f93018ad197fd4b538c3/150/150/Model/Png/noFilter"
     },
     "Void Axe": {
       "Rarity": "Rare",
@@ -4734,7 +4734,7 @@
       "players": 21,
       "mobs": 21,
       "woodStructure": 125,
-      "image": 84475646750850
+      "image": "https://tr.rbxcdn.com/180DAY-a788a31cd0120e6a54ebc5631bce2620/150/150/Model/Png/noFilter"
     },
     "Soulite Axe": {
       "Rarity": "Legendary",
@@ -4746,7 +4746,7 @@
       "damages": "{",
       "wood": 45,
       "woodStructure": 20,
-      "image": 90003162724439
+      "image": "https://tr.rbxcdn.com/180DAY-d8339faa600c929726ed6a22779bbc56/150/150/Model/Png/noFilter"
     },
     "Phantomite Axe": {
       "Rarity": "Legendary",
@@ -4758,7 +4758,7 @@
       "damages": "{",
       "wood": 55,
       "woodStructure": 25,
-      "image": 85933858695466
+      "image": "https://tr.rbxcdn.com/180DAY-2d7b4da1d030ff31363da893c9e0b815/150/150/Model/Png/noFilter"
     },
     "Hellstone Axe": {
       "Rarity": "Legendary",
@@ -4770,7 +4770,7 @@
       "damages": "{",
       "wood": 65,
       "woodStructure": 30,
-      "image": 106338463877401
+      "image": "https://tr.rbxcdn.com/180DAY-486afa40575026f8b2ca0e8a07812dfb/150/150/Model/Png/noFilter"
     },
     "Ossidar Axe": {
       "Rarity": "Legendary",
@@ -4783,7 +4783,7 @@
       "damages": "{",
       "wood": 115,
       "woodStructure": 35,
-      "image": 134707462651158
+      "image": "https://tr.rbxcdn.com/180DAY-e503d9e947ce545bf05073e56c3a8589/150/150/Model/Png/noFilter"
     },
     "Undead Axe": {
       "Rarity": "Legendary",
@@ -4796,7 +4796,7 @@
       "damages": "{",
       "wood": 125,
       "woodStructure": 125,
-      "image": 110286953581761
+      "image": "https://tr.rbxcdn.com/180DAY-870b3090cc45f5e4cade6897852e6b3a/150/150/Model/Png/noFilter"
     }
   },
   "tools/masteryGear.lua": {
@@ -4813,7 +4813,7 @@
       "key": "Shred",
       "decayTime": 0.1,
       "userData": "{}",
-      "image": 105560044871289
+      "image": "https://tr.rbxcdn.com/180DAY-629d07ed0e0918756d2febc88629d0b9/150/150/Model/Png/noFilter"
     },
     "Vortex Greatsword": {
       "Rarity": "Divine",
@@ -4822,7 +4822,7 @@
       "key": "Bleed",
       "decayTime": 0.2,
       "userData": "{}",
-      "image": 79372208154711
+      "image": "https://tr.rbxcdn.com/180DAY-204d4913ca092923a8ef970522bff1af/150/150/Model/Png/noFilter"
     },
     "Vortex Bow": {
       "Rarity": "Divine",
@@ -4838,7 +4838,7 @@
       "key": "Hexxed",
       "decayTime": 2,
       "userData": "{}",
-      "image": 102405590753938
+      "image": "https://tr.rbxcdn.com/180DAY-6c51284707b628a86df37f1dd204776e/150/150/Model/Png/noFilter"
     },
     "Vortex Staff": {
       "Rarity": "Legendary",
@@ -4857,7 +4857,7 @@
       "mobs": 50,
       "woodStructure": 1000,
       "stoneStructure": 1000,
-      "image": 82261073777231
+      "image": "https://tr.rbxcdn.com/180DAY-e9706e4f3be4a488596b657658a593db/150/150/Model/Png/noFilter"
     }
   },
   "tools/misc.lua": {
@@ -4875,7 +4875,7 @@
       "[\"Peasant Crate\"]": "{",
       "quantity": 1,
       "percent": 0.52,
-      "image": 1496965163
+      "image": "https://tr.rbxcdn.com/180DAY-6f6141a0d0969f35c31ce78af392d375/150/150/Model/Png/noFilter"
     },
     "Good Crate": {
       "quantity": 1,
@@ -4911,7 +4911,7 @@
       "[\"Food Crate\"]": "{",
       "quantity": 1,
       "percent": 1,
-      "image": 126336479675839
+      "image": "https://tr.rbxcdn.com/180DAY-949272b0b305ad05765ac2eb6daceff9/150/150/Model/Png/noFilter"
     },
     "Resource Crate": {
       "quantity": 1,
@@ -4934,7 +4934,7 @@
       "recipe": "{",
       "Stick": 2,
       "Emerald": 4,
-      "image": 112570348977188
+      "image": "https://tr.rbxcdn.com/180DAY-350087cf91a7715f5cd3f743de2bda15/150/150/Model/Png/noFilter"
     },
     "Big Saddle": {
       "Rarity": "Common",
@@ -4944,7 +4944,7 @@
       "useAnim": "Saddle",
       "saddleLevel": 2,
       "craftLevel": 10,
-      "image": 14524719056,
+      "image": "https://tr.rbxcdn.com/180DAY-551506b9127cd9644aa9a0478e32abd8/150/150/Model/Png/noFilter",
       "recipe": "{",
       "Leaves": 6,
       "[\"Iron Bar\"]": 3
@@ -4964,7 +4964,7 @@
       "players": 5,
       "mobs": 5,
       "stoneStructure": 2,
-      "image": 123901263427808
+      "image": "https://tr.rbxcdn.com/180DAY-1bf4c3d87bc32b32f6d45984bd61b559/150/150/Model/Png/noFilter"
     },
     "Stone Pick": {
       "Rarity": "Common",
@@ -4979,7 +4979,7 @@
       "players": 7,
       "mobs": 7,
       "stoneStructure": 3,
-      "image": 102914276711309
+      "image": "https://tr.rbxcdn.com/180DAY-905816be062f937f2807c1202fe597bd/150/150/Model/Png/noFilter"
     },
     "Iron Pick": {
       "Rarity": "Common",
@@ -4994,7 +4994,7 @@
       "players": 9,
       "mobs": 9,
       "stoneStructure": 4,
-      "image": 131235285814870
+      "image": "https://tr.rbxcdn.com/180DAY-ed1d6373bda68719c822fb4a4df8cd1a/150/150/Model/Png/noFilter"
     },
     "Steel Pick": {
       "Rarity": "Common",
@@ -5009,7 +5009,7 @@
       "players": 11,
       "mobs": 11,
       "stoneStructure": 5,
-      "image": 90080409522940
+      "image": "https://tr.rbxcdn.com/180DAY-f3ffac5541261cf0fede87ca3f49c0b1/150/150/Model/Png/noFilter"
     },
     "Adurite Pick": {
       "Rarity": "Rare",
@@ -5024,7 +5024,7 @@
       "players": 13,
       "mobs": 13,
       "stoneStructure": 6,
-      "image": 88652414163845
+      "image": "https://tr.rbxcdn.com/180DAY-3fd6b842532adc64ce06bd380d2b3ae8/150/150/Model/Png/noFilter"
     },
     "Crystal Pick": {
       "Rarity": "Rare",
@@ -5040,7 +5040,7 @@
       "mobs": 13,
       "stoneStructure": 8,
       "spirit": 5,
-      "image": 137525743761822
+      "image": "https://tr.rbxcdn.com/180DAY-c90d39a85271dcb99cbb6cfd9d9319af/150/150/Model/Png/noFilter"
     },
     "Magnetite Pick": {
       "Rarity": "Rare",
@@ -5056,7 +5056,7 @@
       "mobs": 15,
       "stoneStructure": 10,
       "spirit": 5,
-      "image": 137849705872680
+      "image": "https://tr.rbxcdn.com/180DAY-3445c3ce5377c5ad542e44ba9192ce73/150/150/Model/Png/noFilter"
     },
     "Emerald Pick": {
       "Rarity": "Rare",
@@ -5072,7 +5072,7 @@
       "mobs": 17,
       "stoneStructure": 12,
       "spirit": 5,
-      "image": 84762369938579
+      "image": "https://tr.rbxcdn.com/180DAY-1c741165fea2645a52db5cea81a8005f/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Pick": {
       "Rarity": "Rare",
@@ -5088,7 +5088,7 @@
       "mobs": 17,
       "stoneStructure": 12,
       "spirit": 5,
-      "image": 81515232604974
+      "image": "https://tr.rbxcdn.com/180DAY-448b50a4eaef1083d1c6ec5207d29011/150/150/Model/Png/noFilter"
     },
     "Void Pick": {
       "Rarity": "Rare",
@@ -5103,7 +5103,7 @@
       "mobs": 20,
       "stoneStructure": 15,
       "spirit": 7,
-      "image": 71865748817674
+      "image": "https://tr.rbxcdn.com/180DAY-86667aaf160b4f4815e601db3e191297/150/150/Model/Png/noFilter"
     },
     "Soulite Pick": {
       "Rarity": "Legendary",
@@ -5115,7 +5115,7 @@
       "damages": "{",
       "stone": 45,
       "stoneStructure": 25,
-      "image": 73390909154495
+      "image": "https://tr.rbxcdn.com/180DAY-045d3e4e13319d2cd345268932e0be24/150/150/Model/Png/noFilter"
     },
     "Phantomite Pick": {
       "Rarity": "Legendary",
@@ -5127,7 +5127,7 @@
       "damages": "{",
       "stone": 55,
       "stoneStructure": 30,
-      "image": 93303042019043
+      "image": "https://tr.rbxcdn.com/180DAY-8b88578f20d1d2e872487ed373fbb8eb/150/150/Model/Png/noFilter"
     },
     "Hellstone Pick": {
       "Rarity": "Legendary",
@@ -5139,7 +5139,7 @@
       "damages": "{",
       "stone": 65,
       "stoneStructure": 35,
-      "image": 108764121026992
+      "image": "https://tr.rbxcdn.com/180DAY-f830907654ed9e6ca454114690965dbe/150/150/Model/Png/noFilter"
     },
     "Undead Pick": {
       "Rarity": "Legendary",
@@ -5152,7 +5152,7 @@
       "damages": "{",
       "stone": 125,
       "stoneStructure": 125,
-      "image": 82759486595210
+      "image": "https://tr.rbxcdn.com/180DAY-9c4cc98c6f42fdeb3770c870e282c507/150/150/Model/Png/noFilter"
     }
   },
   "tools/ranged.lua": {
@@ -5170,7 +5170,7 @@
       "mobs": 18,
       "woodStructure": 5,
       "stoneStructure": 5,
-      "image": 133770281659872
+      "image": "https://tr.rbxcdn.com/180DAY-2069a127c1d1193df85c7d33cb2a1f28/150/150/Model/Png/noFilter"
     },
     "Void Bow": {
       "Rarity": "Rare",
@@ -5184,7 +5184,7 @@
       "mobs": 45,
       "woodStructure": 10,
       "stoneStructure": 10,
-      "image": 117771111810373
+      "image": "https://tr.rbxcdn.com/180DAY-174cf6ece6172ac139be3089e13f4432/150/150/Model/Png/noFilter"
     },
     "Magnetite Crossbow": {
       "Rarity": "Rare",
@@ -5199,7 +5199,7 @@
       "mobs": 75,
       "woodStructure": 75,
       "stoneStructure": 75,
-      "image": 127063416871574
+      "image": "https://tr.rbxcdn.com/180DAY-99942a523ca2c33d403a02132930b262/150/150/Model/Png/noFilter"
     },
     "Snowball Sling": {
       "Rarity": "Rare",
@@ -5215,7 +5215,7 @@
       "mobs": 10,
       "woodStructure": 2,
       "stoneStructure": 2,
-      "image": 89005490390293
+      "image": "https://tr.rbxcdn.com/180DAY-4228b9eabd9096ab9d9a8a19c82de0a7/150/150/Model/Png/noFilter"
     },
     "Snowball Launcher": {
       "Rarity": "Mythic",
@@ -5233,7 +5233,7 @@
       "mobs": 6,
       "woodStructure": 6,
       "stoneStructure": 6,
-      "image": 136849350666558
+      "image": "https://tr.rbxcdn.com/180DAY-68795140ce521fedaa31aab45fa971fb/150/150/Model/Png/noFilter"
     },
     "Coconut Sling": {
       "Rarity": "Legendary",
@@ -5251,7 +5251,7 @@
       "mobs": 15,
       "woodStructure": 5,
       "stoneStructure": 5,
-      "image": 71688794440211
+      "image": "https://tr.rbxcdn.com/180DAY-f9fef0c4cb0797e64f7d4f6da3c6b18f/150/150/Model/Png/noFilter"
     },
     "Coconut Launcher": {
       "Rarity": "Divine",
@@ -5270,7 +5270,7 @@
       "mobs": 15,
       "woodStructure": 15,
       "stoneStructure": 15,
-      "image": 97198358183203
+      "image": "https://tr.rbxcdn.com/180DAY-e59fc8586017b36a1daf77c087adb4a7/150/150/Model/Png/noFilter"
     }
   },
   "tools/weapons.lua": {
@@ -5285,7 +5285,7 @@
       "key": "Chilled",
       "decayTime": 0.3,
       "userData": "{}",
-      "image": 121083587771642
+      "image": "https://tr.rbxcdn.com/180DAY-308c3bc4ffd3216f28b2dddfecfdc0ea/150/150/Model/Png/noFilter"
     },
     "Magnetite Double Axe": {
       "Rarity": "Rare",
@@ -5299,7 +5299,7 @@
       "key": "Shred",
       "decayTime": 2,
       "userData": "{}",
-      "image": 98373811643692
+      "image": "https://tr.rbxcdn.com/180DAY-ffca17f264c3794ee6388530a0b7b085/150/150/Model/Png/noFilter"
     },
     "Emerald Blade": {
       "Rarity": "Rare",
@@ -5311,7 +5311,7 @@
       "key": "Bleed",
       "decayTime": 0.75,
       "userData": "{}",
-      "image": 14524727058
+      "image": "https://tr.rbxcdn.com/180DAY-e848eb744eb2b25bdf7b420f9427462c/150/150/Model/Png/noFilter"
     },
     "Pink Diamond Scythe": {
       "Rarity": "Rare",
@@ -5324,7 +5324,7 @@
       "key": "Shred",
       "decayTime": 2.5,
       "userData": "{}",
-      "image": 121156464395341
+      "image": "https://tr.rbxcdn.com/180DAY-7d9ecb2c809f72392a15cc6931a6ea2d/150/150/Model/Png/noFilter"
     },
     "Coconut Smasher": {
       "Rarity": "Rare",
@@ -5343,7 +5343,7 @@
       "mobs": 95,
       "woodStructure": 100,
       "stoneStructure": 100,
-      "image": 118738041625360
+      "image": "https://tr.rbxcdn.com/180DAY-6042563c6d74605f25e80abeb58cee5f/150/150/Model/Png/noFilter"
     },
     "Void Spear": {
       "Rarity": "Rare",
@@ -5358,7 +5358,7 @@
       "mobs": 75,
       "woodStructure": 10,
       "stoneStructure": 10,
-      "image": 109979574045218
+      "image": "https://tr.rbxcdn.com/180DAY-f921381bb69adb0a6615a728dd71f5ec/150/150/Model/Png/noFilter"
     },
     "War Horn": {
       "Rarity": "Rare",
@@ -5374,7 +5374,7 @@
       "recipe": "{",
       "Log": 4,
       "Stick": 2,
-      "image": 14524761757
+      "image": "https://tr.rbxcdn.com/180DAY-ce236e84f30454c007922c1a2aa1e726/150/150/Model/Png/noFilter"
     },
     "Coconut Mace": {
       "Rarity": "Legendary",
@@ -5392,7 +5392,7 @@
       "mobs": 13,
       "woodStructure": 13,
       "stoneStructure": 13,
-      "image": 125072797163069
+      "image": "https://tr.rbxcdn.com/180DAY-31db4e7c98ee03ea1892503304729519/150/150/Model/Png/noFilter"
     },
     "Battle Axe": {
       "Rarity": "Common",
@@ -5404,7 +5404,7 @@
       "key": "Bleed",
       "decayTime": 1.25,
       "userData": "{}",
-      "image": 14524718233
+      "image": "https://tr.rbxcdn.com/180DAY-e5c01fe8177e1ec29eca7541cc4fb8f9/150/150/Model/Png/noFilter"
     },
     "War Hammer": {
       "Rarity": "Common",
@@ -5416,7 +5416,7 @@
       "userData": "{",
       "BurnDamage": 2,
       "Ticks": 3,
-      "image": 14524760435
+      "image": "https://tr.rbxcdn.com/180DAY-8bdd4e3fbb8040e416252bb2575a5131/150/150/Model/Png/noFilter"
     }
   }
 }
