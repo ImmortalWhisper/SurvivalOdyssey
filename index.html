@@ -6,18 +6,16 @@
 <title>Item Database</title>
 <style>
 :root{
-  --bg0:#070A12;
-  --bg1:#0B1020;
+  --bg0:#060914;
+  --bg1:#0A1022;
   --border:rgba(255,255,255,.08);
-  --border2:rgba(255,255,255,.12);
   --text:#E7EAF2;
   --muted:#A8B1C2;
   --muted2:#7F8AA1;
-  --shadow: 0 12px 40px rgba(0,0,0,.45);
-  --shadow2: 0 10px 30px rgba(0,0,0,.35);
+  --shadow: 0 18px 60px rgba(0,0,0,.45);
+  --shadow2: 0 12px 40px rgba(0,0,0,.35);
   --radius: 18px;
 }
-
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
 
@@ -26,9 +24,36 @@ body{
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--text);
   background:
-    radial-gradient(1200px 800px at 20% 10%, rgba(98,176,255,.16), transparent 60%),
-    radial-gradient(1000px 700px at 85% 20%, rgba(139,92,255,.12), transparent 55%),
+    radial-gradient(1200px 900px at 12% 8%, rgba(56,189,248,.14), transparent 62%),
+    radial-gradient(1000px 760px at 84% 16%, rgba(168,85,247,.12), transparent 58%),
+    radial-gradient(1100px 860px at 70% 80%, rgba(245,158,11,.08), transparent 62%),
     linear-gradient(180deg, var(--bg0), var(--bg1));
+  overflow: hidden;
+}
+
+/* Background texture + sheen */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events:none;
+  background:
+    radial-gradient(1400px 900px at 20% 10%, rgba(255,255,255,.03), transparent 60%),
+    radial-gradient(1200px 800px at 80% 30%, rgba(255,255,255,.02), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,.02), transparent 18%, rgba(0,0,0,.10));
+  mix-blend-mode: screen;
+  opacity: .9;
+}
+body::after{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events:none;
+  opacity: .08;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.6), rgba(255,255,255,.6) 1px, transparent 1px, transparent 3px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 4px);
+  mask-image: radial-gradient(800px 460px at 20% 10%, black, transparent 70%);
 }
 
 header{
@@ -36,9 +61,10 @@ header{
   top: 0;
   z-index: 10;
   padding: 16px 22px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,.08);
   background: linear-gradient(180deg, rgba(16,26,49,.92), rgba(11,16,32,.82));
   backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(0,0,0,.35);
 }
 
 .header-inner{
@@ -52,7 +78,7 @@ header{
   display:flex;
   align-items:center;
   gap: 10px;
-  font-weight: 700;
+  font-weight: 750;
   letter-spacing: .2px;
   font-size: 18px;
 }
@@ -61,35 +87,51 @@ header{
   font-size: 12px;
   padding: 4px 10px;
   border-radius: 999px;
-  color: rgba(231,234,242,.9);
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,.04);
+  color: rgba(231,234,242,.92);
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.035);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
 }
 
 main{
   display:grid;
   grid-template-columns: 360px 1fr;
   min-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
 }
 
 aside{
-  border-right: 1px solid var(--border);
+  border-right: 1px solid rgba(255,255,255,.08);
   background: linear-gradient(180deg, rgba(16,26,49,.55), rgba(11,16,32,.4));
   padding: 14px;
   overflow: auto;
 }
 
+section{
+  padding: 24px;
+  overflow: auto;
+}
+
 .panel{
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255,255,255,.08);
   background: linear-gradient(180deg, rgba(14,20,38,.75), rgba(11,16,32,.55));
   border-radius: var(--radius);
   box-shadow: var(--shadow2);
   overflow: hidden;
+  position: relative;
+}
+.panel::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: var(--radius);
+  pointer-events:none;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 18px 60px rgba(0,0,0,.30);
 }
 
 .sidebar-top{
   padding: 14px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
 .search{
@@ -98,10 +140,9 @@ aside{
   gap: 10px;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255,255,255,.10);
   background: rgba(255,255,255,.03);
 }
-
 .search input{
   width:100%;
   border:none;
@@ -110,19 +151,16 @@ aside{
   color: var(--text);
   font-size: 14px;
 }
-
 .search input::placeholder{ color: var(--muted2); }
 
 .hint{
   margin-top: 10px;
-  color: var(--muted2);
+  color: rgba(168,177,194,.85);
   font-size: 12px;
   line-height: 1.35;
 }
 
-.sidebar-scroll{
-  padding: 10px;
-}
+.sidebar-scroll{ padding: 10px; }
 
 .group{ margin: 6px 0; }
 
@@ -132,18 +170,48 @@ aside{
   align-items:center;
   justify-content:space-between;
   gap: 10px;
-  padding: 10px 12px;
-  border-radius: 14px;
+  padding: 12px 12px;
+  border-radius: 16px;
   cursor: pointer;
   user-select:none;
   color: rgba(231,234,242,.95);
-  background: rgba(255,255,255,.02);
   border: 1px solid rgba(255,255,255,.06);
-  transition: background .15s ease, border-color .15s ease;
+  background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.015));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+  transition: transform .12s ease, background .15s ease, border-color .15s ease;
 }
 .group-title:hover{
-  background: rgba(98,176,255,.08);
-  border-color: rgba(98,176,255,.18);
+  transform: translateY(-1px);
+  background:
+    radial-gradient(520px 140px at 20% 0%, rgba(56,189,248,.16), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+  border-color: rgba(56,189,248,.18);
+}
+
+.group-title .label{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.group-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(98,176,255,.65);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.10), 0 0 16px rgba(98,176,255,.18);
+  flex: 0 0 auto;
+}
+.count-pill{
+  margin-left:auto;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: rgba(231,234,242,.92);
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.035);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
 }
 
 .chev{
@@ -156,8 +224,8 @@ aside{
   background: rgba(255,255,255,.03);
 }
 .group.open .chev{
-  border-color: rgba(98,176,255,.25);
-  background: rgba(98,176,255,.10);
+  border-color: rgba(56,189,248,.28);
+  background: rgba(56,189,248,.10);
 }
 
 .group-content{
@@ -175,8 +243,8 @@ aside{
   align-items:center;
   justify-content:space-between;
   gap: 10px;
-  padding: 8px 10px;
-  border-radius: 12px;
+  padding: 9px 10px;
+  border-radius: 14px;
   cursor: pointer;
   user-select:none;
   color: rgba(231,234,242,.9);
@@ -184,55 +252,63 @@ aside{
   border: 1px solid rgba(255,255,255,.06);
 }
 .subgroup-title:hover{
-  background: rgba(255,255,255,.05);
+  background: rgba(255,255,255,.04);
   border-color: rgba(255,255,255,.10);
 }
-
-.subgroup .item-list{
-  display:none;
-  padding: 8px 0 0 10px;
-}
+.subgroup .item-list{ display:none; padding: 8px 0 0 10px; }
 .subgroup.open .item-list{ display:block; }
 
 .item{
-  padding: 7px 10px;
+  position: relative;
+  padding: 8px 10px;
   border-radius: 12px;
   cursor:pointer;
-  color: var(--muted);
+  color: rgba(168,177,194,.92);
   border: 1px solid transparent;
   transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.item::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius: 12px;
+  pointer-events:none;
+  opacity: 0;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 24px rgba(0,0,0,.25);
+  transition: opacity .15s ease;
 }
 .item:hover{
   background: rgba(255,255,255,.05);
   color: rgba(231,234,242,.95);
   border-color: rgba(255,255,255,.06);
 }
+.item:hover::before{ opacity: 1; }
 .item.active{
-  background: linear-gradient(180deg, rgba(98,176,255,.16), rgba(98,176,255,.08));
+  background: linear-gradient(180deg, rgba(56,189,248,.16), rgba(56,189,248,.08));
   color: #fff;
-  border-color: rgba(98,176,255,.28);
-}
-
-section{
-  padding: 24px;
-  overflow: auto;
+  border-color: rgba(56,189,248,.28);
 }
 
 /* Card */
+@keyframes cardIn{
+  from{ opacity: 0; transform: translateY(10px); filter: blur(2px); }
+  to{ opacity: 1; transform: translateY(0); filter: blur(0); }
+}
 .card{
   max-width: 1180px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255,255,255,.08);
   border-radius: 22px;
   box-shadow: var(--shadow);
   background: linear-gradient(180deg, rgba(16,26,49,.75), rgba(11,16,32,.58));
   overflow: hidden;
   position: relative;
+  animation: cardIn .22s ease-out;
 
   /* rarity defaults */
-  --rarityA: rgba(98,176,255,.18);
-  --rarityB: rgba(139,92,255,.12);
-  --rarityEdge: rgba(98,176,255,.26);
-  --rarityGlow: rgba(98,176,255,.14);
+  --rarityA: rgba(56,189,248,.18);
+  --rarityB: rgba(168,85,247,.12);
+  --rarityEdge: rgba(56,189,248,.26);
+  --rarityGlow: rgba(56,189,248,.14);
 }
 .card::before{
   content:"";
@@ -243,55 +319,20 @@ section{
   box-shadow: 0 0 0 1px var(--rarityEdge), 0 14px 44px rgba(0,0,0,.42);
   opacity: .92;
 }
-.card[data-rarity="common"]{
-  --rarityA: rgba(148,163,184,.18);
-  --rarityB: rgba(148,163,184,.10);
-  --rarityEdge: rgba(148,163,184,.22);
-  --rarityGlow: rgba(148,163,184,.10);
-}
-.card[data-rarity="uncommon"]{
-  --rarityA: rgba(34,197,94,.18);
-  --rarityB: rgba(34,197,94,.10);
-  --rarityEdge: rgba(34,197,94,.24);
-  --rarityGlow: rgba(34,197,94,.12);
-}
-.card[data-rarity="rare"]{
-  --rarityA: rgba(59,130,246,.20);
-  --rarityB: rgba(59,130,246,.10);
-  --rarityEdge: rgba(59,130,246,.26);
-  --rarityGlow: rgba(59,130,246,.12);
-}
-.card[data-rarity="epic"]{
-  --rarityA: rgba(168,85,247,.20);
-  --rarityB: rgba(168,85,247,.10);
-  --rarityEdge: rgba(168,85,247,.26);
-  --rarityGlow: rgba(168,85,247,.12);
-}
-.card[data-rarity="legendary"]{
-  --rarityA: rgba(245,158,11,.22);
-  --rarityB: rgba(245,158,11,.12);
-  --rarityEdge: rgba(245,158,11,.28);
-  --rarityGlow: rgba(245,158,11,.14);
-}
-.card[data-rarity="mythic"]{
-  --rarityA: rgba(236,72,153,.22);
-  --rarityB: rgba(236,72,153,.12);
-  --rarityEdge: rgba(236,72,153,.28);
-  --rarityGlow: rgba(236,72,153,.14);
-}
-.card[data-rarity="unique"]{
-  --rarityA: rgba(6,182,212,.22);
-  --rarityB: rgba(139,92,255,.12);
-  --rarityEdge: rgba(6,182,212,.28);
-  --rarityGlow: rgba(6,182,212,.14);
-}
+.card[data-rarity="common"]{ --rarityA: rgba(148,163,184,.18); --rarityB: rgba(148,163,184,.10); --rarityEdge: rgba(148,163,184,.22); --rarityGlow: rgba(148,163,184,.10); }
+.card[data-rarity="uncommon"]{ --rarityA: rgba(34,197,94,.18); --rarityB: rgba(34,197,94,.10); --rarityEdge: rgba(34,197,94,.24); --rarityGlow: rgba(34,197,94,.12); }
+.card[data-rarity="rare"]{ --rarityA: rgba(59,130,246,.20); --rarityB: rgba(59,130,246,.10); --rarityEdge: rgba(59,130,246,.26); --rarityGlow: rgba(59,130,246,.12); }
+.card[data-rarity="epic"]{ --rarityA: rgba(168,85,247,.20); --rarityB: rgba(168,85,247,.10); --rarityEdge: rgba(168,85,247,.26); --rarityGlow: rgba(168,85,247,.12); }
+.card[data-rarity="legendary"]{ --rarityA: rgba(245,158,11,.22); --rarityB: rgba(245,158,11,.12); --rarityEdge: rgba(245,158,11,.28); --rarityGlow: rgba(245,158,11,.14); }
+.card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.22); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.28); --rarityGlow: rgba(236,72,153,.14); }
+.card[data-rarity="unique"]{ --rarityA: rgba(6,182,212,.22); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(6,182,212,.28); --rarityGlow: rgba(6,182,212,.14); }
 
 .card-header{
   display:flex;
   gap: 18px;
   padding: 18px 18px 14px 18px;
   align-items:center;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,.08);
   background:
     radial-gradient(900px 220px at 20% 0%, var(--rarityA), transparent 60%),
     radial-gradient(700px 240px at 90% 30%, var(--rarityB), transparent 55%),
@@ -342,29 +383,13 @@ section{
 }
 
 .title-wrap{ min-width: 0; }
-
-.h1{
-  margin: 0;
-  font-size: 22px;
-  font-weight: 750;
-  letter-spacing: .2px;
-}
-
-.subtitle{
-  margin-top: 6px;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.pills{
-  margin-top: 10px;
-  display:flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
+.h1{ margin: 0; font-size: 26px; font-weight: 800; letter-spacing: .2px; line-height: 1.1; }
+.subtitle{ margin-top: 6px; color: rgba(168,177,194,.92); font-size: 13px; }
+.pills{ margin-top: 10px; display:flex; flex-wrap: wrap; gap: 8px; }
 .pill{
   font-size: 12px;
+  font-weight: 650;
+  letter-spacing: .02em;
   padding: 5px 10px;
   border-radius: 999px;
   border: 1px solid var(--rarityEdge);
@@ -375,7 +400,6 @@ section{
 
 .card-body{ padding: 18px; }
 
-/* Premium section cards */
 .detail-grid{
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -387,6 +411,7 @@ section{
   border-radius: 18px;
   background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
   overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0,0,0,.25);
   transition: transform .12s ease, border-color .12s ease, background .12s ease;
 }
 .section-card:hover{
@@ -401,17 +426,17 @@ section{
   justify-content:space-between;
   padding: 12px 14px;
   border-bottom: 1px solid rgba(255,255,255,.08);
-  background: rgba(0,0,0,.12);
+  background:
+    radial-gradient(700px 120px at 30% 0%, rgba(56,189,248,.10), transparent 60%),
+    rgba(0,0,0,.12);
 }
-
 .section-title{
   font-size: 12px;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: rgba(168,177,194,.95);
-  font-weight: 650;
+  font-weight: 700;
 }
-
 .section-body{ padding: 10px 12px 12px 12px; }
 
 .table{
@@ -423,14 +448,12 @@ section{
   border-radius: 14px;
   background: rgba(0,0,0,.14);
 }
-
 .table th, .table td{
   padding: 10px 10px;
   font-size: 13px;
   vertical-align: top;
   border-bottom: 1px solid rgba(255,255,255,.06);
 }
-
 .table th{
   text-align:left;
   color: rgba(168,177,194,.95);
@@ -439,8 +462,8 @@ section{
   text-transform: uppercase;
   background: rgba(255,255,255,.03);
 }
-
 .table tr:last-child td{ border-bottom: none; }
+.table tbody tr:hover td{ background: rgba(255,255,255,.02); }
 
 .table td.key{
   color: rgba(168,177,194,.95);
@@ -449,7 +472,6 @@ section{
   letter-spacing: .10em;
   text-transform: uppercase;
 }
-
 .table td.val{
   color: rgba(231,234,242,.96);
   font-variant-numeric: tabular-nums;
@@ -472,171 +494,15 @@ section{
 }
 
 .placeholder{
-  color: var(--muted);
+  display:flex;
+  align-items:center;
+  gap: 14px;
+  color: rgba(168,177,194,.92);
   border: 1px dashed rgba(255,255,255,.16);
   border-radius: 18px;
   padding: 18px;
   max-width: 1100px;
   background: rgba(255,255,255,.02);
-}
-
-@media (max-width: 980px){
-  main{ grid-template-columns: 1fr; }
-  aside{ border-right: none; border-bottom: 1px solid var(--border); }
-}
-
-/* UI polish v2 */
-body::before{
-  content:"";
-  position: fixed;
-  inset: 0;
-  pointer-events:none;
-  background:
-    radial-gradient(1200px 900px at 12% 8%, rgba(56,189,248,.12), transparent 62%),
-    radial-gradient(1000px 760px at 84% 16%, rgba(168,85,247,.10), transparent 58%),
-    radial-gradient(1100px 860px at 70% 80%, rgba(245,158,11,.07), transparent 62%),
-    linear-gradient(180deg, rgba(255,255,255,.02), transparent 18%, rgba(0,0,0,.12));
-  mix-blend-mode: screen;
-  opacity: .95;
-}
-
-body::after{
-  content:"";
-  position: fixed;
-  inset: 0;
-  pointer-events:none;
-  opacity: .08;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(255,255,255,.55), rgba(255,255,255,.55) 1px, transparent 1px, transparent 3px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.35), rgba(255,255,255,.35) 1px, transparent 1px, transparent 4px);
-  mask-image: radial-gradient(700px 420px at 20% 10%, black, transparent 70%);
-}
-
-header{
-  box-shadow: 0 10px 40px rgba(0,0,0,.35);
-}
-
-.panel{
-  position: relative;
-}
-.panel::before{
-  content:"";
-  position:absolute;
-  inset:-1px;
-  border-radius: var(--radius);
-  pointer-events:none;
-  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 18px 60px rgba(0,0,0,.30);
-  opacity: 1;
-}
-
-/* Sidebar: group buttons feel more premium */
-.group-title{
-  padding: 12px 12px;
-  border-radius: 16px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.015));
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
-}
-.group-title:hover{
-  background:
-    radial-gradient(500px 120px at 20% 0%, rgba(56,189,248,.14), transparent 60%),
-    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-}
-.group-title .label{
-  display:flex;
-  align-items:center;
-  gap: 10px;
-  min-width: 0;
-}
-.group-dot{
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  background: rgba(98,176,255,.65);
-  box-shadow: 0 0 0 1px rgba(255,255,255,.10), 0 0 16px rgba(98,176,255,.18);
-  flex: 0 0 auto;
-}
-.count-pill{
-  margin-left:auto;
-  font-size: 11px;
-  padding: 4px 8px;
-  border-radius: 999px;
-  color: rgba(231,234,242,.92);
-  border: 1px solid rgba(255,255,255,.10);
-  background: rgba(255,255,255,.035);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
-}
-
-.subgroup-title{
-  padding: 9px 10px;
-  border-radius: 14px;
-  background: rgba(255,255,255,.02);
-}
-.subgroup-title:hover{
-  background: rgba(255,255,255,.04);
-}
-.subgroup-title .count-pill{
-  opacity: .85;
-}
-
-/* Items */
-.item{
-  position: relative;
-  padding: 8px 10px;
-}
-.item::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  border-radius: 12px;
-  pointer-events:none;
-  opacity: 0;
-  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 24px rgba(0,0,0,.25);
-  transition: opacity .15s ease;
-}
-.item:hover::before{ opacity: 1; }
-
-/* Content: animate card in */
-@keyframes cardIn{
-  from{ opacity: 0; transform: translateY(10px); filter: blur(2px); }
-  to{ opacity: 1; transform: translateY(0); filter: blur(0); }
-}
-.card{ animation: cardIn .22s ease-out; }
-
-/* Card header: stronger hierarchy */
-.h1{
-  font-size: 24px;
-  line-height: 1.15;
-}
-.subtitle{
-  opacity: .92;
-}
-.pill{
-  font-weight: 650;
-  letter-spacing: .02em;
-}
-
-/* Section cards: add depth and better tables */
-.section-card{
-  box-shadow: 0 12px 40px rgba(0,0,0,.25);
-}
-.section-head{
-  background:
-    radial-gradient(700px 120px at 30% 0%, rgba(56,189,248,.10), transparent 60%),
-    rgba(0,0,0,.12);
-}
-.table tbody tr:hover td{
-  background: rgba(255,255,255,.02);
-}
-.table td.val .codebox{
-  margin: 0;
-}
-
-/* Empty state */
-.placeholder{
-  display:flex;
-  align-items:center;
-  gap: 14px;
 }
 .placeholder::before{
   content:"";
@@ -651,19 +517,20 @@ header{
   box-shadow: 0 12px 30px rgba(0,0,0,.25);
 }
 
-/* Scrollbars (WebKit) */
-aside::-webkit-scrollbar, section::-webkit-scrollbar{
-  width: 10px;
+@media (max-width: 980px){
+  body{ overflow:auto; }
+  main{ grid-template-columns: 1fr; height:auto; }
+  aside{ border-right: none; border-bottom: 1px solid rgba(255,255,255,.08); }
 }
+
+/* Scrollbars */
+aside::-webkit-scrollbar, section::-webkit-scrollbar{ width: 10px; }
 aside::-webkit-scrollbar-thumb, section::-webkit-scrollbar-thumb{
   background: rgba(255,255,255,.10);
   border-radius: 999px;
   border: 2px solid rgba(0,0,0,.20);
 }
-aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{
-  background: rgba(255,255,255,.16);
-}
-
+aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{ background: rgba(255,255,255,.16); }
 </style>
 </head>
 <body>
@@ -695,7 +562,12 @@ aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{
   </aside>
 
   <section id="content">
-    <div class="placeholder"><div><div style="font-weight:700; color: rgba(231,234,242,.96);">Select an item</div><div style="margin-top:4px; color: rgba(168,177,194,.9); font-size: 13px;">Use the sidebar or search to jump straight to an item.</div></div></div>
+    <div class="placeholder">
+      <div>
+        <div style="font-weight:800; color: rgba(231,234,242,.96);">Select an item</div>
+        <div style="margin-top:4px; color: rgba(168,177,194,.9); font-size: 13px;">Use the sidebar or search to jump straight to an item.</div>
+      </div>
+    </div>
   </section>
 </main>
 
@@ -731,18 +603,6 @@ function normalizeCategory(path){
   const group = groupRaw.toLowerCase();
   const subRaw = (parts[1] || '').replace(/\.lua$/i,'');
   return { group: group || 'misc', sub: subRaw || 'misc' };
-}
-
-function isCrate(itemName, itemData){
-  const n = String(itemName || '').toLowerCase();
-  if (n.includes('crate')) return true;
-
-  const t1 = (itemData && (itemData.itemType || itemData.toolType || itemData.useType || itemData.type));
-  if (t1 && String(t1).toLowerCase().includes('crate')) return true;
-
-  // Common patterns
-  if (itemData && (itemData.isCrate === true || itemData.Crate === true)) return true;
-  return false;
 }
 function isPlainObject(v){
   return v && typeof v === 'object' && !Array.isArray(v);
@@ -817,6 +677,26 @@ async function getThumbnailUrl(assetId, preferredSize){
   thumbCache.set(assetId, p);
   return p;
 }
+
+/* Per-item crate detection (with skill-tree exclusions) */
+function isCrate(itemName, itemData){
+  const it = itemData && (itemData.itemType || itemData.type || itemData.toolType || itemData.useType);
+  if (it && String(it).toLowerCase().replace(/\s+/g,'').includes('skilltree')) return false;
+
+  const n = String(itemName || '').toLowerCase();
+
+  // Exclude skill tree upgrades that include the word "crate" in their name
+  if (n.includes('luck multiplier') && n.includes('crate')) return false;
+
+  if (n.includes('crate')) return true;
+
+  const t1 = (itemData && (itemData.itemType || itemData.toolType || itemData.useType || itemData.type));
+  if (t1 && String(t1).toLowerCase().includes('crate')) return true;
+
+  if (itemData && (itemData.isCrate === true || itemData.Crate === true)) return true;
+  return false;
+}
+
 function extractLooseBracketMap(obj){
   const map = {};
   const keys = [];
@@ -958,11 +838,11 @@ async function load(){
   const data = await res.json();
 
   const groups = {};
-  let totalGroups = 0, totalItems = 0;
+  let totalItems = 0;
 
+  // Ingest per item; also assign crates to their own group
   for (const [path, items] of Object.entries(data)){
     const base = normalizeCategory(path);
-
     for (const [itemName, itemData] of Object.entries(items)){
       let group = base.group;
       let sub = base.sub;
@@ -975,16 +855,9 @@ async function load(){
       groups[group] ??= {};
       groups[group][sub] ??= {};
       groups[group][sub][itemName] = itemData;
+      totalItems++;
     }
   }
-
-  totalGroups = Object.keys(groups).length;
-  for (const g of Object.values(groups)){
-    for (const sub of Object.values(g)){
-      totalItems += Object.keys(sub).length;
-    }
-  }
-  document.getElementById('counts').textContent = `${totalGroups} categories • ${totalItems} items`;
 
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('content');
@@ -1053,12 +926,12 @@ async function load(){
     h.className = 'h1';
     h.textContent = itemName;
 
-    const sub = document.createElement('div');
-    sub.className = 'subtitle';
+    const subline = document.createElement('div');
+    subline.className = 'subtitle';
     const pieces = [];
     if (meta?.group) pieces.push(titleCase(meta.group));
     if (meta?.sub && meta.sub !== 'misc') pieces.push(titleCase(meta.sub));
-    sub.textContent = pieces.join(' • ');
+    subline.textContent = pieces.join(' • ');
 
     const pills = document.createElement('div');
     pills.className = 'pills';
@@ -1077,7 +950,7 @@ async function load(){
     if (rarity) addPill(String(rarity));
 
     tw.appendChild(h);
-    tw.appendChild(sub);
+    tw.appendChild(subline);
     if (pills.childElementCount) tw.appendChild(pills);
 
     header.appendChild(thumb);
@@ -1093,7 +966,7 @@ async function load(){
     const has = (k) => Object.prototype.hasOwnProperty.call(itemData, k);
     const loose = extractLooseBracketMap(itemData);
 
-    // Section: Item Info (table)
+    // Item Info
     const infoKeys = ['itemType','toolType','useType','Rarity','rarity','level','coinValue','description','armorSet','BottomText','color','shopOrder'];
     const infoPairs = [];
     for (const k of infoKeys){
@@ -1106,11 +979,10 @@ async function load(){
       grid.appendChild(sectionCard('Item Info', tableFromPairs(infoPairs, ['Field','Value'])));
     }
 
-    // Section: Damages (table)
+    // Damages
     const dmgObj = has('damages') ? coerceDamages(itemData.damages) : null;
     if (dmgObj){
       shown.add('damages');
-      const dmg = dmgObj;
       const t = document.createElement('table');
       t.className = 'table';
       const thead = document.createElement('thead');
@@ -1121,21 +993,21 @@ async function load(){
       thead.appendChild(trh);
       t.appendChild(thead);
       const tbody = document.createElement('tbody');
-      const keys = Object.keys(dmg).sort((a,b)=>a.localeCompare(b));
+      const keys = Object.keys(dmgObj).sort((a,b)=>a.localeCompare(b));
       for (const k of keys){
         const tr = document.createElement('tr');
         const td1 = document.createElement('td'); td1.className = 'val'; td1.textContent = humanizeKey(k);
-        const td2 = document.createElement('td'); td2.className = 'val'; td2.textContent = formatScalar(dmg[k]);
+        const td2 = document.createElement('td'); td2.className = 'val'; td2.textContent = formatScalar(dmgObj[k]);
         tr.appendChild(td1); tr.appendChild(td2);
         tbody.appendChild(tr);
       }
       t.appendChild(tbody);
       grid.appendChild(sectionCard('Damages', t));
     } else if (has('damages')) {
-      shown.add('damages'); // hide broken values
+      shown.add('damages');
     }
 
-    // Section: Stats
+    // Stats
     const statsKeys = ['speed','FlySpeed','protection','locus','maxLoad','load','DisableDoubleResources'];
     const statPairs = [];
     for (const k of statsKeys){
@@ -1148,7 +1020,7 @@ async function load(){
       grid.appendChild(sectionCard('Stats', tableFromPairs(statPairs, ['Field','Value'])));
     }
 
-    // Section: Crafting (fields + recipe table)
+    // Crafting (fields + recipe)
     const craftKeys = ['craftLevel','craftQuantity','mojoRecipe','mojoCost','mojoCostPer','mojoCostPerCraft','mojoCostPerCrafting','mojoCostPerLevel'];
     const craftPairs = [];
     for (const k of craftKeys){
@@ -1166,16 +1038,13 @@ async function load(){
       recipeMap = loose.map;
       for (const k of loose.keys) shown.add(k);
     }
-
     if (has('recipe')) shown.add('recipe');
 
-    if (craftPairs.length || recipeMap){
+    if (craftPairs.length || (recipeMap && Object.keys(recipeMap).length)){
       const wrap = document.createElement('div');
-      // craft metadata
       if (craftPairs.length){
         wrap.appendChild(tableFromPairs(craftPairs, ['Field','Value']));
       }
-      // ingredients
       if (recipeMap && Object.keys(recipeMap).length){
         const spacer = document.createElement('div');
         spacer.style.height = craftPairs.length ? '10px' : '0px';
@@ -1205,7 +1074,7 @@ async function load(){
       grid.appendChild(sectionCard('Crafting', wrap));
     }
 
-    // Section: Flags
+    // Flags
     const flagsKeys = ['admin','noDrop','rebirthPersist','unobtainable','cosmetic'];
     const flagPairs = [];
     for (const k of flagsKeys){
@@ -1218,7 +1087,7 @@ async function load(){
       grid.appendChild(sectionCard('Flags', tableFromPairs(flagPairs, ['Field','Value'])));
     }
 
-    // Section: Other (everything not shown; bracket keys hidden; recipe/damages hidden)
+    // Other: everything not shown (hide bracket keys + recipe + damages)
     const remaining = Object.keys(itemData)
       .filter(k => {
         if (k === 'image' || k === 'damages' || k === 'recipe') return false;
@@ -1245,39 +1114,48 @@ async function load(){
     itemMeta.length = 0;
 
     const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
+    const totalGroups = groupOrder.length;
+    document.getElementById('counts').textContent = `${totalGroups} categories • ${totalItems} items`;
+
     for (const groupName of groupOrder){
       const groupEl = document.createElement('div');
       groupEl.className = 'group';
 
       const title = document.createElement('div');
       title.className = 'group-title';
+
       const label = document.createElement('div');
       label.className = 'label';
+
       const dot = document.createElement('div');
       dot.className = 'group-dot';
+
       const left = document.createElement('div');
       left.style.minWidth = '0';
       left.textContent = titleCase(groupName);
+
       const count = document.createElement('div');
       count.className = 'count-pill';
       count.textContent = '';
+
       label.appendChild(dot);
       label.appendChild(left);
       label.appendChild(count);
+
       const chev = document.createElement('div');
       chev.className = 'chev';
       chev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/></svg>';
+
       title.appendChild(label);
       title.appendChild(chev);
 
       const groupContent = document.createElement('div');
       groupContent.className = 'group-content';
 
-      let groupItemCount = 0;
-
       title.onclick = () => groupEl.classList.toggle('open');
 
       const subMap = new Map();
+      let groupItemCount = 0;
 
       const subOrder = Object.keys(groups[groupName]).sort((a,b)=>a.localeCompare(b));
       for (const subName of subOrder){
@@ -1286,16 +1164,20 @@ async function load(){
 
         const subTitle = document.createElement('div');
         subTitle.className = 'subgroup-title';
+
         const subLeft = document.createElement('div');
         subLeft.textContent = (subName === 'misc') ? 'Misc' : titleCase(subName);
+
         const subCount = document.createElement('div');
         subCount.className = 'count-pill';
         subCount.textContent = '';
+
         const subChev = document.createElement('div');
         subChev.className = 'chev';
         subChev.style.width = '26px';
         subChev.style.height = '26px';
         subChev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/></svg>';
+
         subTitle.appendChild(subLeft);
         subTitle.appendChild(subCount);
         subTitle.appendChild(subChev);
@@ -1378,7 +1260,7 @@ async function load(){
     }
 
     const subHas = new Map();
-    let firstMatchEl = null;
+    let firstMatch = null;
 
     for (const it of itemMeta){
       const hay = `${it.itemNameLower} ${it.groupName} ${it.subName}`;
@@ -1386,7 +1268,7 @@ async function load(){
       it.itemEl.style.display = match ? 'block' : 'none';
       if (match){
         subHas.set(`${it.groupName}::${it.subName}`, true);
-        if (!firstMatchEl) firstMatchEl = it.itemEl;
+        if (!firstMatch) firstMatch = it;
       }
     }
 
@@ -1407,8 +1289,9 @@ async function load(){
       if (!anyInGroup) gm.groupEl.classList.remove('open');
     }
 
-    if (firstMatchEl){
-      firstMatchEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    if (firstMatch){
+      firstMatch.itemEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      firstMatch.itemEl.click();
     }
   }
 
