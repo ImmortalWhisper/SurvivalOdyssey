@@ -547,9 +547,22 @@ function normalizeRarity(r){
 }
 function normalizeCategory(path){
   const parts = String(path).split('/');
-  const group = (parts[0] || 'misc').toLowerCase();
-  const sub = (parts[1] || '').replace(/\.lua$/i,'');
-  return { group, sub: sub || 'misc' };
+  const groupRaw = (parts[0] || 'misc').replace(/\.lua$/i,'');
+  const group = groupRaw.toLowerCase();
+  const subRaw = (parts[1] || '').replace(/\.lua$/i,'');
+  return { group: group || 'misc', sub: subRaw || 'misc' };
+}
+
+function isCrate(itemName, itemData){
+  const n = String(itemName || '').toLowerCase();
+  if (n.includes('crate')) return true;
+
+  const t1 = (itemData && (itemData.itemType || itemData.toolType || itemData.useType || itemData.type));
+  if (t1 && String(t1).toLowerCase().includes('crate')) return true;
+
+  // Common patterns
+  if (itemData && (itemData.isCrate === true || itemData.Crate === true)) return true;
+  return false;
 }
 function isPlainObject(v){
   return v && typeof v === 'object' && !Array.isArray(v);
@@ -768,10 +781,21 @@ async function load(){
   let totalGroups = 0, totalItems = 0;
 
   for (const [path, items] of Object.entries(data)){
-    const { group, sub } = normalizeCategory(path);
-    groups[group] ??= {};
-    groups[group][sub] ??= {};
-    Object.assign(groups[group][sub], items);
+    const base = normalizeCategory(path);
+
+    for (const [itemName, itemData] of Object.entries(items)){
+      let group = base.group;
+      let sub = base.sub;
+
+      if (isCrate(itemName, itemData)){
+        group = 'crates';
+        sub = 'misc';
+      }
+
+      groups[group] ??= {};
+      groups[group][sub] ??= {};
+      groups[group][sub][itemName] = itemData;
+    }
   }
 
   totalGroups = Object.keys(groups).length;
