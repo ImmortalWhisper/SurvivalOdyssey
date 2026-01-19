@@ -23,6 +23,7 @@
   --r-epic: rgba(168,85,247,.95);
   --r-legendary: rgba(245,158,11,.98);
   --r-mythic: rgba(236,72,153,.98);
+  --r-divine: rgba(246,196,83,.98);
   --r-unique: rgba(6,182,212,.98);
   --r-unknown: rgba(148,163,184,.7);
 }
@@ -345,6 +346,7 @@ section{
 .r-dot[data-r="epic"]{ background: var(--r-epic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(168,85,247,.22); }
 .r-dot[data-r="legendary"]{ background: var(--r-legendary); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(245,158,11,.22); }
 .r-dot[data-r="mythic"]{ background: var(--r-mythic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(236,72,153,.22); }
+.r-dot[data-r="divine"]{ background: var(--r-divine); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(246,196,83,.22); }
 .r-dot[data-r="unique"]{ background: var(--r-unique); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(6,182,212,.22); }
 
 /* Card */
@@ -407,6 +409,7 @@ section{
 .card[data-rarity="epic"]{ --rarityA: rgba(168,85,247,.22); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(168,85,247,.30); --rarityGlow: rgba(168,85,247,.14); }
 .card[data-rarity="legendary"]{ --rarityA: rgba(245,158,11,.24); --rarityB: rgba(245,158,11,.12); --rarityEdge: rgba(245,158,11,.32); --rarityGlow: rgba(245,158,11,.16); }
 .card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.24); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.32); --rarityGlow: rgba(236,72,153,.16); }
+.card[data-rarity="divine"]{ --rarityA: rgba(246,196,83,.26); --rarityB: rgba(245,243,167,.12); --rarityEdge: rgba(246,196,83,.34); --rarityGlow: rgba(246,196,83,.18); }
 .card[data-rarity="unique"]{ --rarityA: rgba(6,182,212,.24); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(6,182,212,.32); --rarityGlow: rgba(6,182,212,.16); }
 
 .card-header{
@@ -699,6 +702,7 @@ function normalizeRarity(r){
   if (t.includes('epic')) return 'epic';
   if (t.includes('legend')) return 'legendary';
   if (t.includes('myth')) return 'mythic';
+  if (t.includes('divine')) return 'divine';
   if (t.includes('unique')) return 'unique';
   return 'unknown';
 }
