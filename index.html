@@ -74,7 +74,7 @@ header{
 
 main{
   display:grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 360px 1fr;
   min-height: calc(100vh - 60px);
 }
 
@@ -125,6 +125,13 @@ aside{
   padding: 10px;
 }
 
+.hint{
+  margin-top: 10px;
+  color: var(--muted2);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
 .group{
   margin: 6px 0;
 }
@@ -142,7 +149,7 @@ aside{
   color: rgba(231,234,242,.95);
   background: rgba(255,255,255,.02);
   border: 1px solid rgba(255,255,255,.06);
-  transition: transform .08s ease, background .15s ease, border-color .15s ease;
+  transition: background .15s ease, border-color .15s ease;
 }
 
 .group-title:hover{
@@ -225,6 +232,13 @@ aside{
   border-color: rgba(98,176,255,.28);
 }
 
+.item .meta{
+  display:block;
+  font-size: 11px;
+  color: rgba(168,177,194,.8);
+  margin-top: 2px;
+}
+
 section{
   padding: 24px;
   overflow: auto;
@@ -252,9 +266,9 @@ section{
 }
 
 .thumb{
-  width: 86px;
-  height: 86px;
-  border-radius: 18px;
+  width: 92px;
+  height: 92px;
+  border-radius: 20px;
   overflow:hidden;
   border: 1px solid rgba(255,255,255,.10);
   background: rgba(255,255,255,.04);
@@ -289,13 +303,29 @@ section{
   font-size: 13px;
 }
 
+.pills{
+  margin-top: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill{
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  color: rgba(231,234,242,.92);
+}
+
 .card-body{
   padding: 18px;
 }
 
 .grid{
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 12px;
 }
 
@@ -310,23 +340,72 @@ section{
   font-size: 12px;
   letter-spacing: .2px;
   color: var(--muted2);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   text-transform: uppercase;
 }
 
 .value{
   font-size: 13px;
   color: rgba(231,234,242,.96);
-  white-space: pre-wrap;
   word-break: break-word;
 }
 
-.value pre{
+.kv{
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+}
+
+.kv-row{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items:center;
+  padding: 10px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.14);
+}
+
+.kv-key{
+  color: rgba(168,177,194,.95);
+  font-size: 12px;
+  letter-spacing: .2px;
+  text-transform: uppercase;
+}
+
+.kv-val{
+  color: rgba(231,234,242,.97);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.kv-val.mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+}
+
+.nested{
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.14);
+}
+
+.nested-title{
+  color: rgba(168,177,194,.95);
+  font-size: 12px;
+  letter-spacing: .2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.nested pre{
   margin:0;
   padding: 10px 10px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,.08);
-  background: rgba(0,0,0,.18);
+  background: rgba(0,0,0,.16);
   overflow:auto;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 12px;
@@ -372,6 +451,7 @@ section{
           </svg>
           <input id="search" type="text" placeholder="Search items (name, category, subgroup)..." />
         </div>
+        <div class="hint">Tip: type a few letters and the sidebar will auto-expand to matches.</div>
       </div>
       <div class="sidebar-scroll" id="sidebar"></div>
     </div>
@@ -384,18 +464,146 @@ section{
 
 <script>
 function titleCase(s){
-  return s.replace(/_/g,' ').replace(/\b\w/g, m => m.toUpperCase());
+  return String(s)
+    .replace(/_/g,' ')
+    .replace(/\b\w/g, m => m.toUpperCase());
 }
 function normalizeCategory(path){
-  const parts = path.split('/');
+  const parts = String(path).split('/');
   const group = (parts[0] || 'misc').toLowerCase();
   const sub = (parts[1] || '').replace(/\.lua$/i,'');
   return { group, sub: sub || 'misc' };
 }
-function formatValue(v){
-  if (v === null) return "∞";
-  if (typeof v === 'object') return JSON.stringify(v, null, 2);
+function isPlainObject(v){
+  return v && typeof v === 'object' && !Array.isArray(v);
+}
+function formatScalar(v){
+  if (v === null) return '∞';
+  if (typeof v === 'boolean') return v ? 'true' : 'false';
   return String(v);
+}
+function extractAssetId(imageField){
+  if (imageField === null || imageField === undefined) return null;
+
+  // Already a number
+  if (typeof imageField === 'number' && Number.isFinite(imageField)) {
+    return String(Math.trunc(imageField));
+  }
+
+  const s = String(imageField);
+
+  // rbxassetid://123
+  const m1 = s.match(/rbxassetid:\/\/(\d+)/i);
+  if (m1) return m1[1];
+
+  // ...assetId=123...
+  const m2 = s.match(/[?&]assetId=(\d+)/i);
+  if (m2) return m2[1];
+
+  // ...aid=123...
+  const m3 = s.match(/[?&]aid=(\d+)/i);
+  if (m3) return m3[1];
+
+  // Any long-ish number (fallback)
+  const m4 = s.match(/\b(\d{6,})\b/);
+  if (m4) return m4[1];
+
+  return null;
+}
+function robloxThumbUrl(assetId){
+  return `https://www.roblox.com/asset-thumbnail/image?assetId=${assetId}&width=420&height=420&format=png`;
+}
+
+function renderValueNode(value, keyHint){
+  // Scalar
+  if (value === null || typeof value !== 'object') {
+    const span = document.createElement('span');
+    span.textContent = formatScalar(value);
+    return span;
+  }
+
+  // Array
+  if (Array.isArray(value)) {
+    const wrap = document.createElement('div');
+    wrap.className = 'nested';
+    const t = document.createElement('div');
+    t.className = 'nested-title';
+    t.textContent = 'List';
+    const pre = document.createElement('pre');
+    pre.textContent = JSON.stringify(value, null, 2);
+    wrap.appendChild(t);
+    wrap.appendChild(pre);
+    return wrap;
+  }
+
+  // Object special-case: damages
+  if (keyHint && String(keyHint).toLowerCase() === 'damages' && isPlainObject(value)) {
+    const kv = document.createElement('div');
+    kv.className = 'kv';
+    const keys = Object.keys(value).sort((a,b)=>a.localeCompare(b));
+    for (const k of keys) {
+      const row = document.createElement('div');
+      row.className = 'kv-row';
+      const kk = document.createElement('div');
+      kk.className = 'kv-key';
+      kk.textContent = titleCase(k);
+      const vv = document.createElement('div');
+      vv.className = 'kv-val';
+      vv.textContent = formatScalar(value[k]); // null -> ∞
+      row.appendChild(kk);
+      row.appendChild(vv);
+      kv.appendChild(row);
+    }
+    return kv;
+  }
+
+  // Generic object: render as a clean key/value list, nested objects as JSON blocks
+  const kv = document.createElement('div');
+  kv.className = 'kv';
+  const keys = Object.keys(value).sort((a,b)=>a.localeCompare(b));
+
+  // If object is small + scalar-only, render as rows; otherwise use a JSON block for deep nesting
+  const scalarOnly = keys.every(k => value[k] === null || typeof value[k] !== 'object' || Array.isArray(value[k]) === false && typeof value[k] !== 'object');
+  const shallowEnough = keys.length <= 12 && keys.every(k => value[k] === null || typeof value[k] !== 'object' || Array.isArray(value[k]));
+
+  if (!scalarOnly && !shallowEnough) {
+    const wrap = document.createElement('div');
+    wrap.className = 'nested';
+    const t = document.createElement('div');
+    t.className = 'nested-title';
+    t.textContent = 'Object';
+    const pre = document.createElement('pre');
+    // Replace nulls with the infinity symbol in this pretty view (presentation only)
+    const replacer = (k,v)=> (v === null ? '∞' : v);
+    pre.textContent = JSON.stringify(value, replacer, 2);
+    wrap.appendChild(t);
+    wrap.appendChild(pre);
+    return wrap;
+  }
+
+  for (const k of keys) {
+    const row = document.createElement('div');
+    row.className = 'kv-row';
+    const kk = document.createElement('div');
+    kk.className = 'kv-key';
+    kk.textContent = titleCase(k);
+    const vv = document.createElement('div');
+    vv.className = 'kv-val';
+    if (value[k] === null || typeof value[k] !== 'object') {
+      vv.textContent = formatScalar(value[k]);
+    } else if (Array.isArray(value[k])) {
+      vv.classList.add('mono');
+      vv.textContent = JSON.stringify(value[k], null, 0);
+    } else {
+      vv.classList.add('mono');
+      const replacer = (k2,v2)=> (v2 === null ? '∞' : v2);
+      vv.textContent = JSON.stringify(value[k], replacer, 0);
+    }
+    row.appendChild(kk);
+    row.appendChild(vv);
+    kv.appendChild(row);
+  }
+  return kv;
 }
 
 async function load(){
@@ -425,7 +633,9 @@ async function load(){
   const content = document.getElementById('content');
   const search = document.getElementById('search');
 
-  const itemNodes = []; // { el, nameLower, group, sub }
+  // Track nodes so search can auto-expand and hide empty groups/subgroups
+  const groupMeta = new Map(); // groupName -> { groupEl, subMap }
+  const itemMeta = []; // { itemEl, groupName, subName, itemNameLower, groupEl, subEl, subgroupEl, itemData }
 
   function renderCard(itemName, itemData, meta){
     content.innerHTML = '';
@@ -437,7 +647,14 @@ async function load(){
 
     const thumb = document.createElement('div');
     thumb.className = 'thumb';
-    if (itemData.image){
+
+    const assetId = extractAssetId(itemData.image);
+    if (assetId) {
+      const img = document.createElement('img');
+      img.src = robloxThumbUrl(assetId);
+      img.loading = 'lazy';
+      thumb.appendChild(img);
+    } else if (itemData.image && typeof itemData.image === 'string' && itemData.image.startsWith('http')) {
       const img = document.createElement('img');
       img.src = itemData.image;
       img.loading = 'lazy';
@@ -462,13 +679,39 @@ async function load(){
     const type = itemData.itemType || itemData.type;
     const pieces = [];
     if (meta?.group) pieces.push(titleCase(meta.group));
-    if (meta?.sub) pieces.push(titleCase(meta.sub));
-    if (type) pieces.push(String(type));
-    if (rarity) pieces.push(String(rarity));
+    if (meta?.sub && meta.sub !== 'misc') pieces.push(titleCase(meta.sub));
     sub.textContent = pieces.join(' • ');
+
+    const pills = document.createElement('div');
+    pills.className = 'pills';
+    if (type) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = String(type);
+      pills.appendChild(p);
+    }
+    if (rarity) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = String(rarity);
+      pills.appendChild(p);
+    }
+    if (itemData.level !== undefined) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = `Level ${itemData.level}`;
+      pills.appendChild(p);
+    }
+    if (itemData.coinValue !== undefined) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = `Value ${itemData.coinValue}`;
+      pills.appendChild(p);
+    }
 
     tw.appendChild(h);
     tw.appendChild(sub);
+    if (pills.childElementCount) tw.appendChild(pills);
 
     header.appendChild(thumb);
     header.appendChild(tw);
@@ -479,9 +722,20 @@ async function load(){
     const grid = document.createElement('div');
     grid.className = 'grid';
 
-    for (const [k,v] of Object.entries(itemData)){
-      if (k === 'image') continue;
+    // Prefer to show some “hero” fields earlier
+    const preferred = ['damages','recipe','toolType','useType','speed','protection','locus','load','maxLoad','craftLevel','craftQuantity','admin','noDrop','rebirthPersist','description'];
+    const keys = Object.keys(itemData).filter(k => k !== 'image');
+    keys.sort((a,b)=>{
+      const ai = preferred.indexOf(a);
+      const bi = preferred.indexOf(b);
+      if (ai === -1 && bi === -1) return a.localeCompare(b);
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
 
+    for (const k of keys){
+      const v = itemData[k];
       const f = document.createElement('div');
       f.className = 'field';
 
@@ -491,14 +745,7 @@ async function load(){
 
       const vv = document.createElement('div');
       vv.className = 'value';
-
-      if (typeof v === 'object' && v !== null){
-        const pre = document.createElement('pre');
-        pre.textContent = JSON.stringify(v, null, 2);
-        vv.appendChild(pre);
-      } else {
-        vv.textContent = formatValue(v);
-      }
+      vv.appendChild(renderValueNode(v, k));
 
       f.appendChild(kk);
       f.appendChild(vv);
@@ -513,6 +760,8 @@ async function load(){
 
   function buildUI(){
     sidebar.innerHTML = '';
+    groupMeta.clear();
+    itemMeta.length = 0;
 
     const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
     for (const groupName of groupOrder){
@@ -532,15 +781,14 @@ async function load(){
       const groupContent = document.createElement('div');
       groupContent.className = 'group-content';
 
-      title.onclick = () => {
-        groupEl.classList.toggle('open');
-      };
+      title.onclick = () => groupEl.classList.toggle('open');
 
-      // Subgroups
+      const subMap = new Map();
+
       const subOrder = Object.keys(groups[groupName]).sort((a,b)=>a.localeCompare(b));
       for (const subName of subOrder){
-        const subEl = document.createElement('div');
-        subEl.className = 'subgroup';
+        const subgroupEl = document.createElement('div');
+        subgroupEl.className = 'subgroup';
 
         const subTitle = document.createElement('div');
         subTitle.className = 'subgroup-title';
@@ -559,7 +807,7 @@ async function load(){
 
         subTitle.onclick = (e) => {
           e.stopPropagation();
-          subEl.classList.toggle('open');
+          subgroupEl.classList.toggle('open');
         };
 
         const items = groups[groupName][subName];
@@ -567,17 +815,10 @@ async function load(){
 
         for (const itemName of itemNames){
           const itemData = items[itemName];
+
           const item = document.createElement('div');
           item.className = 'item';
           item.textContent = itemName;
-
-          const node = {
-            el: item,
-            nameLower: itemName.toLowerCase(),
-            group: groupName,
-            sub: subName
-          };
-          itemNodes.push(node);
 
           item.onclick = () => {
             document.querySelectorAll('.item').forEach(x=>x.classList.remove('active'));
@@ -586,35 +827,106 @@ async function load(){
           };
 
           itemList.appendChild(item);
+
+          itemMeta.push({
+            itemEl: item,
+            subgroupEl,
+            groupEl,
+            groupName,
+            subName,
+            itemName,
+            itemNameLower: itemName.toLowerCase(),
+            itemData
+          });
         }
 
-        // Default open only if not misc and not too large?
-        // Keep collapsed by default; user can expand.
-        subEl.appendChild(subTitle);
-        subEl.appendChild(itemList);
-        groupContent.appendChild(subEl);
+        subgroupEl.appendChild(subTitle);
+        subgroupEl.appendChild(itemList);
+        groupContent.appendChild(subgroupEl);
+        subMap.set(subName, { subgroupEl, itemList, subTitle });
       }
 
       groupEl.appendChild(title);
       groupEl.appendChild(groupContent);
       sidebar.appendChild(groupEl);
+      groupMeta.set(groupName, { groupEl, groupContent, subMap });
     }
   }
 
   function applySearch(q){
     q = (q || '').trim().toLowerCase();
 
-    for (const n of itemNodes){
-      const hay = `${n.nameLower} ${n.group} ${n.sub}`;
-      const show = !q || hay.includes(q);
-      n.el.style.display = show ? 'block' : 'none';
+    // Reset visibility
+    for (const gm of groupMeta.values()){
+      gm.groupEl.style.display = 'block';
+      for (const sm of gm.subMap.values()){
+        sm.subgroupEl.style.display = 'block';
+      }
+    }
+
+    if (!q){
+      // Show everything, collapse to a gentle default
+      for (const it of itemMeta) it.itemEl.style.display = 'block';
+
+      // Collapse all, then open first group/subgroup
+      for (const gm of groupMeta.values()) gm.groupEl.classList.remove('open');
+      for (const it of itemMeta) it.subgroupEl.classList.remove('open');
+      const firstGroup = sidebar.querySelector('.group');
+      if (firstGroup){
+        firstGroup.classList.add('open');
+        const firstSub = firstGroup.querySelector('.subgroup');
+        if (firstSub) firstSub.classList.add('open');
+      }
+      return;
+    }
+
+    // Track which containers have matches so we can auto-expand and hide empties
+    const groupHas = new Map();
+    const subHas = new Map();
+    let firstMatch = null;
+
+    for (const it of itemMeta){
+      const hay = `${it.itemNameLower} ${it.groupName} ${it.subName}`;
+      const match = hay.includes(q);
+      it.itemEl.style.display = match ? 'block' : 'none';
+
+      if (match){
+        groupHas.set(it.groupName, true);
+        subHas.set(`${it.groupName}::${it.subName}`, true);
+        if (!firstMatch) firstMatch = it;
+      }
+    }
+
+    // Hide subgroups with no matches; hide groups with no matches; auto-expand groups/subgroups with matches
+    for (const [groupName, gm] of groupMeta.entries()){
+      let anyInGroup = false;
+
+      for (const [subName, sm] of gm.subMap.entries()){
+        const has = subHas.get(`${groupName}::${subName}`) === true;
+        sm.subgroupEl.style.display = has ? 'block' : 'none';
+        if (has) {
+          anyInGroup = true;
+          gm.groupEl.classList.add('open');
+          sm.subgroupEl.classList.add('open');
+        } else {
+          sm.subgroupEl.classList.remove('open');
+        }
+      }
+
+      gm.groupEl.style.display = anyInGroup ? 'block' : 'none';
+      if (!anyInGroup) gm.groupEl.classList.remove('open');
+    }
+
+    // Auto-scroll to first match for a "just find it" experience
+    if (firstMatch){
+      firstMatch.itemEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
     }
   }
 
   buildUI();
 
-  // Gentle defaults: open first group and subgroup so it doesn't feel empty
-  const firstGroup = sidebar.querySelector('.group');
+  // Gentle default open so it doesn't feel empty
+  const firstGroup = document.querySelector('#sidebar .group');
   if (firstGroup){
     firstGroup.classList.add('open');
     const firstSub = firstGroup.querySelector('.subgroup');
