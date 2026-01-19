@@ -538,6 +538,29 @@ function extractAssetId(imageField){
   return null;
 }
 
+function extractImageUrl(imageField){
+  // Accept direct CDN/thumbnail URLs to avoid extra requests.
+  if (imageField === null || imageField === undefined) return null;
+
+  // If the field is an object like { imageUrl: "https://..." }
+  if (typeof imageField === 'object' && !Array.isArray(imageField)){
+    const u = imageField.imageUrl || imageField.url || imageField.thumbnailUrl;
+    if (typeof u === 'string' && /^https?:\/\//i.test(u.trim())) return u.trim();
+  }
+
+  if (typeof imageField !== 'string') return null;
+
+  const t = imageField.trim();
+  if (!t) return null;
+
+  // Protocol-relative URLs
+  if (/^\/\//.test(t)) return 'https:' + t;
+
+  if (/^https?:\/\//i.test(t)) return t;
+
+  return null;
+}
+
 // Roblox thumbnails API (assets)
 function thumbApiUrl(assetId, size){
   const params = new URLSearchParams({
@@ -741,9 +764,29 @@ async function load(){
     const img = document.createElement('img');
     img.alt = itemName;
 
-    const assetId = extractAssetId(itemData.image);
+    const directUrl = extractImageUrl(itemData.image);
+    const assetId = directUrl ? null : extractAssetId(itemData.image);
 
     (async () => {
+      // If items.json already contains a ready-to-use thumbnail URL, use it directly (no API call).
+      if (directUrl){
+        img.onload = () => {
+          img.style.opacity = '1';
+          loading.remove();
+        };
+        img.onerror = () => {
+          loading.remove();
+          const no = document.createElement('div');
+          no.className = 'noimg';
+          no.textContent = 'No image';
+          thumb.appendChild(no);
+        };
+        img.src = directUrl;
+        thumb.appendChild(img);
+        return;
+      }
+
+      // Otherwise fall back to Roblox thumbnails API via assetId.
       if (!assetId){
         loading.remove();
         const no = document.createElement('div');
@@ -777,7 +820,6 @@ async function load(){
       img.src = url;
       thumb.appendChild(img);
     })();
-
     const tw = document.createElement('div');
     tw.className = 'title-wrap';
 
