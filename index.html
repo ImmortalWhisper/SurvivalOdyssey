@@ -469,6 +469,22 @@ function formatScalar(v){
   return String(v);
 }
 
+function extractLooseBracketMap(obj){
+  // Some recipe tables were flattened during export into keys like ["AURITE BAR"] at the item root.
+  // This detects those keys and returns a normalized map + the original keys for hiding them from "Other".
+  const map = {};
+  const keys = [];
+  const re = /^\[\s*["'](.+?)["']\s*\]$/;
+  for (const k of Object.keys(obj)){
+    const m = k.match(re);
+    if (m){
+      map[m[1]] = obj[k];
+      keys.push(k);
+    }
+  }
+  return { map, keys };
+}
+
 function coerceDamages(val){
   // Return a plain object of damage targets -> values, or null if not usable.
   if (isPlainObject(val)) return val;
@@ -812,9 +828,12 @@ async function load(){
     const shown = new Set(['image']);
     const has = (k) => Object.prototype.hasOwnProperty.call(itemData, k);
 
+    const looksCraftable = has('recipe') || has('craftLevel') || has('craftQuantity') || has('mojoRecipe') || has('mojoCost') || has('mojoCostPer') || has('mojoCostPerCraft') || has('mojoCostPerCrafting') || has('mojoCostPerLevel');
+    const loose = looksCraftable ? extractLooseBracketMap(itemData) : { map: {}, keys: [] };
+
     const infoKeys = ['itemType','Rarity','toolType','useType','level','coinValue','description','pickupSound','armorSet','BottomText','color','shopOrder'];
     const statsKeys = ['damages','speed','FlySpeed','protection','locus','maxLoad','load','DisableDoubleResources'];
-    const craftKeys = ['recipe','craftLevel','craftQuantity','mojoRecipe','mojoCost','mojoCostPer','mojoCostPerCraft','mojoCostPerCrafting','mojoCostPerLevel'];
+    const craftKeys = ['craftLevel','craftQuantity','mojoRecipe','mojoCost','mojoCostPer','mojoCostPerCraft','mojoCostPerCrafting','mojoCostPerLevel'];
     const flagsKeys = ['admin','noDrop','rebirthPersist','unobtainable','cosmetic'];
 
     // Item Info
