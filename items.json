@@ -3677,6 +3677,7 @@
     "Gold Fish": {
       "quantity": 1,
       "percent": 0.0001
+    },
     "Prickly Pear": {
       "quantity": 1,
       "percent": 0.35
@@ -4875,49 +4876,49 @@
       "image": "https://tr.rbxcdn.com/180DAY-949272b0b305ad05765ac2eb6daceff9/150/150/Model/Png/noFilter"
     },
     "Peasant Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Good Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Food Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Resource Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Great Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "OMG Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Adurite Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Gilded Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Crystal Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Magnetite Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Emerald Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Lavish Food Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Pink Diamond Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Radiant Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Shaman Crate": {
-      "quantity": 1,
+      "quantity": 1
     },
     "Emerald Sickle": {
       "Rarity": "Rare",
