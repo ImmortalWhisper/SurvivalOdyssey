@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Item Data Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     :root {
       --bg: #0f1115;
@@ -43,10 +44,6 @@
       background: #121622;
     }
 
-    .category {
-      margin-bottom: 8px;
-    }
-
     .category-title {
       padding: 8px 10px;
       font-weight: 600;
@@ -60,8 +57,8 @@
     }
 
     .items {
-      margin-left: 8px;
-      margin-top: 4px;
+      margin-left: 10px;
+      margin-top: 6px;
       display: none;
     }
 
@@ -91,9 +88,9 @@
     .card {
       background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      max-width: 900px;
+      border-radius: 14px;
+      padding: 22px;
+      max-width: 960px;
     }
 
     .card h2 {
@@ -110,7 +107,7 @@
     .field {
       background: #101420;
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 10px;
       font-size: 13px;
     }
@@ -118,15 +115,17 @@
     .key {
       color: var(--muted);
       margin-bottom: 4px;
+      font-weight: 500;
     }
 
     .value {
       word-break: break-word;
+      white-space: pre-wrap;
     }
 
     img {
-      max-width: 180px;
-      border-radius: 10px;
+      max-width: 200px;
+      border-radius: 12px;
       border: 1px solid var(--border);
       margin-bottom: 16px;
     }
@@ -146,20 +145,19 @@
   </main>
 
   <script>
-    async function load() {
-      const res = await fetch('ItemData_FULL_JSON_STANDARD.json');
+    async function loadItems() {
+      const res = await fetch('./items.json');
       const data = await res.json();
 
       const sidebar = document.getElementById('sidebar');
       const content = document.getElementById('content');
 
-      for (const [file, items] of Object.entries(data)) {
+      for (const [category, items] of Object.entries(data)) {
         const cat = document.createElement('div');
-        cat.className = 'category';
 
         const title = document.createElement('div');
         title.className = 'category-title';
-        title.textContent = file;
+        title.textContent = category;
 
         const list = document.createElement('div');
         list.className = 'items';
@@ -168,7 +166,7 @@
           list.style.display = list.style.display === 'none' ? 'block' : 'none';
         };
 
-        for (const [name, obj] of Object.entries(items)) {
+        for (const [name, itemData] of Object.entries(items)) {
           const item = document.createElement('div');
           item.className = 'item';
           item.textContent = name;
@@ -185,17 +183,19 @@
             h2.textContent = name;
             card.appendChild(h2);
 
-            if (obj.image) {
+            if (itemData.image) {
               const img = document.createElement('img');
-              img.src = obj.image;
+              img.src = itemData.image;
+              img.loading = 'lazy';
               card.appendChild(img);
             }
 
             const grid = document.createElement('div');
             grid.className = 'grid';
 
-            for (const [k, v] of Object.entries(obj)) {
+            for (const [k, v] of Object.entries(itemData)) {
               if (k === 'image') continue;
+
               const field = document.createElement('div');
               field.className = 'field';
 
@@ -205,7 +205,9 @@
 
               const value = document.createElement('div');
               value.className = 'value';
-              value.textContent = typeof v === 'object' ? JSON.stringify(v, null, 2) : v;
+              value.textContent = typeof v === 'object'
+                ? JSON.stringify(v, null, 2)
+                : v;
 
               field.appendChild(key);
               field.appendChild(value);
@@ -225,7 +227,7 @@
       }
     }
 
-    load();
+    loadItems();
   </script>
 </body>
 </html>
