@@ -468,6 +468,37 @@ function formatScalar(v){
   if (typeof v === 'boolean') return v ? 'true' : 'false';
   return String(v);
 }
+
+function coerceDamages(val){
+  // Return a plain object of damage targets -> values, or null if not usable.
+  if (isPlainObject(val)) return val;
+
+  if (typeof val === 'string'){
+    const t = val.trim();
+    if (!t) return null;
+
+    // Try JSON parse (sometimes damages were stringified)
+    try{
+      const parsed = JSON.parse(t);
+      if (isPlainObject(parsed)) return parsed;
+    }catch(e){}
+
+    // Try a lenient parse for single quotes / trailing commas (best-effort)
+    try{
+      const fixed = t
+        .replace(/\r?\n/g,' ')
+        .replace(/'/g,'"')
+        .replace(/,\s*}/g,'}')
+        .replace(/,\s*]/g,']');
+      const parsed2 = JSON.parse(fixed);
+      if (isPlainObject(parsed2)) return parsed2;
+    }catch(e){}
+
+    return null;
+  }
+
+  return null;
+}
 function extractAssetId(imageField){
   if (imageField === null || imageField === undefined) return null;
 
@@ -799,12 +830,12 @@ async function load(){
       sec.body.appendChild(tableFromPairs(infoPairs, ['Field','Value']));
       sections.appendChild(sec.box);
     }
-
     // Damages (special table)
-    if (has('damages') && isPlainObject(itemData.damages)){
+    const dmgObj = has('damages') ? coerceDamages(itemData.damages) : null;
+    if (dmgObj){
       shown.add('damages');
-      const dmg = itemData.damages;
-      const sec = makeSection('Damages');
+      const dmg = dmgObj;
+const sec = makeSection('Damages');
       const pairs = Object.keys(dmg).sort((a,b)=>a.localeCompare(b)).map(k => [titleCase(k), dmg[k]]);
 
       // Table with "Target" and "Damage"
@@ -876,7 +907,7 @@ async function load(){
 
     // Everything else (nice table, no card spam)
     const remaining = Object.keys(itemData)
-      .filter(k => !shown.has(k))
+      .filter(k => k !== 'damages' && !shown.has(k))
       .sort((a,b)=>a.localeCompare(b));
 
     if (remaining.length){
