@@ -229,6 +229,96 @@ section{
   overflow: hidden;
 }
 
+
+/* Rarity theming */
+.card{
+  --rarityA: rgba(98,176,255,.18);
+  --rarityB: rgba(139,92,255,.12);
+  --rarityEdge: rgba(98,176,255,.26);
+  --rarityGlow: rgba(98,176,255,.14);
+  position: relative;
+}
+
+.card::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: 22px;
+  pointer-events:none;
+  box-shadow: 0 0 0 1px var(--rarityEdge), 0 14px 44px rgba(0,0,0,.42);
+  opacity: .9;
+}
+
+.card[data-rarity="common"]{
+  --rarityA: rgba(148,163,184,.18);
+  --rarityB: rgba(148,163,184,.10);
+  --rarityEdge: rgba(148,163,184,.22);
+  --rarityGlow: rgba(148,163,184,.10);
+}
+.card[data-rarity="uncommon"]{
+  --rarityA: rgba(34,197,94,.18);
+  --rarityB: rgba(34,197,94,.10);
+  --rarityEdge: rgba(34,197,94,.24);
+  --rarityGlow: rgba(34,197,94,.12);
+}
+.card[data-rarity="rare"]{
+  --rarityA: rgba(59,130,246,.20);
+  --rarityB: rgba(59,130,246,.10);
+  --rarityEdge: rgba(59,130,246,.26);
+  --rarityGlow: rgba(59,130,246,.12);
+}
+.card[data-rarity="epic"]{
+  --rarityA: rgba(168,85,247,.20);
+  --rarityB: rgba(168,85,247,.10);
+  --rarityEdge: rgba(168,85,247,.26);
+  --rarityGlow: rgba(168,85,247,.12);
+}
+.card[data-rarity="legendary"]{
+  --rarityA: rgba(245,158,11,.22);
+  --rarityB: rgba(245,158,11,.12);
+  --rarityEdge: rgba(245,158,11,.28);
+  --rarityGlow: rgba(245,158,11,.14);
+}
+.card[data-rarity="mythic"]{
+  --rarityA: rgba(236,72,153,.22);
+  --rarityB: rgba(236,72,153,.12);
+  --rarityEdge: rgba(236,72,153,.28);
+  --rarityGlow: rgba(236,72,153,.14);
+}
+.card[data-rarity="unique"]{
+  --rarityA: rgba(6,182,212,.22);
+  --rarityB: rgba(139,92,255,.12);
+  --rarityEdge: rgba(6,182,212,.28);
+  --rarityGlow: rgba(6,182,212,.14);
+}
+
+/* Make the header and thumbnail feel more "premium" based on rarity */
+.card-header{
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,.06);
+}
+.thumb{
+  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 10px 24px rgba(0,0,0,.35);
+}
+.thumb::after{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: 20px;
+  pointer-events:none;
+  box-shadow: 0 0 0 1px var(--rarityEdge), 0 0 24px var(--rarityGlow);
+  opacity: .65;
+}
+
+/* Pills use rarity edge/glow */
+.pill{
+  border-color: rgba(255,255,255,.10);
+  background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
+}
+.card[data-rarity] .pill{
+  border-color: var(--rarityEdge);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 0 14px var(--rarityGlow);
+}
+
 .card-header{
   display:flex;
   gap: 18px;
@@ -236,8 +326,8 @@ section{
   align-items:center;
   border-bottom: 1px solid var(--border);
   background:
-    radial-gradient(900px 220px at 20% 0%, rgba(98,176,255,.18), transparent 60%),
-    radial-gradient(700px 240px at 90% 30%, rgba(139,92,255,.12), transparent 55%),
+    radial-gradient(900px 220px at 20% 0%, var(--rarityA), transparent 60%),
+    radial-gradient(700px 240px at 90% 30%, var(--rarityB), transparent 55%),
     linear-gradient(180deg, rgba(14,20,38,.55), rgba(11,16,32,.35));
 }
 
@@ -453,6 +543,24 @@ section{
 <script>
 function titleCase(s){
   return String(s).replace(/_/g,' ').replace(/\b\w/g, m => m.toUpperCase());
+}
+function normalizeRarity(r){
+  if (r === null || r === undefined) return 'unknown';
+  const t = String(r).trim().toLowerCase();
+  if (!t) return 'unknown';
+  if (t.includes('common')) return 'common';
+  if (t.includes('uncommon')) return 'uncommon';
+  if (t.includes('rare')) return 'rare';
+  if (t.includes('epic')) return 'epic';
+  if (t.includes('legend')) return 'legendary';
+  if (t.includes('myth')) return 'mythic';
+  if (t.includes('unique')) return 'unique';
+  // Some games use tiers
+  if (t === 'u') return 'uncommon';
+  if (t === 'r') return 'rare';
+  if (t === 'e') return 'epic';
+  if (t === 'l') return 'legendary';
+  return 'unknown';
 }
 function normalizeCategory(path){
   const parts = String(path).split('/');
@@ -748,6 +856,8 @@ async function load(){
 
     const card = document.createElement('div');
     card.className = 'card';
+    const rarityRawForTheme = itemData.Rarity || itemData.rarity;
+    card.dataset.rarity = normalizeRarity(rarityRawForTheme);
 
     // Header
     const header = document.createElement('div');
@@ -838,7 +948,7 @@ async function load(){
     pills.className = 'pills';
 
     const rarity = itemData.Rarity || itemData.rarity;
-    const type = itemData.itemType || itemData.type;
+    const toolType = itemData.toolType || itemData.itemType || itemData.type;
 
     function addPill(text){
       const p = document.createElement('span');
@@ -847,10 +957,8 @@ async function load(){
       pills.appendChild(p);
     }
 
-    if (type) addPill(String(type));
+    if (toolType) addPill(String(toolType));
     if (rarity) addPill(String(rarity));
-    if (itemData.level !== undefined) addPill(`Level ${itemData.level}`);
-    if (itemData.coinValue !== undefined) addPill(`Value ${itemData.coinValue}`);
 
     tw.appendChild(h);
     tw.appendChild(sub);
