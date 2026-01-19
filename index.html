@@ -8,6 +8,9 @@
 :root{
   --bg0:#070A12;
   --bg1:#0B1020;
+  --panel0:#0E1426;
+  --panel1:#101A31;
+  --panel2:#0B1020;
   --border:rgba(255,255,255,.08);
   --border2:rgba(255,255,255,.12);
   --text:#E7EAF2;
@@ -18,6 +21,7 @@
   --shadow: 0 12px 40px rgba(0,0,0,.45);
   --shadow2: 0 10px 30px rgba(0,0,0,.35);
   --radius: 18px;
+  --radius2: 14px;
 }
 
 *{ box-sizing:border-box; }
@@ -104,6 +108,8 @@ aside{
   background: rgba(255,255,255,.03);
 }
 
+.search svg{ opacity:.9; }
+
 .search input{
   width:100%;
   border:none;
@@ -115,6 +121,10 @@ aside{
 
 .search input::placeholder{ color: var(--muted2); }
 
+.sidebar-scroll{
+  padding: 10px;
+}
+
 .hint{
   margin-top: 10px;
   color: var(--muted2);
@@ -122,11 +132,9 @@ aside{
   line-height: 1.35;
 }
 
-.sidebar-scroll{
-  padding: 10px;
+.group{
+  margin: 6px 0;
 }
-
-.group{ margin: 6px 0; }
 
 .group-title{
   width: 100%;
@@ -143,6 +151,7 @@ aside{
   border: 1px solid rgba(255,255,255,.06);
   transition: background .15s ease, border-color .15s ease;
 }
+
 .group-title:hover{
   background: rgba(98,176,255,.08);
   border-color: rgba(98,176,255,.18);
@@ -157,6 +166,7 @@ aside{
   border: 1px solid rgba(255,255,255,.06);
   background: rgba(255,255,255,.03);
 }
+
 .group.open .chev{
   border-color: rgba(98,176,255,.25);
   background: rgba(98,176,255,.10);
@@ -168,9 +178,12 @@ aside{
   padding-left: 10px;
   border-left: 1px solid rgba(255,255,255,.08);
 }
+
 .group.open .group-content{ display:block; }
 
-.subgroup{ margin: 8px 0; }
+.subgroup{
+  margin: 8px 0;
+}
 
 .subgroup-title{
   display:flex;
@@ -185,6 +198,7 @@ aside{
   background: rgba(255,255,255,.02);
   border: 1px solid rgba(255,255,255,.06);
 }
+
 .subgroup-title:hover{
   background: rgba(255,255,255,.05);
   border-color: rgba(255,255,255,.10);
@@ -194,6 +208,7 @@ aside{
   display:none;
   padding: 8px 0 0 10px;
 }
+
 .subgroup.open .item-list{ display:block; }
 
 .item{
@@ -204,15 +219,24 @@ aside{
   border: 1px solid transparent;
   transition: background .15s ease, color .15s ease, border-color .15s ease;
 }
+
 .item:hover{
   background: rgba(255,255,255,.05);
   color: rgba(231,234,242,.95);
   border-color: rgba(255,255,255,.06);
 }
+
 .item.active{
   background: linear-gradient(180deg, rgba(98,176,255,.16), rgba(98,176,255,.08));
   color: #fff;
   border-color: rgba(98,176,255,.28);
+}
+
+.item .meta{
+  display:block;
+  font-size: 11px;
+  color: rgba(168,177,194,.8);
+  margin-top: 2px;
 }
 
 section{
@@ -221,102 +245,12 @@ section{
 }
 
 .card{
-  max-width: 1180px;
+  max-width: 1100px;
   border: 1px solid var(--border);
   border-radius: 22px;
   box-shadow: var(--shadow);
   background: linear-gradient(180deg, rgba(16,26,49,.75), rgba(11,16,32,.58));
   overflow: hidden;
-}
-
-
-/* Rarity theming */
-.card{
-  --rarityA: rgba(98,176,255,.18);
-  --rarityB: rgba(139,92,255,.12);
-  --rarityEdge: rgba(98,176,255,.26);
-  --rarityGlow: rgba(98,176,255,.14);
-  position: relative;
-}
-
-.card::before{
-  content:"";
-  position:absolute;
-  inset:-1px;
-  border-radius: 22px;
-  pointer-events:none;
-  box-shadow: 0 0 0 1px var(--rarityEdge), 0 14px 44px rgba(0,0,0,.42);
-  opacity: .9;
-}
-
-.card[data-rarity="common"]{
-  --rarityA: rgba(148,163,184,.18);
-  --rarityB: rgba(148,163,184,.10);
-  --rarityEdge: rgba(148,163,184,.22);
-  --rarityGlow: rgba(148,163,184,.10);
-}
-.card[data-rarity="uncommon"]{
-  --rarityA: rgba(34,197,94,.18);
-  --rarityB: rgba(34,197,94,.10);
-  --rarityEdge: rgba(34,197,94,.24);
-  --rarityGlow: rgba(34,197,94,.12);
-}
-.card[data-rarity="rare"]{
-  --rarityA: rgba(59,130,246,.20);
-  --rarityB: rgba(59,130,246,.10);
-  --rarityEdge: rgba(59,130,246,.26);
-  --rarityGlow: rgba(59,130,246,.12);
-}
-.card[data-rarity="epic"]{
-  --rarityA: rgba(168,85,247,.20);
-  --rarityB: rgba(168,85,247,.10);
-  --rarityEdge: rgba(168,85,247,.26);
-  --rarityGlow: rgba(168,85,247,.12);
-}
-.card[data-rarity="legendary"]{
-  --rarityA: rgba(245,158,11,.22);
-  --rarityB: rgba(245,158,11,.12);
-  --rarityEdge: rgba(245,158,11,.28);
-  --rarityGlow: rgba(245,158,11,.14);
-}
-.card[data-rarity="mythic"]{
-  --rarityA: rgba(236,72,153,.22);
-  --rarityB: rgba(236,72,153,.12);
-  --rarityEdge: rgba(236,72,153,.28);
-  --rarityGlow: rgba(236,72,153,.14);
-}
-.card[data-rarity="unique"]{
-  --rarityA: rgba(6,182,212,.22);
-  --rarityB: rgba(139,92,255,.12);
-  --rarityEdge: rgba(6,182,212,.28);
-  --rarityGlow: rgba(6,182,212,.14);
-}
-
-/* Make the header and thumbnail feel more "premium" based on rarity */
-.card-header{
-  box-shadow: inset 0 -1px 0 rgba(255,255,255,.06);
-}
-.thumb{
-  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 10px 24px rgba(0,0,0,.35);
-}
-.thumb::after{
-  content:"";
-  position:absolute;
-  inset:-1px;
-  border-radius: 20px;
-  pointer-events:none;
-  box-shadow: 0 0 0 1px var(--rarityEdge), 0 0 24px var(--rarityGlow);
-  opacity: .65;
-}
-
-/* Pills use rarity edge/glow */
-.pill{
-  border-color: rgba(255,255,255,.10);
-  background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
-}
-.card[data-rarity] .pill{
-  border-color: var(--rarityEdge);
-  box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 0 14px var(--rarityGlow);
 }
 
 .card-header{
@@ -326,8 +260,8 @@ section{
   align-items:center;
   border-bottom: 1px solid var(--border);
   background:
-    radial-gradient(900px 220px at 20% 0%, var(--rarityA), transparent 60%),
-    radial-gradient(700px 240px at 90% 30%, var(--rarityB), transparent 55%),
+    radial-gradient(900px 220px at 20% 0%, rgba(98,176,255,.18), transparent 60%),
+    radial-gradient(700px 240px at 90% 30%, rgba(139,92,255,.12), transparent 55%),
     linear-gradient(180deg, rgba(14,20,38,.55), rgba(11,16,32,.35));
 }
 
@@ -341,23 +275,14 @@ section{
   display:grid;
   place-items:center;
   flex: 0 0 auto;
-  position: relative;
 }
+
 .thumb img{
   width:100%;
   height:100%;
   object-fit: cover;
-  opacity: 0;
-  transition: opacity .25s ease;
 }
-.thumb .loading{
-  position:absolute;
-  inset:0;
-  display:grid;
-  place-items:center;
-  color: rgba(231,234,242,.72);
-  font-size: 12px;
-}
+
 .thumb .noimg{
   color: rgba(231,234,242,.65);
   font-size: 12px;
@@ -394,101 +319,98 @@ section{
   color: rgba(231,234,242,.92);
 }
 
-.card-body{ padding: 18px; }
+.card-body{
+  padding: 18px;
+}
 
-/* New: sectioned tables instead of many separate cards */
-.sections{
+.grid{
   display:grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
 }
 
-.section-box{
+.field{
   border: 1px solid rgba(255,255,255,.08);
-  border-radius: 18px;
+  border-radius: 16px;
+  padding: 12px 12px 10px 12px;
   background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
-  overflow: hidden;
 }
 
-.section-head{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding: 12px 14px;
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  background: rgba(0,0,0,.12);
-}
-
-.section-title{
+.key{
   font-size: 12px;
-  letter-spacing: .18em;
+  letter-spacing: .2px;
+  color: var(--muted2);
+  margin-bottom: 8px;
   text-transform: uppercase;
-  color: rgba(168,177,194,.95);
-  font-weight: 650;
 }
 
-.section-body{
-  padding: 10px 12px 12px 12px;
+.value{
+  font-size: 13px;
+  color: rgba(231,234,242,.96);
+  word-break: break-word;
 }
 
-.table{
-  width:100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  overflow:hidden;
-  border: 1px solid rgba(255,255,255,.08);
+.kv{
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+}
+
+.kv-row{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items:center;
+  padding: 10px 10px;
   border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.08);
   background: rgba(0,0,0,.14);
 }
 
-.table th, .table td{
-  padding: 10px 10px;
+.kv-key{
+  color: rgba(168,177,194,.95);
+  font-size: 12px;
+  letter-spacing: .2px;
+  text-transform: uppercase;
+}
+
+.kv-val{
+  color: rgba(231,234,242,.97);
   font-size: 13px;
-  vertical-align: top;
-  border-bottom: 1px solid rgba(255,255,255,.06);
-}
-
-.table th{
-  text-align:left;
-  color: rgba(168,177,194,.95);
-  font-size: 12px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  background: rgba(255,255,255,.03);
-}
-
-.table tr:last-child td{
-  border-bottom: none;
-}
-
-.table td.key{
-  color: rgba(168,177,194,.95);
-  width: 30%;
-  font-size: 12px;
-  letter-spacing: .10em;
-  text-transform: uppercase;
-}
-
-.table td.val{
-  color: rgba(231,234,242,.96);
   font-variant-numeric: tabular-nums;
 }
 
-.mono{
+.kv-val.mono{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 12px;
 }
 
-.codebox{
-  margin-top: 8px;
+.nested{
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.14);
+}
+
+.nested-title{
+  color: rgba(168,177,194,.95);
+  font-size: 12px;
+  letter-spacing: .2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.nested pre{
+  margin:0;
   padding: 10px 10px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,.08);
   background: rgba(0,0,0,.16);
   overflow:auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  line-height: 1.35;
   color: rgba(231,234,242,.92);
-  white-space: pre-wrap;
-  word-break: break-word;
 }
 
 .placeholder{
@@ -500,10 +422,10 @@ section{
   background: rgba(255,255,255,.02);
 }
 
+/* Small screens */
 @media (max-width: 980px){
   main{ grid-template-columns: 1fr; }
   aside{ border-right: none; border-bottom: 1px solid var(--border); }
-  .table td.key{ width: 38%; }
 }
 </style>
 </head>
@@ -529,7 +451,7 @@ section{
           </svg>
           <input id="search" type="text" placeholder="Search items (name, category, subgroup)..." />
         </div>
-        <div class="hint">Tip: search auto-expands and jumps to the first match.</div>
+        <div class="hint">Tip: type a few letters and the sidebar will auto-expand to matches.</div>
       </div>
       <div class="sidebar-scroll" id="sidebar"></div>
     </div>
@@ -542,25 +464,9 @@ section{
 
 <script>
 function titleCase(s){
-  return String(s).replace(/_/g,' ').replace(/\b\w/g, m => m.toUpperCase());
-}
-function normalizeRarity(r){
-  if (r === null || r === undefined) return 'unknown';
-  const t = String(r).trim().toLowerCase();
-  if (!t) return 'unknown';
-  if (t.includes('common')) return 'common';
-  if (t.includes('uncommon')) return 'uncommon';
-  if (t.includes('rare')) return 'rare';
-  if (t.includes('epic')) return 'epic';
-  if (t.includes('legend')) return 'legendary';
-  if (t.includes('myth')) return 'mythic';
-  if (t.includes('unique')) return 'unique';
-  // Some games use tiers
-  if (t === 'u') return 'uncommon';
-  if (t === 'r') return 'rare';
-  if (t === 'e') return 'epic';
-  if (t === 'l') return 'legendary';
-  return 'unknown';
+  return String(s)
+    .replace(/_/g,' ')
+    .replace(/\b\w/g, m => m.toUpperCase());
 }
 function normalizeCategory(path){
   const parts = String(path).split('/');
@@ -576,256 +482,135 @@ function formatScalar(v){
   if (typeof v === 'boolean') return v ? 'true' : 'false';
   return String(v);
 }
-
-function extractLooseBracketMap(obj){
-  // Some recipe tables were flattened during export into keys like ["AURITE BAR"] at the item root.
-  // This detects those keys and returns a normalized map + the original keys for hiding them from "Other".
-  const map = {};
-  const keys = [];
-  const re = /^\[\s*["'](.+?)["']\s*\]$/;
-  for (const k of Object.keys(obj)){
-    const m = k.match(re);
-    if (m){
-      map[m[1]] = obj[k];
-      keys.push(k);
-    }
-  }
-  return { map, keys };
-}
-
-function coerceDamages(val){
-  // Return a plain object of damage targets -> values, or null if not usable.
-  if (isPlainObject(val)) return val;
-
-  if (typeof val === 'string'){
-    const t = val.trim();
-    if (!t) return null;
-
-    // Try JSON parse (sometimes damages were stringified)
-    try{
-      const parsed = JSON.parse(t);
-      if (isPlainObject(parsed)) return parsed;
-    }catch(e){}
-
-    // Try a lenient parse for single quotes / trailing commas (best-effort)
-    try{
-      const fixed = t
-        .replace(/\r?\n/g,' ')
-        .replace(/'/g,'"')
-        .replace(/,\s*}/g,'}')
-        .replace(/,\s*]/g,']');
-      const parsed2 = JSON.parse(fixed);
-      if (isPlainObject(parsed2)) return parsed2;
-    }catch(e){}
-
-    return null;
-  }
-
-  return null;
-}
 function extractAssetId(imageField){
   if (imageField === null || imageField === undefined) return null;
 
+  // Already a number
   if (typeof imageField === 'number' && Number.isFinite(imageField)) {
     return String(Math.trunc(imageField));
   }
+
   const s = String(imageField);
 
+  // rbxassetid://123
   const m1 = s.match(/rbxassetid:\/\/(\d+)/i);
   if (m1) return m1[1];
 
+  // ...assetId=123...
   const m2 = s.match(/[?&]assetId=(\d+)/i);
   if (m2) return m2[1];
 
+  // ...aid=123...
   const m3 = s.match(/[?&]aid=(\d+)/i);
   if (m3) return m3[1];
 
+  // Any long-ish number (fallback)
   const m4 = s.match(/\b(\d{6,})\b/);
   if (m4) return m4[1];
 
   return null;
 }
-
-function extractImageUrl(imageField){
-  // Accept direct CDN/thumbnail URLs to avoid extra requests.
-  if (imageField === null || imageField === undefined) return null;
-
-  // If the field is an object like { imageUrl: "https://..." }
-  if (typeof imageField === 'object' && !Array.isArray(imageField)){
-    const u = imageField.imageUrl || imageField.url || imageField.thumbnailUrl;
-    if (typeof u === 'string' && /^https?:\/\//i.test(u.trim())) return u.trim();
-  }
-
-  if (typeof imageField !== 'string') return null;
-
-  const t = imageField.trim();
-  if (!t) return null;
-
-  // Protocol-relative URLs
-  if (/^\/\//.test(t)) return 'https:' + t;
-
-  if (/^https?:\/\//i.test(t)) return t;
-
-  return null;
+function robloxThumbUrl(assetId){
+  return `https://www.roblox.com/asset-thumbnail/image?assetId=${assetId}&width=420&height=420&format=png`;
 }
 
-// Roblox thumbnails API (assets)
-function thumbApiUrl(assetId, size){
-  const params = new URLSearchParams({
-    assetIds: String(assetId),
-    returnPolicy: "PlaceHolder",
-    size: size,
-    format: "Png",
-    isCircular: "false"
-  });
-  return `https://thumbnails.roblox.com/v1/assets?${params.toString()}`;
-}
-
-const thumbCache = new Map(); // assetId -> Promise<string|null>
-
-async function getThumbnailUrl(assetId, preferredSize){
-  if (!assetId) return null;
-  if (thumbCache.has(assetId)) return thumbCache.get(assetId);
-
-  const p = (async () => {
-    const sizesToTry = [preferredSize, "420x420", "150x150", "110x110", "48x48", "30x30"]
-      .filter((v, i, a) => v && a.indexOf(v) === i);
-
-    for (const size of sizesToTry){
-      try{
-        const res = await fetch(thumbApiUrl(assetId, size), { method: "GET" });
-        if (!res.ok) continue;
-        const js = await res.json();
-        const entry = js && js.data && js.data[0];
-        if (entry && entry.imageUrl){
-          return entry.imageUrl;
-        }
-      } catch (e) {}
-    }
-    return null;
-  })();
-
-  thumbCache.set(assetId, p);
-  return p;
-}
-
-/* ---------- Section rendering ---------- */
-
-function makeSection(title){
-  const box = document.createElement('div');
-  box.className = 'section-box';
-
-  const head = document.createElement('div');
-  head.className = 'section-head';
-
-  const t = document.createElement('div');
-  t.className = 'section-title';
-  t.textContent = title;
-
-  head.appendChild(t);
-
-  const body = document.createElement('div');
-  body.className = 'section-body';
-
-  box.appendChild(head);
-  box.appendChild(body);
-
-  return { box, body };
-}
-
-function tableFromPairs(pairs, headers){
-  const table = document.createElement('table');
-  table.className = 'table';
-
-  if (headers){
-    const thead = document.createElement('thead');
-    const tr = document.createElement('tr');
-    for (const h of headers){
-      const th = document.createElement('th');
-      th.textContent = h;
-      tr.appendChild(th);
-    }
-    thead.appendChild(tr);
-    table.appendChild(thead);
-  }
-
-  const tbody = document.createElement('tbody');
-  for (const [k, v] of pairs){
-    const tr = document.createElement('tr');
-
-    const tdK = document.createElement('td');
-    tdK.className = 'key';
-    tdK.textContent = k;
-
-    const tdV = document.createElement('td');
-    tdV.className = 'val';
-    tdV.appendChild(renderPrettyValue(v));
-
-    tr.appendChild(tdK);
-    tr.appendChild(tdV);
-    tbody.appendChild(tr);
-  }
-  table.appendChild(tbody);
-  return table;
-}
-
-function renderPrettyValue(v){
-  // scalar
-  if (v === null || typeof v !== 'object'){
+function renderValueNode(value, keyHint){
+  // Scalar
+  if (value === null || typeof value !== 'object') {
     const span = document.createElement('span');
-    span.textContent = formatScalar(v);
+    span.textContent = formatScalar(value);
     return span;
   }
 
-  // array
-  if (Array.isArray(v)){
-    const div = document.createElement('div');
-    div.className = 'codebox mono';
-    div.textContent = JSON.stringify(v, null, 2);
-    return div;
+  // Array
+  if (Array.isArray(value)) {
+    const wrap = document.createElement('div');
+    wrap.className = 'nested';
+    const t = document.createElement('div');
+    t.className = 'nested-title';
+    t.textContent = 'List';
+    const pre = document.createElement('pre');
+    pre.textContent = JSON.stringify(value, null, 2);
+    wrap.appendChild(t);
+    wrap.appendChild(pre);
+    return wrap;
   }
 
-  // object
-  const keys = Object.keys(v);
-  const shallowScalarOnly = keys.length <= 10 && keys.every(k => (v[k] === null || typeof v[k] !== 'object'));
-  if (shallowScalarOnly){
-    // render mini-table inside value
-    const innerPairs = keys.sort((a,b)=>a.localeCompare(b)).map(k => [titleCase(k), v[k]]);
-    const inner = document.createElement('table');
-    inner.className = 'table';
-    inner.style.borderRadius = '12px';
-    inner.style.margin = '0';
-    inner.style.width = '100%';
-    const tbody = document.createElement('tbody');
-    for (const [k, vv] of innerPairs){
-      const tr = document.createElement('tr');
-      const td1 = document.createElement('td');
-      td1.className = 'key';
-      td1.textContent = k;
-      const td2 = document.createElement('td');
-      td2.className = 'val';
-      td2.textContent = formatScalar(vv);
-      tr.appendChild(td1); tr.appendChild(td2);
-      tbody.appendChild(tr);
+  // Object special-case: damages
+  if (keyHint && String(keyHint).toLowerCase() === 'damages' && isPlainObject(value)) {
+    const kv = document.createElement('div');
+    kv.className = 'kv';
+    const keys = Object.keys(value).sort((a,b)=>a.localeCompare(b));
+    for (const k of keys) {
+      const row = document.createElement('div');
+      row.className = 'kv-row';
+      const kk = document.createElement('div');
+      kk.className = 'kv-key';
+      kk.textContent = titleCase(k);
+      const vv = document.createElement('div');
+      vv.className = 'kv-val';
+      vv.textContent = formatScalar(value[k]); // null -> ∞
+      row.appendChild(kk);
+      row.appendChild(vv);
+      kv.appendChild(row);
     }
-    inner.appendChild(tbody);
-    return inner;
+    return kv;
   }
 
-  // fallback pretty JSON (with infinity symbols)
-  const div = document.createElement('div');
-  div.className = 'codebox mono';
-  const replacer = (k,val)=> (val === null ? '∞' : val);
-  div.textContent = JSON.stringify(v, replacer, 2);
-  return div;
-}
+  // Generic object: render as a clean key/value list, nested objects as JSON blocks
+  const kv = document.createElement('div');
+  kv.className = 'kv';
+  const keys = Object.keys(value).sort((a,b)=>a.localeCompare(b));
 
-/* ---------- App ---------- */
+  // If object is small + scalar-only, render as rows; otherwise use a JSON block for deep nesting
+  const scalarOnly = keys.every(k => value[k] === null || typeof value[k] !== 'object' || Array.isArray(value[k]) === false && typeof value[k] !== 'object');
+  const shallowEnough = keys.length <= 12 && keys.every(k => value[k] === null || typeof value[k] !== 'object' || Array.isArray(value[k]));
+
+  if (!scalarOnly && !shallowEnough) {
+    const wrap = document.createElement('div');
+    wrap.className = 'nested';
+    const t = document.createElement('div');
+    t.className = 'nested-title';
+    t.textContent = 'Object';
+    const pre = document.createElement('pre');
+    // Replace nulls with the infinity symbol in this pretty view (presentation only)
+    const replacer = (k,v)=> (v === null ? '∞' : v);
+    pre.textContent = JSON.stringify(value, replacer, 2);
+    wrap.appendChild(t);
+    wrap.appendChild(pre);
+    return wrap;
+  }
+
+  for (const k of keys) {
+    const row = document.createElement('div');
+    row.className = 'kv-row';
+    const kk = document.createElement('div');
+    kk.className = 'kv-key';
+    kk.textContent = titleCase(k);
+    const vv = document.createElement('div');
+    vv.className = 'kv-val';
+    if (value[k] === null || typeof value[k] !== 'object') {
+      vv.textContent = formatScalar(value[k]);
+    } else if (Array.isArray(value[k])) {
+      vv.classList.add('mono');
+      vv.textContent = JSON.stringify(value[k], null, 0);
+    } else {
+      vv.classList.add('mono');
+      const replacer = (k2,v2)=> (v2 === null ? '∞' : v2);
+      vv.textContent = JSON.stringify(value[k], replacer, 0);
+    }
+    row.appendChild(kk);
+    row.appendChild(vv);
+    kv.appendChild(row);
+  }
+  return kv;
+}
 
 async function load(){
   const res = await fetch('./items.json');
   const data = await res.json();
 
+  // Build group -> subgroup -> items
   const groups = {};
   let totalGroups = 0, totalItems = 0;
 
@@ -848,88 +633,39 @@ async function load(){
   const content = document.getElementById('content');
   const search = document.getElementById('search');
 
+  // Track nodes so search can auto-expand and hide empty groups/subgroups
   const groupMeta = new Map(); // groupName -> { groupEl, subMap }
-  const itemMeta = []; // { itemEl, subgroupEl, groupEl, groupName, subName, itemNameLower, itemData }
+  const itemMeta = []; // { itemEl, groupName, subName, itemNameLower, groupEl, subEl, subgroupEl, itemData }
 
   function renderCard(itemName, itemData, meta){
     content.innerHTML = '';
-
     const card = document.createElement('div');
     card.className = 'card';
-    const rarityRawForTheme = itemData.Rarity || itemData.rarity;
-    card.dataset.rarity = normalizeRarity(rarityRawForTheme);
 
-    // Header
     const header = document.createElement('div');
     header.className = 'card-header';
 
     const thumb = document.createElement('div');
     thumb.className = 'thumb';
 
-    const loading = document.createElement('div');
-    loading.className = 'loading';
-    loading.textContent = 'Loading…';
-    thumb.appendChild(loading);
-
-    const img = document.createElement('img');
-    img.alt = itemName;
-
-    const directUrl = extractImageUrl(itemData.image);
-    const assetId = directUrl ? null : extractAssetId(itemData.image);
-
-    (async () => {
-      // If items.json already contains a ready-to-use thumbnail URL, use it directly (no API call).
-      if (directUrl){
-        img.onload = () => {
-          img.style.opacity = '1';
-          loading.remove();
-        };
-        img.onerror = () => {
-          loading.remove();
-          const no = document.createElement('div');
-          no.className = 'noimg';
-          no.textContent = 'No image';
-          thumb.appendChild(no);
-        };
-        img.src = directUrl;
-        thumb.appendChild(img);
-        return;
-      }
-
-      // Otherwise fall back to Roblox thumbnails API via assetId.
-      if (!assetId){
-        loading.remove();
-        const no = document.createElement('div');
-        no.className = 'noimg';
-        no.textContent = 'No image';
-        thumb.appendChild(no);
-        return;
-      }
-
-      const url = await getThumbnailUrl(assetId, "420x420");
-      if (!url){
-        loading.remove();
-        const no = document.createElement('div');
-        no.className = 'noimg';
-        no.textContent = 'No image';
-        thumb.appendChild(no);
-        return;
-      }
-
-      img.onload = () => {
-        img.style.opacity = '1';
-        loading.remove();
-      };
-      img.onerror = () => {
-        loading.remove();
-        const no = document.createElement('div');
-        no.className = 'noimg';
-        no.textContent = 'No image';
-        thumb.appendChild(no);
-      };
-      img.src = url;
+    const assetId = extractAssetId(itemData.image);
+    if (assetId) {
+      const img = document.createElement('img');
+      img.src = robloxThumbUrl(assetId);
+      img.loading = 'lazy';
       thumb.appendChild(img);
-    })();
+    } else if (itemData.image && typeof itemData.image === 'string' && itemData.image.startsWith('http')) {
+      const img = document.createElement('img');
+      img.src = itemData.image;
+      img.loading = 'lazy';
+      thumb.appendChild(img);
+    } else {
+      const no = document.createElement('div');
+      no.className = 'noimg';
+      no.textContent = 'No image';
+      thumb.appendChild(no);
+    }
+
     const tw = document.createElement('div');
     tw.className = 'title-wrap';
 
@@ -939,6 +675,8 @@ async function load(){
 
     const sub = document.createElement('div');
     sub.className = 'subtitle';
+    const rarity = itemData.Rarity || itemData.rarity;
+    const type = itemData.itemType || itemData.type;
     const pieces = [];
     if (meta?.group) pieces.push(titleCase(meta.group));
     if (meta?.sub && meta.sub !== 'misc') pieces.push(titleCase(meta.sub));
@@ -946,19 +684,30 @@ async function load(){
 
     const pills = document.createElement('div');
     pills.className = 'pills';
-
-    const rarity = itemData.Rarity || itemData.rarity;
-    const toolType = itemData.toolType || itemData.itemType || itemData.type;
-
-    function addPill(text){
+    if (type) {
       const p = document.createElement('span');
       p.className = 'pill';
-      p.textContent = text;
+      p.textContent = String(type);
       pills.appendChild(p);
     }
-
-    if (toolType) addPill(String(toolType));
-    if (rarity) addPill(String(rarity));
+    if (rarity) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = String(rarity);
+      pills.appendChild(p);
+    }
+    if (itemData.level !== undefined) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = `Level ${itemData.level}`;
+      pills.appendChild(p);
+    }
+    if (itemData.coinValue !== undefined) {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.textContent = `Value ${itemData.coinValue}`;
+      pills.appendChild(p);
+    }
 
     tw.appendChild(h);
     tw.appendChild(sub);
@@ -967,126 +716,43 @@ async function load(){
     header.appendChild(thumb);
     header.appendChild(tw);
 
-    // Body (sectioned tables)
     const body = document.createElement('div');
     body.className = 'card-body';
 
-    const sections = document.createElement('div');
-    sections.className = 'sections';
+    const grid = document.createElement('div');
+    grid.className = 'grid';
 
-    // Define section keys
-    const shown = new Set(['image']);
-    const has = (k) => Object.prototype.hasOwnProperty.call(itemData, k);
+    // Prefer to show some “hero” fields earlier
+    const preferred = ['damages','recipe','toolType','useType','speed','protection','locus','load','maxLoad','craftLevel','craftQuantity','admin','noDrop','rebirthPersist','description'];
+    const keys = Object.keys(itemData).filter(k => k !== 'image');
+    keys.sort((a,b)=>{
+      const ai = preferred.indexOf(a);
+      const bi = preferred.indexOf(b);
+      if (ai === -1 && bi === -1) return a.localeCompare(b);
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
 
-    const looksCraftable = has('recipe') || has('craftLevel') || has('craftQuantity') || has('mojoRecipe') || has('mojoCost') || has('mojoCostPer') || has('mojoCostPerCraft') || has('mojoCostPerCrafting') || has('mojoCostPerLevel');
-    const loose = looksCraftable ? extractLooseBracketMap(itemData) : { map: {}, keys: [] };
+    for (const k of keys){
+      const v = itemData[k];
+      const f = document.createElement('div');
+      f.className = 'field';
 
-    const infoKeys = ['itemType','Rarity','toolType','useType','level','coinValue','description','pickupSound','armorSet','BottomText','color','shopOrder'];
-    const statsKeys = ['damages','speed','FlySpeed','protection','locus','maxLoad','load','DisableDoubleResources'];
-    const craftKeys = ['craftLevel','craftQuantity','mojoRecipe','mojoCost','mojoCostPer','mojoCostPerCraft','mojoCostPerCrafting','mojoCostPerLevel'];
-    const flagsKeys = ['admin','noDrop','rebirthPersist','unobtainable','cosmetic'];
+      const kk = document.createElement('div');
+      kk.className = 'key';
+      kk.textContent = k;
 
-    // Item Info
-    const infoPairs = [];
-    for (const k of infoKeys){
-      if (has(k)){
-        infoPairs.push([k, itemData[k]]);
-        shown.add(k);
-      }
-    }
-    if (infoPairs.length){
-      const sec = makeSection('Item Info');
-      sec.body.appendChild(tableFromPairs(infoPairs, ['Field','Value']));
-      sections.appendChild(sec.box);
-    }
-    // Damages (special table)
-    const dmgObj = has('damages') ? coerceDamages(itemData.damages) : null;
-    if (dmgObj){
-      shown.add('damages');
-      const dmg = dmgObj;
-const sec = makeSection('Damages');
-      const pairs = Object.keys(dmg).sort((a,b)=>a.localeCompare(b)).map(k => [titleCase(k), dmg[k]]);
+      const vv = document.createElement('div');
+      vv.className = 'value';
+      vv.appendChild(renderValueNode(v, k));
 
-      // Table with "Target" and "Damage"
-      const table = document.createElement('table');
-      table.className = 'table';
-      const thead = document.createElement('thead');
-      const trh = document.createElement('tr');
-      const th1 = document.createElement('th'); th1.textContent = 'Target';
-      const th2 = document.createElement('th'); th2.textContent = 'Damage';
-      trh.appendChild(th1); trh.appendChild(th2);
-      thead.appendChild(trh);
-      table.appendChild(thead);
-
-      const tbody = document.createElement('tbody');
-      for (const [target, dmgVal] of pairs){
-        const tr = document.createElement('tr');
-        const td1 = document.createElement('td'); td1.className = 'val'; td1.textContent = target;
-        const td2 = document.createElement('td'); td2.className = 'val'; td2.textContent = formatScalar(dmgVal); // null -> ∞
-        tr.appendChild(td1); tr.appendChild(td2);
-        tbody.appendChild(tr);
-      }
-      table.appendChild(tbody);
-      sec.body.appendChild(table);
-      sections.appendChild(sec.box);
+      f.appendChild(kk);
+      f.appendChild(vv);
+      grid.appendChild(f);
     }
 
-    // Stats (excluding damages handled above)
-    const statPairs = [];
-    for (const k of statsKeys){
-      if (k === 'damages') continue;
-      if (has(k)){
-        statPairs.push([k, itemData[k]]);
-        shown.add(k);
-      }
-    }
-    if (statPairs.length){
-      const sec = makeSection('Stats');
-      sec.body.appendChild(tableFromPairs(statPairs, ['Field','Value']));
-      sections.appendChild(sec.box);
-    }
-
-    // Crafting / Recipe
-    const craftPairs = [];
-    for (const k of craftKeys){
-      if (has(k)){
-        craftPairs.push([k, itemData[k]]);
-        shown.add(k);
-      }
-    }
-    if (craftPairs.length){
-      const sec = makeSection('Crafting');
-      sec.body.appendChild(tableFromPairs(craftPairs, ['Field','Value']));
-      sections.appendChild(sec.box);
-    }
-
-    // Flags / Rules
-    const flagPairs = [];
-    for (const k of flagsKeys){
-      if (has(k)){
-        flagPairs.push([k, itemData[k]]);
-        shown.add(k);
-      }
-    }
-    if (flagPairs.length){
-      const sec = makeSection('Flags');
-      sec.body.appendChild(tableFromPairs(flagPairs, ['Field','Value']));
-      sections.appendChild(sec.box);
-    }
-
-    // Everything else (nice table, no card spam)
-    const remaining = Object.keys(itemData)
-      .filter(k => k !== 'damages' && !shown.has(k))
-      .sort((a,b)=>a.localeCompare(b));
-
-    if (remaining.length){
-      const sec = makeSection('Other');
-      const pairs = remaining.map(k => [k, itemData[k]]);
-      sec.body.appendChild(tableFromPairs(pairs, ['Field','Value']));
-      sections.appendChild(sec.box);
-    }
-
-    body.appendChild(sections);
+    body.appendChild(grid);
     card.appendChild(header);
     card.appendChild(body);
     content.appendChild(card);
@@ -1149,6 +815,7 @@ const sec = makeSection('Damages');
 
         for (const itemName of itemNames){
           const itemData = items[itemName];
+
           const item = document.createElement('div');
           item.className = 'item';
           item.textContent = itemName;
@@ -1167,6 +834,7 @@ const sec = makeSection('Damages');
             groupEl,
             groupName,
             subName,
+            itemName,
             itemNameLower: itemName.toLowerCase(),
             itemData
           });
@@ -1175,19 +843,20 @@ const sec = makeSection('Damages');
         subgroupEl.appendChild(subTitle);
         subgroupEl.appendChild(itemList);
         groupContent.appendChild(subgroupEl);
-        subMap.set(subName, { subgroupEl, itemList });
+        subMap.set(subName, { subgroupEl, itemList, subTitle });
       }
 
       groupEl.appendChild(title);
       groupEl.appendChild(groupContent);
       sidebar.appendChild(groupEl);
-      groupMeta.set(groupName, { groupEl, subMap });
+      groupMeta.set(groupName, { groupEl, groupContent, subMap });
     }
   }
 
   function applySearch(q){
     q = (q || '').trim().toLowerCase();
 
+    // Reset visibility
     for (const gm of groupMeta.values()){
       gm.groupEl.style.display = 'block';
       for (const sm of gm.subMap.values()){
@@ -1196,11 +865,12 @@ const sec = makeSection('Damages');
     }
 
     if (!q){
+      // Show everything, collapse to a gentle default
       for (const it of itemMeta) it.itemEl.style.display = 'block';
 
+      // Collapse all, then open first group/subgroup
       for (const gm of groupMeta.values()) gm.groupEl.classList.remove('open');
       for (const it of itemMeta) it.subgroupEl.classList.remove('open');
-
       const firstGroup = sidebar.querySelector('.group');
       if (firstGroup){
         firstGroup.classList.add('open');
@@ -1210,25 +880,31 @@ const sec = makeSection('Damages');
       return;
     }
 
+    // Track which containers have matches so we can auto-expand and hide empties
+    const groupHas = new Map();
     const subHas = new Map();
-    let firstMatchEl = null;
+    let firstMatch = null;
 
     for (const it of itemMeta){
       const hay = `${it.itemNameLower} ${it.groupName} ${it.subName}`;
       const match = hay.includes(q);
       it.itemEl.style.display = match ? 'block' : 'none';
+
       if (match){
+        groupHas.set(it.groupName, true);
         subHas.set(`${it.groupName}::${it.subName}`, true);
-        if (!firstMatchEl) firstMatchEl = it.itemEl;
+        if (!firstMatch) firstMatch = it;
       }
     }
 
+    // Hide subgroups with no matches; hide groups with no matches; auto-expand groups/subgroups with matches
     for (const [groupName, gm] of groupMeta.entries()){
       let anyInGroup = false;
+
       for (const [subName, sm] of gm.subMap.entries()){
         const has = subHas.get(`${groupName}::${subName}`) === true;
         sm.subgroupEl.style.display = has ? 'block' : 'none';
-        if (has){
+        if (has) {
           anyInGroup = true;
           gm.groupEl.classList.add('open');
           sm.subgroupEl.classList.add('open');
@@ -1236,17 +912,20 @@ const sec = makeSection('Damages');
           sm.subgroupEl.classList.remove('open');
         }
       }
+
       gm.groupEl.style.display = anyInGroup ? 'block' : 'none';
       if (!anyInGroup) gm.groupEl.classList.remove('open');
     }
 
-    if (firstMatchEl){
-      firstMatchEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    // Auto-scroll to first match for a "just find it" experience
+    if (firstMatch){
+      firstMatch.itemEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
     }
   }
 
   buildUI();
 
+  // Gentle default open so it doesn't feel empty
   const firstGroup = document.querySelector('#sidebar .group');
   if (firstGroup){
     firstGroup.classList.add('open');
