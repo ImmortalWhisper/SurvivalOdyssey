@@ -484,6 +484,186 @@ section{
   main{ grid-template-columns: 1fr; }
   aside{ border-right: none; border-bottom: 1px solid var(--border); }
 }
+
+/* UI polish v2 */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events:none;
+  background:
+    radial-gradient(1200px 900px at 12% 8%, rgba(56,189,248,.12), transparent 62%),
+    radial-gradient(1000px 760px at 84% 16%, rgba(168,85,247,.10), transparent 58%),
+    radial-gradient(1100px 860px at 70% 80%, rgba(245,158,11,.07), transparent 62%),
+    linear-gradient(180deg, rgba(255,255,255,.02), transparent 18%, rgba(0,0,0,.12));
+  mix-blend-mode: screen;
+  opacity: .95;
+}
+
+body::after{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events:none;
+  opacity: .08;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.55), rgba(255,255,255,.55) 1px, transparent 1px, transparent 3px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.35), rgba(255,255,255,.35) 1px, transparent 1px, transparent 4px);
+  mask-image: radial-gradient(700px 420px at 20% 10%, black, transparent 70%);
+}
+
+header{
+  box-shadow: 0 10px 40px rgba(0,0,0,.35);
+}
+
+.panel{
+  position: relative;
+}
+.panel::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: var(--radius);
+  pointer-events:none;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 18px 60px rgba(0,0,0,.30);
+  opacity: 1;
+}
+
+/* Sidebar: group buttons feel more premium */
+.group-title{
+  padding: 12px 12px;
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.015));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+}
+.group-title:hover{
+  background:
+    radial-gradient(500px 120px at 20% 0%, rgba(56,189,248,.14), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+}
+.group-title .label{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  min-width: 0;
+}
+.group-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(98,176,255,.65);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.10), 0 0 16px rgba(98,176,255,.18);
+  flex: 0 0 auto;
+}
+.count-pill{
+  margin-left:auto;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: rgba(231,234,242,.92);
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.035);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+.subgroup-title{
+  padding: 9px 10px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.02);
+}
+.subgroup-title:hover{
+  background: rgba(255,255,255,.04);
+}
+.subgroup-title .count-pill{
+  opacity: .85;
+}
+
+/* Items */
+.item{
+  position: relative;
+  padding: 8px 10px;
+}
+.item::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius: 12px;
+  pointer-events:none;
+  opacity: 0;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 24px rgba(0,0,0,.25);
+  transition: opacity .15s ease;
+}
+.item:hover::before{ opacity: 1; }
+
+/* Content: animate card in */
+@keyframes cardIn{
+  from{ opacity: 0; transform: translateY(10px); filter: blur(2px); }
+  to{ opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+.card{ animation: cardIn .22s ease-out; }
+
+/* Card header: stronger hierarchy */
+.h1{
+  font-size: 24px;
+  line-height: 1.15;
+}
+.subtitle{
+  opacity: .92;
+}
+.pill{
+  font-weight: 650;
+  letter-spacing: .02em;
+}
+
+/* Section cards: add depth and better tables */
+.section-card{
+  box-shadow: 0 12px 40px rgba(0,0,0,.25);
+}
+.section-head{
+  background:
+    radial-gradient(700px 120px at 30% 0%, rgba(56,189,248,.10), transparent 60%),
+    rgba(0,0,0,.12);
+}
+.table tbody tr:hover td{
+  background: rgba(255,255,255,.02);
+}
+.table td.val .codebox{
+  margin: 0;
+}
+
+/* Empty state */
+.placeholder{
+  display:flex;
+  align-items:center;
+  gap: 14px;
+}
+.placeholder::before{
+  content:"";
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  background:
+    radial-gradient(18px 18px at 30% 30%, rgba(56,189,248,.22), transparent 70%),
+    radial-gradient(18px 18px at 70% 60%, rgba(168,85,247,.18), transparent 70%),
+    rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
+
+/* Scrollbars (WebKit) */
+aside::-webkit-scrollbar, section::-webkit-scrollbar{
+  width: 10px;
+}
+aside::-webkit-scrollbar-thumb, section::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,.10);
+  border-radius: 999px;
+  border: 2px solid rgba(0,0,0,.20);
+}
+aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{
+  background: rgba(255,255,255,.16);
+}
+
 </style>
 </head>
 <body>
@@ -515,7 +695,7 @@ section{
   </aside>
 
   <section id="content">
-    <div class="placeholder">Select an item to view its details.</div>
+    <div class="placeholder"><div><div style="font-weight:700; color: rgba(231,234,242,.96);">Select an item</div><div style="margin-top:4px; color: rgba(168,177,194,.9); font-size: 13px;">Use the sidebar or search to jump straight to an item.</div></div></div>
   </section>
 </main>
 
@@ -1071,16 +1251,29 @@ async function load(){
 
       const title = document.createElement('div');
       title.className = 'group-title';
+      const label = document.createElement('div');
+      label.className = 'label';
+      const dot = document.createElement('div');
+      dot.className = 'group-dot';
       const left = document.createElement('div');
+      left.style.minWidth = '0';
       left.textContent = titleCase(groupName);
+      const count = document.createElement('div');
+      count.className = 'count-pill';
+      count.textContent = '';
+      label.appendChild(dot);
+      label.appendChild(left);
+      label.appendChild(count);
       const chev = document.createElement('div');
       chev.className = 'chev';
       chev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/></svg>';
-      title.appendChild(left);
+      title.appendChild(label);
       title.appendChild(chev);
 
       const groupContent = document.createElement('div');
       groupContent.className = 'group-content';
+
+      let groupItemCount = 0;
 
       title.onclick = () => groupEl.classList.toggle('open');
 
@@ -1095,12 +1288,16 @@ async function load(){
         subTitle.className = 'subgroup-title';
         const subLeft = document.createElement('div');
         subLeft.textContent = (subName === 'misc') ? 'Misc' : titleCase(subName);
+        const subCount = document.createElement('div');
+        subCount.className = 'count-pill';
+        subCount.textContent = '';
         const subChev = document.createElement('div');
         subChev.className = 'chev';
         subChev.style.width = '26px';
         subChev.style.height = '26px';
         subChev.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/></svg>';
         subTitle.appendChild(subLeft);
+        subTitle.appendChild(subCount);
         subTitle.appendChild(subChev);
 
         const itemList = document.createElement('div');
@@ -1113,6 +1310,8 @@ async function load(){
 
         const items = groups[groupName][subName];
         const itemNames = Object.keys(items).sort((a,b)=>a.localeCompare(b));
+        subCount.textContent = `${itemNames.length}`;
+        groupItemCount += itemNames.length;
 
         for (const itemName of itemNames){
           const itemData = items[itemName];
@@ -1145,6 +1344,7 @@ async function load(){
         subMap.set(subName, { subgroupEl, itemList });
       }
 
+      count.textContent = `${groupItemCount}`;
       groupEl.appendChild(title);
       groupEl.appendChild(groupContent);
       sidebar.appendChild(groupEl);
