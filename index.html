@@ -44,18 +44,6 @@ body::before{
   mix-blend-mode: screen;
   opacity: .9;
 }
-body::after{
-  content:"";
-  position: fixed;
-  inset: 0;
-  pointer-events:none;
-  opacity: .08;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(255,255,255,.6), rgba(255,255,255,.6) 1px, transparent 1px, transparent 3px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 4px);
-  mask-image: radial-gradient(800px 460px at 20% 10%, black, transparent 70%);
-}
-
 header{
   position: sticky;
   top: 0;
