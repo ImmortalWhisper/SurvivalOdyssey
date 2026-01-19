@@ -15,6 +15,16 @@
   --shadow: 0 18px 60px rgba(0,0,0,.45);
   --shadow2: 0 12px 40px rgba(0,0,0,.35);
   --radius: 18px;
+
+  /* rarity colors */
+  --r-common: rgba(148,163,184,.95);
+  --r-uncommon: rgba(34,197,94,.95);
+  --r-rare: rgba(59,130,246,.95);
+  --r-epic: rgba(168,85,247,.95);
+  --r-legendary: rgba(245,158,11,.98);
+  --r-mythic: rgba(236,72,153,.98);
+  --r-unique: rgba(6,182,212,.98);
+  --r-unknown: rgba(148,163,184,.7);
 }
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
@@ -31,7 +41,7 @@ body{
   overflow: hidden;
 }
 
-/* Background texture + sheen */
+/* Background sheen (no grid overlay) */
 body::before{
   content:"";
   position: fixed;
@@ -44,6 +54,7 @@ body::before{
   mix-blend-mode: screen;
   opacity: .9;
 }
+
 header{
   position: sticky;
   top: 0;
@@ -183,14 +194,47 @@ section{
   min-width: 0;
   flex: 1 1 auto;
 }
-.group-dot{
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  background: rgba(98,176,255,.65);
-  box-shadow: 0 0 0 1px rgba(255,255,255,.10), 0 0 16px rgba(98,176,255,.18);
+
+.group-ico{
+  width: 28px;
+  height: 28px;
+  border-radius: 12px;
+  display:grid;
+  place-items:center;
   flex: 0 0 auto;
+  border: 1px solid rgba(255,255,255,.10);
+  background:
+    radial-gradient(22px 22px at 35% 30%, rgba(56,189,248,.22), transparent 70%),
+    radial-gradient(18px 18px at 70% 65%, rgba(168,85,247,.18), transparent 75%),
+    rgba(255,255,255,.03);
+  box-shadow: 0 12px 28px rgba(0,0,0,.28);
+  position: relative;
+  overflow: hidden;
 }
+.group-ico::after{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: 12px;
+  pointer-events:none;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 0 18px rgba(56,189,248,.10);
+  opacity: .9;
+}
+.group-ico svg{ width: 16px; height: 16px; opacity: .95; }
+.group-ico.g-admin{ background: radial-gradient(22px 22px at 35% 30%, rgba(239,68,68,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(245,158,11,.18), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-armor{ background: radial-gradient(22px 22px at 35% 30%, rgba(59,130,246,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(148,163,184,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-charms{ background: radial-gradient(22px 22px at 35% 30%, rgba(168,85,247,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(6,182,212,.18), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-crates{ background: radial-gradient(22px 22px at 35% 30%, rgba(245,158,11,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(34,197,94,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-decoration{ background: radial-gradient(22px 22px at 35% 30%, rgba(236,72,153,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(168,85,247,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-food{ background: radial-gradient(22px 22px at 35% 30%, rgba(34,197,94,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(245,158,11,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-gamepass{ background: radial-gradient(22px 22px at 35% 30%, rgba(6,182,212,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(59,130,246,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-mojo{ background: radial-gradient(22px 22px at 35% 30%, rgba(245,158,11,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(239,68,68,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-mounts{ background: radial-gradient(22px 22px at 35% 30%, rgba(59,130,246,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(6,182,212,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-potions{ background: radial-gradient(22px 22px at 35% 30%, rgba(168,85,247,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(236,72,153,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-spells{ background: radial-gradient(22px 22px at 35% 30%, rgba(6,182,212,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(168,85,247,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-tools{ background: radial-gradient(22px 22px at 35% 30%, rgba(148,163,184,.22), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(59,130,246,.16), transparent 75%), rgba(255,255,255,.03); }
+.group-ico.g-skilltree{ background: radial-gradient(22px 22px at 35% 30%, rgba(34,197,94,.20), transparent 70%), radial-gradient(18px 18px at 70% 65%, rgba(6,182,212,.16), transparent 75%), rgba(255,255,255,.03); }
+
 .count-pill{
   margin-left:auto;
   font-size: 11px;
@@ -254,6 +298,9 @@ section{
   color: rgba(168,177,194,.92);
   border: 1px solid transparent;
   transition: background .15s ease, color .15s ease, border-color .15s ease;
+  display:flex;
+  align-items:center;
+  gap: 10px;
 }
 .item::before{
   content:"";
@@ -277,11 +324,41 @@ section{
   border-color: rgba(56,189,248,.28);
 }
 
+.item-name{
+  min-width: 0;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.r-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  flex: 0 0 auto;
+  background: var(--r-unknown);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.10), 0 0 16px rgba(255,255,255,.06);
+}
+.r-dot[data-r="common"]{ background: var(--r-common); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(148,163,184,.20); }
+.r-dot[data-r="uncommon"]{ background: var(--r-uncommon); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(34,197,94,.22); }
+.r-dot[data-r="rare"]{ background: var(--r-rare); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(59,130,246,.22); }
+.r-dot[data-r="epic"]{ background: var(--r-epic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 18px rgba(168,85,247,.22); }
+.r-dot[data-r="legendary"]{ background: var(--r-legendary); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(245,158,11,.22); }
+.r-dot[data-r="mythic"]{ background: var(--r-mythic); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(236,72,153,.22); }
+.r-dot[data-r="unique"]{ background: var(--r-unique); box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 0 20px rgba(6,182,212,.22); }
+
 /* Card */
 @keyframes cardIn{
   from{ opacity: 0; transform: translateY(10px); filter: blur(2px); }
   to{ opacity: 1; transform: translateY(0); filter: blur(0); }
 }
+@keyframes shimmer{
+  0%{ transform: translateX(-30%) rotate(12deg); opacity: .0; }
+  20%{ opacity: .55; }
+  60%{ opacity: .20; }
+  100%{ transform: translateX(130%) rotate(12deg); opacity: 0; }
+}
+
 .card{
   max-width: 1180px;
   border: 1px solid rgba(255,255,255,.08);
@@ -304,16 +381,33 @@ section{
   inset:-1px;
   border-radius: 22px;
   pointer-events:none;
-  box-shadow: 0 0 0 1px var(--rarityEdge), 0 14px 44px rgba(0,0,0,.42);
-  opacity: .92;
+  box-shadow: 0 0 0 1px var(--rarityEdge), 0 18px 54px rgba(0,0,0,.48);
+  opacity: .95;
 }
+.card::after{
+  content:"";
+  position:absolute;
+  top:-35%;
+  left:-60%;
+  width: 70%;
+  height: 170%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.16), transparent);
+  filter: blur(0.3px);
+  pointer-events:none;
+  transform: rotate(12deg);
+  opacity: 0;
+}
+.card:hover::after{
+  animation: shimmer 1.5s ease-in-out;
+}
+
 .card[data-rarity="common"]{ --rarityA: rgba(148,163,184,.18); --rarityB: rgba(148,163,184,.10); --rarityEdge: rgba(148,163,184,.22); --rarityGlow: rgba(148,163,184,.10); }
 .card[data-rarity="uncommon"]{ --rarityA: rgba(34,197,94,.18); --rarityB: rgba(34,197,94,.10); --rarityEdge: rgba(34,197,94,.24); --rarityGlow: rgba(34,197,94,.12); }
-.card[data-rarity="rare"]{ --rarityA: rgba(59,130,246,.20); --rarityB: rgba(59,130,246,.10); --rarityEdge: rgba(59,130,246,.26); --rarityGlow: rgba(59,130,246,.12); }
-.card[data-rarity="epic"]{ --rarityA: rgba(168,85,247,.20); --rarityB: rgba(168,85,247,.10); --rarityEdge: rgba(168,85,247,.26); --rarityGlow: rgba(168,85,247,.12); }
-.card[data-rarity="legendary"]{ --rarityA: rgba(245,158,11,.22); --rarityB: rgba(245,158,11,.12); --rarityEdge: rgba(245,158,11,.28); --rarityGlow: rgba(245,158,11,.14); }
-.card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.22); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.28); --rarityGlow: rgba(236,72,153,.14); }
-.card[data-rarity="unique"]{ --rarityA: rgba(6,182,212,.22); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(6,182,212,.28); --rarityGlow: rgba(6,182,212,.14); }
+.card[data-rarity="rare"]{ --rarityA: rgba(59,130,246,.20); --rarityB: rgba(59,130,246,.10); --rarityEdge: rgba(59,130,246,.28); --rarityGlow: rgba(59,130,246,.14); }
+.card[data-rarity="epic"]{ --rarityA: rgba(168,85,247,.22); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(168,85,247,.30); --rarityGlow: rgba(168,85,247,.14); }
+.card[data-rarity="legendary"]{ --rarityA: rgba(245,158,11,.24); --rarityB: rgba(245,158,11,.12); --rarityEdge: rgba(245,158,11,.32); --rarityGlow: rgba(245,158,11,.16); }
+.card[data-rarity="mythic"]{ --rarityA: rgba(236,72,153,.24); --rarityB: rgba(236,72,153,.12); --rarityEdge: rgba(236,72,153,.32); --rarityGlow: rgba(236,72,153,.16); }
+.card[data-rarity="unique"]{ --rarityA: rgba(6,182,212,.24); --rarityB: rgba(168,85,247,.12); --rarityEdge: rgba(6,182,212,.32); --rarityGlow: rgba(6,182,212,.16); }
 
 .card-header{
   display:flex;
@@ -323,9 +417,20 @@ section{
   border-bottom: 1px solid rgba(255,255,255,.08);
   background:
     radial-gradient(900px 220px at 20% 0%, var(--rarityA), transparent 60%),
-    radial-gradient(700px 240px at 90% 30%, var(--rarityB), transparent 55%),
-    linear-gradient(180deg, rgba(14,20,38,.55), rgba(11,16,32,.35));
+    radial-gradient(800px 280px at 90% 30%, var(--rarityB), transparent 55%),
+    linear-gradient(180deg, rgba(14,20,38,.62), rgba(11,16,32,.35));
   box-shadow: inset 0 -1px 0 rgba(255,255,255,.06);
+  position: relative;
+}
+.card-header::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    repeating-linear-gradient(135deg, rgba(255,255,255,.05) 0, rgba(255,255,255,.05) 1px, transparent 1px, transparent 10px);
+  opacity: .06;
+  mask-image: radial-gradient(520px 240px at 20% 10%, black, transparent 70%);
 }
 
 .thumb{
@@ -347,8 +452,8 @@ section{
   inset:-1px;
   border-radius: 20px;
   pointer-events:none;
-  box-shadow: 0 0 0 1px var(--rarityEdge), 0 0 24px var(--rarityGlow);
-  opacity: .65;
+  box-shadow: 0 0 0 1px var(--rarityEdge), 0 0 28px var(--rarityGlow);
+  opacity: .75;
 }
 .thumb img{
   width:100%;
@@ -380,10 +485,18 @@ section{
   letter-spacing: .02em;
   padding: 5px 10px;
   border-radius: 999px;
-  border: 1px solid var(--rarityEdge);
+  border: 1px solid rgba(255,255,255,.12);
   background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
   color: rgba(231,234,242,.92);
-  box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 0 14px var(--rarityGlow);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.12);
+}
+.pill.rarity{
+  border-color: var(--rarityEdge);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 0 18px var(--rarityGlow);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+}
+.pill.tool{
+  opacity: .95;
 }
 
 .card-body{ padding: 18px; }
@@ -561,7 +674,11 @@ aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{ ba
 
 <script>
 function titleCase(s){
-  return String(s).replace(/_/g,' ').replace(/\b\w/g, m => m.toUpperCase());
+  const raw = String(s || '').replace(/_/g,' ').trim();
+  const lowered = raw.toLowerCase();
+  if (lowered === 'skilltree') return 'Skill Tree';
+  if (lowered === 'gamepass') return 'Gamepass';
+  return raw.replace(/\b\w/g, m => m.toUpperCase());
 }
 function humanizeKey(key){
   let k = String(key);
@@ -664,6 +781,26 @@ async function getThumbnailUrl(assetId, preferredSize){
 
   thumbCache.set(assetId, p);
   return p;
+}
+
+/* Category icons */
+function iconSvg(name){
+  const n = String(name || '').toLowerCase();
+  const base = (path) => `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="${path}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/></svg>`;
+  if (n === 'admin') return base("M12 2l7 4v6c0 5-3 9-7 10C8 21 5 17 5 12V6l7-4Z");
+  if (n === 'armor') return base("M12 2l8 4v6c0 5-4 9-8 10C8 21 4 17 4 12V6l8-4Z");
+  if (n === 'charms') return base("M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5Z");
+  if (n === 'crates') return base("M4 7l8-4 8 4v10l-8 4-8-4V7Zm8-4v18M4 12h16");
+  if (n === 'decoration') return base("M4 20l6-6M7 17l-3 3m5-10 7-7 3 3-7 7-3-3Z");
+  if (n === 'food') return base("M7 3v9M10 3v9M7 8h3M14 3v9c0 2 1 3 3 3v6");
+  if (n === 'gamepass') return base("M4 10a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-4Zm6-3v10");
+  if (n === 'mojo') return base("M12 2c2 4 5 6 5 10a5 5 0 0 1-10 0c0-4 3-6 5-10Z");
+  if (n === 'mounts') return base("M6 16c2-1 4-3 6-3s4 2 6 3v4H6v-4Zm1-7c0 3 2 4 5 4s5-1 5-4-2-5-5-5-5 2-5 5Z");
+  if (n === 'potions') return base("M10 2h4M10 2v3l-2 2v4a4 4 0 0 0 8 0V7l-2-2V2");
+  if (n === 'spells') return base("M4 20l10-10M14 4l6 6M9 7l8 8");
+  if (n === 'tools') return base("M14 7l3-3 3 3-3 3-3-3ZM4 20l7-7");
+  if (n === 'skilltree') return base("M6 18V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v11M8 10h8M8 14h8");
+  return base("M12 3l9 7-9 11L3 10l9-7Z");
 }
 
 /* Per-item crate detection (with skill-tree exclusions) */
@@ -828,14 +965,20 @@ async function load(){
   const groups = {};
   let totalItems = 0;
 
-  // Ingest per item; also assign crates to their own group
+  // Ingest per item; also assign crates/skilltree to their own groups regardless of source path
   for (const [path, items] of Object.entries(data)){
     const base = normalizeCategory(path);
     for (const [itemName, itemData] of Object.entries(items)){
       let group = base.group;
       let sub = base.sub;
 
-      if (isCrate(itemName, itemData)){
+      const it = itemData && (itemData.itemType || itemData.type || itemData.toolType || itemData.useType);
+      const itNorm = it ? String(it).toLowerCase().replace(/\s+/g,'') : '';
+
+      if (itNorm.includes('skilltree')){
+        group = 'skilltree';
+        sub = 'misc';
+      } else if (isCrate(itemName, itemData)){
         group = 'crates';
         sub = 'misc';
       }
@@ -927,15 +1070,15 @@ async function load(){
     const rarity = itemData.Rarity || itemData.rarity;
     const toolType = itemData.toolType || itemData.itemType || itemData.type;
 
-    function addPill(text){
+    function addPill(text, kind){
       const p = document.createElement('span');
-      p.className = 'pill';
+      p.className = 'pill' + (kind ? (' ' + kind) : '');
       p.textContent = text;
       pills.appendChild(p);
     }
 
-    if (toolType) addPill(String(toolType));
-    if (rarity) addPill(String(rarity));
+    if (toolType) addPill(String(toolType), 'tool');
+    if (rarity) addPill(String(rarity), 'rarity');
 
     tw.appendChild(h);
     tw.appendChild(subline);
@@ -1108,6 +1251,7 @@ async function load(){
     for (const groupName of groupOrder){
       const groupEl = document.createElement('div');
       groupEl.className = 'group';
+      groupEl.dataset.group = groupName;
 
       const title = document.createElement('div');
       title.className = 'group-title';
@@ -1115,8 +1259,9 @@ async function load(){
       const label = document.createElement('div');
       label.className = 'label';
 
-      const dot = document.createElement('div');
-      dot.className = 'group-dot';
+      const ico = document.createElement('div');
+      ico.className = 'group-ico g-' + groupName;
+      ico.innerHTML = iconSvg(groupName);
 
       const left = document.createElement('div');
       left.style.minWidth = '0';
@@ -1126,7 +1271,7 @@ async function load(){
       count.className = 'count-pill';
       count.textContent = '';
 
-      label.appendChild(dot);
+      label.appendChild(ico);
       label.appendChild(left);
       label.appendChild(count);
 
@@ -1187,7 +1332,18 @@ async function load(){
           const itemData = items[itemName];
           const item = document.createElement('div');
           item.className = 'item';
-          item.textContent = itemName;
+
+          const dot = document.createElement('span');
+          dot.className = 'r-dot';
+          const r = normalizeRarity(itemData.Rarity || itemData.rarity);
+          dot.dataset.r = r;
+
+          const nm = document.createElement('span');
+          nm.className = 'item-name';
+          nm.textContent = itemName;
+
+          item.appendChild(dot);
+          item.appendChild(nm);
 
           item.onclick = () => {
             document.querySelectorAll('.item').forEach(x=>x.classList.remove('active'));
@@ -1233,7 +1389,7 @@ async function load(){
     }
 
     if (!q){
-      for (const it of itemMeta) it.itemEl.style.display = 'block';
+      for (const it of itemMeta) it.itemEl.style.display = 'flex';
 
       for (const gm of groupMeta.values()) gm.groupEl.classList.remove('open');
       for (const it of itemMeta) it.subgroupEl.classList.remove('open');
@@ -1253,7 +1409,7 @@ async function load(){
     for (const it of itemMeta){
       const hay = `${it.itemNameLower} ${it.groupName} ${it.subName}`;
       const match = hay.includes(q);
-      it.itemEl.style.display = match ? 'block' : 'none';
+      it.itemEl.style.display = match ? 'flex' : 'none';
       if (match){
         subHas.set(`${it.groupName}::${it.subName}`, true);
         if (!firstMatch) firstMatch = it;
