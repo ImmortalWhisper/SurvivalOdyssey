@@ -657,7 +657,7 @@ aside::-webkit-scrollbar-thumb:hover, section::-webkit-scrollbar-thumb:hover{ ba
             <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2" opacity=".9"/>
             <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".9"/>
           </svg>
-          <input id="search" type="text" placeholder="Search items (name, category, subgroup)..." />
+          <input id="search" type="text" aria-label="Search items" placeholder="Search items (name, category, subgroup)..." />
         </div>
         <div class="hint">Tip: search auto-expands and jumps to the first match.</div>
       </div>
@@ -696,8 +696,9 @@ function normalizeRarity(r){
   if (r === null || r === undefined) return 'unknown';
   const t = String(r).trim().toLowerCase();
   if (!t) return 'unknown';
-  if (t.includes('common')) return 'common';
+  // IMPORTANT: "uncommon" contains "common", so check uncommon first.
   if (t.includes('uncommon')) return 'uncommon';
+  if (t.includes('common')) return 'common';
   if (t.includes('rare')) return 'rare';
   if (t.includes('epic')) return 'epic';
   if (t.includes('legend')) return 'legendary';
@@ -963,8 +964,15 @@ function tableFromPairs(pairs, headers){
 }
 
 async function load(){
-  const res = await fetch('./items.json');
-  const data = await res.json();
+  const sidebar = document.getElementById('sidebar');
+  const content = document.getElementById('content');
+  const search = document.getElementById('search');
+  const counts = document.getElementById('counts');
+
+  try{
+    const res = await fetch('./items.json');
+    if (!res.ok) throw new Error(`Failed to load items.json (${res.status})`);
+    const data = await res.json();
 
   const groups = {};
   let totalItems = 0;
@@ -1002,11 +1010,7 @@ async function load(){
   }
 
   const groupOrder = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
-  document.getElementById('counts').textContent = `${groupOrder.length} categories • ${totalItems} items`;
-
-  const sidebar = document.getElementById('sidebar');
-  const content = document.getElementById('content');
-  const search = document.getElementById('search');
+  counts.textContent = `${groupOrder.length} categories • ${totalItems} items`;
 
   const groupMeta = new Map();
   const itemMeta = [];
@@ -1458,7 +1462,53 @@ async function load(){
     if (firstSub) firstSub.classList.add('open');
   }
 
-  search.addEventListener('input', (e)=>applySearch(e.target.value));
+  let searchTimer = null;
+  search.addEventListener('input', (e)=>{
+    const val = e.target.value;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(()=>applySearch(val), 120);
+  });
+  search.addEventListener('keydown', (e)=>{
+    if (e.key === 'Escape'){
+      e.target.value = '';
+      clearTimeout(searchTimer);
+      applySearch('');
+    } else if (e.key === 'Enter'){
+      clearTimeout(searchTimer);
+      applySearch(e.target.value);
+    }
+  });
+  } catch(err){
+    console.error(err);
+    if (counts) counts.textContent = 'Load failed';
+    if (sidebar) sidebar.innerHTML = '';
+    if (search){
+      search.disabled = true;
+      search.placeholder = 'Search unavailable';
+    }
+    if (content){
+      content.innerHTML = '';
+      const holder = document.createElement('div');
+      holder.className = 'placeholder';
+      const wrap = document.createElement('div');
+
+      const t1 = document.createElement('div');
+      t1.style.fontWeight = '800';
+      t1.style.color = 'rgba(231,234,242,.96)';
+      t1.textContent = 'Could not load items';
+
+      const t2 = document.createElement('div');
+      t2.style.marginTop = '4px';
+      t2.style.color = 'rgba(168,177,194,.9)';
+      t2.style.fontSize = '13px';
+      t2.textContent = String(err && err.message ? err.message : err);
+
+      wrap.appendChild(t1);
+      wrap.appendChild(t2);
+      holder.appendChild(wrap);
+      content.appendChild(holder);
+    }
+  }
 }
 
 load();
